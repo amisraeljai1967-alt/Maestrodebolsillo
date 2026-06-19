@@ -19,6 +19,7 @@ fetch('matematicas_mes1.json')
   .then(data => {
 
     const pregunta = data[0];
+    console.log(data);
 
     document.getElementById("quiz").innerHTML = `
       <h2>${pregunta.question}</h2>
