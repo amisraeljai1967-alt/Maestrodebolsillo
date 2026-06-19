@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -76,7 +76,7 @@
     }
 
     h1 {
-      font-size: 58px;
+      font-size: 56px;
       line-height: 1.05;
       margin-bottom: 20px;
       color: #141a2e;
@@ -143,7 +143,7 @@
 
     .center {
       text-align: center;
-      max-width: 800px;
+      max-width: 850px;
       margin: auto;
     }
 
@@ -193,8 +193,63 @@
       grid-template-columns: repeat(3, 1fr);
     }
 
+    .monthly-box {
+      background: white;
+      padding: 35px;
+      border-radius: 30px;
+      box-shadow: 0 25px 60px rgba(52,84,209,.14);
+      margin-top: 40px;
+    }
+
+    .month-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 25px;
+    }
+
+    .month-card {
+      border: 2px solid #eef1ff;
+      border-radius: 18px;
+      padding: 20px;
+      background: #fbfcff;
+    }
+
+    .month-card.available {
+      border-color: #24b36b;
+      background: #f0fff6;
+    }
+
+    .month-card h3 {
+      color: #141a2e;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .month-card p {
+      color: #666;
+      line-height: 1.5;
+      font-size: 15px;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 7px 10px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 700;
+      background: #eef1ff;
+      color: #3454d1;
+    }
+
+    .available .status {
+      background: #dff8e9;
+      color: #157347;
+    }
+
     .price-box {
-      max-width: 520px;
+      max-width: 560px;
       margin: 40px auto 0;
       background: white;
       padding: 40px;
@@ -233,6 +288,31 @@
       font-weight: 900;
     }
 
+    .faq {
+      max-width: 850px;
+      margin: 40px auto 0;
+      display: grid;
+      gap: 16px;
+    }
+
+    .faq-item {
+      background: white;
+      padding: 24px;
+      border-radius: 18px;
+      box-shadow: 0 12px 30px rgba(0,0,0,.05);
+    }
+
+    .faq-item h3 {
+      color: #3454d1;
+      margin-bottom: 8px;
+      font-size: 20px;
+    }
+
+    .faq-item p {
+      color: #666;
+      line-height: 1.6;
+    }
+
     .cta {
       background: linear-gradient(135deg, #3454d1, #7b4dff);
       color: white;
@@ -249,6 +329,7 @@
       color: #eef1ff;
       font-size: 18px;
       margin-bottom: 25px;
+      line-height: 1.6;
     }
 
     .cta .btn {
@@ -267,6 +348,7 @@
       header {
         flex-direction: column;
         gap: 15px;
+        padding: 18px 6%;
       }
 
       nav {
@@ -282,9 +364,19 @@
         font-size: 42px;
       }
 
+      h2 {
+        font-size: 32px;
+      }
+
+      .hero p,
+      .section-text {
+        font-size: 17px;
+      }
+
       .grid,
       .subjects,
-      .steps {
+      .steps,
+      .month-grid {
         grid-template-columns: 1fr;
       }
 
@@ -292,8 +384,23 @@
         padding: 55px 6%;
       }
 
+      .quiz-card,
+      .price-box,
+      .monthly-box {
+        padding: 25px;
+      }
+
+      .price {
+        font-size: 42px;
+      }
+
       .cta {
         margin: 30px 6%;
+      }
+
+      .btn {
+        width: 100%;
+        text-align: center;
       }
     }
   </style>
@@ -306,7 +413,9 @@
     <nav>
       <a href="#beneficios">Beneficios</a>
       <a href="#materias">Materias</a>
+      <a href="#contenido">Contenido</a>
       <a href="#precio">Precio</a>
+      <a href="#faq">FAQ</a>
     </nav>
     <a href="#precio" class="btn">Comenzar ahora</a>
   </header>
@@ -316,10 +425,10 @@
     <section class="hero">
       <div>
         <span class="tag">3° Secundaria</span>
-        <h1>Domina tu año de secundaria</h1>
+        <h1>Apoya el aprendizaje de tu hijo durante todo el ciclo escolar</h1>
         <p>
-          Quizzes mensuales en tus materias principales, con retroalimentación instantánea
-          y explicaciones claras para aprender de verdad.
+          Una plataforma con quizzes mensuales de 5 materias, explicaciones claras
+          y retroalimentación instantánea para reforzar lo que ve en la escuela.
         </p>
 
         <div class="badges">
@@ -352,30 +461,30 @@
       <div class="center">
         <h2>Aprende de forma inteligente</h2>
         <p class="section-text">
-          Una plataforma sencilla para reforzar temas, practicar antes de exámenes
-          y estudiar desde casa.
+          Maestro de Bolsillo ayuda a reforzar temas, practicar antes de exámenes
+          y estudiar desde casa sin complicaciones.
         </p>
       </div>
 
       <div class="grid">
         <div class="card">
           <h3>Retroalimentación instantánea</h3>
-          <p>Sabe al momento si respondió bien o mal.</p>
+          <p>El alumno sabe al momento si respondió bien o mal.</p>
         </div>
 
         <div class="card">
           <h3>Explicaciones claras</h3>
-          <p>Cada respuesta incluye una explicación sencilla.</p>
+          <p>Cada respuesta incluye una explicación sencilla para aprender de los errores.</p>
         </div>
 
         <div class="card">
           <h3>Contenido mensual</h3>
-          <p>Nuevos quizzes organizados por mes escolar.</p>
+          <p>Nuevos quizzes organizados por mes escolar y por materia.</p>
         </div>
 
         <div class="card">
-          <h3>Estudia a tu ritmo</h3>
-          <p>Ideal para repasar desde casa o antes de exámenes.</p>
+          <h3>Estudia a su ritmo</h3>
+          <p>Ideal para repasar desde casa, antes de exámenes o como apoyo escolar.</p>
         </div>
       </div>
     </section>
@@ -384,34 +493,102 @@
       <div class="center">
         <h2>5 materias en un solo lugar</h2>
         <p class="section-text">
-          Todo el contenido de 3° de secundaria organizado para practicar fácil.
+          Contenido de 3° de secundaria organizado para practicar de forma sencilla.
         </p>
       </div>
 
       <div class="grid subjects">
         <div class="card">
           <h3>Matemáticas</h3>
-          <p>Álgebra, ecuaciones, geometría y funciones.</p>
+          <p>Álgebra, ecuaciones, geometría, funciones y resolución de problemas.</p>
         </div>
 
         <div class="card">
           <h3>Química</h3>
-          <p>Materia, mezclas, reacciones y compuestos.</p>
+          <p>Materia, mezclas, reacciones, compuestos y conceptos básicos.</p>
         </div>
 
         <div class="card">
           <h3>Historia</h3>
-          <p>México, el mundo y procesos históricos.</p>
+          <p>México, el mundo contemporáneo y procesos históricos importantes.</p>
         </div>
 
         <div class="card">
           <h3>Español</h3>
-          <p>Lectura, gramática, redacción y literatura.</p>
+          <p>Comprensión lectora, gramática, redacción y análisis de textos.</p>
         </div>
 
         <div class="card">
           <h3>Cívica y Ética</h3>
-          <p>Valores, ciudadanía, democracia y decisiones.</p>
+          <p>Valores, ciudadanía, democracia, derechos y toma de decisiones.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contenido">
+      <div class="center">
+        <h2>¿Qué verá mi hijo?</h2>
+        <p class="section-text">
+          Cada mes tendrá acceso a quizzes de las 5 materias. El Mes 1 ya está disponible
+          y los siguientes meses se liberarán conforme avance el ciclo escolar.
+        </p>
+      </div>
+
+      <div class="monthly-box">
+        <div class="month-grid">
+          <div class="month-card available">
+            <h3>Mes 1</h3>
+            <p>Matemáticas, Español, Química, Historia y Cívica y Ética.</p>
+            <span class="status">🔓 Disponible ahora</span>
+          </div>
+
+          <div class="month-card">
+            <h3>Mes 2</h3>
+            <p>Nuevos quizzes mensuales para continuar reforzando el ciclo escolar.</p>
+            <span class="status">🔒 Próximamente</span>
+          </div>
+
+          <div class="month-card">
+            <h3>Mes 3</h3>
+            <p>Contenido organizado por materia para seguir practicando.</p>
+            <span class="status">🔒 Próximamente</span>
+          </div>
+
+          <div class="month-card">
+            <h3>Mes 4</h3>
+            <p>Más ejercicios, explicaciones y retroalimentación.</p>
+            <span class="status">🔒 Próximamente</span>
+          </div>
+
+          <div class="month-card">
+            <h3>Mes 5</h3>
+            <p>Práctica mensual para reforzar los temas vistos en clase.</p>
+            <span class="status">🔒 Próximamente</span>
+          </div>
+
+          <div class="month-card">
+            <h3>Mes 6</h3>
+            <p>Quizzes y explicaciones para mantener el avance escolar.</p>
+            <span class="status">🔒 Próximamente</span>
+          </div>
+
+          <div class="month-card">
+            <h3>Mes 7</h3>
+            <p>Contenido de apoyo para preparar exámenes y tareas.</p>
+            <span class="status">🔒 Próximamente</span>
+          </div>
+
+          <div class="month-card">
+            <h3>Mes 8</h3>
+            <p>Repaso mensual para fortalecer áreas clave.</p>
+            <span class="status">🔒 Próximamente</span>
+          </div>
+
+          <div class="month-card">
+            <h3>Mes 9</h3>
+            <p>Refuerzo final del ciclo escolar.</p>
+            <span class="status">🔒 Próximamente</span>
+          </div>
         </div>
       </div>
     </section>
@@ -420,24 +597,24 @@
       <div class="center">
         <h2>¿Cómo funciona?</h2>
         <p class="section-text">
-          Empieza en minutos y practica desde cualquier dispositivo.
+          Empieza en minutos y practica desde celular, tablet o computadora.
         </p>
       </div>
 
       <div class="grid steps">
         <div class="card">
-          <h3>1. Elige tu materia</h3>
-          <p>Selecciona la materia que quieres reforzar.</p>
+          <h3>1. Elige la materia</h3>
+          <p>El alumno selecciona la materia que quiere reforzar.</p>
         </div>
 
         <div class="card">
           <h3>2. Responde quizzes</h3>
-          <p>Practica con preguntas mensuales de cada tema.</p>
+          <p>Practica con preguntas mensuales diseñadas para 3° de secundaria.</p>
         </div>
 
         <div class="card">
           <h3>3. Aprende y mejora</h3>
-          <p>Revisa tus respuestas y entiende tus errores.</p>
+          <p>Revisa las explicaciones y entiende por qué una respuesta es correcta.</p>
         </div>
       </div>
     </section>
@@ -446,7 +623,7 @@
       <div class="center">
         <h2>Empieza hoy</h2>
         <p class="section-text">
-          Una membresía accesible para reforzar el año escolar.
+          Una membresía accesible para acompañar el aprendizaje durante el ciclo escolar.
         </p>
       </div>
 
@@ -457,21 +634,64 @@
 
         <ul>
           <li>Acceso a las 5 materias</li>
+          <li>Mes 1 disponible inmediatamente</li>
+          <li>Nuevos contenidos cada mes escolar</li>
           <li>Quizzes mensuales</li>
           <li>Explicaciones por pregunta</li>
           <li>Retroalimentación instantánea</li>
-          <li>Contenido actualizado cada mes</li>
         </ul>
 
         <a href="#" class="btn">Comenzar ahora</a>
-        <p style="margin-top:15px; color:#777;">Acceso mensual · Cancela cuando quieras</p>
+        <p style="margin-top:15px; color:#777;">Suscripción mensual · Cancela cuando quieras</p>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="center">
+        <h2>Preguntas frecuentes</h2>
+        <p class="section-text">
+          Resolvemos las dudas más comunes antes de comenzar.
+        </p>
+      </div>
+
+      <div class="faq">
+        <div class="faq-item">
+          <h3>¿Qué incluye la suscripción?</h3>
+          <p>Incluye acceso a quizzes mensuales de Matemáticas, Español, Química, Historia y Formación Cívica y Ética.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>¿El Mes 1 ya está disponible?</h3>
+          <p>Sí. El Mes 1 está disponible para comenzar a practicar de inmediato.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>¿Los demás meses ya están incluidos?</h3>
+          <p>Sí, la suscripción está pensada para acompañar el ciclo escolar. Los nuevos meses se irán liberando conforme avance el programa.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>¿Funciona en celular?</h3>
+          <p>Sí. La plataforma puede consultarse desde celular, tablet o computadora.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>¿Puedo cancelar cuando quiera?</h3>
+          <p>Sí. La suscripción es mensual y puedes cancelarla cuando quieras.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>¿Qué pasa si dejo de pagar?</h3>
+          <p>El acceso se suspende hasta que la suscripción vuelva a estar activa.</p>
+        </div>
       </div>
     </section>
 
     <section class="cta">
       <h2>Convierte el estudio en algo más fácil</h2>
       <p>
-        Refuerza tus materias, practica con quizzes y aprende con explicaciones claras.
+        Refuerza las materias de 3° de secundaria con quizzes, explicaciones claras
+        y contenido organizado por mes escolar.
       </p>
       <a href="#precio" class="btn">Quiero comenzar</a>
     </section>
@@ -485,4 +705,4 @@
 
 </body>
 </html>
-
+```
