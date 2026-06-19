@@ -17,8 +17,17 @@ Cargando preguntas...
 fetch('matematicas_mes1.json')
   .then(response => response.json())
   .then(data => {
-      document.getElementById("quiz").innerHTML =
-          data[0].question;
+
+    const pregunta = data[0];
+
+    document.getElementById("quiz").innerHTML = `
+      <h2>${pregunta.question}</h2>
+
+      <p>A) ${pregunta.options.A}</p>
+      <p>B) ${pregunta.options.B}</p>
+      <p>C) ${pregunta.options.C}</p>
+      <p>D) ${pregunta.options.D}</p>
+    `;
   });
 </script>
 
