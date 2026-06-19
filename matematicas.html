@@ -1,1 +1,26 @@
-<h1>Quiz de Matemáticas</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Matemáticas Mes 1</title>
+</head>
+
+<body>
+
+<h1>Quiz de Matemáticas - Mes 1</h1>
+
+<div id="quiz">
+Cargando preguntas...
+</div>
+
+<script>
+fetch('matematicas_mes1.json')
+  .then(response => response.json())
+  .then(data => {
+      document.getElementById("quiz").innerHTML =
+          data[0].question;
+  });
+</script>
+
+</body>
+</html>
