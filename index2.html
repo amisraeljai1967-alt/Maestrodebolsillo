@@ -1,1 +1,488 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maestro de Bolsillo | 3° Secundaria</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f6f8ff;
+      color: #182033;
+    }
+
+    header {
+      width: 100%;
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: white;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      font-weight: 800;
+      font-size: 22px;
+      color: #3454d1;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .btn {
+      background: linear-gradient(135deg, #3454d1, #7b4dff);
+      color: white;
+      padding: 14px 24px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 700;
+      display: inline-block;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 10px 25px rgba(52,84,209,.25);
+    }
+
+    .hero {
+      padding: 80px 8%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e9edff;
+      color: #3454d1;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 58px;
+      line-height: 1.05;
+      margin-bottom: 20px;
+      color: #141a2e;
+    }
+
+    .hero p {
+      font-size: 20px;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 25px 0;
+    }
+
+    .badges span {
+      background: white;
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-weight: 700;
+      box-shadow: 0 5px 15px rgba(0,0,0,.06);
+    }
+
+    .quiz-card {
+      background: white;
+      padding: 35px;
+      border-radius: 28px;
+      box-shadow: 0 25px 60px rgba(52,84,209,.18);
+    }
+
+    .quiz-card h3 {
+      margin-bottom: 18px;
+      font-size: 24px;
+    }
+
+    .option {
+      padding: 14px;
+      margin: 10px 0;
+      border-radius: 12px;
+      background: #f1f4ff;
+      font-weight: 600;
+    }
+
+    .correct {
+      background: #dff8e9;
+      color: #157347;
+    }
+
+    .explanation {
+      margin-top: 18px;
+      background: #fff7df;
+      padding: 16px;
+      border-radius: 14px;
+      line-height: 1.5;
+    }
+
+    section {
+      padding: 70px 8%;
+    }
+
+    .center {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      color: #141a2e;
+    }
+
+    .section-text {
+      font-size: 18px;
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 22px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 22px;
+      box-shadow: 0 15px 35px rgba(0,0,0,.06);
+    }
+
+    .card h3 {
+      color: #3454d1;
+      margin-bottom: 12px;
+      font-size: 22px;
+    }
+
+    .card p {
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .subjects {
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    .steps {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .price-box {
+      max-width: 520px;
+      margin: 40px auto 0;
+      background: white;
+      padding: 40px;
+      border-radius: 30px;
+      box-shadow: 0 25px 60px rgba(52,84,209,.18);
+      text-align: center;
+    }
+
+    .price {
+      font-size: 52px;
+      font-weight: 900;
+      color: #3454d1;
+      margin: 15px 0;
+    }
+
+    .price span {
+      font-size: 18px;
+      color: #666;
+    }
+
+    ul {
+      list-style: none;
+      margin: 25px 0;
+      text-align: left;
+    }
+
+    ul li {
+      margin: 14px 0;
+      font-weight: 600;
+    }
+
+    ul li::before {
+      content: "✓";
+      color: #24b36b;
+      margin-right: 10px;
+      font-weight: 900;
+    }
+
+    .cta {
+      background: linear-gradient(135deg, #3454d1, #7b4dff);
+      color: white;
+      text-align: center;
+      border-radius: 35px;
+      margin: 40px 8%;
+    }
+
+    .cta h2 {
+      color: white;
+    }
+
+    .cta p {
+      color: #eef1ff;
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .cta .btn {
+      background: white;
+      color: #3454d1;
+    }
+
+    footer {
+      padding: 35px 8%;
+      text-align: center;
+      color: #666;
+      background: white;
+    }
+
+    @media (max-width: 900px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav {
+        display: none;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        padding: 55px 6%;
+      }
+
+      h1 {
+        font-size: 42px;
+      }
+
+      .grid,
+      .subjects,
+      .steps {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 55px 6%;
+      }
+
+      .cta {
+        margin: 30px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Maestro de Bolsillo</div>
+    <nav>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#materias">Materias</a>
+      <a href="#precio">Precio</a>
+    </nav>
+    <a href="#precio" class="btn">Comenzar ahora</a>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div>
+        <span class="tag">3° Secundaria</span>
+        <h1>Domina tu año de secundaria</h1>
+        <p>
+          Quizzes mensuales en tus materias principales, con retroalimentación instantánea
+          y explicaciones claras para aprender de verdad.
+        </p>
+
+        <div class="badges">
+          <span>Matemáticas</span>
+          <span>Química</span>
+          <span>Historia</span>
+          <span>Español</span>
+          <span>Cívica y Ética</span>
+        </div>
+
+        <a href="#precio" class="btn">Empezar por $99 MXN</a>
+      </div>
+
+      <div class="quiz-card">
+        <h3>Pregunta de práctica</h3>
+        <p><strong>¿Cuál es el resultado de 3x + 5 = 20?</strong></p>
+
+        <div class="option correct">x = 5</div>
+        <div class="option">x = 7</div>
+        <div class="option">x = 15</div>
+
+        <div class="explanation">
+          <strong>Explicación:</strong><br>
+          Restamos 5 de ambos lados: 3x = 15. Luego dividimos entre 3: x = 5.
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios">
+      <div class="center">
+        <h2>Aprende de forma inteligente</h2>
+        <p class="section-text">
+          Una plataforma sencilla para reforzar temas, practicar antes de exámenes
+          y estudiar desde casa.
+        </p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Retroalimentación instantánea</h3>
+          <p>Sabe al momento si respondió bien o mal.</p>
+        </div>
+
+        <div class="card">
+          <h3>Explicaciones claras</h3>
+          <p>Cada respuesta incluye una explicación sencilla.</p>
+        </div>
+
+        <div class="card">
+          <h3>Contenido mensual</h3>
+          <p>Nuevos quizzes organizados por mes escolar.</p>
+        </div>
+
+        <div class="card">
+          <h3>Estudia a tu ritmo</h3>
+          <p>Ideal para repasar desde casa o antes de exámenes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="materias">
+      <div class="center">
+        <h2>5 materias en un solo lugar</h2>
+        <p class="section-text">
+          Todo el contenido de 3° de secundaria organizado para practicar fácil.
+        </p>
+      </div>
+
+      <div class="grid subjects">
+        <div class="card">
+          <h3>Matemáticas</h3>
+          <p>Álgebra, ecuaciones, geometría y funciones.</p>
+        </div>
+
+        <div class="card">
+          <h3>Química</h3>
+          <p>Materia, mezclas, reacciones y compuestos.</p>
+        </div>
+
+        <div class="card">
+          <h3>Historia</h3>
+          <p>México, el mundo y procesos históricos.</p>
+        </div>
+
+        <div class="card">
+          <h3>Español</h3>
+          <p>Lectura, gramática, redacción y literatura.</p>
+        </div>
+
+        <div class="card">
+          <h3>Cívica y Ética</h3>
+          <p>Valores, ciudadanía, democracia y decisiones.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="center">
+        <h2>¿Cómo funciona?</h2>
+        <p class="section-text">
+          Empieza en minutos y practica desde cualquier dispositivo.
+        </p>
+      </div>
+
+      <div class="grid steps">
+        <div class="card">
+          <h3>1. Elige tu materia</h3>
+          <p>Selecciona la materia que quieres reforzar.</p>
+        </div>
+
+        <div class="card">
+          <h3>2. Responde quizzes</h3>
+          <p>Practica con preguntas mensuales de cada tema.</p>
+        </div>
+
+        <div class="card">
+          <h3>3. Aprende y mejora</h3>
+          <p>Revisa tus respuestas y entiende tus errores.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="precio">
+      <div class="center">
+        <h2>Empieza hoy</h2>
+        <p class="section-text">
+          Una membresía accesible para reforzar el año escolar.
+        </p>
+      </div>
+
+      <div class="price-box">
+        <h3>Plan mensual</h3>
+        <div class="price">$99 <span>MXN primer mes</span></div>
+        <p>Después $149 MXN/mes</p>
+
+        <ul>
+          <li>Acceso a las 5 materias</li>
+          <li>Quizzes mensuales</li>
+          <li>Explicaciones por pregunta</li>
+          <li>Retroalimentación instantánea</li>
+          <li>Contenido actualizado cada mes</li>
+        </ul>
+
+        <a href="#" class="btn">Comenzar ahora</a>
+        <p style="margin-top:15px; color:#777;">Acceso mensual · Cancela cuando quieras</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Convierte el estudio en algo más fácil</h2>
+      <p>
+        Refuerza tus materias, practica con quizzes y aprende con explicaciones claras.
+      </p>
+      <a href="#precio" class="btn">Quiero comenzar</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <strong>Maestro de Bolsillo</strong><br>
+    3° Secundaria · Hecho para estudiantes mexicanos
+  </footer>
+
+</body>
+</html>
+
