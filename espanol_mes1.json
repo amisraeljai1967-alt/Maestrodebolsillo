@@ -1,0 +1,704 @@
+
+
+[
+  {
+    "question": "¿Qué es la idea principal de un texto?",
+    "options": {
+      "A": "El título del texto",
+      "B": "El tema central que el autor desarrolla a lo largo del texto",
+      "C": "La última oración del texto",
+      "D": "Los detalles y ejemplos del texto"
+    },
+    "correctAnswer": "B",
+    "explanation": "La idea principal es el tema central que el autor desarrolla en el texto. Es la información más importante, sin la cual el texto no tendría sentido. Las demás ideas son secundarias y apoyan o explican la idea principal.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es una inferencia en la lectura?",
+    "options": {
+      "A": "Copiar textualmente lo que dice el autor",
+      "B": "Llegar a una conclusión que no está dicha explícitamente usando la información del texto y el conocimiento previo",
+      "C": "Resumir el texto en pocas palabras",
+      "D": "Identificar las palabras desconocidas"
+    },
+    "correctAnswer": "B",
+    "explanation": "Una inferencia es una conclusión que el lector obtiene a partir de pistas en el texto y su propio conocimiento, aunque no esté dicha de forma explícita. Por ejemplo, si el texto dice 'Juan llegó empapado', inferimos que estaba lloviendo aunque no lo diga directamente.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre información explícita e implícita en un texto?",
+    "options": {
+      "A": "No hay diferencia, son lo mismo",
+      "B": "La explícita está directamente en el texto; la implícita hay que deducirla",
+      "C": "La implícita está en el texto y la explícita hay que deducirla",
+      "D": "La explícita es la opinión del autor y la implícita son los hechos"
+    },
+    "correctAnswer": "B",
+    "explanation": "La información explícita está escrita directamente en el texto, puedes señalarla con el dedo. La información implícita no está escrita pero se puede deducir mediante inferencias. Los buenos lectores saben identificar ambos tipos.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es el propósito comunicativo de un texto?",
+    "options": {
+      "A": "El número de páginas que tiene",
+      "B": "La intención del autor: informar, persuadir, entretener o instruir",
+      "C": "El vocabulario que usa el autor",
+      "D": "El público al que va dirigido"
+    },
+    "correctAnswer": "B",
+    "explanation": "El propósito comunicativo es la intención del autor al escribir: informar (noticia), persuadir (anuncio, editorial), entretener (cuento, novela) o instruir (manual, receta). Identificarlo ayuda a entender mejor el texto.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Basico"
+  },
+  {
+    "question": "Lee: 'El cielo se oscureció, los pájaros dejaron de cantar y el viento comenzó a soplar fuertemente.' ¿Qué se puede inferir?",
+    "options": {
+      "A": "Era de noche",
+      "B": "Iba a llover o se acercaba una tormenta",
+      "C": "Los pájaros estaban dormidos",
+      "D": "Hacía mucho calor"
+    },
+    "correctAnswer": "B",
+    "explanation": "Las pistas (cielo oscuro, pájaros callados, viento fuerte) son señales típicas de que se acerca una tormenta o lluvia. Esta es una inferencia porque el texto no lo dice directamente pero las evidencias lo sugieren claramente.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la característica principal de un texto narrativo?",
+    "options": {
+      "A": "Explica cómo funciona algo",
+      "B": "Cuenta una historia con personajes, tiempo y lugar",
+      "C": "Convence al lector de algo",
+      "D": "Describe las características de algo"
+    },
+    "correctAnswer": "B",
+    "explanation": "El texto narrativo cuenta una historia o suceso con personajes, tiempo y lugar. Tiene una estructura: planteamiento, nudo y desenlace. Los cuentos, novelas y fábulas son textos narrativos.",
+    "subject": "Español",
+    "topic": "Tipos de texto",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué tipo de texto tiene como objetivo principal convencer al lector?",
+    "options": {
+      "A": "Narrativo",
+      "B": "Descriptivo",
+      "C": "Argumentativo",
+      "D": "Instructivo"
+    },
+    "correctAnswer": "C",
+    "explanation": "El texto argumentativo tiene como objetivo convencer o persuadir al lector de un punto de vista usando argumentos, evidencias y razones. Los editoriales, ensayos y debates son ejemplos de textos argumentativos.",
+    "subject": "Español",
+    "topic": "Tipos de texto",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es un ejemplo de texto instructivo?",
+    "options": {
+      "A": "Una novela de aventuras",
+      "B": "Una nota periodística",
+      "C": "Una receta de cocina",
+      "D": "Un poema de amor"
+    },
+    "correctAnswer": "C",
+    "explanation": "La receta de cocina es un texto instructivo porque da instrucciones paso a paso para realizar una acción. También son textos instructivos los manuales, reglamentos y tutoriales. Se caracterizan por usar verbos en imperativo o infinitivo.",
+    "subject": "Español",
+    "topic": "Tipos de texto",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué estructura tiene un texto expositivo?",
+    "options": {
+      "A": "Planteamiento, nudo y desenlace",
+      "B": "Introducción, desarrollo y conclusión",
+      "C": "Tesis, argumentos y conclusión",
+      "D": "Inicio, conflicto y resolución"
+    },
+    "correctAnswer": "B",
+    "explanation": "El texto expositivo tiene estructura de introducción (presenta el tema), desarrollo (explica, describe o informa con datos) y conclusión (resume o cierra el tema). Los artículos enciclopédicos, reportes y notas informativas tienen esta estructura.",
+    "subject": "Español",
+    "topic": "Tipos de texto",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuáles son los tres grandes géneros literarios?",
+    "options": {
+      "A": "Cuento, novela y poema",
+      "B": "Narrativa, lírica y dramática",
+      "C": "Ficción, no ficción y poesía",
+      "D": "Romance, tragedia y comedia"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los tres grandes géneros literarios son: narrativa (cuenta historias: cuento, novela, fábula), lírica (expresa sentimientos en verso: poema, oda, soneto) y dramática (escrita para representarse: obra de teatro, tragedia, comedia).",
+    "subject": "Español",
+    "topic": "Géneros literarios",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es una fábula?",
+    "options": {
+      "A": "Un poema que describe la naturaleza",
+      "B": "Una narración corta con animales como personajes que transmite una moraleja",
+      "C": "Una obra de teatro con final trágico",
+      "D": "Un cuento de hadas con magia"
+    },
+    "correctAnswer": "B",
+    "explanation": "La fábula es una narración corta, generalmente con animales como personajes que actúan como humanos, y siempre termina con una moraleja o enseñanza. Esopo y La Fontaine son los fabulistas más famosos. Ejemplo: 'La liebre y la tortuga'.",
+    "subject": "Español",
+    "topic": "Géneros literarios",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre un cuento y una novela?",
+    "options": {
+      "A": "El cuento es de ficción y la novela es real",
+      "B": "La novela es más extensa, con más personajes y tramas más complejas que el cuento",
+      "C": "El cuento tiene moraleja y la novela no",
+      "D": "No hay diferencia entre ambos"
+    },
+    "correctAnswer": "B",
+    "explanation": "La principal diferencia es la extensión y complejidad: el cuento es breve, con pocos personajes y una sola trama. La novela es extensa, puede tener múltiples personajes, subtramas y mayor desarrollo psicológico de los personajes.",
+    "subject": "Español",
+    "topic": "Géneros literarios",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es un soneto?",
+    "options": {
+      "A": "Una canción popular mexicana",
+      "B": "Un poema de 14 versos divididos en dos cuartetos y dos tercetos",
+      "C": "Una obra de teatro en verso",
+      "D": "Un poema sin rima ni métrica"
+    },
+    "correctAnswer": "B",
+    "explanation": "El soneto es una composición poética de 14 versos: dos estrofas de 4 versos (cuartetos) y dos de 3 versos (tercetos). Tiene rima y métrica fija. Es una de las formas poéticas más importantes de la literatura en español.",
+    "subject": "Español",
+    "topic": "Géneros literarios",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es una metáfora?",
+    "options": {
+      "A": "La repetición de un sonido al inicio de palabras",
+      "B": "Una comparación directa que identifica dos cosas sin usar 'como'",
+      "C": "La personificación de objetos inanimados",
+      "D": "Una exageración con fines expresivos"
+    },
+    "correctAnswer": "B",
+    "explanation": "La metáfora identifica directamente una cosa con otra: 'Tus ojos son estrellas' (no dice 'como estrellas'). Es diferente al símil que usa 'como': 'Tus ojos son como estrellas'. La metáfora es más directa e impactante.",
+    "subject": "Español",
+    "topic": "Recursos literarios",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es un ejemplo de personificación?",
+    "options": {
+      "A": "'Corre como el viento'",
+      "B": "'El viento susurró secretos entre los árboles'",
+      "C": "'Sus ojos son dos luceros'",
+      "D": "'Tenía un millón de problemas'"
+    },
+    "correctAnswer": "B",
+    "explanation": "'El viento susurró secretos' es personificación porque atribuye una acción humana (susurrar) a algo inanimado (el viento). La personificación da cualidades humanas a animales, objetos o ideas para hacer el texto más expresivo.",
+    "subject": "Español",
+    "topic": "Recursos literarios",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la hipérbole?",
+    "options": {
+      "A": "Una comparación usando 'como'",
+      "B": "Una exageración con fines expresivos o humorísticos",
+      "C": "La repetición de palabras al inicio de versos",
+      "D": "Un símbolo con doble significado"
+    },
+    "correctAnswer": "B",
+    "explanation": "La hipérbole es una exageración que se usa para enfatizar algo. Ejemplos: 'Me muero de hambre', 'Te lo he dicho mil veces', 'Tiene un corazón de oro'. No se toman literalmente sino como expresiones que intensifican la idea.",
+    "subject": "Español",
+    "topic": "Recursos literarios",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un símil o comparación?",
+    "options": {
+      "A": "Atribuir cualidades humanas a objetos",
+      "B": "Una relación de semejanza entre dos cosas usando 'como', 'parece' o 'semejante a'",
+      "C": "La repetición de sonidos consonánticos",
+      "D": "Una contradicción aparente con sentido profundo"
+    },
+    "correctAnswer": "B",
+    "explanation": "El símil compara dos cosas usando nexos comparativos como 'como', 'parece', 'igual que' o 'semejante a'. Ejemplos: 'Valiente como un león', 'Sus manos parecen pétalos'. A diferencia de la metáfora, el símil establece una comparación explícita.",
+    "subject": "Español",
+    "topic": "Recursos literarios",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuáles son los tipos de oraciones según su estructura?",
+    "options": {
+      "A": "Simples y compuestas",
+      "B": "Largas y cortas",
+      "C": "Con sujeto y sin sujeto",
+      "D": "Declarativas e interrogativas"
+    },
+    "correctAnswer": "A",
+    "explanation": "Las oraciones se clasifican en simples (un solo verbo conjugado: 'El perro ladra') y compuestas (dos o más verbos conjugados: 'El perro ladra cuando llegan visitas'). Las compuestas pueden ser coordinadas o subordinadas.",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es el sujeto de una oración?",
+    "options": {
+      "A": "La acción que se realiza en la oración",
+      "B": "La persona, animal o cosa de quien se dice algo en la oración",
+      "C": "El complemento que acompaña al verbo",
+      "D": "El adjetivo que modifica al sustantivo"
+    },
+    "correctAnswer": "B",
+    "explanation": "El sujeto es la persona, animal o cosa de quien se habla en la oración, es decir, quien realiza o recibe la acción. En 'María compró un libro', el sujeto es 'María'. El sujeto concuerda en número y persona con el verbo.",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuándo se usa la letra 'b' y cuándo la 'v'?",
+    "options": {
+      "A": "Son intercambiables, no importa cuál se use",
+      "B": "La 'b' va antes de 'l' y 'r'; la 'v' después de 'n' y 'd'; ambas tienen reglas ortográficas específicas",
+      "C": "La 'b' solo se usa al inicio de palabra",
+      "D": "La 'v' siempre va al final de palabra"
+    },
+    "correctAnswer": "B",
+    "explanation": "Algunas reglas: se escribe 'b' antes de 'l' y 'r' (blanco, bravo), en palabras con prefijo 'bi-' (bicicleta), en el pretérito imperfecto (-aba). Se escribe 'v' después de 'n' y 'd' (invitar, advertir), en el prefijo 'vice-' (vicepresidente).",
+    "subject": "Español",
+    "topic": "Ortografía",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuándo se usa la tilde o acento ortográfico en palabras agudas?",
+    "options": {
+      "A": "Siempre que la palabra tenga más de dos sílabas",
+      "B": "Cuando la última sílaba es la más fuerte y la palabra termina en n, s o vocal",
+      "C": "Cuando la penúltima sílaba es la más fuerte",
+      "D": "Solo en palabras esdrújulas"
+    },
+    "correctAnswer": "B",
+    "explanation": "Las palabras agudas (acento en la última sílaba) llevan tilde cuando terminan en n, s o vocal. Ejemplos: café, mamá, jardín, compás, camión. Si terminan en otra consonante no llevan tilde: reloj, metal, pared.",
+    "subject": "Español",
+    "topic": "Acentuación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué son las palabras esdrújulas y cuándo llevan tilde?",
+    "options": {
+      "A": "Las que tienen el acento en la última sílaba; llevan tilde siempre",
+      "B": "Las que tienen el acento en la antepenúltima sílaba; llevan tilde siempre",
+      "C": "Las que tienen el acento en la penúltima sílaba; llevan tilde a veces",
+      "D": "Las que tienen más de cuatro sílabas; nunca llevan tilde"
+    },
+    "correctAnswer": "B",
+    "explanation": "Las palabras esdrújulas tienen el acento en la antepenúltima sílaba y SIEMPRE llevan tilde. Ejemplos: mú-si-ca, pá-ja-ro, eléc-tri-co, brú-ju-la, ár-bol. Es la regla más fácil de acentuación porque no tiene excepciones.",
+    "subject": "Español",
+    "topic": "Acentuación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál de las siguientes palabras está correctamente escrita?",
+    "options": {
+      "A": "Habia",
+      "B": "Havía",
+      "C": "Había",
+      "D": "Havia"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Había' es la forma correcta: lleva tilde porque es esdrújula (ha-bí-a), el acento cae en la 'i'. Además se escribe con 'b' porque los verbos en pretérito imperfecto (-aba, -abas, -aba, -ábamos, -abais, -aban) se escriben con 'b'.",
+    "subject": "Español",
+    "topic": "Ortografía",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es un adverbio?",
+    "options": {
+      "A": "Una palabra que nombra personas, animales o cosas",
+      "B": "Una palabra que modifica al verbo, adjetivo u otro adverbio",
+      "C": "Una palabra que une dos oraciones",
+      "D": "Una palabra que expresa una acción"
+    },
+    "correctAnswer": "B",
+    "explanation": "El adverbio modifica al verbo ('corre rápido'), al adjetivo ('muy bonita') o a otro adverbio ('bastante bien'). No cambia de género ni número. Ejemplos: aquí, siempre, rápidamente, muy, nunca, también.",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuáles son los pasos del proceso de escritura?",
+    "options": {
+      "A": "Escribir, borrar y reescribir",
+      "B": "Planeación, textualización, revisión y publicación",
+      "C": "Leer, pensar y escribir",
+      "D": "Borrador, versión final y entrega"
+    },
+    "correctAnswer": "B",
+    "explanation": "El proceso de escritura tiene 4 etapas: Planeación (definir propósito, destinatario y contenido), Textualización (escribir el borrador), Revisión (corregir errores de contenido, coherencia y ortografía) y Publicación (presentar el texto final).",
+    "subject": "Español",
+    "topic": "Producción de textos",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la coherencia en un texto?",
+    "options": {
+      "A": "El uso correcto de la ortografía y la puntuación",
+      "B": "La relación lógica y ordenada entre las ideas del texto",
+      "C": "El uso de palabras difíciles y especializadas",
+      "D": "La extensión adecuada del texto"
+    },
+    "correctAnswer": "B",
+    "explanation": "La coherencia es la cualidad del texto donde todas las ideas se relacionan lógicamente y tienen sentido en conjunto. Un texto coherente tiene un hilo conductor claro. Sin coherencia, el texto sería una colección de ideas sin conexión.",
+    "subject": "Español",
+    "topic": "Producción de textos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué son los conectores o nexos en un texto?",
+    "options": {
+      "A": "Los signos de puntuación",
+      "B": "Palabras o frases que unen ideas y establecen relaciones lógicas entre ellas",
+      "C": "Las palabras desconocidas del texto",
+      "D": "Los títulos y subtítulos del texto"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los conectores unen ideas y marcan su relación: de adición (además, también), de contraste (pero, sin embargo), de causa (porque, ya que), de consecuencia (por lo tanto, entonces), de tiempo (después, luego). Son esenciales para la cohesión del texto.",
+    "subject": "Español",
+    "topic": "Producción de textos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuáles son los elementos básicos del proceso de comunicación?",
+    "options": {
+      "A": "Palabras, gestos y señales",
+      "B": "Emisor, mensaje, canal, receptor y código",
+      "C": "Hablante, texto y oyente",
+      "D": "Voz, escritura e imágenes"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los elementos del proceso comunicativo son: Emisor (quien envía el mensaje), Mensaje (la información), Canal (medio por donde viaja: voz, papel, internet), Receptor (quien recibe) y Código (lenguaje usado). También se considera el contexto y la retroalimentación.",
+    "subject": "Español",
+    "topic": "Comunicación",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es el registro lingüístico?",
+    "options": {
+      "A": "La velocidad con que se habla",
+      "B": "La variedad del lenguaje que se usa según la situación comunicativa y el interlocutor",
+      "C": "El volumen de la voz",
+      "D": "El idioma que habla una persona"
+    },
+    "correctAnswer": "B",
+    "explanation": "El registro lingüístico es la variedad del lenguaje que usamos según la situación: formal (con el jefe, en la escuela), coloquial (con amigos, familia) o técnico (médicos, abogados). Adaptar el registro es una habilidad comunicativa importante.",
+    "subject": "Español",
+    "topic": "Comunicación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es una tesis en un texto argumentativo?",
+    "options": {
+      "A": "La conclusión del texto",
+      "B": "El punto de vista o postura que el autor defiende en el texto",
+      "C": "Un ejemplo que apoya los argumentos",
+      "D": "Un dato estadístico del texto"
+    },
+    "correctAnswer": "B",
+    "explanation": "La tesis es la postura o punto de vista central que el autor defiende en un texto argumentativo. Es la idea principal que se quiere demostrar o sostener. El resto del texto aporta argumentos y evidencias para apoyar esa tesis.",
+    "subject": "Español",
+    "topic": "Argumentación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál de las siguientes es una falacia argumentativa?",
+    "options": {
+      "A": "Usar datos estadísticos confiables",
+      "B": "Citar a un experto en el tema",
+      "C": "Ad hominem: atacar a la persona en vez de rebatir sus argumentos",
+      "D": "Presentar ejemplos concretos y verificables"
+    },
+    "correctAnswer": "C",
+    "explanation": "El ad hominem ('contra el hombre') es una falacia que ataca a la persona en lugar de refutar sus argumentos. Ejemplo: 'No le creas, es muy joven'. Es un argumento inválido porque las características personales no determinan la validez de un argumento.",
+    "subject": "Español",
+    "topic": "Argumentación",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué es la rima en un poema?",
+    "options": {
+      "A": "El número de sílabas de cada verso",
+      "B": "La repetición de sonidos iguales o similares al final de los versos",
+      "C": "La pausa al final de cada verso",
+      "D": "El tema central del poema"
+    },
+    "correctAnswer": "B",
+    "explanation": "La rima es la repetición de sonidos al final de los versos. Puede ser consonante (iguales todas las letras desde la última vocal acentuada: amor/dolor) o asonante (solo coinciden las vocales: cama/alba). Da musicalidad al poema.",
+    "subject": "Español",
+    "topic": "Poesía",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cómo se cuentan las sílabas métricas de un verso?",
+    "options": {
+      "A": "Se cuentan igual que las sílabas gramaticales, sin excepciones",
+      "B": "Se cuentan las sílabas gramaticales aplicando reglas como sinalefa, hiato y compensación final",
+      "C": "Solo se cuentan las vocales del verso",
+      "D": "Se cuentan únicamente las palabras del verso"
+    },
+    "correctAnswer": "B",
+    "explanation": "En métrica poética se aplican reglas especiales: Sinalefa (se unen en una sílaba la vocal final de una palabra y la inicial de la siguiente), y la ley del acento final (si el verso termina en palabra aguda se suma 1 sílaba; si es esdrújula se resta 1).",
+    "subject": "Español",
+    "topic": "Poesía",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre una noticia y un reportaje?",
+    "options": {
+      "A": "No hay diferencia, son lo mismo",
+      "B": "La noticia informa brevemente un hecho reciente; el reportaje lo investiga con mayor profundidad",
+      "C": "La noticia es de opinión y el reportaje es informativo",
+      "D": "El reportaje es más corto que la noticia"
+    },
+    "correctAnswer": "B",
+    "explanation": "La noticia informa brevemente sobre un hecho reciente respondiendo las preguntas básicas (qué, quién, cuándo, dónde, cómo, por qué). El reportaje investiga con mayor profundidad un tema, incluye entrevistas, datos y contexto histórico.",
+    "subject": "Español",
+    "topic": "Medios de comunicación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un editorial en un periódico?",
+    "options": {
+      "A": "La sección de deportes",
+      "B": "El texto que expresa la opinión del periódico sobre un tema de actualidad",
+      "C": "Las noticias internacionales",
+      "D": "Los anuncios clasificados"
+    },
+    "correctAnswer": "B",
+    "explanation": "El editorial es un texto de opinión que expresa la postura del periódico (no de un autor específico) sobre un tema importante de actualidad. Se distingue de la noticia porque no busca informar objetivamente sino expresar un punto de vista.",
+    "subject": "Español",
+    "topic": "Medios de comunicación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué son los dialectos?",
+    "options": {
+      "A": "Idiomas completamente diferentes al español",
+      "B": "Variantes de una lengua que se hablan en diferentes regiones geográficas",
+      "C": "Palabras de origen indígena incorporadas al español",
+      "D": "Errores gramaticales comunes en una región"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los dialectos son variantes geográficas de una lengua. El español tiene muchos dialectos: el mexicano, el español de España, el rioplatense (Argentina), el caribeño, etc. Tienen diferencias en pronunciación, vocabulario y algunas estructuras, pero se comprenden mutuamente.",
+    "subject": "Español",
+    "topic": "Variantes del español",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué son los préstamos lingüísticos en el español de México?",
+    "options": {
+      "A": "Palabras que México presta a otros países",
+      "B": "Palabras de otros idiomas incorporadas al español mexicano",
+      "C": "Palabras del español antiguo que ya no se usan",
+      "D": "Palabras inventadas por los mexicanos"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los préstamos lingüísticos son palabras de otros idiomas incorporadas al español. En México hay préstamos del náhuatl (chocolate, tomate, aguacate), del inglés (internet, celular, parking) y del francés (hotel, boulevard). Enriquecen el idioma.",
+    "subject": "Español",
+    "topic": "Variantes del español",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuáles son las características de un buen discurso oral?",
+    "options": {
+      "A": "Hablar muy rápido para demostrar conocimiento",
+      "B": "Claridad, organización de ideas, contacto visual y adaptación al público",
+      "C": "Usar el mayor número de palabras difíciles posible",
+      "D": "Leer directamente el texto sin mirar al público"
+    },
+    "correctAnswer": "B",
+    "explanation": "Un buen discurso oral requiere: claridad (ideas bien expresadas), organización (introducción, desarrollo, conclusión), contacto visual con el público, volumen y ritmo adecuados, y adaptación del lenguaje al tipo de audiencia. La preparación previa es fundamental.",
+    "subject": "Español",
+    "topic": "Oralidad",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es el debate?",
+    "options": {
+      "A": "Una conversación informal entre amigos",
+      "B": "Una discusión organizada donde dos o más personas defienden posturas opuestas sobre un tema",
+      "C": "Una presentación donde solo habla una persona",
+      "D": "Una obra de teatro improvisada"
+    },
+    "correctAnswer": "B",
+    "explanation": "El debate es una discusión organizada y formal donde dos o más participantes defienden posturas opuestas sobre un tema, usando argumentos y evidencias. Tiene reglas: tiempo de participación, turnos, moderador. Desarrolla el pensamiento crítico.",
+    "subject": "Español",
+    "topic": "Oralidad",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la lectura crítica?",
+    "options": {
+      "A": "Leer muy lento para entender cada palabra",
+      "B": "Evaluar, cuestionar y analizar el texto más allá de su comprensión literal",
+      "C": "Buscar errores ortográficos en el texto",
+      "D": "Leer solo los títulos y subtítulos"
+    },
+    "correctAnswer": "B",
+    "explanation": "La lectura crítica va más allá de entender qué dice el texto: evalúa cómo lo dice, por qué, con qué intención, qué valores transmite y si los argumentos son válidos. Un lector crítico no acepta todo lo que lee sin cuestionarlo.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué es el contexto histórico de una obra literaria?",
+    "options": {
+      "A": "El lugar donde fue escrita la obra",
+      "B": "Las circunstancias históricas, sociales y culturales que rodearon la creación de la obra",
+      "C": "La biografía del autor",
+      "D": "El número de páginas de la obra"
+    },
+    "correctAnswer": "B",
+    "explanation": "El contexto histórico son las circunstancias de la época en que fue escrita la obra: situación política, social, económica y cultural. Conocer el contexto ayuda a entender mejor el significado de la obra y las intenciones del autor.",
+    "subject": "Español",
+    "topic": "Literatura",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál de las siguientes opciones es un ejemplo de texto descriptivo?",
+    "options": {
+      "A": "Una receta de cocina",
+      "B": "Una noticia sobre un accidente",
+      "C": "La descripción de un personaje en una novela",
+      "D": "Un artículo de opinión sobre política"
+    },
+    "correctAnswer": "C",
+    "explanation": "La descripción de un personaje en una novela es un texto descriptivo porque presenta las características (físicas, psicológicas, conductuales) de alguien o algo de forma detallada. Los textos descriptivos responden a la pregunta '¿cómo es?'",
+    "subject": "Español",
+    "topic": "Tipos de texto",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la ironía como recurso literario?",
+    "options": {
+      "A": "Una exageración extrema con fines cómicos",
+      "B": "Decir lo contrario de lo que se piensa con intención burlesca o crítica",
+      "C": "La repetición de palabras con fines rítmicos",
+      "D": "Una comparación entre dos cosas muy diferentes"
+    },
+    "correctAnswer": "B",
+    "explanation": "La ironía consiste en decir lo contrario de lo que se piensa o quiere decir, generalmente con un tono burlesco o crítico. Ejemplo: 'Qué bonito día' cuando está lloviendo. La ironía puede ser humorística o usarse para hacer crítica social.",
+    "subject": "Español",
+    "topic": "Recursos literarios",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué función tiene el uso de los signos de puntuación?",
+    "options": {
+      "A": "Solo sirven para separar palabras",
+      "B": "Organizar el texto, indicar pausas, entonación y aclarar el sentido de las oraciones",
+      "C": "Son opcionales y no cambian el significado",
+      "D": "Solo se usan en textos formales"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los signos de puntuación (punto, coma, punto y coma, dos puntos, signos de interrogación y admiración) organizan el texto e indican pausas y entonación. Su uso correcto es fundamental: 'Vamos a comer niños' vs 'Vamos a comer, niños' tienen significados muy diferentes.",
+    "subject": "Español",
+    "topic": "Ortografía",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es un párrafo y cuál es su estructura?",
+    "options": {
+      "A": "Un conjunto de capítulos en un libro",
+      "B": "Una unidad de texto con oración temática, oraciones de desarrollo y oración de cierre",
+      "C": "Cada renglón de un texto",
+      "D": "Un texto breve de menos de 50 palabras"
+    },
+    "correctAnswer": "B",
+    "explanation": "El párrafo es una unidad de texto que desarrolla una sola idea. Se estructura con: oración temática (presenta la idea principal), oraciones de desarrollo (explican, ejemplifican o amplían la idea) y oración de cierre (concluye o enlaza con el siguiente párrafo).",
+    "subject": "Español",
+    "topic": "Producción de textos",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre narrador en primera y en tercera persona?",
+    "options": {
+      "A": "No hay diferencia, ambos cuentan lo mismo",
+      "B": "El de primera persona usa 'yo' y es parte de la historia; el de tercera usa 'él/ella' y está fuera de la historia",
+      "C": "El de tercera persona solo conoce los pensamientos de los personajes",
+      "D": "El de primera persona es omnisciente y el de tercera no"
+    },
+    "correctAnswer": "B",
+    "explanation": "El narrador en primera persona ('yo') es un personaje dentro de la historia que cuenta desde su perspectiva. El narrador en tercera persona ('él', 'ella', 'ellos') está fuera de la historia. El narrador omnisciente en tercera persona conoce todo, incluso los pensamientos de los personajes.",
+    "subject": "Español",
+    "topic": "Géneros literarios",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un sinónimo?",
+    "options": {
+      "A": "Una palabra con significado opuesto",
+      "B": "Una palabra con significado igual o muy similar a otra",
+      "C": "Una palabra de otro idioma",
+      "D": "Una palabra sin significado propio"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los sinónimos son palabras con significado igual o muy similar: bonito/hermoso/bello, rápido/veloz/ágil. Usarlos evita la repetición y enriquece el texto. Aunque son similares, generalmente tienen matices diferentes según el contexto.",
+    "subject": "Español",
+    "topic": "Vocabulario",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es un antónimo?",
+    "options": {
+      "A": "Una palabra con el mismo significado",
+      "B": "Una palabra de significado contrario u opuesto",
+      "C": "Una palabra que suena igual pero se escribe diferente",
+      "D": "Una palabra compuesta por dos raíces"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los antónimos son palabras con significado contrario u opuesto: frío/caliente, alto/bajo, amor/odio, rápido/lento. Conocerlos amplía el vocabulario y ayuda a expresar ideas con mayor precisión y variedad.",
+    "subject": "Español",
+    "topic": "Vocabulario",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué son los homófonos?",
+    "options": {
+      "A": "Palabras con el mismo significado",
+      "B": "Palabras que se pronuncian igual pero se escriben diferente y tienen significados distintos",
+      "C": "Palabras que se escriben igual pero se pronuncian diferente",
+      "D": "Palabras de origen griego"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los homófonos se pronuncian igual pero se escriben diferente: hola/ola, vaca/baca, tubo/tuvo, hierba/hierva. En el español de México muchos pares b/v y ll/y son homófonos. Por eso la ortografía es importante para distinguirlos.",
+    "subject": "Español",
+    "topic": "Vocabulario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la función poética del lenguaje?",
+    "options": {
+      "A": "Transmitir información objetiva",
+      "B": "Dar órdenes o instrucciones",
+      "C": "Centrar la atención en la forma del mensaje para crear belleza y expresividad",
+      "D": "Establecer contacto con el receptor"
+    },
+    "correctAnswer": "C",
+    "explanation": "La función poética centra la atención en el propio mensaje, en su forma estética: el ritmo, la musicalidad, las metáforas, la belleza de las palabras. Es la función predominante en la literatura, especialmente en la poesía, aunque también aparece en la publicidad y el lenguaje cotidiano.",
+    "subject": "Español",
+    "topic": "Comunicación",
+    "level": "Avanzado"
+  }
+]
