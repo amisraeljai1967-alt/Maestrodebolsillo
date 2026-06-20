@@ -1,0 +1,702 @@
+[
+  {
+    "question": "¿En qué año inició el movimiento de Independencia de México?",
+    "options": {
+      "A": "1808",
+      "B": "1810",
+      "C": "1821",
+      "D": "1824"
+    },
+    "correctAnswer": "B",
+    "explanation": "El movimiento de Independencia inició el 16 de septiembre de 1810 con el Grito de Independencia de Miguel Hidalgo en Dolores, Guanajuato. Por eso el 16 de septiembre es el Día de la Independencia de México.",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Quién dio el Grito de Independencia el 16 de septiembre de 1810?",
+    "options": {
+      "A": "José María Morelos",
+      "B": "Agustín de Iturbide",
+      "C": "Miguel Hidalgo y Costilla",
+      "D": "Ignacio Allende"
+    },
+    "correctAnswer": "C",
+    "explanation": "Miguel Hidalgo y Costilla, cura del pueblo de Dolores, Guanajuato, dio el Grito de Independencia el 16 de septiembre de 1810. Convocó al pueblo a luchar contra el dominio español, iniciando así la guerra de Independencia.",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Basico"
+  },
+  {
+    "question": "¿En qué año se consumó la Independencia de México?",
+    "options": {
+      "A": "1810",
+      "B": "1815",
+      "C": "1821",
+      "D": "1824"
+    },
+    "correctAnswer": "C",
+    "explanation": "La Independencia de México se consumó el 27 de septiembre de 1821 cuando el Ejército Trigarante, encabezado por Agustín de Iturbide, entró triunfante a la Ciudad de México. El proceso duró 11 años (1810-1821).",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué fue el Plan de Iguala (1821)?",
+    "options": {
+      "A": "Un plan para abolir la esclavitud",
+      "B": "Un documento que proclamó la independencia garantizando religión, unión e independencia",
+      "C": "La primera constitución de México",
+      "D": "Un tratado de paz con España"
+    },
+    "correctAnswer": "B",
+    "explanation": "El Plan de Iguala fue proclamado por Agustín de Iturbide en 1821 y establecía las 'Tres Garantías': Religión (católica), Unión (entre mexicanos y españoles) e Independencia. Por eso al ejército que lo siguió se llamó 'Ejército Trigarante'.",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál fue el papel de José María Morelos en la Independencia?",
+    "options": {
+      "A": "Firmó el Tratado de Córdoba",
+      "B": "Lideró el movimiento tras la muerte de Hidalgo y convocó el Congreso de Chilpancingo",
+      "C": "Fundó el primer gobierno republicano",
+      "D": "Negoció la paz con España"
+    },
+    "correctAnswer": "B",
+    "explanation": "Morelos tomó el liderazgo del movimiento independentista tras la muerte de Hidalgo en 1811. Organizó el Congreso de Chilpancingo en 1813 donde se declaró formalmente la independencia, y promulgó la Constitución de Apatzingán en 1814.",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué documento firmado en 1821 reconoció la independencia de México por parte de España?",
+    "options": {
+      "A": "Plan de Iguala",
+      "B": "Constitución de Apatzingán",
+      "C": "Tratado de Córdoba",
+      "D": "Acta de Independencia"
+    },
+    "correctAnswer": "C",
+    "explanation": "El Tratado de Córdoba fue firmado el 24 de agosto de 1821 entre Agustín de Iturbide y Juan O'Donojú (representante español), reconociendo la independencia de México. Fue el documento que formalizó el fin del dominio español.",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Quiénes eran los 'criollos' en la época de la Independencia?",
+    "options": {
+      "A": "Españoles nacidos en España",
+      "B": "Indígenas que adoptaron la cultura española",
+      "C": "Hijos de españoles nacidos en América",
+      "D": "Esclavos africanos liberados"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los criollos eran hijos de españoles pero nacidos en América. Aunque eran de origen español, tenían menos derechos que los peninsulares (españoles nacidos en España). Esta desigualdad fue una de las causas del movimiento de Independencia.",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué forma de gobierno adoptó México inmediatamente después de la Independencia en 1821?",
+    "options": {
+      "A": "República federal",
+      "B": "República centralista",
+      "C": "Imperio",
+      "D": "Monarquía constitucional"
+    },
+    "correctAnswer": "C",
+    "explanation": "Inmediatamente después de la Independencia, México se convirtió en un Imperio con Agustín de Iturbide como Agustín I (1821-1823). Este primer Imperio fue muy breve y problemático, lo que llevó a proclamar la república.",
+    "subject": "Historia",
+    "topic": "México independiente",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿En qué año se promulgó la primera Constitución Federal de México?",
+    "options": {
+      "A": "1821",
+      "B": "1822",
+      "C": "1824",
+      "D": "1857"
+    },
+    "correctAnswer": "C",
+    "explanation": "La primera Constitución Federal de los Estados Unidos Mexicanos se promulgó el 4 de octubre de 1824. Estableció una república federal con división de poderes (Ejecutivo, Legislativo y Judicial), inspirada en la Constitución de Estados Unidos.",
+    "subject": "Historia",
+    "topic": "México independiente",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué fue la Reforma en México (1855-1861)?",
+    "options": {
+      "A": "Un movimiento para reconquistar Texas",
+      "B": "Un período de transformaciones liberales que limitaron el poder de la Iglesia y el ejército",
+      "C": "La guerra contra Francia",
+      "D": "La creación del Partido Liberal"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Reforma fue un período de profundos cambios liberales impulsados por Benito Juárez y otros liberales. Se limitó el poder de la Iglesia y el ejército, se expropió sus bienes y se estableció la separación Iglesia-Estado, plasmado en las Leyes de Reforma.",
+    "subject": "Historia",
+    "topic": "Reforma",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Quién fue el principal líder liberal durante la Reforma y presidente de México?",
+    "options": {
+      "A": "Antonio López de Santa Anna",
+      "B": "Agustín de Iturbide",
+      "C": "Benito Juárez",
+      "D": "Porfirio Díaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "Benito Juárez, originario de Oaxaca y de origen zapoteca, fue el principal líder liberal y presidente de México durante la Reforma. Impulsó las Leyes de Reforma y la Constitución de 1857, y es considerado uno de los grandes héroes nacionales.",
+    "subject": "Historia",
+    "topic": "Reforma",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál fue la Ley Lerdo (1856)?",
+    "options": {
+      "A": "La que abolió la esclavitud",
+      "B": "La que desamortizó los bienes de la Iglesia y corporaciones civiles",
+      "C": "La que estableció la educación laica",
+      "D": "La que separó la Iglesia del Estado"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Ley Lerdo (Ley de Desamortización) de 1856 obligó a la Iglesia y a las corporaciones civiles a vender los bienes que no usaban directamente. Su objetivo era activar la economía poniendo esas propiedades en circulación.",
+    "subject": "Historia",
+    "topic": "Leyes de Reforma",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué fue la Guerra de Reforma o Guerra de los Tres Años?",
+    "options": {
+      "A": "La guerra contra la intervención francesa",
+      "B": "El conflicto armado entre liberales y conservadores por las Leyes de Reforma (1857-1860)",
+      "C": "La guerra contra Estados Unidos",
+      "D": "La lucha por la Independencia de México"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Guerra de Reforma (1857-1860) fue un conflicto armado entre liberales (que apoyaban las reformas de Juárez) y conservadores (que defendían los privilegios de la Iglesia y el ejército). Ganaron los liberales, pero México quedó en crisis.",
+    "subject": "Historia",
+    "topic": "Reforma",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Por qué razón llegaron las tropas francesas a México en 1862?",
+    "options": {
+      "A": "Para apoyar a los liberales",
+      "B": "Por la suspensión del pago de la deuda externa decretada por Juárez",
+      "C": "Para establecer una colonia francesa",
+      "D": "Por una disputa territorial"
+    },
+    "correctAnswer": "B",
+    "explanation": "Juárez suspendió el pago de la deuda externa en 1861 por la crítica situación económica del país. Esto provocó la intervención de Francia, Inglaterra y España. Aunque las últimas dos se retiraron, Francia siguió adelante por los planes expansionistas de Napoleón III.",
+    "subject": "Historia",
+    "topic": "Intervención francesa",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué batalla ocurrió el 5 de mayo de 1862 en Puebla?",
+    "options": {
+      "A": "La batalla donde México fue derrotado por Francia",
+      "B": "La batalla donde el ejército mexicano derrotó al ejército francés",
+      "C": "La firma del tratado de paz con Francia",
+      "D": "La coronación de Maximiliano"
+    },
+    "correctAnswer": "B",
+    "explanation": "El 5 de mayo de 1862, el general Ignacio Zaragoza y su ejército derrotaron al ejército francés en Puebla. Fue una victoria importante para la moral nacional aunque Francia no se rindió. Por eso el 5 de mayo es una fecha conmemorada especialmente en Puebla.",
+    "subject": "Historia",
+    "topic": "Intervención francesa",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Quién fue Maximiliano de Habsburgo en la historia de México?",
+    "options": {
+      "A": "Un general francés que invadió México",
+      "B": "El emperador impuesto por Francia y los conservadores mexicanos (1864-1867)",
+      "C": "El presidente de México durante la Reforma",
+      "D": "Un diplomático que negoció la deuda externa"
+    },
+    "correctAnswer": "B",
+    "explanation": "Maximiliano de Habsburgo fue un archiduque austriaco impuesto como emperador de México por Napoleón III de Francia y los conservadores mexicanos (1864-1867). Fue derrotado por las fuerzas republicanas de Juárez y fusilado en Querétaro en 1867.",
+    "subject": "Historia",
+    "topic": "Intervención francesa",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue la República Restaurada (1867-1876)?",
+    "options": {
+      "A": "El período del Imperio de Maximiliano",
+      "B": "El período de gobierno republicano liberal tras la derrota del Imperio",
+      "C": "El inicio del Porfiriato",
+      "D": "El período de la Constitución de 1824"
+    },
+    "correctAnswer": "B",
+    "explanation": "La República Restaurada (1867-1876) fue el período donde Juárez restauró el gobierno republicano liberal tras derrotar al Imperio de Maximiliano. Se buscó la modernización del país, la educación laica y la reconstrucción económica.",
+    "subject": "Historia",
+    "topic": "República Restaurada",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue el Porfiriato?",
+    "options": {
+      "A": "El período de gobierno de Benito Juárez",
+      "B": "El largo período de gobierno de Porfirio Díaz (1876-1911)",
+      "C": "La época de la Intervención francesa",
+      "D": "El período de la Reforma"
+    },
+    "correctAnswer": "B",
+    "explanation": "El Porfiriato fue el período de gobierno de Porfirio Díaz, que duró aproximadamente 34 años (1876-1911). Se caracterizó por estabilidad económica y modernización, pero también por autoritarismo, desigualdad social y represión política.",
+    "subject": "Historia",
+    "topic": "Porfiriato",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál fue el lema del gobierno de Porfirio Díaz?",
+    "options": {
+      "A": "'Libertad, Igualdad, Fraternidad'",
+      "B": "'Sufragio efectivo, no reelección'",
+      "C": "'Orden y Progreso'",
+      "D": "'La democracia es el destino de México'"
+    },
+    "correctAnswer": "C",
+    "explanation": "'Orden y Progreso' fue el lema del Porfiriato. Díaz privilegió el orden (aunque fuera por medio de la represión) como condición para el progreso económico. Se construyeron ferrocarriles, industrias y se atrajo inversión extranjera.",
+    "subject": "Historia",
+    "topic": "Porfiriato",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál fue una de las principales consecuencias sociales negativas del Porfiriato?",
+    "options": {
+      "A": "La disminución de la inversión extranjera",
+      "B": "La gran desigualdad: pocos ricos con mucha tierra y muchos campesinos pobres sin tierra",
+      "C": "La destrucción de ferrocarriles",
+      "D": "La pérdida de Texas"
+    },
+    "correctAnswer": "B",
+    "explanation": "Durante el Porfiriato, la riqueza se concentró en pocas manos: hacendados, extranjeros y allegados a Díaz. La mayoría de campesinos e indígenas perdieron sus tierras y vivían en condiciones muy precarias, lo que fue una causa principal de la Revolución Mexicana.",
+    "subject": "Historia",
+    "topic": "Porfiriato",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿En qué año inició la Revolución Mexicana?",
+    "options": {
+      "A": "1906",
+      "B": "1908",
+      "C": "1910",
+      "D": "1917"
+    },
+    "correctAnswer": "C",
+    "explanation": "La Revolución Mexicana inició en 1910 con el Plan de San Luis, proclamado por Francisco I. Madero, que llamaba a levantarse en armas contra el gobierno de Porfirio Díaz el 20 de noviembre de 1910.",
+    "subject": "Historia",
+    "topic": "Revolución Mexicana",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Quién proclamó el Plan de San Luis que inició la Revolución Mexicana?",
+    "options": {
+      "A": "Emiliano Zapata",
+      "B": "Pancho Villa",
+      "C": "Francisco I. Madero",
+      "D": "Venustiano Carranza"
+    },
+    "correctAnswer": "C",
+    "explanation": "Francisco I. Madero proclamó el Plan de San Luis el 5 de octubre de 1910, llamando al pueblo a levantarse en armas el 20 de noviembre contra la dictadura de Porfirio Díaz. Madero fue el iniciador político de la Revolución.",
+    "subject": "Historia",
+    "topic": "Revolución Mexicana",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál era el lema de Emiliano Zapata durante la Revolución?",
+    "options": {
+      "A": "'Sufragio efectivo, no reelección'",
+      "B": "'Tierra y Libertad'",
+      "C": "'Orden y Progreso'",
+      "D": "'México para los mexicanos'"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Tierra y Libertad' fue el lema de Emiliano Zapata y el Ejército Libertador del Sur. Zapata luchó principalmente por la devolución de tierras a los campesinos e indígenas que habían sido despojados durante el Porfiriato.",
+    "subject": "Historia",
+    "topic": "Revolución Mexicana",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué fue el Plan de Ayala (1911)?",
+    "options": {
+      "A": "El plan de Madero para derrocar a Díaz",
+      "B": "El plan de Zapata que desconocía a Madero y exigía la devolución de tierras a los campesinos",
+      "C": "El plan de Carranza para convocar un congreso constituyente",
+      "D": "El plan de Villa para tomar el norte del país"
+    },
+    "correctAnswer": "B",
+    "explanation": "El Plan de Ayala fue proclamado por Emiliano Zapata en 1911, desconociendo a Madero por no cumplir con la reforma agraria. Exigía la devolución de tierras, montes y aguas a los pueblos y campesinos despojados durante el Porfiriato.",
+    "subject": "Historia",
+    "topic": "Revolución Mexicana",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿En qué año se promulgó la Constitución Política de México que sigue vigente?",
+    "options": {
+      "A": "1910",
+      "B": "1914",
+      "C": "1917",
+      "D": "1921"
+    },
+    "correctAnswer": "C",
+    "explanation": "La Constitución Política de los Estados Unidos Mexicanos fue promulgada el 5 de febrero de 1917 en Querétaro, durante el gobierno de Venustiano Carranza. Es la constitución vigente y fue la primera en el mundo en incluir derechos sociales.",
+    "subject": "Historia",
+    "topic": "Constitución de 1917",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál fue la importancia del Artículo 27 de la Constitución de 1917?",
+    "options": {
+      "A": "Estableció la libertad de religión",
+      "B": "Estableció que la nación es propietaria de tierras y recursos naturales",
+      "C": "Creó el ejército nacional",
+      "D": "Estableció la educación gratuita"
+    },
+    "correctAnswer": "B",
+    "explanation": "El Artículo 27 estableció que la propiedad de tierras y aguas corresponde originalmente a la nación. Fue una respuesta a las demandas zapatistas y permitió la reforma agraria. También estableció que los recursos del subsuelo (petróleo, minerales) son de la nación.",
+    "subject": "Historia",
+    "topic": "Constitución de 1917",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál fue una causa EXTERNA que influyó en la Independencia de México?",
+    "options": {
+      "A": "La pobreza de los criollos",
+      "B": "La Revolución Francesa y la Independencia de Estados Unidos",
+      "C": "La llegada de los españoles",
+      "D": "Las guerras entre indígenas"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Revolución Francesa (1789) con sus ideas de libertad, igualdad y fraternidad, y la Independencia de Estados Unidos (1776) inspiraron a los criollos y mestizos mexicanos a luchar por su propia independencia del dominio español.",
+    "subject": "Historia",
+    "topic": "Causas de la Independencia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue la Conspiración de Querétaro (1810)?",
+    "options": {
+      "A": "Un plan español para controlar México",
+      "B": "Una reunión secreta de criollos que planeaban la independencia",
+      "C": "Un ataque militar a la Ciudad de México",
+      "D": "Una rebelión indígena contra los criollos"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Conspiración de Querétaro fue una reunión secreta de criollos entre los que estaban Hidalgo, Allende, Aldama y la Corregidora Josefa Ortiz de Domínguez. Planeaban iniciar un movimiento independentista, pero fueron descubiertos, lo que aceleró el Grito de Independencia.",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Quién fue la Corregidora y cuál fue su papel en la Independencia?",
+    "options": {
+      "A": "Una española que apoyó la colonización",
+      "B": "Josefa Ortiz de Domínguez, quien avisó a los conspiradores que habían sido descubiertos",
+      "C": "La esposa de Agustín de Iturbide",
+      "D": "Una indígena que luchó en el ejército insurgente"
+    },
+    "correctAnswer": "B",
+    "explanation": "Josefa Ortiz de Domínguez, La Corregidora, era esposa del Corregidor de Querétaro. Al descubrirse la conspiración, envió aviso a los insurgentes (especialmente a Allende e Hidalgo) permitiéndoles adelantar el levantamiento. Su acción fue crucial para el inicio del movimiento.",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál fue la principal causa agraria de la Revolución Mexicana?",
+    "options": {
+      "A": "La falta de inversión extranjera",
+      "B": "La concentración de la tierra en pocas manos y el despojo a campesinos e indígenas",
+      "C": "La falta de ferrocarriles",
+      "D": "El desempleo en las ciudades"
+    },
+    "correctAnswer": "B",
+    "explanation": "Durante el Porfiriato, el 1% de la población controlaba más del 97% de la tierra cultivable. Millones de campesinos e indígenas fueron despojados de sus tierras mediante las Leyes de Deslinde. Esta injusticia fue la principal causa social de la Revolución.",
+    "subject": "Historia",
+    "topic": "Causas de la Revolución",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue el 'científicos' durante el Porfiriato?",
+    "options": {
+      "A": "Un grupo de investigadores que modernizaron México",
+      "B": "El grupo de tecnócratas asesores de Díaz que favorecían a los inversionistas extranjeros",
+      "C": "Los maestros rurales que alfabetizaron al pueblo",
+      "D": "Los ingenieros que construyeron los ferrocarriles"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los 'científicos' eran un grupo de asesores tecnocráticos del gobierno de Díaz que aplicaban teorías positivistas ('orden y progreso'). Favorecían la inversión extranjera y las élites, ignorando las necesidades de campesinos y obreros, lo que aumentó la desigualdad.",
+    "subject": "Historia",
+    "topic": "Porfiriato",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál fue la aportación de Vicente Guerrero a la Independencia de México?",
+    "options": {
+      "A": "Firmó el Tratado de Córdoba",
+      "B": "Lideró la resistencia insurgente en el sur y se unió a Iturbide para consumar la Independencia",
+      "C": "Redactó la Constitución de 1824",
+      "D": "Fue el primer presidente de México"
+    },
+    "correctAnswer": "B",
+    "explanation": "Vicente Guerrero mantuvo viva la lucha insurgente en el sur tras la muerte de Morelos. Rechazó inicialmente las propuestas de Iturbide, pero finalmente se unió a él (Abrazo de Acatempan, 1821) para consumar la Independencia. También fue presidente de México (1829).",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Por qué Benito Juárez es considerado un héroe nacional?",
+    "options": {
+      "A": "Por ganar la guerra contra Estados Unidos",
+      "B": "Por defender la República frente a la Intervención francesa y modernizar México con las Leyes de Reforma",
+      "C": "Por iniciar la Revolución Mexicana",
+      "D": "Por promulgar la Constitución de 1917"
+    },
+    "correctAnswer": "B",
+    "explanation": "Juárez es héroe nacional por defender la República y la soberanía de México frente a la Intervención francesa y el Imperio de Maximiliano, por impulsar las Leyes de Reforma (separación Iglesia-Estado, educación laica) y por ser el primer presidente indígena de México.",
+    "subject": "Historia",
+    "topic": "Reforma",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál fue el papel de Pancho Villa en la Revolución Mexicana?",
+    "options": {
+      "A": "Lideró el movimiento agrario en el sur",
+      "B": "Proclamó la Constitución de 1917",
+      "C": "Lideró la División del Norte y fue un caudillo revolucionario en el norte del país",
+      "D": "Fue el primer presidente posrevolucionario"
+    },
+    "correctAnswer": "C",
+    "explanation": "Francisco 'Pancho' Villa lideró la División del Norte, uno de los ejércitos revolucionarios más poderosos. Fue un caudillo carismático que dominó el norte de México. Junto con Zapata representó la facción más radical de la Revolución, exigiendo justicia social.",
+    "subject": "Historia",
+    "topic": "Revolución Mexicana",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué fue el Maximato (1928-1934) en México?",
+    "options": {
+      "A": "El período del Imperio de Maximiliano",
+      "B": "El período en que Plutarco Elías Calles controló el poder detrás de presidentes títeres",
+      "C": "El gobierno de Lázaro Cárdenas",
+      "D": "El inicio del PRI como partido"
+    },
+    "correctAnswer": "B",
+    "explanation": "El Maximato fue el período (1928-1934) en que Plutarco Elías Calles, llamado el 'Jefe Máximo', controló realmente el poder político mientras otros presidentes (Portes Gil, Ortiz Rubio, Abelardo Rodríguez) gobernaban nominalmente.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué fue la expropiación petrolera de 1938?",
+    "options": {
+      "A": "La venta del petróleo mexicano a empresas extranjeras",
+      "B": "El decreto de Lázaro Cárdenas que nacionalizó la industria petrolera",
+      "C": "El descubrimiento de petróleo en México",
+      "D": "La creación de Pemex como empresa privada"
+    },
+    "correctAnswer": "B",
+    "explanation": "El 18 de marzo de 1938, el presidente Lázaro Cárdenas decretó la expropiación de las empresas petroleras extranjeras (principalmente inglesas y estadounidenses), poniendo el petróleo en manos de la nación. Creó PEMEX y el 18 de marzo se celebra como el Día de la Expropiación Petrolera.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál fue el resultado de la guerra entre México y Estados Unidos (1846-1848)?",
+    "options": {
+      "A": "México recuperó Texas",
+      "B": "México cedió más de la mitad de su territorio a Estados Unidos",
+      "C": "Ambos países firmaron una alianza militar",
+      "D": "Estados Unidos pagó una indemnización a México"
+    },
+    "correctAnswer": "B",
+    "explanation": "Con el Tratado de Guadalupe Hidalgo (1848), México cedió a Estados Unidos los actuales territorios de California, Nevada, Utah, Arizona, Nuevo México, Colorado y partes de Wyoming y Kansas: más del 55% del territorio mexicano de la época.",
+    "subject": "Historia",
+    "topic": "Guerra México-Estados Unidos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál fue el papel de los Niños Héroes en la historia de México?",
+    "options": {
+      "A": "Lucharon en la guerra de Independencia",
+      "B": "Defendieron el Castillo de Chapultepec ante el ejército estadounidense en 1847",
+      "C": "Participaron en la batalla del 5 de mayo",
+      "D": "Fueron soldados en la Revolución Mexicana"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los Niños Héroes fueron jóvenes cadetes del Colegio Militar que defendieron el Castillo de Chapultepec el 13 de septiembre de 1847 durante la invasión estadounidense. Según la leyenda, Juan Escutia se envolvió en la bandera para que no fuera capturada.",
+    "subject": "Historia",
+    "topic": "Guerra México-Estados Unidos",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué fue la Venta de La Mesilla (1853)?",
+    "options": {
+      "A": "La venta de Texas a Estados Unidos",
+      "B": "La compra de armas por parte del gobierno mexicano",
+      "C": "La venta de un territorio en el norte de México a Estados Unidos por Santa Anna",
+      "D": "Un tratado comercial con Francia"
+    },
+    "correctAnswer": "C",
+    "explanation": "La Venta de La Mesilla (o Gadsden Purchase) fue realizada por Antonio López de Santa Anna en 1853, vendiendo a Estados Unidos una franja de territorio en el norte de Sonora y Chihuahua por 10 millones de dólares. Fue muy criticada por considerarse una traición a la patria.",
+    "subject": "Historia",
+    "topic": "Siglo XIX",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué es el mestizaje en el contexto de la historia de México?",
+    "options": {
+      "A": "La mezcla exclusiva de culturas indígenas",
+      "B": "La mezcla biológica y cultural entre indígenas, españoles y africanos",
+      "C": "La adopción total de la cultura española por los indígenas",
+      "D": "El rechazo de la cultura española por los criollos"
+    },
+    "correctAnswer": "B",
+    "explanation": "El mestizaje es la mezcla biológica y cultural entre los pueblos indígenas, los españoles colonizadores y los africanos traídos como esclavos. Esta mezcla dio origen a la cultura mexicana con sus características únicas en gastronomía, lengua, arte y tradiciones.",
+    "subject": "Historia",
+    "topic": "Cultura e identidad",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuándo se celebra el Día de la Batalla de Puebla y qué conmemora?",
+    "options": {
+      "A": "16 de septiembre, el Grito de Independencia",
+      "B": "5 de mayo, la victoria del ejército mexicano sobre el francés en Puebla en 1862",
+      "C": "20 de noviembre, el inicio de la Revolución",
+      "D": "27 de septiembre, la consumación de la Independencia"
+    },
+    "correctAnswer": "B",
+    "explanation": "El 5 de mayo conmemora la Batalla de Puebla de 1862, donde el general Ignacio Zaragoza venció al ejército francés considerado invencible. Es una fecha de orgullo nacional, aunque México fue finalmente ocupado por Francia años después.",
+    "subject": "Historia",
+    "topic": "Fechas históricas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál fue la primera capital de la Nueva España (México colonial)?",
+    "options": {
+      "A": "Puebla",
+      "B": "Veracruz",
+      "C": "Ciudad de México (construida sobre Tenochtitlan)",
+      "D": "Oaxaca"
+    },
+    "correctAnswer": "C",
+    "explanation": "La Ciudad de México fue construida por los españoles sobre las ruinas de Tenochtitlan, la capital azteca destruida en 1521. Hernán Cortés decidió construir la capital colonial en el mismo lugar por su importancia simbólica y estratégica.",
+    "subject": "Historia",
+    "topic": "Época colonial",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué fue la Constitución de 1857 y cuál fue su importancia?",
+    "options": {
+      "A": "La primera constitución de México independiente",
+      "B": "La constitución liberal que estableció las libertades individuales y limitó el poder de la Iglesia",
+      "C": "La constitución que inició la Revolución Mexicana",
+      "D": "La constitución del Imperio de Maximiliano"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Constitución de 1857 fue una constitución liberal que estableció los derechos individuales (libertad de expresión, de prensa, de trabajo), el juicio de amparo y limitó el poder de la Iglesia. Fue la base del conflicto entre liberales y conservadores en la Guerra de Reforma.",
+    "subject": "Historia",
+    "topic": "Reforma",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Quién fue Antonio López de Santa Anna y por qué es una figura controversial?",
+    "options": {
+      "A": "Un héroe que nunca perdió territorio mexicano",
+      "B": "Un caudillo que gobernó México varias veces pero también perdió Texas y La Mesilla",
+      "C": "El presidente que promulgó la Constitución de 1857",
+      "D": "El líder de la Revolución Mexicana"
+    },
+    "correctAnswer": "B",
+    "explanation": "Santa Anna fue un caudillo que gobernó México en múltiples ocasiones (fue presidente 11 veces). Es controversial porque perdió Texas (1836) y firmó la Venta de La Mesilla (1853). Sin embargo, también combatió la invasión española en 1829 y la francesa en la 'Guerra de los Pasteles' (1838).",
+    "subject": "Historia",
+    "topic": "Siglo XIX",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál fue la importancia de la Batalla de Celaya (1915) en la Revolución Mexicana?",
+    "options": {
+      "A": "Fue la batalla que inició la Revolución",
+      "B": "Fue donde Obregón derrotó a Villa, definiendo el bando constitucionalista como dominante",
+      "C": "Fue la batalla donde Zapata fue traicionado",
+      "D": "Fue la última batalla de la Revolución"
+    },
+    "correctAnswer": "B",
+    "explanation": "En la Batalla de Celaya (abril 1915), Álvaro Obregón derrotó decisivamente a Pancho Villa usando tácticas modernas (trincheras y alambre de púas). Esta derrota marcó el declive de Villa y consolidó el triunfo del bando constitucionalista de Carranza.",
+    "subject": "Historia",
+    "topic": "Revolución Mexicana",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál fue el Congreso de Chilpancingo (1813) y qué declaró?",
+    "options": {
+      "A": "El congreso que proclamó la Constitución de 1824",
+      "B": "El primer congreso insurgente convocado por Morelos que declaró formalmente la independencia de México",
+      "C": "El congreso que coronó a Agustín de Iturbide",
+      "D": "El congreso que firmó el Tratado de Córdoba"
+    },
+    "correctAnswer": "B",
+    "explanation": "El Congreso de Chilpancingo, convocado por José María Morelos en 1813, fue el primer congreso insurgente de México. Declaró formalmente la independencia de España y proclamó el Solemne Acta de la Declaración de Independencia de la América Septentrional.",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué fue el 'Plan de Tuxtepec' (1876)?",
+    "options": {
+      "A": "El plan que inició la Revolución Mexicana",
+      "B": "El plan con el que Porfirio Díaz derrocó al presidente Lerdo de Tejada",
+      "C": "El plan que proclamó la Reforma",
+      "D": "El plan que desconoció a Maximiliano"
+    },
+    "correctAnswer": "B",
+    "explanation": "El Plan de Tuxtepec fue proclamado por Porfirio Díaz en 1876 para derrocar al presidente Sebastián Lerdo de Tejada. Con él inició el Porfiriato. Irónicamente, su bandera era 'No reelección', principio que él mismo ignoró al gobernar durante 34 años.",
+    "subject": "Historia",
+    "topic": "Porfiriato",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué fue la 'Decena Trágica' (febrero 1913)?",
+    "options": {
+      "A": "Diez días de combates en la Ciudad de México que terminaron con el asesinato de Madero",
+      "B": "La semana del inicio de la Revolución",
+      "C": "Los diez años de la guerra de Independencia",
+      "D": "El período de mayor violencia del Porfiriato"
+    },
+    "correctAnswer": "A",
+    "explanation": "La Decena Trágica fueron diez días de combates en la Ciudad de México (9-18 de febrero de 1913) orquestados por Victoriano Huerta y el embajador estadounidense Henry Lane Wilson. Terminó con el derrocamiento y posterior asesinato del presidente Francisco I. Madero.",
+    "subject": "Historia",
+    "topic": "Revolución Mexicana",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál fue la importancia de la Constitución de Apatzingán (1814)?",
+    "options": {
+      "A": "Fue la primera constitución que rigió efectivamente en México",
+      "B": "Fue el primer documento constitucional insurgente que estableció principios de soberanía popular",
+      "C": "Fue la que separó la Iglesia del Estado",
+      "D": "Fue la que creó el ejército nacional"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Constitución de Apatzingán de 1814, promulgada por Morelos, fue el primer documento constitucional del México insurgente. Aunque nunca entró en vigor por la guerra, estableció principios fundamentales como la soberanía popular, la división de poderes y los derechos individuales.",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué fue la 'Guerra de los Pasteles' (1838)?",
+    "options": {
+      "A": "Un conflicto entre México y España por territorios en el norte",
+      "B": "La intervención francesa en México por reclamaciones de ciudadanos franceses, entre ellas la de un pastelero",
+      "C": "Una rebelión de campesinos durante el Porfiriato",
+      "D": "Un conflicto comercial entre México y Estados Unidos"
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Guerra de los Pasteles' fue la Primera Intervención Francesa (1838) en México. Francia exigió indemnizaciones por daños a sus ciudadanos, incluyendo la reclamación de un pastelero francés cuyos pasteles fueron robados por soldados mexicanos. México perdió la guerra y pagó 600,000 pesos.",
+    "subject": "Historia",
+    "topic": "Siglo XIX",
+    "level": "Intermedio"
+  }
+]
