@@ -1,0 +1,688 @@
+[
+  {
+    "question": "¿Cuál es la definición correcta de materia?",
+    "options": {
+      "A": "Todo lo que tiene vida",
+      "B": "Todo lo que ocupa un lugar en el espacio y tiene masa",
+      "C": "Todo lo que podemos ver y tocar",
+      "D": "Todo lo que tiene energía"
+    },
+    "correctAnswer": "B",
+    "explanation": "La materia es todo lo que ocupa un lugar en el espacio y tiene masa. Esto incluye sólidos, líquidos y gases, aunque no los podamos ver. El aire, por ejemplo, es materia aunque sea invisible.",
+    "subject": "Química",
+    "topic": "Materia",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuáles son los tres estados de la materia más comunes?",
+    "options": {
+      "A": "Sólido, líquido y plasma",
+      "B": "Sólido, líquido y gaseoso",
+      "C": "Líquido, gaseoso y plasma",
+      "D": "Sólido, gaseoso y plasma"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los tres estados de la materia más comunes son sólido, líquido y gaseoso. En el sólido las partículas están muy juntas, en el líquido tienen más movimiento, y en el gaseoso están muy separadas y en movimiento libre.",
+    "subject": "Química",
+    "topic": "Estados de la materia",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué propiedad de la materia se refiere a la cantidad de materia que contiene un cuerpo?",
+    "options": {
+      "A": "Peso",
+      "B": "Volumen",
+      "C": "Masa",
+      "D": "Densidad"
+    },
+    "correctAnswer": "C",
+    "explanation": "La masa es la cantidad de materia que contiene un cuerpo. Se mide en kilogramos (kg) o gramos (g). A diferencia del peso, la masa no cambia aunque estés en la Luna o en otro planeta.",
+    "subject": "Química",
+    "topic": "Propiedades de la materia",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la fórmula para calcular la densidad?",
+    "options": {
+      "A": "D = m + v",
+      "B": "D = m × v",
+      "C": "D = m / v",
+      "D": "D = v / m"
+    },
+    "correctAnswer": "C",
+    "explanation": "Densidad = masa / volumen (D = m/v). La densidad indica cuánta masa hay en un determinado volumen. Por ejemplo, el plomo es más denso que el aluminio porque tiene más masa en el mismo espacio.",
+    "subject": "Química",
+    "topic": "Propiedades de la materia",
+    "level": "Basico"
+  },
+  {
+    "question": "Un objeto tiene masa de 50 g y volumen de 10 cm³. ¿Cuál es su densidad?",
+    "options": {
+      "A": "5 g/cm³",
+      "B": "500 g/cm³",
+      "C": "0.5 g/cm³",
+      "D": "40 g/cm³"
+    },
+    "correctAnswer": "A",
+    "explanation": "Densidad = masa / volumen = 50 g / 10 cm³ = 5 g/cm³. La densidad del agua es 1 g/cm³, entonces este objeto es 5 veces más denso que el agua y se hundiría en ella.",
+    "subject": "Química",
+    "topic": "Propiedades de la materia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál de las siguientes es una propiedad INTENSIVA de la materia?",
+    "options": {
+      "A": "Masa",
+      "B": "Volumen",
+      "C": "Densidad",
+      "D": "Peso"
+    },
+    "correctAnswer": "C",
+    "explanation": "La densidad es una propiedad intensiva porque no depende de la cantidad de materia. Un trozo pequeño y uno grande de hierro tienen la misma densidad. Las propiedades extensivas (masa, volumen) sí cambian con la cantidad.",
+    "subject": "Química",
+    "topic": "Propiedades de la materia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre una mezcla y una sustancia pura?",
+    "options": {
+      "A": "Las mezclas son líquidas y las sustancias puras son sólidas",
+      "B": "Las mezclas contienen dos o más sustancias, las puras solo una",
+      "C": "Las sustancias puras son naturales y las mezclas son artificiales",
+      "D": "No hay diferencia entre ambas"
+    },
+    "correctAnswer": "B",
+    "explanation": "Una sustancia pura está formada por un solo tipo de partículas (elemento o compuesto), como el agua o el oro puro. Una mezcla contiene dos o más sustancias que conservan sus propiedades individuales, como el agua con sal.",
+    "subject": "Química",
+    "topic": "Mezclas y sustancias puras",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál de los siguientes es un ejemplo de mezcla homogénea?",
+    "options": {
+      "A": "Agua con arena",
+      "B": "Ensalada de frutas",
+      "C": "Agua con sal",
+      "D": "Aceite con agua"
+    },
+    "correctAnswer": "C",
+    "explanation": "El agua con sal es una mezcla homogénea (solución) porque tiene composición uniforme en toda su extensión: no puedes distinguir el agua de la sal a simple vista. El aceite con agua es heterogénea porque se separan.",
+    "subject": "Química",
+    "topic": "Mezclas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cómo se llama la sustancia que se disuelve en una solución?",
+    "options": {
+      "A": "Solvente",
+      "B": "Soluto",
+      "C": "Solución",
+      "D": "Suspensión"
+    },
+    "correctAnswer": "B",
+    "explanation": "El soluto es la sustancia que se disuelve. El solvente es la sustancia que disuelve. En agua con sal: la sal es el soluto y el agua es el solvente. Juntos forman la solución.",
+    "subject": "Química",
+    "topic": "Soluciones",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál método se usa para separar una mezcla de agua y arena?",
+    "options": {
+      "A": "Destilación",
+      "B": "Filtración",
+      "C": "Evaporación",
+      "D": "Decantación"
+    },
+    "correctAnswer": "B",
+    "explanation": "La filtración separa sólidos de líquidos usando un filtro (como papel filtro). El agua pasa a través y la arena queda retenida. Es el método correcto porque la arena no se disuelve en agua.",
+    "subject": "Química",
+    "topic": "Métodos de separación",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué método se utiliza para separar agua y sal?",
+    "options": {
+      "A": "Filtración",
+      "B": "Decantación",
+      "C": "Evaporación",
+      "D": "Imantación"
+    },
+    "correctAnswer": "C",
+    "explanation": "La evaporación separa el agua de la sal calentando la solución. El agua se convierte en vapor y escapa, dejando la sal sólida. No se puede usar filtración porque la sal está disuelta en el agua.",
+    "subject": "Química",
+    "topic": "Métodos de separación",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es el método adecuado para separar aceite y agua?",
+    "options": {
+      "A": "Filtración",
+      "B": "Destilación",
+      "C": "Decantación",
+      "D": "Cristalización"
+    },
+    "correctAnswer": "C",
+    "explanation": "La decantación separa líquidos inmiscibles (que no se mezclan) como el aceite y el agua. Se deja reposar la mezcla, los líquidos se separan en capas por diferencia de densidad, y se vierte uno cuidadosamente.",
+    "subject": "Química",
+    "topic": "Métodos de separación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué método de separación usa la diferencia de puntos de ebullición para separar líquidos?",
+    "options": {
+      "A": "Filtración",
+      "B": "Destilación",
+      "C": "Decantación",
+      "D": "Cromatografía"
+    },
+    "correctAnswer": "B",
+    "explanation": "La destilación aprovecha que cada líquido hierve a diferente temperatura. Se calienta la mezcla, el líquido con menor punto de ebullición se evapora primero, se condensa y se recolecta por separado. Se usa para purificar agua o separar alcohol.",
+    "subject": "Química",
+    "topic": "Métodos de separación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Quién propuso el modelo atómico de la nube electrónica (modelo actual)?",
+    "options": {
+      "A": "John Dalton",
+      "B": "Ernest Rutherford",
+      "C": "Niels Bohr",
+      "D": "Erwin Schrödinger"
+    },
+    "correctAnswer": "D",
+    "explanation": "Erwin Schrödinger desarrolló el modelo atómico cuántico o de la nube electrónica, donde los electrones no tienen una posición exacta sino una probabilidad de encontrarse en ciertas regiones (orbitales). Es el modelo más aceptado actualmente.",
+    "subject": "Química",
+    "topic": "Modelos atómicos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué partículas se encuentran en el núcleo del átomo?",
+    "options": {
+      "A": "Electrones y protones",
+      "B": "Neutrones y electrones",
+      "C": "Protones y neutrones",
+      "D": "Solo electrones"
+    },
+    "correctAnswer": "C",
+    "explanation": "El núcleo atómico contiene protones (carga positiva) y neutrones (sin carga). Los electrones (carga negativa) se encuentran en la nube electrónica alrededor del núcleo. La mayor parte de la masa del átomo está en el núcleo.",
+    "subject": "Química",
+    "topic": "Estructura atómica",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué número indica cuántos protones tiene un elemento en la tabla periódica?",
+    "options": {
+      "A": "Número de masa",
+      "B": "Número atómico",
+      "C": "Período",
+      "D": "Grupo"
+    },
+    "correctAnswer": "B",
+    "explanation": "El número atómico (Z) indica la cantidad de protones en el núcleo. Es único para cada elemento y lo identifica en la tabla periódica. En un átomo neutro, el número de protones es igual al número de electrones.",
+    "subject": "Química",
+    "topic": "Tabla periódica",
+    "level": "Basico"
+  },
+  {
+    "question": "El carbono tiene número atómico 6 y número de masa 12. ¿Cuántos neutrones tiene?",
+    "options": {
+      "A": "6",
+      "B": "12",
+      "C": "18",
+      "D": "2"
+    },
+    "correctAnswer": "A",
+    "explanation": "Neutrones = Número de masa - Número atómico = 12 - 6 = 6 neutrones. El número de masa es la suma de protones y neutrones en el núcleo.",
+    "subject": "Química",
+    "topic": "Estructura atómica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cómo se llaman los elementos de la misma columna (grupo) en la tabla periódica?",
+    "options": {
+      "A": "Isótopos",
+      "B": "Isómeros",
+      "C": "Familia química",
+      "D": "Período"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los elementos del mismo grupo o columna forman una familia química. Tienen propiedades químicas similares porque tienen el mismo número de electrones en su última capa. Por ejemplo, el Grupo 1 son los metales alcalinos (Li, Na, K...).",
+    "subject": "Química",
+    "topic": "Tabla periódica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el símbolo químico del sodio?",
+    "options": {
+      "A": "So",
+      "B": "Sd",
+      "C": "Na",
+      "D": "N"
+    },
+    "correctAnswer": "C",
+    "explanation": "El símbolo del sodio es Na, del latín 'Natrium'. Muchos símbolos químicos provienen del latín o griego: sodio=Na, potasio=K (Kalium), oro=Au (Aurum), hierro=Fe (Ferrum).",
+    "subject": "Química",
+    "topic": "Tabla periódica",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué son los isótopos?",
+    "options": {
+      "A": "Átomos del mismo elemento con diferente número de neutrones",
+      "B": "Átomos de diferentes elementos con la misma masa",
+      "C": "Moléculas con la misma fórmula pero diferente estructura",
+      "D": "Elementos del mismo grupo en la tabla periódica"
+    },
+    "correctAnswer": "A",
+    "explanation": "Los isótopos son átomos del mismo elemento (mismo número de protones) pero con diferente número de neutrones. Por ejemplo, el carbono-12 y carbono-14 son isótopos: ambos tienen 6 protones pero 6 y 8 neutrones respectivamente.",
+    "subject": "Química",
+    "topic": "Estructura atómica",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es la fórmula química del agua?",
+    "options": {
+      "A": "HO",
+      "B": "H₂O",
+      "C": "H₂O₂",
+      "D": "HO₂"
+    },
+    "correctAnswer": "B",
+    "explanation": "El agua es H₂O: 2 átomos de hidrógeno y 1 de oxígeno. La fórmula química indica la composición de un compuesto. H₂O₂ es el peróxido de hidrógeno (agua oxigenada), un compuesto diferente.",
+    "subject": "Química",
+    "topic": "Compuestos químicos",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué tipo de enlace se forma cuando dos átomos comparten electrones?",
+    "options": {
+      "A": "Enlace iónico",
+      "B": "Enlace covalente",
+      "C": "Enlace metálico",
+      "D": "Enlace de hidrógeno"
+    },
+    "correctAnswer": "B",
+    "explanation": "El enlace covalente se forma cuando dos átomos COMPARTEN electrones. Es típico entre no metales, como en H₂O, CO₂ o CH₄. El enlace iónico en cambio implica transferencia de electrones (entre metal y no metal).",
+    "subject": "Química",
+    "topic": "Enlaces químicos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la fórmula del dióxido de carbono?",
+    "options": {
+      "A": "CO",
+      "B": "CO₂",
+      "C": "C₂O",
+      "D": "C₂O₃"
+    },
+    "correctAnswer": "B",
+    "explanation": "El dióxido de carbono es CO₂: 1 átomo de carbono y 2 de oxígeno. 'Di' significa dos. Es el gas que exhalamos al respirar y el que las plantas usan en la fotosíntesis.",
+    "subject": "Química",
+    "topic": "Compuestos químicos",
+    "level": "Basico"
+  },
+  {
+    "question": "En una reacción química, ¿cómo se llaman las sustancias de partida?",
+    "options": {
+      "A": "Productos",
+      "B": "Reactivos",
+      "C": "Catalizadores",
+      "D": "Compuestos"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los reactivos son las sustancias que participan al inicio de una reacción química. Los productos son las sustancias que se forman al final. En la ecuación química: Reactivos → Productos.",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué establece la Ley de Conservación de la Masa?",
+    "options": {
+      "A": "La masa de los productos es mayor que la de los reactivos",
+      "B": "La masa de los reactivos es mayor que la de los productos",
+      "C": "La masa de los reactivos es igual a la masa de los productos",
+      "D": "La masa no se puede medir en reacciones químicas"
+    },
+    "correctAnswer": "C",
+    "explanation": "La Ley de Conservación de la Masa (Lavoisier) dice que en una reacción química, la masa total de los reactivos es igual a la masa total de los productos. La materia no se crea ni se destruye, solo se transforma.",
+    "subject": "Química",
+    "topic": "Leyes químicas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es un ejemplo de reacción química que ocurre en la vida cotidiana?",
+    "options": {
+      "A": "Derretir hielo",
+      "B": "Disolver azúcar en agua",
+      "C": "Quemar madera",
+      "D": "Romper un vaso"
+    },
+    "correctAnswer": "C",
+    "explanation": "Quemar madera es una reacción química (combustión) porque se forman nuevas sustancias: CO₂ y H₂O. Derretir hielo y disolver azúcar son cambios físicos porque no se forman nuevas sustancias.",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál de los siguientes es un cambio FÍSICO?",
+    "options": {
+      "A": "Oxidación del hierro",
+      "B": "Digestión de alimentos",
+      "C": "Ebullición del agua",
+      "D": "Explosión de pólvora"
+    },
+    "correctAnswer": "C",
+    "explanation": "La ebullición del agua es un cambio físico: el agua cambia de estado (líquido a gas) pero sigue siendo H₂O, no se forman nuevas sustancias. En los cambios químicos sí se forman nuevas sustancias con propiedades diferentes.",
+    "subject": "Química",
+    "topic": "Cambios físicos y químicos",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es un catalizador?",
+    "options": {
+      "A": "Una sustancia que se consume en la reacción",
+      "B": "Una sustancia que acelera la reacción sin consumirse",
+      "C": "Un producto de la reacción",
+      "D": "Una sustancia que detiene la reacción"
+    },
+    "correctAnswer": "B",
+    "explanation": "Un catalizador acelera una reacción química sin consumirse ni modificarse al final. Las enzimas en nuestro cuerpo son catalizadores biológicos que aceleran las reacciones del metabolismo.",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué tipo de reacción ocurre cuando el zinc reacciona con ácido clorhídrico y produce cloruro de zinc e hidrógeno?",
+    "options": {
+      "A": "Síntesis",
+      "B": "Descomposición",
+      "C": "Sustitución simple",
+      "D": "Doble sustitución"
+    },
+    "correctAnswer": "C",
+    "explanation": "Es una sustitución simple (o desplazamiento): un elemento (Zn) desplaza a otro (H) de un compuesto. Zn + 2HCl → ZnCl₂ + H₂. El zinc reemplaza al hidrógeno porque es más reactivo.",
+    "subject": "Química",
+    "topic": "Tipos de reacciones",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué es el pH?",
+    "options": {
+      "A": "Una medida de temperatura de una solución",
+      "B": "Una medida de acidez o basicidad de una solución",
+      "C": "La cantidad de sal en una solución",
+      "D": "La densidad de una solución"
+    },
+    "correctAnswer": "B",
+    "explanation": "El pH es una escala del 0 al 14 que mide qué tan ácida o básica es una solución. pH < 7 = ácido, pH = 7 = neutro, pH > 7 = básico (alcalino). El pH del jugo de limón es ~2 y el del jabón es ~9.",
+    "subject": "Química",
+    "topic": "Ácidos y bases",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál de las siguientes soluciones es ÁCIDA?",
+    "options": {
+      "A": "Agua pura (pH 7)",
+      "B": "Leche de magnesia (pH 10)",
+      "C": "Vinagre (pH 3)",
+      "D": "Bicarbonato (pH 8.3)"
+    },
+    "correctAnswer": "C",
+    "explanation": "El vinagre tiene pH 3, que es menor que 7, por lo tanto es ácido. Un ácido tiene pH menor a 7. El agua es neutra (pH 7), y la leche de magnesia y el bicarbonato son básicos (pH > 7).",
+    "subject": "Química",
+    "topic": "Ácidos y bases",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué produce una reacción de neutralización?",
+    "options": {
+      "A": "Un ácido más fuerte",
+      "B": "Una base más fuerte",
+      "C": "Sal y agua",
+      "D": "Gas y luz"
+    },
+    "correctAnswer": "C",
+    "explanation": "Cuando un ácido reacciona con una base ocurre una neutralización y se producen sal y agua. Ejemplo: HCl (ácido) + NaOH (base) → NaCl (sal) + H₂O (agua). El producto es neutro o cercano a pH 7.",
+    "subject": "Química",
+    "topic": "Ácidos y bases",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la fórmula del ácido sulfúrico?",
+    "options": {
+      "A": "HCl",
+      "B": "HNO₃",
+      "C": "H₂SO₄",
+      "D": "H₃PO₄"
+    },
+    "correctAnswer": "C",
+    "explanation": "H₂SO₄ es el ácido sulfúrico, uno de los ácidos más importantes en la industria. HCl es ácido clorhídrico, HNO₃ es ácido nítrico, y H₃PO₄ es ácido fosfórico (presente en refrescos de cola).",
+    "subject": "Química",
+    "topic": "Ácidos y bases",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el elemento principal de los compuestos orgánicos?",
+    "options": {
+      "A": "Oxígeno",
+      "B": "Hidrógeno",
+      "C": "Carbono",
+      "D": "Nitrógeno"
+    },
+    "correctAnswer": "C",
+    "explanation": "El carbono es el elemento fundamental de los compuestos orgánicos. Su capacidad única de unirse con otros carbonos y formar cadenas largas permite la enorme variedad de moléculas orgánicas que forman la base de la vida.",
+    "subject": "Química",
+    "topic": "Química orgánica",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál de los siguientes es un hidrocarburo?",
+    "options": {
+      "A": "Agua (H₂O)",
+      "B": "Metano (CH₄)",
+      "C": "Sal (NaCl)",
+      "D": "Dióxido de carbono (CO₂)"
+    },
+    "correctAnswer": "B",
+    "explanation": "El metano (CH₄) es un hidrocarburo porque solo contiene carbono e hidrógeno. Es el principal componente del gas natural que usamos para cocinar. Los hidrocarburos son la base del petróleo y sus derivados.",
+    "subject": "Química",
+    "topic": "Química orgánica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la fotosíntesis desde el punto de vista químico?",
+    "options": {
+      "A": "La degradación de glucosa para producir energía",
+      "B": "La síntesis de glucosa a partir de CO₂ y H₂O usando luz solar",
+      "C": "La oxidación de minerales en el suelo",
+      "D": "La fermentación de azúcares por bacterias"
+    },
+    "correctAnswer": "B",
+    "explanation": "La fotosíntesis es una reacción química en la que las plantas convierten CO₂ + H₂O + energía solar en glucosa (C₆H₁₂O₆) y O₂. Es la base de la vida en la Tierra porque produce el oxígeno que respiramos.",
+    "subject": "Química",
+    "topic": "Bioquímica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál gas es el principal responsable del efecto invernadero?",
+    "options": {
+      "A": "Oxígeno (O₂)",
+      "B": "Nitrógeno (N₂)",
+      "C": "Dióxido de carbono (CO₂)",
+      "D": "Gas argón (Ar)"
+    },
+    "correctAnswer": "C",
+    "explanation": "El CO₂ es el principal gas de efecto invernadero producido por actividad humana. Atrapa el calor del sol en la atmósfera elevando la temperatura global. Se produce al quemar combustibles fósiles (gasolina, carbón, gas).",
+    "subject": "Química",
+    "topic": "Química ambiental",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué capa de la atmósfera nos protege de la radiación ultravioleta del Sol?",
+    "options": {
+      "A": "Troposfera",
+      "B": "Ionosfera",
+      "C": "Capa de ozono",
+      "D": "Mesosfera"
+    },
+    "correctAnswer": "C",
+    "explanation": "La capa de ozono (O₃) en la estratosfera absorbe la mayor parte de la radiación ultravioleta del Sol, protegiendo a los seres vivos de sus efectos dañinos (cáncer de piel, daño en los ojos). Los CFC la dañan.",
+    "subject": "Química",
+    "topic": "Química ambiental",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la lluvia ácida?",
+    "options": {
+      "A": "Lluvia con pH mayor a 7",
+      "B": "Lluvia con pH menor a 5.6 causada por contaminantes",
+      "C": "Lluvia que contiene minerales benéficos",
+      "D": "Agua de lluvia normal con pH 7"
+    },
+    "correctAnswer": "B",
+    "explanation": "La lluvia ácida tiene pH menor a 5.6 por la presencia de óxidos de azufre (SO₂) y nitrógeno (NOₓ) que se disuelven en el agua formando ácidos. Daña bosques, lagos, edificios y monumentos históricos.",
+    "subject": "Química",
+    "topic": "Química ambiental",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre calor y temperatura?",
+    "options": {
+      "A": "Son lo mismo, solo cambia la unidad de medida",
+      "B": "El calor es energía en tránsito; la temperatura mide la energía cinética promedio de las partículas",
+      "C": "La temperatura es energía en tránsito; el calor mide la energía cinética",
+      "D": "El calor se mide en grados y la temperatura en joules"
+    },
+    "correctAnswer": "B",
+    "explanation": "El calor es energía que se transfiere entre cuerpos. La temperatura mide la energía cinética promedio de las partículas de un cuerpo. El calor se mide en Joules (J) o calorías; la temperatura en °C, °F o Kelvin (K).",
+    "subject": "Química",
+    "topic": "Calor y temperatura",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿A qué temperatura en °C hierve el agua al nivel del mar?",
+    "options": {
+      "A": "90°C",
+      "B": "95°C",
+      "C": "100°C",
+      "D": "110°C"
+    },
+    "correctAnswer": "C",
+    "explanation": "El agua hierve a 100°C al nivel del mar (presión atmosférica normal). En lugares de mayor altitud (como Ciudad de México) la presión es menor y el agua hierve a una temperatura más baja (~92°C).",
+    "subject": "Química",
+    "topic": "Propiedades del agua",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es el proceso cuando un sólido pasa directamente a gas sin pasar por líquido?",
+    "options": {
+      "A": "Evaporación",
+      "B": "Fusión",
+      "C": "Condensación",
+      "D": "Sublimación"
+    },
+    "correctAnswer": "D",
+    "explanation": "La sublimación es el cambio de estado de sólido a gas directamente. El hielo seco (CO₂ sólido) y la naftalina (bolitas de alcanfor) son ejemplos. El proceso inverso (gas a sólido) se llama deposición o sublimación inversa.",
+    "subject": "Química",
+    "topic": "Cambios de estado",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuántos gramos hay en un mol de agua (H₂O)? (H=1, O=16)",
+    "options": {
+      "A": "17 g",
+      "B": "18 g",
+      "C": "19 g",
+      "D": "16 g"
+    },
+    "correctAnswer": "B",
+    "explanation": "Masa molar del H₂O = 2(1) + 16 = 18 g/mol. La masa molar se calcula sumando las masas atómicas de todos los átomos en la fórmula. Un mol de agua = 18 gramos = 6.022×10²³ moléculas.",
+    "subject": "Química",
+    "topic": "Mol y masa molar",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es la prueba de llama que da color AMARILLO?",
+    "options": {
+      "A": "Potasio (K)",
+      "B": "Calcio (Ca)",
+      "C": "Sodio (Na)",
+      "D": "Cobre (Cu)"
+    },
+    "correctAnswer": "C",
+    "explanation": "El sodio (Na) produce una llama color amarillo intenso característico. El potasio da llama violeta, el calcio da naranja-rojo, y el cobre da verde. Esta prueba se usa para identificar metales por el color de su llama.",
+    "subject": "Química",
+    "topic": "Identificación de sustancias",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la composición del aire seco aproximadamente?",
+    "options": {
+      "A": "50% N₂ y 50% O₂",
+      "B": "78% N₂, 21% O₂ y 1% otros gases",
+      "C": "90% O₂ y 10% N₂",
+      "D": "60% N₂, 30% O₂ y 10% CO₂"
+    },
+    "correctAnswer": "B",
+    "explanation": "El aire seco está compuesto aproximadamente por 78% nitrógeno (N₂), 21% oxígeno (O₂) y 1% de otros gases (argón, CO₂, etc.). Aunque respiramos aire, el oxígeno representa solo el 21% de su composición.",
+    "subject": "Química",
+    "topic": "Mezclas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la oxidación en términos químicos?",
+    "options": {
+      "A": "Ganancia de electrones",
+      "B": "Pérdida de electrones",
+      "C": "Ganancia de protones",
+      "D": "Pérdida de neutrones"
+    },
+    "correctAnswer": "B",
+    "explanation": "La oxidación es la pérdida de electrones. La reducción es la ganancia de electrones. Ambos procesos siempre ocurren juntos en las llamadas reacciones redox (reducción-oxidación). El hierro se oxida (pierde electrones) cuando se forma el óxido.",
+    "subject": "Química",
+    "topic": "Reacciones redox",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es el nombre del proceso mediante el cual el hierro se corroe?",
+    "options": {
+      "A": "Reducción",
+      "B": "Sublimación",
+      "C": "Oxidación",
+      "D": "Neutralización"
+    },
+    "correctAnswer": "C",
+    "explanation": "La corrosión del hierro es una oxidación: el hierro reacciona con el oxígeno y la humedad del aire formando óxido de hierro (Fe₂O₃), el polvo rojizo que conocemos como herrumbre o 'moho del hierro'.",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué indica el subíndice en la fórmula química H₂O?",
+    "options": {
+      "A": "La carga eléctrica del átomo",
+      "B": "El número de átomos de ese elemento en la molécula",
+      "C": "El número de moléculas presentes",
+      "D": "La masa atómica del elemento"
+    },
+    "correctAnswer": "B",
+    "explanation": "El subíndice en una fórmula química indica el número de átomos de ese elemento en una molécula. En H₂O: hay 2 átomos de hidrógeno y 1 de oxígeno. En CO₂: 1 carbono y 2 oxígenos.",
+    "subject": "Química",
+    "topic": "Fórmulas químicas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la principal diferencia entre un elemento y un compuesto?",
+    "options": {
+      "A": "Los elementos son líquidos y los compuestos son sólidos",
+      "B": "Un elemento está formado por un solo tipo de átomo; un compuesto por dos o más tipos",
+      "C": "Los compuestos son naturales y los elementos son artificiales",
+      "D": "No hay diferencia entre ambos"
+    },
+    "correctAnswer": "B",
+    "explanation": "Un elemento está formado por un solo tipo de átomo (ej: O₂, Fe, Cu). Un compuesto está formado por dos o más tipos de átomos unidos químicamente (ej: H₂O, NaCl, CO₂). Los compuestos tienen propiedades diferentes a los elementos que los forman.",
+    "subject": "Química",
+    "topic": "Sustancias puras",
+    "level": "Basico"
+  }
+]
