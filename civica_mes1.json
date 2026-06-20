@@ -3,11 +3,11 @@
     "question": "¿Qué son los Derechos Humanos?",
     "options": {
       "A": "Privilegios que otorga el gobierno a quien se lo merece",
-      "B": "Derechos inherentes a toda persona por el solo hecho de ser humana, sin distinción alguna",
+      "B": "Beneficios exclusivos para ciudadanos mexicanos",
       "C": "Derechos que se obtienen al cumplir 18 años",
-      "D": "Beneficios exclusivos para ciudadanos mexicanos"
+      "D": "Derechos inherentes a toda persona por el solo hecho de ser humana, sin distinción alguna"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Los Derechos Humanos son inherentes a toda persona por el simple hecho de ser humana, sin importar nacionalidad, sexo, religión, origen étnico o cualquier otra condición. Son universales, indivisibles e inalienables: nadie te los puede quitar.",
     "subject": "Cívica y Ética",
     "topic": "Derechos Humanos",
@@ -16,12 +16,12 @@
   {
     "question": "¿En qué año se proclamó la Declaración Universal de los Derechos Humanos?",
     "options": {
-      "A": "1945",
-      "B": "1948",
-      "C": "1950",
-      "D": "1960"
+      "A": "1950",
+      "B": "1960",
+      "C": "1948",
+      "D": "1945"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "La Declaración Universal de los Derechos Humanos fue proclamada por la ONU el 10 de diciembre de 1948, tras la Segunda Guerra Mundial. Por eso el 10 de diciembre se celebra el Día Internacional de los Derechos Humanos.",
     "subject": "Cívica y Ética",
     "topic": "Derechos Humanos",
@@ -30,12 +30,12 @@
   {
     "question": "¿Cuáles son las características de los Derechos Humanos?",
     "options": {
-      "A": "Son temporales, divisibles y renunciables",
-      "B": "Son universales, indivisibles, inalienables e interdependientes",
-      "C": "Son exclusivos de los adultos y ciudadanos",
-      "D": "Son diferentes según el país donde vivas"
+      "A": "Son universales, indivisibles, inalienables e interdependientes",
+      "B": "Son exclusivos de los adultos y ciudadanos",
+      "C": "Son diferentes según el país donde vivas",
+      "D": "Son temporales, divisibles y renunciables"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Los DDHH son: Universales (para todos), Indivisibles (no se pueden separar unos de otros), Inalienables (no se pueden quitar ni renunciar a ellos) e Interdependientes (están relacionados entre sí). Violar uno afecta a los demás.",
     "subject": "Cívica y Ética",
     "topic": "Derechos Humanos",
@@ -44,10 +44,10 @@
   {
     "question": "¿Cuáles son los Derechos de los Niños reconocidos por la ONU?",
     "options": {
-      "A": "Solo el derecho a la educación y la salud",
+      "A": "Solo los derechos que cada país decida otorgarles",
       "B": "Derechos como vida, educación, salud, juego, protección contra el abuso y participación",
-      "C": "Los mismos derechos que los adultos, sin excepciones",
-      "D": "Solo los derechos que cada país decida otorgarles"
+      "C": "Solo el derecho a la educación y la salud",
+      "D": "Los mismos derechos que los adultos, sin excepciones"
     },
     "correctAnswer": "B",
     "explanation": "La Convención sobre los Derechos del Niño (1989) reconoce derechos como: vida y desarrollo, educación, salud, juego y recreación, protección contra abuso y explotación, y participación en decisiones que les afectan. México la ratificó en 1990.",
@@ -58,12 +58,12 @@
   {
     "question": "¿Qué es la CNDH en México?",
     "options": {
-      "A": "Congreso Nacional de Derechos Humanitarios",
-      "B": "Comisión Nacional de los Derechos Humanos, organismo que protege los DDHH en México",
-      "C": "Centro Nacional de Defensa del Hogar",
+      "A": "Centro Nacional de Defensa del Hogar",
+      "B": "Congreso Nacional de Derechos Humanitarios",
+      "C": "Comisión Nacional de los Derechos Humanos, organismo que protege los DDHH en México",
       "D": "Comité Nacional de Derechos Históricos"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "La CNDH (Comisión Nacional de los Derechos Humanos) es un organismo autónomo que protege, observa y promueve los derechos humanos en México. Recibe quejas de ciudadanos contra actos de autoridades que violen sus derechos y emite recomendaciones.",
     "subject": "Cívica y Ética",
     "topic": "Instituciones",
@@ -72,9 +72,9 @@
   {
     "question": "¿Qué es la democracia?",
     "options": {
-      "A": "Un sistema donde gobierna el más fuerte",
+      "A": "Un sistema donde solo votan los ricos",
       "B": "Un sistema de gobierno donde el poder reside en el pueblo que lo ejerce directamente o por representantes",
-      "C": "Un sistema donde solo votan los ricos",
+      "C": "Un sistema donde gobierna el más fuerte",
       "D": "Un sistema donde gobierna el ejército"
     },
     "correctAnswer": "B",
@@ -86,10 +86,10 @@
   {
     "question": "¿Cuáles son los tres poderes del Estado mexicano?",
     "options": {
-      "A": "Federal, Estatal y Municipal",
+      "A": "Presidente, Congreso y Ejército",
       "B": "Ejecutivo, Legislativo y Judicial",
-      "C": "Presidente, Congreso y Ejército",
-      "D": "Gobierno, Oposición y Pueblo"
+      "C": "Gobierno, Oposición y Pueblo",
+      "D": "Federal, Estatal y Municipal"
     },
     "correctAnswer": "B",
     "explanation": "México tiene tres poderes: Ejecutivo (presidente, que aplica las leyes), Legislativo (Congreso: Senado y Cámara de Diputados, que hace las leyes) y Judicial (Suprema Corte y tribunales, que interpretan y aplican justicia). Esta división evita la concentración del poder.",
@@ -100,12 +100,12 @@
   {
     "question": "¿A qué edad se adquiere la ciudadanía en México y qué derecho principal otorga?",
     "options": {
-      "A": "A los 16 años; el derecho a trabajar",
-      "B": "A los 18 años; el derecho a votar y ser votado",
-      "C": "A los 21 años; el derecho a ocupar cargos públicos",
-      "D": "Al nacer; el derecho a la educación"
+      "A": "A los 21 años; el derecho a ocupar cargos públicos",
+      "B": "A los 16 años; el derecho a trabajar",
+      "C": "Al nacer; el derecho a la educación",
+      "D": "A los 18 años; el derecho a votar y ser votado"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "En México la ciudadanía se obtiene a los 18 años y otorga el derecho a votar (sufragio activo) y a ser votado para cargos públicos (sufragio pasivo). También implica obligaciones como cumplir las leyes y contribuir con el desarrollo del país.",
     "subject": "Cívica y Ética",
     "topic": "Ciudadanía",
@@ -114,12 +114,12 @@
   {
     "question": "¿Qué es la soberanía popular?",
     "options": {
-      "A": "El poder absoluto del presidente",
-      "B": "El principio que establece que el poder del Estado proviene del pueblo",
-      "C": "La independencia económica de un país",
-      "D": "El derecho de un país a invadir otro"
+      "A": "La independencia económica de un país",
+      "B": "El derecho de un país a invadir otro",
+      "C": "El principio que establece que el poder del Estado proviene del pueblo",
+      "D": "El poder absoluto del presidente"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "La soberanía popular es el principio democrático que establece que el poder del Estado emana del pueblo. En México, el Artículo 39 constitucional dice: 'La soberanía nacional reside esencial y originariamente en el pueblo'. Esto significa que los gobernantes gobiernan en nombre del pueblo.",
     "subject": "Cívica y Ética",
     "topic": "Democracia",
@@ -128,10 +128,10 @@
   {
     "question": "¿Qué es el Estado de Derecho?",
     "options": {
-      "A": "Un país donde el gobierno puede hacer lo que quiera",
+      "A": "Un país con muchas leyes pero poca aplicación de la justicia",
       "B": "Un sistema donde tanto gobernantes como gobernados están sujetos a la ley",
       "C": "Un estado donde solo existe una ley",
-      "D": "Un país con muchos abogados y jueces"
+      "D": "Un país donde el gobierno puede hacer lo que quiera"
     },
     "correctAnswer": "B",
     "explanation": "El Estado de Derecho es aquel donde todos, incluyendo las autoridades, están sujetos a la ley. Ninguna persona o institución está por encima de la Constitución. Es el principio opuesto a la arbitrariedad: las decisiones deben basarse en la ley, no en el capricho del gobernante.",
@@ -142,10 +142,10 @@
   {
     "question": "¿Qué es la dignidad humana?",
     "options": {
-      "A": "El estatus social que tiene una persona por su riqueza",
+      "A": "El respeto que se gana con el trabajo duro",
       "B": "El valor intrínseco que tiene toda persona por el hecho de ser humana",
-      "C": "El respeto que se gana con el trabajo duro",
-      "D": "La capacidad intelectual de cada persona"
+      "C": "La capacidad intelectual de cada persona",
+      "D": "El estatus social que tiene una persona por su riqueza"
     },
     "correctAnswer": "B",
     "explanation": "La dignidad humana es el valor inherente que tiene toda persona por el simple hecho de ser humana, independientemente de su condición social, económica, física o intelectual. Es la base de todos los derechos humanos y exige que toda persona sea tratada con respeto.",
@@ -156,12 +156,12 @@
   {
     "question": "¿Cuál es la diferencia entre ética y moral?",
     "options": {
-      "A": "Son exactamente lo mismo",
-      "B": "La moral son las normas de una comunidad; la ética es la reflexión filosófica sobre esas normas",
-      "C": "La ética es religiosa y la moral es laica",
-      "D": "La moral es individual y la ética es colectiva"
+      "A": "La moral son las normas de una comunidad; la ética es la reflexión filosófica sobre esas normas",
+      "B": "Son exactamente lo mismo",
+      "C": "La moral es individual y la ética es colectiva",
+      "D": "La ética es religiosa y la moral es laica"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "La moral son las normas, costumbres y valores que una sociedad considera correctos. La ética es la rama de la filosofía que reflexiona y analiza críticamente esas normas para determinar qué es bueno, justo o correcto. La ética nos permite cuestionar y mejorar la moral.",
     "subject": "Cívica y Ética",
     "topic": "Ética",
@@ -170,10 +170,10 @@
   {
     "question": "¿Qué es la equidad?",
     "options": {
-      "A": "Dar exactamente lo mismo a todos",
+      "A": "Favorecer a los más ricos de la sociedad",
       "B": "Dar a cada quien lo que necesita según su situación para alcanzar la igualdad",
-      "C": "Favorecer a los más ricos de la sociedad",
-      "D": "Aplicar las mismas reglas sin excepciones"
+      "C": "Aplicar las mismas reglas sin excepciones",
+      "D": "Dar exactamente lo mismo a todos"
     },
     "correctAnswer": "B",
     "explanation": "La equidad es dar a cada persona lo que necesita según su situación particular para alcanzar la igualdad real. Es diferente a la igualdad formal: si todos reciben lo mismo (igualdad) pero algunos tienen más desventajas, no hay justicia. La equidad compensa esas diferencias.",
@@ -185,11 +185,11 @@
     "question": "¿Qué es la tolerancia como valor cívico?",
     "options": {
       "A": "Aceptar cualquier comportamiento sin cuestionarlo",
-      "B": "Respetar las ideas, creencias y formas de vida diferentes a las propias",
-      "C": "Ignorar a las personas diferentes a nosotros",
+      "B": "Ignorar a las personas diferentes a nosotros",
+      "C": "Respetar las ideas, creencias y formas de vida diferentes a las propias",
       "D": "Estar de acuerdo con todo lo que digan los demás"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "La tolerancia es el respeto hacia las ideas, creencias, formas de vida y características de las personas que son diferentes a las nuestras. No significa estar de acuerdo con todo, sino respetar el derecho de los demás a ser diferentes, mientras no dañen a otros.",
     "subject": "Cívica y Ética",
     "topic": "Valores",
@@ -198,12 +198,12 @@
   {
     "question": "¿Qué es la justicia como valor?",
     "options": {
-      "A": "Vengarse de quien nos hizo daño",
-      "B": "Dar a cada quien lo que le corresponde conforme a la ley y la equidad",
-      "C": "Castigar siempre con la pena más severa",
-      "D": "Proteger solo los derechos de los más fuertes"
+      "A": "Proteger solo los derechos de los más fuertes",
+      "B": "Castigar siempre con la pena más severa",
+      "C": "Vengarse de quien nos hizo daño",
+      "D": "Dar a cada quien lo que le corresponde conforme a la ley y la equidad"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "La justicia como valor implica dar a cada quien lo que le corresponde, respetar los derechos de todos y resolver conflictos con imparcialidad. Es la base del sistema legal y de la convivencia social. Sin justicia no puede haber paz ni democracia real.",
     "subject": "Cívica y Ética",
     "topic": "Valores",
@@ -212,12 +212,12 @@
   {
     "question": "¿Qué es la identidad cultural?",
     "options": {
-      "A": "El documento de identificación oficial de una persona",
-      "B": "El conjunto de valores, tradiciones, costumbres y formas de vida que caracterizan a un grupo",
-      "C": "La nacionalidad que aparece en el pasaporte",
-      "D": "El idioma que habla una persona"
+      "A": "El conjunto de valores, tradiciones, costumbres y formas de vida que caracterizan a un grupo",
+      "B": "El idioma que habla una persona",
+      "C": "El documento de identificación oficial de una persona",
+      "D": "La nacionalidad que aparece en el pasaporte"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "La identidad cultural es el conjunto de elementos que caracterizan a un grupo: lengua, tradiciones, costumbres, valores, historia, gastronomía, arte y cosmovisión. En México conviven muchas identidades culturales, lo que nos hace un país pluricultural.",
     "subject": "Cívica y Ética",
     "topic": "Identidad",
@@ -226,12 +226,12 @@
   {
     "question": "¿Qué es la discriminación?",
     "options": {
-      "A": "Tratar a todos por igual sin importar sus diferencias",
-      "B": "Tratar a una persona de forma negativa o injusta por características como raza, sexo, religión u origen",
-      "C": "Seleccionar a las personas más capacitadas para un trabajo",
-      "D": "Respetar las diferencias entre las personas"
+      "A": "Seleccionar a las personas más capacitadas para un trabajo",
+      "B": "Respetar las diferencias entre las personas",
+      "C": "Tratar a una persona de forma negativa o injusta por características como raza, sexo, religión u origen",
+      "D": "Tratar a todos por igual sin importar sus diferencias"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "La discriminación es el trato injusto o negativo hacia una persona o grupo por características como raza, sexo, religión, origen étnico, discapacidad o preferencia sexual. Viola la dignidad humana y los derechos fundamentales. En México está prohibida por la Constitución.",
     "subject": "Cívica y Ética",
     "topic": "Discriminación",
@@ -241,11 +241,11 @@
     "question": "¿Qué es el estereotipo?",
     "options": {
       "A": "Una opinión bien fundamentada sobre un grupo",
-      "B": "Una imagen simplificada y generalizada sobre un grupo de personas",
-      "C": "Un tipo especial de discriminación legal",
+      "B": "Un tipo especial de discriminación legal",
+      "C": "Una imagen simplificada y generalizada sobre un grupo de personas",
       "D": "Un valor positivo de la convivencia"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Un estereotipo es una imagen simplificada, generalizada y muchas veces negativa sobre un grupo de personas. Ignora las diferencias individuales: 'Todos los de X lugar son así'. Los estereotipos son la base de los prejuicios y la discriminación.",
     "subject": "Cívica y Ética",
     "topic": "Discriminación",
@@ -255,11 +255,11 @@
     "question": "¿Qué es el bullying o acoso escolar?",
     "options": {
       "A": "Una broma entre amigos sin consecuencias",
-      "B": "El maltrato repetido y deliberado hacia una persona con menor poder dentro del contexto escolar",
+      "B": "Una forma de competencia sana entre estudiantes",
       "C": "Un conflicto normal entre compañeros que se resuelve solo",
-      "D": "Una forma de competencia sana entre estudiantes"
+      "D": "El maltrato repetido y deliberado hacia una persona con menor poder dentro del contexto escolar"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "El bullying es el maltrato físico, psicológico o verbal que se ejerce de forma repetida y deliberada sobre una persona con menor poder. Tiene graves consecuencias para la víctima: baja autoestima, depresión, bajo rendimiento escolar. Es una violación a los derechos del niño.",
     "subject": "Cívica y Ética",
     "topic": "Convivencia",
@@ -268,12 +268,12 @@
   {
     "question": "¿Qué es la participación ciudadana?",
     "options": {
-      "A": "Solo el acto de votar en elecciones",
-      "B": "La intervención activa de los ciudadanos en la vida pública y en la toma de decisiones colectivas",
-      "C": "Pagar impuestos puntualmente",
-      "D": "Obedecer las leyes sin cuestionarlas"
+      "A": "La intervención activa de los ciudadanos en la vida pública y en la toma de decisiones colectivas",
+      "B": "Solo el acto de votar en elecciones",
+      "C": "Obedecer las leyes sin cuestionarlas",
+      "D": "Pagar impuestos puntualmente"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "La participación ciudadana es la intervención activa de los ciudadanos en la vida pública: votar, organizarse en comunidad, exigir rendición de cuentas, proponer leyes, participar en consultas, hacer voluntariado. Es fundamental para la democracia real.",
     "subject": "Cívica y Ética",
     "topic": "Participación ciudadana",
@@ -282,9 +282,9 @@
   {
     "question": "¿Qué es la rendición de cuentas en una democracia?",
     "options": {
-      "A": "El proceso de pagar impuestos al gobierno",
+      "A": "Un tipo de auditoría financiera empresarial",
       "B": "La obligación de los gobernantes de informar y justificar sus acciones ante los ciudadanos",
-      "C": "Un tipo de auditoría financiera empresarial",
+      "C": "El proceso de pagar impuestos al gobierno",
       "D": "El proceso de contar los votos en una elección"
     },
     "correctAnswer": "B",
@@ -296,12 +296,12 @@
   {
     "question": "¿Cuál es la función principal del INE en México?",
     "options": {
-      "A": "Impartir educación pública",
-      "B": "Organizar y vigilar las elecciones para garantizar que sean libres y justas",
-      "C": "Administrar los impuestos de los ciudadanos",
+      "A": "Administrar los impuestos de los ciudadanos",
+      "B": "Impartir educación pública",
+      "C": "Organizar y vigilar las elecciones para garantizar que sean libres y justas",
       "D": "Proteger los derechos humanos"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "El INE (Instituto Nacional Electoral) es el organismo autónomo encargado de organizar las elecciones federales en México, garantizando que sean libres, auténticas y periódicas. Expide la credencial de elector, que es el documento de identidad oficial más utilizado en México.",
     "subject": "Cívica y Ética",
     "topic": "Instituciones",
@@ -310,12 +310,12 @@
   {
     "question": "¿Cuál es la ley máxima en México?",
     "options": {
-      "A": "El Código Civil",
-      "B": "La Constitución Política de los Estados Unidos Mexicanos",
+      "A": "La Constitución Política de los Estados Unidos Mexicanos",
+      "B": "La Ley Orgánica del Congreso",
       "C": "El Código Penal Federal",
-      "D": "La Ley Orgánica del Congreso"
+      "D": "El Código Civil"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "La Constitución Política de los Estados Unidos Mexicanos es la ley suprema del país. Ninguna otra ley puede contradecirla. Establece los derechos fundamentales, la organización del Estado y los principios que rigen la vida nacional.",
     "subject": "Cívica y Ética",
     "topic": "Constitución",
@@ -324,12 +324,12 @@
   {
     "question": "¿Qué establece el Artículo 1° de la Constitución mexicana?",
     "options": {
-      "A": "La forma de gobierno de México",
-      "B": "Los derechos humanos de toda persona en México y la prohibición de discriminación",
+      "A": "Los derechos humanos de toda persona en México y la prohibición de discriminación",
+      "B": "La forma de gobierno de México",
       "C": "Las obligaciones militares de los ciudadanos",
       "D": "El territorio nacional de México"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "El Artículo 1° constitucional establece que todas las personas gozarán de los derechos humanos reconocidos en la Constitución y en los tratados internacionales. Prohíbe toda discriminación por origen étnico, género, edad, discapacidad, religión u otras condiciones.",
     "subject": "Cívica y Ética",
     "topic": "Constitución",
@@ -338,12 +338,12 @@
   {
     "question": "¿Qué es el juicio de amparo en México?",
     "options": {
-      "A": "Un juicio para cobrar deudas",
-      "B": "Un recurso legal que protege a los ciudadanos contra actos arbitrarios de la autoridad que violen sus derechos",
-      "C": "Un proceso para obtener la ciudadanía mexicana",
-      "D": "Un juicio para resolver divorcios"
+      "A": "Un proceso para obtener la ciudadanía mexicana",
+      "B": "Un juicio para resolver divorcios",
+      "C": "Un recurso legal que protege a los ciudadanos contra actos arbitrarios de la autoridad que violen sus derechos",
+      "D": "Un juicio para cobrar deudas"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "El juicio de amparo es una garantía constitucional que protege a los ciudadanos contra actos de autoridad que violen sus derechos fundamentales. Cualquier persona puede pedirlo ante un juez federal. Es una de las instituciones jurídicas más importantes de México.",
     "subject": "Cívica y Ética",
     "topic": "Estado de Derecho",
@@ -352,10 +352,10 @@
   {
     "question": "¿Qué es el desarrollo sustentable?",
     "options": {
-      "A": "El desarrollo económico sin importar el daño ambiental",
+      "A": "El desarrollo solo de países pobres",
       "B": "Satisfacer las necesidades del presente sin comprometer la capacidad de las generaciones futuras",
-      "C": "El desarrollo solo de países pobres",
-      "D": "La suspensión de toda actividad industrial"
+      "C": "La suspensión de toda actividad industrial",
+      "D": "El desarrollo económico sin importar el daño ambiental"
     },
     "correctAnswer": "B",
     "explanation": "El desarrollo sustentable (definición de Brundtland, 1987) busca satisfacer las necesidades actuales sin comprometer los recursos que necesitarán las generaciones futuras. Equilibra tres dimensiones: crecimiento económico, bienestar social y cuidado del medio ambiente.",
@@ -367,11 +367,11 @@
     "question": "¿Por qué es un deber ciudadano cuidar el medio ambiente?",
     "options": {
       "A": "Solo porque lo pide el gobierno",
-      "B": "Porque el ambiente sano es un derecho humano y su deterioro afecta la vida y salud de todos",
-      "C": "Solo si vives cerca de un área natural",
+      "B": "Solo si vives cerca de un área natural",
+      "C": "Porque el ambiente sano es un derecho humano y su deterioro afecta la vida y salud de todos",
       "D": "Solo las empresas tienen esa obligación"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "El derecho a un medio ambiente sano está reconocido en el Artículo 4° constitucional. Su deterioro afecta directamente la salud, la alimentación y la calidad de vida de toda la población. Cuidarlo es una responsabilidad compartida: gobierno, empresas y ciudadanos.",
     "subject": "Cívica y Ética",
     "topic": "Medio ambiente",
@@ -380,12 +380,12 @@
   {
     "question": "¿Qué es la globalización?",
     "options": {
-      "A": "La separación de los países en bloques aislados",
-      "B": "El proceso de integración e interdependencia económica, cultural y política entre países",
-      "C": "La expansión del idioma inglés en el mundo",
-      "D": "La unificación política de todos los países en uno"
+      "A": "La unificación política de todos los países en uno",
+      "B": "La expansión del idioma inglés en el mundo",
+      "C": "La separación de los países en bloques aislados",
+      "D": "El proceso de integración e interdependencia económica, cultural y política entre países"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "La globalización es el proceso de integración e interdependencia creciente entre países en aspectos económicos (comercio, inversiones), culturales (música, cine, costumbres) y políticos. Internet y los medios de comunicación la han acelerado enormemente.",
     "subject": "Cívica y Ética",
     "topic": "Globalización",
@@ -394,12 +394,12 @@
   {
     "question": "¿Qué es la interculturalidad?",
     "options": {
-      "A": "La imposición de una cultura sobre otras",
-      "B": "El diálogo, respeto e intercambio entre diferentes culturas en condiciones de igualdad",
+      "A": "El diálogo, respeto e intercambio entre diferentes culturas en condiciones de igualdad",
+      "B": "El aislamiento de cada cultura para preservarla",
       "C": "La mezcla de culturas hasta que desaparezcan las diferencias",
-      "D": "El aislamiento de cada cultura para preservarla"
+      "D": "La imposición de una cultura sobre otras"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "La interculturalidad es el diálogo, respeto e intercambio enriquecedor entre culturas diferentes en condiciones de igualdad. Va más allá de la tolerancia: implica reconocer el valor de todas las culturas y aprender mutuamente. Es un valor fundamental en una sociedad diversa como México.",
     "subject": "Cívica y Ética",
     "topic": "Diversidad cultural",
@@ -408,12 +408,12 @@
   {
     "question": "¿Qué es la corrupción?",
     "options": {
-      "A": "El enriquecimiento legítimo de los funcionarios públicos",
-      "B": "El abuso del poder público para beneficio privado, violando la ley y el interés común",
+      "A": "El proceso de cambiar las leyes",
+      "B": "El enriquecimiento legítimo de los funcionarios públicos",
       "C": "La crítica que los ciudadanos hacen al gobierno",
-      "D": "El proceso de cambiar las leyes"
+      "D": "El abuso del poder público para beneficio privado, violando la ley y el interés común"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "La corrupción es el abuso del poder confiado (público o privado) para obtener beneficios personales. Incluye sobornos, desvío de recursos, nepotismo y fraude. Daña gravemente a la sociedad: reduce los recursos para servicios públicos y viola la confianza ciudadana.",
     "subject": "Cívica y Ética",
     "topic": "Corrupción",
@@ -422,10 +422,10 @@
   {
     "question": "¿Qué es la transparencia en el gobierno?",
     "options": {
-      "A": "Hacer que los edificios del gobierno sean de cristal",
+      "A": "Eliminar todos los secretos de Estado, incluidos los de seguridad nacional",
       "B": "La obligación del gobierno de informar abiertamente sobre sus acciones y el uso de recursos públicos",
       "C": "Reducir el número de funcionarios públicos",
-      "D": "Eliminar todos los secretos de Estado"
+      "D": "Publicar únicamente los logros y ocultar los errores del gobierno"
     },
     "correctAnswer": "B",
     "explanation": "La transparencia gubernamental es la obligación de las autoridades de dar acceso a la información sobre sus acciones, decisiones y uso de recursos públicos. En México, la Ley de Transparencia permite a cualquier ciudadano solicitar información al gobierno.",
@@ -436,12 +436,12 @@
   {
     "question": "¿Cuál es la mejor manera de resolver un conflicto?",
     "options": {
-      "A": "Imponiendo la voluntad del más fuerte",
-      "B": "Ignorando el problema hasta que desaparezca",
-      "C": "Mediante el diálogo, la negociación y la búsqueda de soluciones que respeten a ambas partes",
+      "A": "Ignorando el problema hasta que desaparezca",
+      "B": "Mediante el diálogo, la negociación y la búsqueda de soluciones que respeten a ambas partes",
+      "C": "Imponiendo la voluntad del más fuerte",
       "D": "Recurriendo siempre a la violencia como último recurso"
     },
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "La resolución pacífica de conflictos mediante el diálogo y la negociación es la forma más efectiva y respetuosa. Implica escuchar a todas las partes, reconocer sus perspectivas y buscar soluciones que satisfagan las necesidades de todos (solución ganar-ganar).",
     "subject": "Cívica y Ética",
     "topic": "Convivencia",
@@ -450,12 +450,12 @@
   {
     "question": "¿Qué es la mediación como forma de resolver conflictos?",
     "options": {
-      "A": "Cuando una de las partes impone su solución",
-      "B": "Cuando un tercero neutral ayuda a las partes en conflicto a llegar a un acuerdo voluntario",
-      "C": "Cuando el juez dicta una sentencia obligatoria",
-      "D": "Cuando se ignora el conflicto por un tiempo"
+      "A": "Cuando el juez dicta una sentencia obligatoria",
+      "B": "Cuando se ignora el conflicto por un tiempo",
+      "C": "Cuando una de las partes impone su solución",
+      "D": "Cuando un tercero neutral ayuda a las partes en conflicto a llegar a un acuerdo voluntario"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "La mediación es un proceso donde un tercero neutral (mediador) facilita el diálogo entre las partes en conflicto para que ellas mismas encuentren una solución. El mediador no impone decisiones. Es voluntaria, confidencial y más rápida y económica que un juicio.",
     "subject": "Cívica y Ética",
     "topic": "Convivencia",
@@ -464,12 +464,12 @@
   {
     "question": "¿Cuál es la diferencia entre sexo y género?",
     "options": {
-      "A": "Son lo mismo, solo cambia la palabra",
-      "B": "El sexo es biológico (características físicas); el género es social y cultural (roles asignados)",
-      "C": "El género es biológico y el sexo es cultural",
-      "D": "Ambos son exclusivamente biológicos"
+      "A": "El género es biológico y el sexo es cultural",
+      "B": "Ambos son exclusivamente biológicos",
+      "C": "El sexo es biológico (características físicas); el género es social y cultural (roles asignados)",
+      "D": "Son lo mismo, solo cambia la palabra"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "El sexo se refiere a las características biológicas (anatómicas y fisiológicas). El género es una construcción social y cultural que asigna roles, comportamientos y expectativas a hombres y mujeres. Los estereotipos de género limitan la libertad de las personas.",
     "subject": "Cívica y Ética",
     "topic": "Igualdad de género",
@@ -478,12 +478,12 @@
   {
     "question": "¿Qué es la perspectiva de género?",
     "options": {
-      "A": "Un punto de vista exclusivo de las mujeres",
-      "B": "Una herramienta analítica que identifica y cuestiona las desigualdades entre hombres y mujeres",
-      "C": "La preferencia por contratar solo mujeres",
-      "D": "La eliminación de todas las diferencias entre hombres y mujeres"
+      "A": "La eliminación de todas las diferencias entre hombres y mujeres",
+      "B": "La preferencia por contratar solo mujeres",
+      "C": "Un punto de vista exclusivo de las mujeres",
+      "D": "Una herramienta analítica que identifica y cuestiona las desigualdades entre hombres y mujeres"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "La perspectiva de género es una herramienta analítica que permite identificar, cuestionar y transformar las relaciones desiguales entre hombres y mujeres. No busca que todos sean iguales, sino que todos tengan las mismas oportunidades y derechos.",
     "subject": "Cívica y Ética",
     "topic": "Igualdad de género",
@@ -494,8 +494,8 @@
     "options": {
       "A": "Son independientes: los derechos no implican obligaciones",
       "B": "Son complementarios: ejercer los derechos implica respetar los derechos de los demás y cumplir obligaciones",
-      "C": "Las obligaciones son más importantes que los derechos",
-      "D": "Solo los adultos tienen obligaciones"
+      "C": "Solo los adultos tienen obligaciones",
+      "D": "Las obligaciones son más importantes que los derechos"
     },
     "correctAnswer": "B",
     "explanation": "Derechos y obligaciones son complementarios. Tener derecho a la libertad implica la obligación de respetar la libertad de los demás. Tener derecho a servicios públicos implica la obligación de pagar impuestos. En una sociedad democrática, ambos son igualmente importantes.",
@@ -506,12 +506,12 @@
   {
     "question": "¿Cuál de las siguientes es una obligación de los mexicanos según la Constitución?",
     "options": {
-      "A": "Vivir en la capital del país",
-      "B": "Contribuir para los gastos públicos pagando impuestos",
+      "A": "Contribuir para los gastos públicos pagando impuestos",
+      "B": "Pertenecer a un partido político",
       "C": "Hablar solo español",
-      "D": "Pertenecer a un partido político"
+      "D": "Vivir en la capital del país"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "El Artículo 31 constitucional establece obligaciones de los mexicanos, entre ellas: contribuir para los gastos públicos (pagar impuestos), hacer que sus hijos asistan a la escuela, y alistarse y servir en la Guardia Nacional. Los impuestos financian los servicios públicos.",
     "subject": "Cívica y Ética",
     "topic": "Ciudadanía",
@@ -520,12 +520,12 @@
   {
     "question": "¿Qué es la cultura de la legalidad?",
     "options": {
-      "A": "Conocer todas las leyes de memoria",
-      "B": "La disposición de los ciudadanos a cumplir y respetar las leyes porque se entiende su importancia para la convivencia",
-      "C": "Obedecer las leyes solo cuando hay autoridades presentes",
-      "D": "Aplicar la justicia por propia mano"
+      "A": "La disposición de los ciudadanos a cumplir y respetar las leyes porque se entiende su importancia para la convivencia",
+      "B": "Obedecer las leyes solo cuando hay autoridades presentes",
+      "C": "Aplicar la justicia por propia mano",
+      "D": "Conocer todas las leyes de memoria"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "La cultura de la legalidad es la actitud de respetar y cumplir las normas no por miedo al castigo sino porque se comprende que son necesarias para la convivencia pacífica y el bien común. Implica también exigir que las autoridades cumplan la ley.",
     "subject": "Cívica y Ética",
     "topic": "Estado de Derecho",
@@ -534,12 +534,12 @@
   {
     "question": "¿Qué es la autonomía personal?",
     "options": {
-      "A": "Hacer siempre lo que los demás esperan de ti",
-      "B": "La capacidad de tomar decisiones propias de manera responsable, con base en los propios valores",
+      "A": "Rechazar todas las normas sociales",
+      "B": "Hacer siempre lo que los demás esperan de ti",
       "C": "Vivir sin necesitar a nadie",
-      "D": "Rechazar todas las normas sociales"
+      "D": "La capacidad de tomar decisiones propias de manera responsable, con base en los propios valores"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "La autonomía personal es la capacidad de tomar decisiones propias de manera libre y responsable, basándose en los propios valores y reflexión crítica. No significa hacer lo que uno quiera sin consecuencias, sino ser capaz de dirigir la propia vida con responsabilidad.",
     "subject": "Cívica y Ética",
     "topic": "Ética",
@@ -550,8 +550,8 @@
     "options": {
       "A": "Sentir lástima por los demás",
       "B": "La capacidad de ponerse en el lugar del otro y comprender sus sentimientos y perspectivas",
-      "C": "Estar siempre de acuerdo con todos",
-      "D": "Ayudar a los demás solo cuando nos conviene"
+      "C": "Ayudar a los demás solo cuando nos conviene",
+      "D": "Estar siempre de acuerdo con todos"
     },
     "correctAnswer": "B",
     "explanation": "La empatía es la capacidad de comprender y compartir los sentimientos y perspectivas de otras personas, 'ponerse en sus zapatos'. Es fundamental para la convivencia porque nos permite entender a los demás, reducir conflictos y actuar con mayor justicia y solidaridad.",
@@ -563,11 +563,11 @@
     "question": "¿Qué son los Objetivos de Desarrollo Sostenible (ODS) de la ONU?",
     "options": {
       "A": "Metas para el enriquecimiento de los países desarrollados",
-      "B": "17 metas globales para erradicar la pobreza, proteger el planeta y garantizar prosperidad para todos",
+      "B": "Normas para la construcción de edificios ecológicos",
       "C": "Reglas para el comercio internacional",
-      "D": "Normas para la construcción de edificios ecológicos"
+      "D": "17 metas globales para erradicar la pobreza, proteger el planeta y garantizar prosperidad para todos"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Los ODS son 17 objetivos globales adoptados por la ONU en 2015 para alcanzarse en 2030. Incluyen: fin de la pobreza, hambre cero, salud y bienestar, educación de calidad, igualdad de género, agua limpia, energía sostenible, entre otros. México se comprometió a cumplirlos.",
     "subject": "Cívica y Ética",
     "topic": "Globalización",
@@ -576,12 +576,12 @@
   {
     "question": "¿Qué es el bien común?",
     "options": {
-      "A": "El beneficio exclusivo de la mayoría, sin importar las minorías",
-      "B": "El conjunto de condiciones que permiten a todos los miembros de una comunidad desarrollarse plenamente",
-      "C": "Los bienes materiales compartidos por una comunidad",
-      "D": "El interés personal de cada individuo"
+      "A": "El conjunto de condiciones que permiten a todos los miembros de una comunidad desarrollarse plenamente",
+      "B": "El beneficio exclusivo de la mayoría, sin importar las minorías",
+      "C": "El interés personal de cada individuo",
+      "D": "Los bienes materiales compartidos por una comunidad"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "El bien común es el conjunto de condiciones (sociales, económicas, políticas) que permiten a todos los miembros de una comunidad desarrollarse plenamente como personas. Va más allá del beneficio de la mayoría: incluye a todos, especialmente a los más vulnerables.",
     "subject": "Cívica y Ética",
     "topic": "Valores",
@@ -590,12 +590,12 @@
   {
     "question": "¿Cuáles son los tres niveles de gobierno en México?",
     "options": {
-      "A": "Nacional, regional y local",
-      "B": "Federal, estatal y municipal",
-      "C": "Presidencial, parlamentario y comunitario",
-      "D": "Central, periférico y fronterizo"
+      "A": "Presidencial, parlamentario y comunitario",
+      "B": "Central, periférico y fronterizo",
+      "C": "Nacional, regional y local",
+      "D": "Federal, estatal y municipal"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "México tiene tres niveles de gobierno: Federal (gobierno nacional, con sede en la CDMX), Estatal (31 estados y la Ciudad de México, cada uno con su gobernador y congreso local) y Municipal (la unidad básica de gobierno, con presidente municipal o alcalde).",
     "subject": "Cívica y Ética",
     "topic": "Organización política",
@@ -604,12 +604,12 @@
   {
     "question": "¿Qué es la libertad de expresión y cuáles son sus límites?",
     "options": {
-      "A": "El derecho a decir absolutamente cualquier cosa sin consecuencias",
-      "B": "El derecho a expresar opiniones e ideas libremente, con el límite de no dañar los derechos de otros",
-      "C": "Solo el derecho a la libertad de prensa",
-      "D": "El derecho exclusivo de los periodistas a informar"
+      "A": "El derecho a expresar opiniones e ideas libremente, con el límite de no dañar los derechos de otros",
+      "B": "El derecho exclusivo de los periodistas a informar",
+      "C": "El derecho a decir absolutamente cualquier cosa sin consecuencias",
+      "D": "Solo el derecho a la libertad de prensa"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "La libertad de expresión es el derecho a manifestar ideas y opiniones sin censura previa. Sin embargo, tiene límites: no se puede usar para incitar al odio, difamar, calumniar o amenazar. El ejercicio de un derecho termina donde comienza el derecho de los demás.",
     "subject": "Cívica y Ética",
     "topic": "Derechos Humanos",
@@ -618,12 +618,12 @@
   {
     "question": "¿Qué significa que México es un país laico?",
     "options": {
-      "A": "Que México no tiene ciudadanos religiosos",
-      "B": "Que el Estado es independiente de la Iglesia y no favorece ninguna religión",
-      "C": "Que está prohibida la religión en espacios públicos",
-      "D": "Que el presidente debe ser ateo"
+      "A": "Que está prohibida la religión en espacios públicos",
+      "B": "Que el presidente debe ser ateo",
+      "C": "Que el Estado es independiente de la Iglesia y no favorece ninguna religión",
+      "D": "Que México no tiene ciudadanos religiosos"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Un Estado laico es aquel que separa la religión del gobierno. México es laico desde las Leyes de Reforma de Juárez: el Estado no profesa ninguna religión, no favorece a ninguna iglesia y garantiza la libertad religiosa de todos los ciudadanos.",
     "subject": "Cívica y Ética",
     "topic": "Estado laico",
@@ -646,12 +646,12 @@
   {
     "question": "¿Qué son los partidos políticos y cuál es su función?",
     "options": {
-      "A": "Grupos de amigos que organizan fiestas en el gobierno",
-      "B": "Organizaciones ciudadanas que compiten en elecciones para llegar al poder y representar intereses de grupos de la sociedad",
-      "C": "Agencias del gobierno para controlar a los ciudadanos",
-      "D": "Sindicatos de trabajadores del Estado"
+      "A": "Agencias del gobierno para controlar a los ciudadanos",
+      "B": "Sindicatos de trabajadores del Estado",
+      "C": "Grupos de amigos que organizan fiestas en el gobierno",
+      "D": "Organizaciones ciudadanas que compiten en elecciones para llegar al poder y representar intereses de grupos de la sociedad"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Los partidos políticos son organizaciones que agrupan ciudadanos con ideologías similares, participan en elecciones para acceder al poder y proponen políticas públicas. Son intermediarios entre la sociedad y el gobierno. En México deben registrarse ante el INE.",
     "subject": "Cívica y Ética",
     "topic": "Democracia",
@@ -660,12 +660,12 @@
   {
     "question": "¿Qué es la responsabilidad social?",
     "options": {
-      "A": "La obligación de las empresas de pagar impuestos",
-      "B": "El compromiso de personas, empresas e instituciones de contribuir al bienestar de la sociedad y el ambiente",
+      "A": "El compromiso de personas, empresas e instituciones de contribuir al bienestar de la sociedad y el ambiente",
+      "B": "La obligación de las empresas de pagar impuestos",
       "C": "La responsabilidad del gobierno de proveer servicios",
       "D": "La obligación de los ciudadanos de votar"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "La responsabilidad social es el compromiso voluntario de individuos, empresas e instituciones de actuar considerando el impacto de sus acciones en la sociedad y el medio ambiente. Va más allá de cumplir la ley: implica contribuir activamente al bien común.",
     "subject": "Cívica y Ética",
     "topic": "Valores",
@@ -674,12 +674,12 @@
   {
     "question": "¿Cuál es la diferencia entre una ley y una norma social?",
     "options": {
-      "A": "No hay diferencia entre ambas",
-      "B": "La ley es obligatoria y tiene sanciones legales; la norma social es una convención que regula la conducta sin sanciones formales",
-      "C": "Las normas sociales son más importantes que las leyes",
+      "A": "Las normas sociales son más importantes que las leyes",
+      "B": "No hay diferencia entre ambas",
+      "C": "La ley es obligatoria y tiene sanciones legales; la norma social es una convención que regula la conducta sin sanciones formales",
       "D": "Las leyes las hacen los ciudadanos y las normas el gobierno"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "La ley es una norma jurídica obligatoria establecida por el Estado que tiene sanciones formales (multas, cárcel). La norma social es una convención no escrita que regula la conducta en sociedad (saludar, ceder el asiento) y cuya sanción es la desaprobación social, no legal.",
     "subject": "Cívica y Ética",
     "topic": "Estado de Derecho",
@@ -688,12 +688,12 @@
   {
     "question": "¿Qué es el diálogo intercultural?",
     "options": {
-      "A": "Hablar varios idiomas a la vez",
-      "B": "El intercambio respetuoso entre personas de diferentes culturas para conocerse y enriquecerse mutuamente",
-      "C": "La traducción de documentos oficiales a lenguas indígenas",
-      "D": "La imposición de una cultura sobre otras mediante el diálogo"
+      "A": "El intercambio respetuoso entre personas de diferentes culturas para conocerse y enriquecerse mutuamente",
+      "B": "La traducción de documentos oficiales a lenguas indígenas",
+      "C": "La imposición de una cultura sobre otras mediante el diálogo",
+      "D": "Hablar varios idiomas a la vez"
     },
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "El diálogo intercultural es el intercambio abierto y respetuoso entre personas de diferentes culturas, tradiciones y cosmovisiones. Permite conocer otras perspectivas, superar prejuicios y construir relaciones de respeto mutuo. Es fundamental en un país pluricultural como México.",
     "subject": "Cívica y Ética",
     "topic": "Diversidad cultural",
