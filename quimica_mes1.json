@@ -684,5 +684,19 @@
     "subject": "Química",
     "topic": "Sustancias puras",
     "level": "Basico"
-  }
+  },
+{
+  "question": "¿Qué característica distingue a un compuesto químico?",
+  "options": {
+    "A": "Está formado por dos o más elementos unidos químicamente",
+    "B": "Está formado únicamente por átomos del mismo elemento",
+    "C": "Puede separarse siempre mediante filtración simple",
+    "D": "Conserva exactamente las propiedades de sus componentes"
+  },
+  "correctAnswer": "A",
+  "explanation": "Un compuesto químico está formado por dos o más elementos unidos químicamente en proporciones definidas. Sus propiedades son diferentes a las de los elementos que lo forman, como ocurre con el agua (H₂O), formada por hidrógeno y oxígeno.",
+  "subject": "Química",
+  "topic": "Compuestos químicos",
+  "level": "Basico"
+}
 ]
