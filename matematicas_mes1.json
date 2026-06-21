@@ -14,20 +14,6 @@
     "level": "Basico"
   },
   {
-    "question": "¿Cuál es el valor de √144?",
-    "options": {
-      "A": "13",
-      "B": "12",
-      "C": "11",
-      "D": "14"
-    },
-    "correctAnswer": "B",
-    "explanation": "√144 = 12 porque 12 × 12 = 144. La raíz cuadrada de un número es el valor que multiplicado por sí mismo da ese número.",
-    "subject": "Matemáticas",
-    "topic": "Números reales",
-    "level": "Basico"
-  },
-  {
     "question": "¿Qué tipo de número es π (pi)?",
     "options": {
       "A": "Racional",
@@ -84,7 +70,7 @@
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el orden correcto de menor a mayor? -3, √5, 0, -1/2",
+    "question": "¿Cuál es el orden correcto de menor a mayor: -3, √5, 0, -1/2?",
     "options": {
       "A": "√5, 0, -1/2, -3",
       "B": "0, -1/2, -3, √5",
@@ -134,7 +120,7 @@
       "D": "3"
     },
     "correctAnswer": "A",
-    "explanation": "Cualquier número elevado a la potencia 0 es igual a 1. Esto es una propiedad fundamental de las potencias: a⁰ = 1, siempre que a ≠ 0.",
+    "explanation": "Cualquier número (distinto de cero) elevado a la potencia 0 es igual a 1. Esto es una propiedad fundamental de las potencias: a⁰ = 1, siempre que a ≠ 0.",
     "subject": "Matemáticas",
     "topic": "Potencias",
     "level": "Basico"
@@ -224,20 +210,6 @@
     "level": "Basico"
   },
   {
-    "question": "¿Cuál es el resultado de √81?",
-    "options": {
-      "A": "8",
-      "B": "7",
-      "C": "9",
-      "D": "10"
-    },
-    "correctAnswer": "C",
-    "explanation": "√81 = 9 porque 9 × 9 = 81. Para verificar una raíz cuadrada, multiplica el resultado por sí mismo y debe darte el número original.",
-    "subject": "Matemáticas",
-    "topic": "Raíces",
-    "level": "Basico"
-  },
-  {
     "question": "¿Cuál es la raíz cuadrada de 0.25?",
     "options": {
       "A": "0.025",
@@ -274,7 +246,7 @@
       "D": "2"
     },
     "correctAnswer": "A",
-    "explanation": "∛(-8) = -2 porque (-2)³ = (-2)×(-2)×(-2) = -8. A diferencia de las raíces cuadradas, las raíces cúbicas de números negativos SÍ existen y son negativas.",
+    "explanation": "∛(-8) = -2 porque (-2)³ = (-2)×(-2)×(-2) = -8. A diferencia de las raíces cuadradas, las raíces cúbicas de números negativos sí existen y son negativas.",
     "subject": "Matemáticas",
     "topic": "Raíces",
     "level": "Avanzado"
@@ -336,7 +308,7 @@
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es la solución del sistema: x + y = 5 y x - y = 1?",
+    "question": "¿Cuál es la solución del sistema: x + y = 5, x - y = 1?",
     "options": {
       "A": "x=3, y=2",
       "B": "x=4, y=1",
@@ -392,7 +364,7 @@
     "level": "Basico"
   },
   {
-    "question": "Un círculo tiene radio de 7 cm. ¿Cuál es su área? (π ≈ 3.14)",
+    "question": "Un círculo tiene radio de 7 cm. ¿Cuál es su área? (usa π ≈ 3.14)",
     "options": {
       "A": "153.86 cm²",
       "B": "43.96 cm²",
@@ -434,7 +406,7 @@
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el área lateral de un cilindro con radio 3 cm y altura 10 cm? (π ≈ 3.14)",
+    "question": "¿Cuál es el área lateral de un cilindro con radio 3 cm y altura 10 cm? (usa π ≈ 3.14)",
     "options": {
       "A": "30 cm²",
       "B": "188.4 cm²",
@@ -442,7 +414,7 @@
       "D": "282.6 cm²"
     },
     "correctAnswer": "B",
-    "explanation": "Área lateral = 2πrh = 2 × 3.14 × 3 × 10 = 188.4 cm². El área lateral del cilindro es como desenvolver la superficie curva: es un rectángulo cuya base es la circunferencia (2πr) y altura es h.",
+    "explanation": "Área lateral = 2πrh = 2 × 3.14 × 3 × 10 = 188.4 cm². El área lateral del cilindro equivale a desenvolver la superficie curva: un rectángulo cuya base es la circunferencia (2πr) y altura es h.",
     "subject": "Matemáticas",
     "topic": "Geometría",
     "level": "Avanzado"
@@ -512,7 +484,7 @@
       "D": "1/2"
     },
     "correctAnswer": "B",
-    "explanation": "Total de canicas = 3+2+5 = 10. Canicas azules = 2. Probabilidad = 2/10 = 1/5. La probabilidad siempre se calcula como: casos favorables / casos totales posibles.",
+    "explanation": "Total de canicas = 3+2+5 = 10. Canicas azules = 2. Probabilidad = 2/10 = 1/5. La probabilidad siempre se calcula como casos favorables entre casos totales posibles.",
     "subject": "Matemáticas",
     "topic": "Probabilidad",
     "level": "Intermedio"
@@ -530,20 +502,6 @@
     "subject": "Matemáticas",
     "topic": "Estadística",
     "level": "Intermedio"
-  },
-  {
-    "question": "¿Cuál es el valor de f(x) = 2x + 3 cuando x = 5?",
-    "options": {
-      "A": "13",
-      "B": "28",
-      "C": "16",
-      "D": "10"
-    },
-    "correctAnswer": "A",
-    "explanation": "f(5) = 2(5) + 3 = 10 + 3 = 13. Para evaluar una función, sustituye el valor de x en la expresión y calcula el resultado.",
-    "subject": "Matemáticas",
-    "topic": "Funciones",
-    "level": "Basico"
   },
   {
     "question": "¿Qué tipo de función representa y = 3x + 2?",
@@ -582,18 +540,18 @@
       "D": "(1, 3)"
     },
     "correctAnswer": "D",
-    "explanation": "Igualando: x + 2 = -x + 4 → 2x = 2 → x = 1. Luego y = 1 + 2 = 3. El punto es (1, 3). Se verifica en la segunda: y = -1 + 4 = 3. ✓",
+    "explanation": "Igualando: x + 2 = -x + 4 → 2x = 2 → x = 1. Luego y = 1 + 2 = 3. El punto es (1, 3). Se verifica en la segunda ecuación: y = -1 + 4 = 3. ✓",
     "subject": "Matemáticas",
     "topic": "Funciones",
     "level": "Avanzado"
   },
   {
-    "question": "¿Cuál es la gráfica de y = x²?",
+    "question": "¿Qué figura describe la gráfica de y = x²?",
     "options": {
-      "A": "Una hipérbola",
+      "A": "Una línea recta",
       "B": "Un círculo",
       "C": "Una parábola",
-      "D": "Una línea recta"
+      "D": "Un triángulo"
     },
     "correctAnswer": "C",
     "explanation": "y = x² es una función cuadrática y su gráfica es una parábola. Abre hacia arriba, tiene su vértice en el origen (0,0) y es simétrica respecto al eje y.",
@@ -630,7 +588,7 @@
     "level": "Intermedio"
   },
   {
-    "question": "Si 6 obreros terminan un trabajo en 4 días, ¿cuántos días tardarán 8 obreros en hacer el mismo trabajo?",
+    "question": "Si 6 obreros terminan un trabajo en 4 días, ¿cuántos días tardarán 8 obreros en hacer el mismo trabajo, a ritmo constante?",
     "options": {
       "A": "5 días",
       "B": "6 días",
@@ -658,20 +616,6 @@
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuánto es (-5) + (-3)?",
-    "options": {
-      "A": "-8",
-      "B": "-2",
-      "C": "2",
-      "D": "8"
-    },
-    "correctAnswer": "A",
-    "explanation": "(-5) + (-3) = -8. Cuando se suman dos números negativos, se suman sus valores absolutos y se conserva el signo negativo. Es como deber 5 y deber 3 más: debes 8.",
-    "subject": "Matemáticas",
-    "topic": "Números enteros",
-    "level": "Basico"
-  },
-  {
     "question": "¿Cuánto es (-4) × (-6)?",
     "options": {
       "A": "-10",
@@ -680,21 +624,7 @@
       "D": "-24"
     },
     "correctAnswer": "C",
-    "explanation": "(-4) × (-6) = 24. La regla de signos en multiplicación: negativo × negativo = positivo. 'Menos por menos es más' porque los signos iguales dan resultado positivo.",
-    "subject": "Matemáticas",
-    "topic": "Números enteros",
-    "level": "Basico"
-  },
-  {
-    "question": "¿Cuál es el resultado de 15 ÷ (-3)?",
-    "options": {
-      "A": "-45",
-      "B": "-5",
-      "C": "5",
-      "D": "45"
-    },
-    "correctAnswer": "B",
-    "explanation": "15 ÷ (-3) = -5. En la división, signos diferentes dan resultado negativo: positivo ÷ negativo = negativo. Verifica: -5 × (-3) = 15. ✓",
+    "explanation": "(-4) × (-6) = 24. La regla de signos en la multiplicación establece que negativo × negativo = positivo, porque los signos iguales dan resultado positivo.",
     "subject": "Matemáticas",
     "topic": "Números enteros",
     "level": "Basico"
@@ -736,13 +666,13 @@
       "D": "72"
     },
     "correctAnswer": "C",
-    "explanation": "MCD(24,36) = 12. Factorizando: 24 = 2³×3 y 36 = 2²×3². El MCD toma los factores COMUNES con el MENOR exponente: 2²×3 = 4×3 = 12.",
+    "explanation": "MCD(24,36) = 12. Factorizando: 24 = 2³×3 y 36 = 2²×3². El MCD toma los factores comunes con el menor exponente: 2²×3 = 4×3 = 12.",
     "subject": "Matemáticas",
     "topic": "Divisibilidad",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el resultado de: 2 + 3 × 4 - 1?",
+    "question": "¿Cuál es el resultado de 2 + 3 × 4 - 1?",
     "options": {
       "A": "13",
       "B": "21",
@@ -750,23 +680,23 @@
       "D": "15"
     },
     "correctAnswer": "A",
-    "explanation": "2 + 3×4 - 1 = 2 + 12 - 1 = 13. Primero se hace la multiplicación (3×4=12), luego suma y resta de izquierda a derecha. El orden de operaciones: primero × y ÷, luego + y -.",
+    "explanation": "2 + 3×4 - 1 = 2 + 12 - 1 = 13. Primero se hace la multiplicación (3×4=12), luego suma y resta de izquierda a derecha. El orden de operaciones es: primero × y ÷, luego + y -.",
     "subject": "Matemáticas",
     "topic": "Operaciones combinadas",
     "level": "Basico"
   },
   {
-    "question": "¿Cuánto es (2 + 3)² - 4 × 2?",
+    "question": "Un terreno rectangular mide 15 m de largo y tiene un área de 90 m². ¿Cuál es su ancho?",
     "options": {
-      "A": "25",
-      "B": "9",
-      "C": "17",
-      "D": "18"
+      "A": "5 m",
+      "B": "6 m",
+      "C": "7 m",
+      "D": "75 m"
     },
-    "correctAnswer": "C",
-    "explanation": "(2+3)² - 4×2 = 5² - 8 = 25 - 8 = 17. Primero se resuelve el paréntesis (2+3=5), luego la potencia (5²=25), luego la multiplicación (4×2=8) y finalmente la resta.",
+    "correctAnswer": "B",
+    "explanation": "Área = largo × ancho, entonces ancho = área ÷ largo = 90 ÷ 15 = 6 m. Para encontrar una dimensión faltante a partir del área, se despeja dividiendo entre la dimensión conocida.",
     "subject": "Matemáticas",
-    "topic": "Operaciones combinadas",
-    "level": "Intermedio"
+    "topic": "Geometría",
+    "level": "Basico"
   }
 ]
