@@ -1,39 +1,25 @@
-const fs = require("fs");
-const path = require("path");
-
-exports.handler = async function(event) {
-
+exports.handler = async function(event, context) {
+  const cookies = event.headers.cookie || '';
+  const tieneAcceso = cookies.includes('acceso=SI');
   const page = event.queryStringParameters.page;
 
-  console.log("__dirname:", __dirname);
-
-  const filePath = path.resolve(__dirname, "..", "..", page + ".html");
-
-  console.log("Ruta:", filePath);
-
-  try {
-
-    const html = fs.readFileSync(filePath, "utf8");
-
+  if (tieneAcceso) {
+    const fs = require('fs');
+    const path = require('path');
+    const filePath = path.join(__dirname, '../../', page + '.html');
+    const html = fs.readFileSync(filePath, 'utf8');
     return {
       statusCode: 200,
-      headers: {
-        "Content-Type": "text/html"
-      },
+      headers: { 'Content-Type': 'text/html' },
       body: html
     };
-
-  } catch (e) {
-
-    return {
-      statusCode: 500,
-      body: JSON.stringify({
-        error: e.message,
-        ruta: filePath,
-        dirname: __dirname
-      })
-    };
-
   }
 
+  return {
+    statusCode: 302,
+    headers: {
+      Location: 'https://pay.hotmart.com/X106434037V'
+    },
+    body: ''
+  };
 };
