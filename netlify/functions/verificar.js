@@ -1,22 +1,39 @@
+const fs = require("fs");
+const path = require("path");
+
 exports.handler = async function(event) {
-  const cookies = event.headers.cookie || "";
-  const tieneAcceso = cookies.includes("acceso=SI");
 
   const page = event.queryStringParameters.page;
 
-  if (tieneAcceso) {
+  console.log("__dirname:", __dirname);
+
+  const filePath = path.resolve(__dirname, "..", "..", page + ".html");
+
+  console.log("Ruta:", filePath);
+
+  try {
+
+    const html = fs.readFileSync(filePath, "utf8");
+
     return {
-      statusCode: 302,
+      statusCode: 200,
       headers: {
-        Location: "/" + page + ".html"
-      }
+        "Content-Type": "text/html"
+      },
+      body: html
     };
+
+  } catch (e) {
+
+    return {
+      statusCode: 500,
+      body: JSON.stringify({
+        error: e.message,
+        ruta: filePath,
+        dirname: __dirname
+      })
+    };
+
   }
 
-  return {
-    statusCode: 302,
-    headers: {
-      Location: "https://pay.hotmart.com/X106434037V"
-    }
-  };
 };
