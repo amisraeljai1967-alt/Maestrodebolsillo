@@ -1,34 +1,32 @@
+[build]
+  functions = "netlify/functions"
+
 [[redirects]]
   from = "/civica.html"
-  to = "/index.html"
-  status = 302
-  conditions = {Cookie = ["acceso=SI"]}
-  force = false
+  to = "/.netlify/functions/verificar?page=civica"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/espanol.html"
-  to = "/index.html"
-  status = 302
-  conditions = {Cookie = ["acceso=SI"]}
-  force = false
+  to = "/.netlify/functions/verificar?page=espanol"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/historia.html"
-  to = "/index.html"
-  status = 302
-  conditions = {Cookie = ["acceso=SI"]}
-  force = false
+  to = "/.netlify/functions/verificar?page=historia"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/matematicas.html"
-  to = "/index.html"
-  status = 302
-  conditions = {Cookie = ["acceso=SI"]}
-  force = false
+  to = "/.netlify/functions/verificar?page=matematicas"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/quimica.html"
-  to = "/index.html"
-  status = 302
-  conditions = {Cookie = ["acceso=SI"]}
-  force = false
+  to = "/.netlify/functions/verificar?page=quimica"
+  status = 200
+  force = true
