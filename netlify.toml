@@ -1,1 +1,34 @@
+[[redirects]]
+  from = "/civica.html"
+  to = "/index.html"
+  status = 302
+  conditions = {Cookie = ["acceso=SI"]}
+  force = false
 
+[[redirects]]
+  from = "/espanol.html"
+  to = "/index.html"
+  status = 302
+  conditions = {Cookie = ["acceso=SI"]}
+  force = false
+
+[[redirects]]
+  from = "/historia.html"
+  to = "/index.html"
+  status = 302
+  conditions = {Cookie = ["acceso=SI"]}
+  force = false
+
+[[redirects]]
+  from = "/matematicas.html"
+  to = "/index.html"
+  status = 302
+  conditions = {Cookie = ["acceso=SI"]}
+  force = false
+
+[[redirects]]
+  from = "/quimica.html"
+  to = "/index.html"
+  status = 302
+  conditions = {Cookie = ["acceso=SI"]}
+  force = false
