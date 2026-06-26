@@ -7,6 +7,8 @@ exports.handler = async function(event, context) {
     const fs = require('fs');
     const path = require('path');
     const filePath = path.join(__dirname, '../../', page + '.html');
+    console.log(__dirname);
+console.log(filePath);    
     const html = fs.readFileSync(filePath, 'utf8');
     return {
       statusCode: 200,
