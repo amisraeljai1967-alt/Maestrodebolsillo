@@ -2,7 +2,7 @@
   functions = "netlify/functions"
 
 [[redirects]]
-  from = "/admin/*"
+  from = "/SayeretMatkal/*"
   to = "/:splat"
   status = 200
   force = true
