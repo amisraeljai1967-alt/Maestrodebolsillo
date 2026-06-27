@@ -2,6 +2,12 @@
   functions = "netlify/functions"
 
 [[redirects]]
+  from = "/admin/*"
+  to = "/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/civica.html"
   to = "/.netlify/functions/verificar?page=civica"
   status = 200
