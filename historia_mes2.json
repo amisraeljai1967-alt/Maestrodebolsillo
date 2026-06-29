@@ -1,0 +1,689 @@
+[
+  {
+    "question": "¿Qué fue el Partido Nacional Revolucionario (PNR), fundado en 1929?",
+    "options": {
+      "A": "El partido fundado por Calles que unificó a los grupos revolucionarios",
+      "B": "Un partido de oposición al gobierno de la época",
+      "C": "Un partido conservador que apoyaba a la Iglesia",
+      "D": "El partido que llevó a Francisco I. Madero al poder"
+    },
+    "correctAnswer": "A",
+    "explanation": "El PNR fue fundado por Plutarco Elías Calles en 1929 para unificar a los grupos revolucionarios. Posteriormente se transformó en el PRI.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué reformas importantes realizó Lázaro Cárdenas durante su gobierno (1934-1940)?",
+    "options": {
+      "A": "Expropiación petrolera y reparto agrario masivo",
+      "B": "La privatización de todas las empresas estatales",
+      "C": "La eliminación total de la educación pública",
+      "D": "La restauración del poder político de la Iglesia"
+    },
+    "correctAnswer": "A",
+    "explanation": "Cárdenas realizó las reformas más profundas del periodo: expropió el petróleo en 1938, impulsó el reparto agrario y fortaleció los derechos laborales.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue el 'Milagro Mexicano' (1940-1970)?",
+    "options": {
+      "A": "Un periodo de crisis económica y desempleo",
+      "B": "El periodo de la Revolución Mexicana",
+      "C": "Un periodo de crecimiento económico sostenido e industrialización",
+      "D": "La época de mayor migración hacia Estados Unidos"
+    },
+    "correctAnswer": "C",
+    "explanation": "El 'Milagro Mexicano' se caracterizó por tres décadas de crecimiento económico sostenido, industrialización y estabilidad política.",
+    "subject": "Historia",
+    "topic": "México siglo XX",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué evento trágico marcó el final del movimiento estudiantil de 1968?",
+    "options": {
+      "A": "Una protesta pacífica en el Zócalo",
+      "B": "La matanza de Tlatelolco el 2 de octubre",
+      "C": "Una huelga universitaria por salarios",
+      "D": "Un movimiento religioso contra el gobierno"
+    },
+    "correctAnswer": "B",
+    "explanation": "El 2 de octubre de 1968, el ejército reprimió violentamente a los estudiantes en la Plaza de las Tres Culturas.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue la 'Guerra Sucia' en México?",
+    "options": {
+      "A": "Un conflicto armado con Estados Unidos",
+      "B": "Una guerra entre cárteles de droga",
+      "C": "La represión gubernamental contra movimientos opositores",
+      "D": "El conflicto agrario iniciado en el Porfiriato"
+    },
+    "correctAnswer": "C",
+    "explanation": "Fue un periodo de represión sistemática contra movimientos guerrilleros y opositores, caracterizado por desapariciones forzadas.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué causó la crisis económica de 1982 en México?",
+    "options": {
+      "A": "Una sequía prolongada en el campo",
+      "B": "El sobreendeudamiento externo y la caída del precio del petróleo",
+      "C": "La pérdida de territorio nacional",
+      "D": "Una guerra civil interna"
+    },
+    "correctAnswer": "B",
+    "explanation": "El endeudamiento excesivo y la caída de los precios petroleros impidieron que México pagara su deuda, iniciando la 'década perdida'.",
+    "subject": "Historia",
+    "topic": "Crisis económicas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue el 'error de diciembre' de 1994?",
+    "options": {
+      "A": "La devaluación abrupta del peso mexicano",
+      "B": "Un error en el conteo de votos electorales",
+      "C": "Un error en la firma del TLCAN",
+      "D": "Un terremoto que afectó la economía"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fue una crisis económica severa provocada por la devaluación del peso tras años de sobrevaluación, resultando en alta inflación.",
+    "subject": "Historia",
+    "topic": "Crisis económicas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es el TLCAN y cuándo entró en vigor?",
+    "options": {
+      "A": "Un acuerdo comercial con México, EE. UU. y Canadá en 1994",
+      "B": "Un tratado de paz de la Guerra Fría",
+      "C": "Un acuerdo militar firmado en 1980",
+      "D": "Un programa de migración laboral"
+    },
+    "correctAnswer": "A",
+    "explanation": "El TLCAN entró en vigor en 1994, transformando la economía mexicana mediante la apertura comercial con sus vecinos del norte.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es el EZLN?",
+    "options": {
+      "A": "Un movimiento armado indígena levantado en 1994",
+      "B": "Un partido político que ganó las elecciones",
+      "C": "Una organización empresarial",
+      "D": "El ejército oficial de México"
+    },
+    "correctAnswer": "A",
+    "explanation": "El EZLN se levantó en armas el 1 de enero de 1994 en Chiapas, exigiendo derechos para los pueblos indígenas.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿En qué año perdió el PRI la presidencia por primera vez?",
+    "options": {
+      "A": "1988",
+      "B": "1994",
+      "C": "2000",
+      "D": "2006"
+    },
+    "correctAnswer": "C",
+    "explanation": "En el año 2000, Vicente Fox ganó la presidencia, marcando el fin de 70 años de gobierno ininterrumpido del PRI.",
+    "subject": "Historia",
+    "topic": "Transición democrática",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué organismo se creó en 1990 para dar independencia a las elecciones?",
+    "options": {
+      "A": "El IFE (hoy INE)",
+      "B": "La Secretaría de Gobernación",
+      "C": "El Congreso de la Unión",
+      "D": "El Tribunal Agrario"
+    },
+    "correctAnswer": "A",
+    "explanation": "El IFE fue creado para organizar elecciones limpias y autónomas, eliminando el control directo del gobierno sobre el proceso.",
+    "subject": "Historia",
+    "topic": "Transición democrática",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué sucedió en las elecciones de 1988?",
+    "options": {
+      "A": "La 'caída del sistema' durante el conteo de votos",
+      "B": "La victoria pacífica de la oposición",
+      "C": "La eliminación del voto secreto",
+      "D": "Un retraso por desastres naturales"
+    },
+    "correctAnswer": "A",
+    "explanation": "Durante el conteo, ocurrió una falla técnica sospechosa que resultó en la victoria del candidato oficial.",
+    "subject": "Historia",
+    "topic": "Transición democrática",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué impacto tuvo el terremoto de 1985 en la sociedad civil?",
+    "options": {
+      "A": "No tuvo impacto relevante",
+      "B": "La sociedad se organizó ante la falta de respuesta del gobierno",
+      "C": "El gobierno resolvió todo rápidamente",
+      "D": "Solo afectó la zona rural"
+    },
+    "correctAnswer": "B",
+    "explanation": "La deficiente respuesta gubernamental provocó que los ciudadanos se organizaran de forma masiva para rescatar y reconstruir la ciudad.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál fue la participación de México en la Segunda Guerra Mundial?",
+    "options": {
+      "A": "México participó con el Escuadrón 201 en el Pacífico",
+      "B": "México se declaró aliado del Eje",
+      "C": "México no intervino en el conflicto",
+      "D": "México invadió Europa junto a los aliados"
+    },
+    "correctAnswer": "A",
+    "explanation": "Tras agresiones a barcos mexicanos, México se unió a los Aliados y envió al Escuadrón 201 a combatir en el Pacífico.",
+    "subject": "Historia",
+    "topic": "México y el mundo",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál fue la postura de México durante la Primera Guerra Mundial?",
+    "options": {
+      "A": "Participación activa en el frente europeo",
+      "B": "Neutralidad, mientras enfrentaba su propia Revolución",
+      "C": "Invasión alemana desde el sur",
+      "D": "Alianza con los imperios centrales"
+    },
+    "correctAnswer": "B",
+    "explanation": "México se mantuvo neutral para concentrarse en los conflictos internos de la Revolución, a pesar de intentos externos de influencia.",
+    "subject": "Historia",
+    "topic": "México y el mundo",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué fue el Programa Bracero?",
+    "options": {
+      "A": "Un acuerdo de trabajadores temporales con EE. UU.",
+      "B": "Un programa de alfabetización nacional",
+      "C": "Un programa militar de defensa",
+      "D": "Un programa de intercambio cultural"
+    },
+    "correctAnswer": "A",
+    "explanation": "Este acuerdo permitió a miles de mexicanos trabajar legalmente en el campo estadounidense durante la Segunda Guerra Mundial.",
+    "subject": "Historia",
+    "topic": "Migración",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué importancia tienen las remesas para México?",
+    "options": {
+      "A": "Son una fuente principal de ingresos para muchas familias",
+      "B": "Son recursos insignificantes para la economía",
+      "C": "Solo se envían a los estados fronterizos",
+      "D": "Son fondos que ya han desaparecido"
+    },
+    "correctAnswer": "A",
+    "explanation": "Las remesas son una de las principales fuentes de divisas para el país, siendo vitales para la economía de miles de familias.",
+    "subject": "Historia",
+    "topic": "Migración",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Quiénes fueron 'Los Tres Grandes' del muralismo?",
+    "options": {
+      "A": "Rivera, Siqueiros y Orozco",
+      "B": "Kahlo, Paz y Fuentes",
+      "C": "Juárez, Díaz y Cárdenas",
+      "D": "Lara, Jiménez e Infante"
+    },
+    "correctAnswer": "A",
+    "explanation": "Diego Rivera, David Alfaro Siqueiros y José Clemente Orozco fueron los muralistas que plasmaron la historia y la identidad de México.",
+    "subject": "Historia",
+    "topic": "Arte y cultura",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál era el propósito del movimiento muralista?",
+    "options": {
+      "A": "Educar al pueblo a través del arte en espacios públicos",
+      "B": "Decorar exclusivamente mansiones privadas",
+      "C": "Criticar sistemáticamente al gobierno",
+      "D": "Promover la religión católica"
+    },
+    "correctAnswer": "A",
+    "explanation": "El muralismo buscaba llevar la historia y los valores revolucionarios a todo el pueblo mediante obras monumentales.",
+    "subject": "Historia",
+    "topic": "Arte y cultura",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué aportó José Vasconcelos a la educación en México?",
+    "options": {
+      "A": "La creación de la Secretaría de Educación Pública",
+      "B": "La fundación del TLCAN",
+      "C": "La presidencia de la República",
+      "D": "La fundación de partidos políticos"
+    },
+    "correctAnswer": "A",
+    "explanation": "Como primer Secretario de Educación, Vasconcelos impulsó la alfabetización masiva, bibliotecas y el arte mural.",
+    "subject": "Historia",
+    "topic": "Educación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué política de seguridad inició en 2006?",
+    "options": {
+      "A": "La guerra contra el narcotráfico",
+      "B": "La legalización de todas las drogas",
+      "C": "La eliminación total del ejército",
+      "D": "Acuerdos de paz con grupos criminales"
+    },
+    "correctAnswer": "A",
+    "explanation": "El gobierno inició una ofensiva militar directa contra los cárteles, lo que resultó en un aumento de la violencia en el país.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuándo obtuvieron las mujeres el derecho al voto nacional?",
+    "options": {
+      "A": "1953",
+      "B": "1917",
+      "C": "1937",
+      "D": "1968"
+    },
+    "correctAnswer": "A",
+    "explanation": "El sufragio femenino en las elecciones federales fue reconocido en 1953, marcando un avance fundamental para la ciudadanía.",
+    "subject": "Historia",
+    "topic": "Derechos civiles",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué visibilizó el movimiento #MeToo en México?",
+    "options": {
+      "A": "El acoso y violencia de género",
+      "B": "Problemas de acceso a la tecnología",
+      "C": "Temas de presupuesto económico",
+      "D": "Conflictos religiosos regionales"
+    },
+    "correctAnswer": "A",
+    "explanation": "Este movimiento dio voz a víctimas de acoso en diversos ámbitos, consolidando una lucha por la justicia y equidad de género.",
+    "subject": "Historia",
+    "topic": "Movimientos sociales",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué tratado sustituyó al TLCAN en 2020?",
+    "options": {
+      "A": "El T-MEC",
+      "B": "Un tratado militar",
+      "C": "Un acuerdo bilateral secreto",
+      "D": "Un tratado solo con Estados Unidos"
+    },
+    "correctAnswer": "A",
+    "explanation": "El T-MEC actualizó las normas comerciales entre México, EE. UU. y Canadá, integrando nuevos derechos laborales y digitales.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué impacto tuvo el COVID-19 en México?",
+    "options": {
+      "A": "Severa crisis sanitaria y económica",
+      "B": "No hubo impacto en la economía",
+      "C": "Fortaleció al sector salud significativamente",
+      "D": "Solo afectó a la capital del país"
+    },
+    "correctAnswer": "A",
+    "explanation": "La pandemia derivó en una emergencia sanitaria de gran escala y una contracción económica con pérdida de empleos.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es un principio de la política exterior mexicana?",
+    "options": {
+      "A": "La no intervención y autodeterminación",
+      "B": "La intervención militar preventiva",
+      "C": "El aislamiento comercial voluntario",
+      "D": "Alianzas militares obligatorias"
+    },
+    "correctAnswer": "A",
+    "explanation": "México se rige por la no intervención en asuntos internos de otros países, defendiendo la autodeterminación.",
+    "subject": "Historia",
+    "topic": "Política exterior",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué hizo México ante la Guerra Civil Española?",
+    "options": {
+      "A": "Apoyó a la República y acogió refugiados",
+      "B": "Apoyó abiertamente al franquismo",
+      "C": "Se declaró neutral sin recibir a nadie",
+      "D": "Invadió España"
+    },
+    "correctAnswer": "A",
+    "explanation": "México ofreció asilo a republicanos perseguidos, enriqueciendo la vida intelectual del país con científicos y artistas.",
+    "subject": "Historia",
+    "topic": "Política exterior",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué fueron las reformas de 2013-2014?",
+    "options": {
+      "A": "Reformas en educación, energía y telecomunicaciones",
+      "B": "Proyectos de construcción de edificios",
+      "C": "Reconstrucción por desastres naturales",
+      "D": "Cambios en la arquitectura urbana"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fueron cambios legales profundos en sectores estratégicos mediante el 'Pacto por México' para modernizar la economía.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Quién fue Octavio Paz?",
+    "options": {
+      "A": "Premio Nobel de Literatura",
+      "B": "Un reconocido pintor muralista",
+      "C": "Un ex presidente de México",
+      "D": "Un líder sindical minero"
+    },
+    "correctAnswer": "A",
+    "explanation": "Paz es el único mexicano en recibir el Nobel de Literatura, autor de 'El laberinto de la soledad', obra cumbre de identidad.",
+    "subject": "Historia",
+    "topic": "Cultura mexicana",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el legado de Frida Kahlo?",
+    "options": {
+      "A": "Obra pictórica autobiográfica",
+      "B": "Lucha directa por el voto femenino",
+      "C": "Escritos sobre avances científicos",
+      "D": "Liderazgo en la Revolución Mexicana"
+    },
+    "correctAnswer": "A",
+    "explanation": "Su pintura, rica en simbolismo, refleja su historia personal y la cultura mexicana, convirtiéndola en un icono global.",
+    "subject": "Historia",
+    "topic": "Cultura mexicana",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es PEMEX?",
+    "options": {
+      "A": "La empresa petrolera estatal",
+      "B": "Una empresa extranjera privada",
+      "C": "Un banco de desarrollo",
+      "D": "Una universidad pública"
+    },
+    "correctAnswer": "A",
+    "explanation": "Tras la expropiación de 1938, PEMEX se convirtió en el eje de la industria petrolera nacional.",
+    "subject": "Historia",
+    "topic": "Economía",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué efecto tuvo el auge petrolero de 1970?",
+    "options": {
+      "A": "Crecimiento seguido de crisis por deuda",
+      "B": "No tuvo efectos en el país",
+      "C": "México dejó de exportar petróleo",
+      "D": "Benefició exclusivamente al extranjero"
+    },
+    "correctAnswer": "A",
+    "explanation": "El optimismo petrolero llevó a un endeudamiento excesivo que, al caer los precios en los 80, desencadenó una crisis.",
+    "subject": "Historia",
+    "topic": "Economía",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué buscaba la Operación Cóndor (años 70)?",
+    "options": {
+      "A": "Erradicar cultivos de marihuana y amapola",
+      "B": "Proyectos de viajes espaciales",
+      "C": "Programas de educación rural",
+      "D": "Una alianza comercial internacional"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fue un despliegue militar en el norte para destruir plantíos ilícitos, cambiando la dinámica del crimen organizado.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué se consolidó con la CTM de Cárdenas?",
+    "options": {
+      "A": "El movimiento obrero vinculado al partido oficial",
+      "B": "Una reforma educativa nacional",
+      "C": "Un acuerdo militar con países vecinos",
+      "D": "Un tratado de libre comercio con España"
+    },
+    "correctAnswer": "A",
+    "explanation": "Cárdenas integró a sindicatos y campesinos al partido, creando un corporativismo que garantizó estabilidad política.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué contrastes hubo en los JJOO de 1968?",
+    "options": {
+      "A": "Imagen de modernidad vs. represión estudiantil",
+      "B": "Victoria mexicana vs. derrota deportiva",
+      "C": "Juegos cancelados por disturbios",
+      "D": "Ningún contraste relevante"
+    },
+    "correctAnswer": "A",
+    "explanation": "El gobierno quería una imagen de país moderno, lo cual contrastó drásticamente con la represión a los estudiantes.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué exigió el FMI tras los préstamos de 1982?",
+    "options": {
+      "A": "Políticas de austeridad y apertura económica",
+      "B": "Aumento del gasto social y subsidios",
+      "C": "Ninguna condición específica",
+      "D": "Solicitud de más deuda externa"
+    },
+    "correctAnswer": "A",
+    "explanation": "A cambio de evitar la quiebra, el FMI impuso recortes al gasto y medidas de libre mercado que transformaron la economía.",
+    "subject": "Historia",
+    "topic": "Crisis económicas",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué simboliza el caso Ayotzinapa?",
+    "options": {
+      "A": "Impunidad y desaparición forzada",
+      "B": "Éxito en el sistema educativo",
+      "C": "Reforma agraria exitosa",
+      "D": "Una huelga pacífica resuelta"
+    },
+    "correctAnswer": "A",
+    "explanation": "La desaparición de los 43 estudiantes es un símbolo de la lucha contra la impunidad y la corrupción en el sistema de justicia.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál fue el origen de la Guerra Cristera?",
+    "options": {
+      "A": "Políticas anticlericales del gobierno",
+      "B": "Invasión de potencias extranjeras",
+      "C": "Guerra entre estados del norte",
+      "D": "El fin de la Revolución Mexicana"
+    },
+    "correctAnswer": "A",
+    "explanation": "La tensión entre la Iglesia y el Estado, sumada a leyes que limitaban el culto, derivó en un conflicto armado.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué provocó la muerte de Obregón en 1928?",
+    "options": {
+      "A": "Institucionalización del poder (PNR)",
+      "B": "No provocó cambios políticos",
+      "C": "Una nueva guerra civil prolongada",
+      "D": "El fin definitivo de la Revolución"
+    },
+    "correctAnswer": "A",
+    "explanation": "Ante la crisis política, el PNR fue la solución de Calles para evitar conflictos armados sucesivos por la sucesión.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue el Maximato?",
+    "options": {
+      "A": "Control político ejercido por Calles",
+      "B": "Gobierno autónomo de Madero",
+      "C": "Periodo presidencial de Juárez",
+      "D": "Etapa de la administración colonial"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fue un periodo donde Calles, como 'Jefe Máximo', decidía sobre los presidentes en turno tras dejar la presidencia.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál fue el propósito de la Ley Calles?",
+    "options": {
+      "A": "Limitar el poder e influencia de la Iglesia",
+      "B": "Apoyar la expansión de la religión",
+      "C": "Crear escuelas privadas confesionales",
+      "D": "No tuvo un objetivo definido"
+    },
+    "correctAnswer": "A",
+    "explanation": "Buscaba secularizar la sociedad mediante el control estricto de las actividades religiosas, generando descontento.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué importancia tuvo el PRM (1938)?",
+    "options": {
+      "A": "Sucesión del PNR",
+      "B": "Partido de oposición conservadora",
+      "C": "Club social de la élite",
+      "D": "Partido minero regional"
+    },
+    "correctAnswer": "A",
+    "explanation": "Cárdenas modernizó el partido oficial al renombrarlo PRM, integrando formalmente a los sectores obreros y campesinos.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué ocurrió en el movimiento ferrocarrilero de 1959?",
+    "options": {
+      "A": "Represión a un movimiento por democracia sindical",
+      "B": "Celebración de la modernización nacional",
+      "C": "No ocurrió nada relevante",
+      "D": "Modernización pacífica de los trenes"
+    },
+    "correctAnswer": "A",
+    "explanation": "El gobierno reprimió el intento de los trabajadores de elegir libremente a sus líderes, mostrando el control estatal.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué caracterizó a la administración de Miguel de la Madrid?",
+    "options": {
+      "A": "Inicio del modelo neoliberal",
+      "B": "Crecimiento del sector agrario",
+      "C": "Implementación de políticas socialistas",
+      "D": "Aislamiento comercial completo"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fue el primer presidente en implementar políticas de apertura comercial y privatizaciones, cambiando el modelo proteccionista.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué fue el Fobaproa?",
+    "options": {
+      "A": "Rescate bancario tras la crisis de 1994",
+      "B": "Un museo de arte contemporáneo",
+      "C": "Una universidad tecnológica",
+      "D": "Un equipo deportivo nacional"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fue un programa para absorber las deudas de los bancos quebrados, transformando deuda privada en pública.",
+    "subject": "Historia",
+    "topic": "Crisis económicas",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Quién fue el principal opositor en las elecciones de 1988?",
+    "options": {
+      "A": "Cuauhtémoc Cárdenas",
+      "B": "Vicente Fox",
+      "C": "Carlos Salinas",
+      "D": "Díaz Ordaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "Cárdenas representó la mayor amenaza electoral para el PRI en décadas, aglutinando la inconformidad social.",
+    "subject": "Historia",
+    "topic": "Transición democrática",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es la alternancia política?",
+    "options": {
+      "A": "Cambio de partido en el poder",
+      "B": "Perpetuación en el poder",
+      "C": "Ausencia de voto ciudadano",
+      "D": "Monopolio partidista"
+    },
+    "correctAnswer": "A",
+    "explanation": "Es el mecanismo donde distintos partidos acceden al poder mediante el voto popular, rompiendo con el partido único.",
+    "subject": "Historia",
+    "topic": "Transición democrática",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué importancia tuvo la creación de la Secretaría de Cultura?",
+    "options": {
+      "A": "Centralizar políticas públicas culturales",
+      "B": "Organizar conciertos privados",
+      "C": "Censura artística estatal",
+      "D": "Ninguna relevancia histórica"
+    },
+    "correctAnswer": "A",
+    "explanation": "Al elevar el nivel institucional a Secretaría, se buscó priorizar y organizar la gestión cultural a nivel nacional.",
+    "subject": "Historia",
+    "topic": "Cultura mexicana",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es el Programa IMSS-Bienestar?",
+    "options": {
+      "A": "Salud para personas sin seguridad social",
+      "B": "Un sistema de hospital privado",
+      "C": "Una universidad de medicina",
+      "D": "Un seguro de vida comercial"
+    },
+    "correctAnswer": "A",
+    "explanation": "Es una estrategia fundamental para ampliar la cobertura de salud a comunidades vulnerables sin seguridad social.",
+    "subject": "Historia",
+    "topic": "México contemporáneo",
+    "level": "Básico"
+  }
+]
+
