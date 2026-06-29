@@ -1,0 +1,703 @@
+[
+  {
+    "question": "¿Cómo se define la identidad de género en el desarrollo de los adolescentes?",
+    "options": {
+      "A": "La preferencia afectiva y romántica hacia otras personas",
+      "B": "La vivencia interna e individual de cómo cada persona siente su propio cuerpo y género",
+      "C": "El conjunto de características biológicas fijadas genéticamente al nacer",
+      "D": "El rol social impuesto de manera obligatoria por las leyes del país"
+    },
+    "correctAnswer": "B",
+    "explanation": "La identidad de género se refiere a la percepción y vivencia interna del propio género, la cual puede o no coincidir con el sexo asignado al nacer.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Identidad y Género",
+    "level": "Intermedio"
+  },
+  {
+    "question": "Un grupo de estudiantes de tercer grado analiza la importancia de los derechos sexuales. ¿Cuál de las siguientes situaciones ejemplifica el ejercicio de estos derechos?",
+    "options": {
+      "A": "Decidir libre y responsablemente el inicio de la vida sexual y el uso de anticonceptivos",
+      "B": "Aceptar las presiones de la pareja para demostrar el amor a través de relaciones íntimas",
+      "C": "Ocultar la orientación sexual por temor a las sanciones y reglamentos escolares",
+      "D": "Permitir que los padres elijan las amistades y relaciones afectivas del adolescente"
+    },
+    "correctAnswer": "A",
+    "explanation": "Los derechos sexuales protegen la autonomía personal para decidir sobre el propio cuerpo y el inicio de la vida sexual de forma libre, informada y segura.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Sexualidad y Derechos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la equidad de género según los principios constitucionales de México?",
+    "options": {
+      "A": "La superioridad legal de las mujeres para compensar daños históricos",
+      "B": "Eliminar las diferencias biológicas fundamentales entre hombres y mujeres",
+      "C": "La distribución justa de oportunidades, recursos y responsabilidades entre géneros",
+      "D": "La obligación de realizar los mismos trabajos físicos sin importar la salud"
+    },
+    "correctAnswer": "C",
+    "explanation": "La equidad implica justicia en el trato, reconociendo las condiciones particulares para alcanzar una igualdad sustantiva de derechos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Intermedio"
+  },
+  {
+    "question": "A Sofía le niegan la inscripción al equipo de fútbol escolar argumentando que 'es un deporte para varones'. ¿Qué violación se presenta?",
+    "options": {
+      "A": "Discriminación basada en el género, que atenta contra su derecho a la igualdad",
+      "B": "Una medida de protección justa para evitar que sufra lesiones físicas graves",
+      "C": "Un ejercicio correcto de la autonomía escolar y reglamentos de la escuela",
+      "D": "Una falta administrativa menor que no afecta el desarrollo de la alumna"
+    },
+    "correctAnswer": "A",
+    "explanation": "Excluir a alguien de una actividad educativa o deportiva por motivos de género es un acto discriminatorio que vulnera el derecho a la igualdad.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es la función principal del CONAPRED en México?",
+    "options": {
+      "A": "Sancionar penalmente con cárcel a los ciudadanos que mientan",
+      "B": "Promover políticas públicas para la igualdad y atender quejas por discriminación",
+      "C": "Modificar los planes de estudio y aprobar las calificaciones escolares",
+      "D": "Controlar los contenidos informativos de las redes sociales"
+    },
+    "correctAnswer": "B",
+    "explanation": "CONAPRED es el órgano encargado de eliminar prejuicios, promover la inclusión y tramitar quejas administrativas ante actos discriminatorios.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Instituciones y Leyes",
+    "level": "Intermedio"
+  },
+  {
+    "question": "En una comunidad escolar surge un conflicto por el uso de espacios comunes. ¿Qué método prioriza la Formación Cívica para resolverlo?",
+    "options": {
+      "A": "La imposición de reglas por parte de los alumnos con mayor antigüedad",
+      "B": "La intervención de la fuerza pública para desalojar a los inconformes",
+      "C": "El diálogo, la negociación y el consenso entre todas las partes afectadas",
+      "D": "El sorteo de los espacios para evitar discusiones y debates"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los conflictos en democracia se resuelven mediante el diálogo y la mediación, buscando soluciones compartidas que respeten la dignidad de todos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Resolución de Conflictos",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué caracteriza a un prejuicio social?",
+    "options": {
+      "A": "Un juicio u opinión preconcebida, generalmente negativa, hacia un grupo sin base real",
+      "B": "Una investigación científica validada sobre los comportamientos de una cultura",
+      "C": "El conocimiento profundo de las tradiciones de un pueblo indígena",
+      "D": "La ley escrita que regula la convivencia sana dentro de las escuelas"
+    },
+    "correctAnswer": "A",
+    "explanation": "Un prejuicio es juzgar a las personas de manera anticipada basándose en estereotipos, lo cual conduce a conductas injustas.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Intermedio"
+  },
+  {
+    "question": "Carlos tiene 14 años y quiere informarse sobre métodos anticonceptivos, pero le exigen ir con un adulto. ¿Qué principio se vulnera?",
+    "options": {
+      "A": "El derecho de los centros de salud a racionar sus insumos médicos",
+      "B": "La autoridad absoluta que tienen los médicos sobre los tratamientos",
+      "C": "El derecho de los adolescentes a recibir servicios de salud sexual informada",
+      "D": "La normatividad vigente que prohíbe la atención médica a menores"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los adolescentes tienen derecho a recibir información y atención en salud sexual de forma confidencial y respetuosa, según la NOM-047.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Sexualidad y Derechos",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿A qué se refiere el término de estereotipo de género?",
+    "options": {
+      "A": "A los cambios físicos de la pubertad",
+      "B": "A las leyes federales que garantizan el voto",
+      "C": "A los derechos humanos que protegen la salud",
+      "D": "A las ideas e imágenes simplificadas sobre cómo deben ser hombres y mujeres"
+    },
+    "correctAnswer": "D",
+    "explanation": "Los estereotipos de género asignan roles fijos que limitan el desarrollo libre de las capacidades individuales.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Identidad y Género",
+    "level": "Básico"
+  },
+  {
+    "question": "Un alumno insulta a un compañero debido a su origen étnico. Este comportamiento es una manifestación de:",
+    "options": {
+      "A": "Diversidad cultural",
+      "B": "Discriminación y racismo",
+      "C": "Libertad de expresión",
+      "D": "Conflicto de intereses"
+    },
+    "correctAnswer": "B",
+    "explanation": "El menosprecio por motivos de origen étnico o color de piel se clasifica como racismo y discriminación, conductas prohibidas por la Constitución.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es la principal diferencia entre un conflicto y la violencia?",
+    "options": {
+      "A": "El conflicto es destructivo; la violencia es una forma justa de justicia",
+      "B": "El conflicto es una oposición de ideas normal; la violencia busca dañar o imponer",
+      "C": "La violencia es legal en ciertos entornos; el conflicto siempre es ilegal",
+      "D": "No hay diferencia, ambos términos describen agresiones"
+    },
+    "correctAnswer": "B",
+    "explanation": "El conflicto es inherente a la convivencia y oportunidad de aprendizaje; la violencia usa la fuerza para someter e infligir daño.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Resolución de Conflictos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué establece el Artículo 1º de la Constitución sobre la discriminación?",
+    "options": {
+      "A": "Permite la exclusión en empresas privadas",
+      "B": "Prohíbe estrictamente toda discriminación por origen, género, edad o discapacidad",
+      "C": "Autoriza tratos diferenciados a extranjeros",
+      "D": "Indica que es un asunto moral que no requiere ley"
+    },
+    "correctAnswer": "B",
+    "explanation": "El Artículo 1° prohíbe de manera absoluta cualquier acto que atente contra la dignidad humana y anule derechos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Instituciones y Leyes",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué significa ejercer la autonomía moral en la adolescencia?",
+    "options": {
+      "A": "Seguir órdenes sin cuestionar para ser aceptado",
+      "B": "Actuar con indiferencia ante las leyes",
+      "C": "Tomar decisiones propias basadas en valores éticos asumidos conscientemente",
+      "D": "Permitir que los medios dicten el bien y el mal"
+    },
+    "correctAnswer": "C",
+    "explanation": "La autonomía moral es la capacidad de juzgar y decidir qué acciones son correctas analizando criterios propios.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Toma de Decisiones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "Un alumno afirma que los hombres tienen mayores necesidades sexuales por naturaleza. Esto se basa en:",
+    "options": {
+      "A": "Un mito de género sustentado en roles sociales tradicionales",
+      "B": "Un hecho biológico avalado por la ciencia",
+      "C": "Un principio de derechos reproductivos",
+      "D": "Una estrategia válida de prevención"
+    },
+    "correctAnswer": "A",
+    "explanation": "Creer que el deseo depende del género es un mito. Ambos géneros poseen el derecho a vivir una sexualidad plena.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Identidad y Género",
+    "level": "Intermedio"
+  },
+  {
+    "question": "Cuando dos compañeros recurren a un tercero imparcial para que les ayude a resolver su problema, usan el mecanismo de:",
+    "options": {
+      "A": "Arbitraje vinculante",
+      "B": "Mediación",
+      "C": "Imposición formal",
+      "D": "Evasión de responsabilidades"
+    },
+    "correctAnswer": "B",
+    "explanation": "La mediación es un proceso pacífico donde un tercero neutral facilita la comunicación para lograr un acuerdo.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Resolución de Conflictos",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Por qué la perspectiva de género es una herramienta importante?",
+    "options": {
+      "A": "Ayuda a identificar y corregir desigualdades entre hombres y mujeres",
+      "B": "Busca sancionar económicamente a los varones",
+      "C": "Establece que las identidades no deben cambiar",
+      "D": "Prioriza los derechos de los adultos"
+    },
+    "correctAnswer": "A",
+    "explanation": "La perspectiva de género permite cuestionar construcciones sociales para diseñar acciones que eliminen la discriminación.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué representa una toma de decisiones responsable ante el consumo de sustancias?",
+    "options": {
+      "A": "Probarlas una vez para conocer los efectos",
+      "B": "Consumirlas si provienen de amigos cercanos",
+      "C": "Rechazar de forma asertiva evaluando riesgos para la salud integral",
+      "D": "Aceptar la invitación si hay supervisión"
+    },
+    "correctAnswer": "C",
+    "explanation": "La toma de decisiones responsable implica el análisis crítico de consecuencias y riesgos, optando por el autocuidado.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Toma de Decisiones",
+    "level": "Básico"
+  },
+  {
+    "question": "Una escuela prohíbe el ingreso a alumnos con cabello largo o teñido. Esta medida es:",
+    "options": {
+      "A": "Legal, por autonomía escolar",
+      "B": "Discriminatoria, violenta el libre desarrollo de la personalidad",
+      "C": "Correcta, pues fomenta la disciplina",
+      "D": "Necesaria para homogeneizar la identidad"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Suprema Corte ha establecido que obligar al corte de cabello viola el derecho al libre desarrollo de la personalidad.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿A qué se refiere la dimensión afectiva de la sexualidad?",
+    "options": {
+      "A": "Al proceso biológico de reproducción",
+      "B": "A los vínculos emocionales, el amor y el cuidado mutuo",
+      "C": "A los métodos para evitar virus",
+      "D": "A las normas jurídicas de matrimonio"
+    },
+    "correctAnswer": "B",
+    "explanation": "La sexualidad es integral; su dimensión afectiva abarca sentimientos, empatía y relaciones basadas en el respeto.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Sexualidad y Derechos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la asertividad al comunicar posturas morales?",
+    "options": {
+      "A": "Expresar opiniones de forma firme, respetando los derechos de los demás",
+      "B": "Imponer criterios mediante gritos",
+      "C": "Guardar silencio para evitar debates",
+      "D": "Cambiar de opinión para complacer a la autoridad"
+    },
+    "correctAnswer": "A",
+    "explanation": "La asertividad es la habilidad de defender derechos e ideas de forma honesta y equilibrada, sin agresividad ni sumisión.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Toma de Decisiones",
+    "level": "Básico"
+  },
+  {
+    "question": "Señala una consecuencia social del embarazo temprano en la adolescencia.",
+    "options": {
+      "A": "El aumento de oportunidades de empleo",
+      "B": "El desarrollo biológico acelerado",
+      "C": "La posible deserción escolar y limitación de proyectos de vida",
+      "D": "La exención del pago de impuestos"
+    },
+    "correctAnswer": "C",
+    "explanation": "El embarazo adolescente suele traer desafíos socioeconómicos, entre ellos el abandono de los estudios.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Sexualidad y Derechos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "En una colonia rechazan un albergue para migrantes por miedo infundado. Esto es un ejemplo de:",
+    "options": {
+      "A": "Identidad comunitaria legítima",
+      "B": "Xenofobia y discriminación",
+      "C": "Estrategia de prevención social",
+      "D": "Participación ciudadana democrática"
+    },
+    "correctAnswer": "B",
+    "explanation": "La xenofobia es el rechazo o prejuicio hacia extranjeros. Al fundarse en estereotipos, lesiona derechos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué establece el principio de igualdad sustantiva?",
+    "options": {
+      "A": "Garantizar que todas las personas gocen de los mismos derechos efectivamente",
+      "B": "Redactar leyes idénticas aunque no se apliquen",
+      "C": "Favorecer a los sectores con más ingresos",
+      "D": "Obligar a los ciudadanos a pensar igual"
+    },
+    "correctAnswer": "A",
+    "explanation": "La igualdad sustantiva implica modificar condiciones reales para que el acceso a derechos sea una realidad para todos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Avanzado"
+  },
+  {
+    "question": "Cuando analizamos críticamente la publicidad que promueve roles tradicionales, ¿qué habilidad ejercemos?",
+    "options": {
+      "A": "Consumismo guiado",
+      "B": "Evasión cultural",
+      "C": "Pensamiento crítico",
+      "D": "Aceptación pasiva"
+    },
+    "correctAnswer": "C",
+    "explanation": "El pensamiento crítico permite evaluar mensajes, detectar estereotipos y decidir con autonomía.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Toma de Decisiones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "Un estudiante sufre ciberacoso. ¿A qué figura se debe recurrir en primera instancia?",
+    "options": {
+      "A": "Autoridades escolares y padres de familia para activar protocolos",
+      "B": "Crear perfiles falsos para responder insultos",
+      "C": "Aislamiento definitivo del alumno afectado",
+      "D": "Ignorar la situación hasta que pase"
+    },
+    "correctAnswer": "A",
+    "explanation": "Ante el ciberacoso, la ruta demanda involucrar a autoridades y familiares para salvaguardar la integridad emocional.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Resolución de Conflictos",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es el acoso escolar (bullying)?",
+    "options": {
+      "A": "Una discusión ocasional entre dos estudiantes",
+      "B": "Una agresión intencional, constante y desigual",
+      "C": "Un método de evaluación docente",
+      "D": "Una forma tradicional de juego"
+    },
+    "correctAnswer": "B",
+    "explanation": "El acoso escolar implica intencionalidad, reiteración y desequilibrio de poder, afectando la salud de la víctima.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Resolución de Conflictos",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es un método anticonceptivo que previene embarazos y a la vez ITS?",
+    "options": {
+      "A": "Pastillas anticonceptivas de emergencia",
+      "B": "Implante subdérmico",
+      "C": "Condón masculino o femenino",
+      "D": "Dispositivo intrauterino"
+    },
+    "correctAnswer": "C",
+    "explanation": "El condón es el único método de doble protección: evita embarazos e impide el intercambio de fluidos que transmite ITS.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Sexualidad y Derechos",
+    "level": "Básico"
+  },
+  {
+    "question": "¿A qué se le denomina discriminación institucional?",
+    "options": {
+      "A": "A los desacuerdos internos en empresas privadas",
+      "B": "A reglamentos públicos de becas por promedio",
+      "C": "A leyes de organismos públicos que excluyen a ciertos sectores",
+      "D": "A campañas gubernamentales de lenguas indígenas"
+    },
+    "correctAnswer": "C",
+    "explanation": "La discriminación institucional ocurre cuando las reglas o leyes de un organismo excluyen injustamente a grupos sociales.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Instituciones y Leyes",
+    "level": "Básico"
+  },
+  {
+    "question": "En un aula, los alumnos acuerdan reglas mediante votación libre. ¿Qué valor practican?",
+    "options": {
+      "A": "Legalidad mediante el consenso institucional",
+      "B": "Imposición de la mayoría sin diálogo",
+      "C": "Desinterés por las normas de autoridad",
+      "D": "Beneficio económico escolar"
+    },
+    "correctAnswer": "A",
+    "explanation": "Construir normas mediante el voto y acuerdo mutuo fomenta la cultura de la legalidad y pertenencia democrática.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Resolución de Conflictos",
+    "level": "Básico"
+  },
+  {
+    "question": "Una joven decide estudiar ingeniería a pesar de críticas familiares. ¿Qué principio defiende?",
+    "options": {
+      "A": "Obediencia a la estructura familiar",
+      "B": "Derecho al libre desarrollo de la personalidad",
+      "C": "Obligación de seguir roles de género",
+      "D": "Necesidad de conflicto constante"
+    },
+    "correctAnswer": "B",
+    "explanation": "Defender una elección profesional basada en intereses propios frente a prejuicios familiares es ejercer el libre desarrollo de la personalidad.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es la función del diálogo cooperativo en problemas comunitarios?",
+    "options": {
+      "A": "Identificar al responsable para exigir disculpas",
+      "B": "Debatir hasta que una postura se rinda",
+      "C": "Escuchar activamente para construir propuestas que beneficien a todos",
+      "D": "Permitir que la autoridad decida sola"
+    },
+    "correctAnswer": "C",
+    "explanation": "El diálogo cooperativo busca entender necesidades para formular alternativas colectivas orientadas al bien común.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Resolución de Conflictos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué ley mexicana protege contra la difusión de contenido íntimo sin consentimiento?",
+    "options": {
+      "A": "Ley de Amparo",
+      "B": "Ley Olimpia",
+      "C": "Ley General de Educación",
+      "D": "Ley de Acceso a la Información"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Ley Olimpia sanciona penalmente la violencia digital al reconocer la difusión de contenido íntimo sin permiso como delito.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Instituciones y Leyes",
+    "level": "Avanzado"
+  },
+  {
+    "question": "Identificar y detener el maltrato psicológico en el noviazgo es necesario porque:",
+    "options": {
+      "A": "La violencia psicológica es inofensiva",
+      "B": "Previene daños a la autoestima y futuros actos de mayor violencia",
+      "C": "Es una forma de fortalecer el carácter",
+      "D": "El fin de una relación siempre debe ser pacífico"
+    },
+    "correctAnswer": "B",
+    "explanation": "La violencia psicológica destruye la autoestima. Identificarla a tiempo en el noviazgo previene daños mayores.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Resolución de Conflictos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el núcleo del concepto de dignidad humana?",
+    "options": {
+      "A": "Valor intrínseco de cada persona por ser humana, merecedora de respeto",
+      "B": "Estatus económico alcanzado",
+      "C": "Nivel de estudios profesionales",
+      "D": "Fama en una comunidad virtual"
+    },
+    "correctAnswer": "A",
+    "explanation": "La dignidad no depende del dinero, origen o logros; es el valor inherente de cada ser humano.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué implica la responsabilidad moral tras una decisión?",
+    "options": {
+      "A": "Atribuir errores a los compañeros",
+      "B": "Buscar justificaciones legales",
+      "C": "Reconocer consecuencias y reparar los daños causados",
+      "D": "Ocultar fallas ante los profesores"
+    },
+    "correctAnswer": "C",
+    "explanation": "La responsabilidad significa dar cuenta de los actos y trabajar activamente en resarcir el daño si se afectó a otros.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Toma de Decisiones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la empatía en las relaciones humanas?",
+    "options": {
+      "A": "La habilidad de comprender sentimientos y perspectiva ajena",
+      "B": "El proceso de juzgar a alguien por su aspecto",
+      "C": "La capacidad de imponer nuestras ideas",
+      "D": "El acto de evitar cualquier contacto emocional"
+    },
+    "correctAnswer": "A",
+    "explanation": "La empatía permite conectar emocionalmente con el otro, facilitando la comprensión y la resolución de conflictos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Resolución de Conflictos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "En un centro escolar se construyen rampas de acceso. Estas adecuaciones responden a:",
+    "options": {
+      "A": "Competitividad comercial",
+      "B": "Inclusión social",
+      "C": "Eficiencia presupuestal",
+      "D": "Identidad nacional"
+    },
+    "correctAnswer": "B",
+    "explanation": "La inclusión modifica entornos para garantizar que personas con discapacidad ejerzan sus derechos sin barreras.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Básico"
+  },
+  {
+    "question": "Un ciudadano observa corrupción y no denuncia por miedo. ¿Qué cultura se debilita?",
+    "options": {
+      "A": "Cultura del consumo",
+      "B": "Cultura del aislamiento",
+      "C": "Cultura de la legalidad",
+      "D": "Cultura del entretenimiento"
+    },
+    "correctAnswer": "C",
+    "explanation": "La cultura de la legalidad implica denunciar actos ilícitos para fortalecer el Estado de derecho y la justicia.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Instituciones y Leyes",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué importancia tiene el pluralismo en una sociedad?",
+    "options": {
+      "A": "Promueve que todos piensen igual",
+      "B": "Reconoce que la diversidad de posturas es legítima y enriquecedora",
+      "C": "Evita que existan debates sociales",
+      "D": "Define una sola verdad para todos"
+    },
+    "correctAnswer": "B",
+    "explanation": "El pluralismo reconoce que la sociedad no es homogénea y que la diversidad enriquece la toma de decisiones.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Intermedio"
+  },
+  {
+    "question": "Si un alumno monopoliza la palabra e ignora ideas ajenas, ¿qué obstáculo se presenta?",
+    "options": {
+      "A": "Falta de recursos económicos",
+      "B": "Ausencia de marco legal",
+      "C": "Actitud autoritaria e intolerancia",
+      "D": "Exceso de canales de comunicación"
+    },
+    "correctAnswer": "C",
+    "explanation": "El autoritarismo y la incapacidad de escuchar impiden el consenso y dañan la dinámica de grupo.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Resolución de Conflictos",
+    "level": "Básico"
+  },
+  {
+    "question": "El autocuidado integral en la adolescencia involucra:",
+    "options": {
+      "A": "Ignorar las emociones propias",
+      "B": "Hábitos saludables, manejo de emociones y toma de decisiones responsables",
+      "C": "Seguir la moda impuesta por redes sociales",
+      "D": "Depender de figuras de autoridad para decidir"
+    },
+    "correctAnswer": "B",
+    "explanation": "El autocuidado integral protege el cuerpo y la mente mediante hábitos y una gestión emocional responsable.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Toma de Decisiones",
+    "level": "Básico"
+  },
+  {
+    "question": "La laicidad en la escuela pública busca:",
+    "options": {
+      "A": "Garantizar un espacio neutral que respete la libertad de creencias",
+      "B": "Sancionar a familias con tradiciones",
+      "C": "Erradicar toda fe de la vida privada",
+      "D": "Imponer un pensamiento ateo obligatorio"
+    },
+    "correctAnswer": "A",
+    "explanation": "La laicidad asegura que la escuela sea un espacio donde conviven personas con distintas creencias sin exclusión.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Instituciones y Leyes",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la mediación escolar?",
+    "options": {
+      "A": "Un castigo para alumnos indisciplinados",
+      "B": "Un proceso donde un mediador facilita la comunicación para lograr acuerdos",
+      "C": "Una forma de que los profesores decidan sin consultar",
+      "D": "Una estrategia para expulsar alumnos"
+    },
+    "correctAnswer": "B",
+    "explanation": "La mediación es una herramienta pacífica que permite a las partes involucradas llegar a acuerdos por sí mismas.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Resolución de Conflictos",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es un derecho fundamental de los adolescentes según la Constitución?",
+    "options": {
+      "A": "Participar en las decisiones que afectan su vida y entorno",
+      "B": "Trabajar en cualquier actividad sin restricciones",
+      "C": "Obtener acceso a créditos bancarios sin supervisión",
+      "D": "Decidir sobre leyes nacionales"
+    },
+    "correctAnswer": "A",
+    "explanation": "Los adolescentes tienen derecho a la participación ciudadana y a ser escuchados en los asuntos que les afectan.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Instituciones y Leyes",
+    "level": "Intermedio"
+  },
+  {
+    "question": "Al elegir una carrera profesional, ¿qué factor debe ser prioritario?",
+    "options": {
+      "A": "La presión de los amigos",
+      "B": "Las expectativas de ingresos inmediatos",
+      "C": "El proyecto de vida personal y vocación",
+      "D": "La opinión de los medios de comunicación"
+    },
+    "correctAnswer": "C",
+    "explanation": "La elección profesional debe basarse en el autoconocimiento, la vocación y el proyecto de vida de cada estudiante.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Toma de Decisiones",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es la libertad de expresión?",
+    "options": {
+      "A": "Decir cualquier cosa sin límites ni consecuencias",
+      "B": "El derecho a manifestar ideas respetando la dignidad ajena",
+      "C": "La obligación de insultar a quienes piensan diferente",
+      "D": "El derecho a censurar opiniones de otros"
+    },
+    "correctAnswer": "B",
+    "explanation": "La libertad de expresión permite manifestar ideas, siempre que no dañen derechos de terceros o inciten al odio.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Instituciones y Leyes",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué función tienen los reglamentos escolares democráticos?",
+    "options": {
+      "A": "Someter a los alumnos a la autoridad absoluta",
+      "B": "Regular la convivencia basada en el respeto y el consenso",
+      "C": "Impedir la expresión de los estudiantes",
+      "D": "Eliminar la participación de los padres"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los reglamentos democráticos organizan la convivencia escolar mediante normas consensuadas que garantizan seguridad.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Resolución de Conflictos",
+    "level": "Básico"
+  },
+  {
+    "question": "Ante una injusticia en la comunidad, la acción ciudadana responsable es:",
+    "options": {
+      "A": "Ignorar el problema para no involucrarse",
+      "B": "Organizarse pacíficamente para buscar una solución",
+      "C": "Utilizar la violencia para exigir cambios",
+      "D": "Esperar a que las autoridades resuelvan todo"
+    },
+    "correctAnswer": "B",
+    "explanation": "La participación ciudadana activa y pacífica es fundamental para corregir injusticias y mejorar la vida comunitaria.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Instituciones y Leyes",
+    "level": "Avanzado"
+  },
+  {
+    "question": "El respeto a la diversidad cultural implica:",
+    "options": {
+      "A": "Asimilar todas las culturas en una sola",
+      "B": "Reconocer y valorar las tradiciones y formas de vida diferentes",
+      "C": "Prohibir las manifestaciones de grupos minoritarios",
+      "D": "Aceptar solo las culturas con mayor número de personas"
+    },
+    "correctAnswer": "B",
+    "explanation": "El respeto a la diversidad enriquece a la sociedad y es esencial para garantizar la paz social.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Inclusión y Equidad",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Por qué es necesario el pensamiento crítico ante los medios?",
+    "options": {
+      "A": "Para consumir más productos publicitados",
+      "B": "Para cuestionar estereotipos y mensajes manipuladores",
+      "C": "Para evitar ver televisión o internet",
+      "D": "Para aceptar todo lo que se publica como verdad"
+    },
+    "correctAnswer": "B",
+    "explanation": "El pensamiento crítico permite discernir entre información real y propaganda, fomentando una ciudadanía más libre.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Toma de Decisiones",
+    "level": "Avanzado"
+  }
+]
+
