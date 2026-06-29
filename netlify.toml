@@ -36,3 +36,33 @@
   to = "/.netlify/functions/verificar?page=quimica"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/civica_mes2.html"
+  to = "/.netlify/functions/verificar?page=civica_mes2"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/espanol_mes2.html"
+  to = "/.netlify/functions/verificar?page=espanol_mes2"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/historia_mes2.html"
+  to = "/.netlify/functions/verificar?page=historia_mes2"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/matematicas_mes2.html"
+  to = "/.netlify/functions/verificar?page=matematicas_mes2"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/quimica_mes2.html"
+  to = "/.netlify/functions/verificar?page=quimica_mes2"
+  status = 200
+  force = true
