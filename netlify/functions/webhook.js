@@ -11,7 +11,7 @@ exports.handler = async function(event, context) {
       return {
         statusCode: 200,
         headers: {
-          'Set-Cookie': 'acceso=SI; path=/; max-age=2592000; SameSite=Lax',
+          'Set-Cookie': 'acceso=mes1; path=/; max-age=2592000; SameSite=Lax',
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({ success: true })
