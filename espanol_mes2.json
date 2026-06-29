@@ -1,0 +1,689 @@
+[
+  {
+    "question": "¿Qué es un ensayo?",
+    "options": {
+      "A": "Un texto en prosa donde el autor expone sus ideas sobre un tema con estilo personal.",
+      "B": "Un texto literario que narra hechos ficticios de manera cronológica.",
+      "C": "Un poema lírico que reflexiona sobre la naturaleza.",
+      "D": "Un texto puramente informativo que no incluye la opinión del autor."
+    },
+    "correctAnswer": "A",
+    "explanation": "El ensayo es un texto donde el autor desarrolla reflexiones y argumentos sobre un tema con libertad de estilo. Ejemplo: 'El laberinto de la soledad' de Octavio Paz.",
+    "subject": "Español",
+    "topic": "Géneros discursivos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre un texto argumentativo y uno expositivo?",
+    "options": {
+      "A": "El expositivo busca convencer; el argumentativo solo describe hechos.",
+      "B": "El argumentativo busca convencer con razones; el expositivo informa objetivamente.",
+      "C": "No hay diferencia, ambos comparten la estructura narrativa.",
+      "D": "El argumentativo es solo científico y el expositivo es literario."
+    },
+    "correctAnswer": "B",
+    "explanation": "El texto expositivo presenta información objetiva, mientras que el argumentativo busca persuadir al lector mediante razonamientos y evidencias.",
+    "subject": "Español",
+    "topic": "Tipos de texto",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es una falacia argumentativa?",
+    "options": {
+      "A": "Un argumento sólido basado en evidencias científicas.",
+      "B": "Una cita de autoridad que apoya una postura.",
+      "C": "Un razonamiento que parece válido pero contiene un error lógico.",
+      "D": "Un resumen que sintetiza los puntos principales."
+    },
+    "correctAnswer": "C",
+    "explanation": "Una falacia es un argumento que parece lógico pero tiene un error de razonamiento que lo invalida.",
+    "subject": "Español",
+    "topic": "Argumentación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la intertextualidad?",
+    "options": {
+      "A": "La relación entre imágenes y títulos.",
+      "B": "La relación entre un texto y otros textos que lo influyen o mencionan.",
+      "C": "El uso de notas al pie en los reportes académicos.",
+      "D": "La organización interna y el conteo de palabras."
+    },
+    "correctAnswer": "B",
+    "explanation": "La intertextualidad es la relación entre textos: cuando una obra cita, imita, parodia o alude a otra.",
+    "subject": "Español",
+    "topic": "Análisis literario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es una reseña crítica?",
+    "options": {
+      "A": "Un resumen donde se prohíbe expresar la postura del lector.",
+      "B": "Una lista de características físicas de los personajes.",
+      "C": "Un texto que presenta y evalúa una obra con criterios argumentados.",
+      "D": "Una biografía cronológica del autor."
+    },
+    "correctAnswer": "C",
+    "explanation": "La reseña crítica describe brevemente una obra y la evalúa con argumentos sobre sus aciertos y debilidades.",
+    "subject": "Español",
+    "topic": "Géneros discursivos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la crónica como género periodístico?",
+    "options": {
+      "A": "Un texto de opinión sin investigación.",
+      "B": "Un informe de laboratorio sobre eventos científicos.",
+      "C": "Un poema narrativo sobre el pasado.",
+      "D": "Un relato que narra hechos reales con estilo literario."
+    },
+    "correctAnswer": "D",
+    "explanation": "La crónica narra hechos reales con recursos literarios (descripción, diálogo) y subjetividad del autor.",
+    "subject": "Español",
+    "topic": "Géneros discursivos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es el discurso retórico?",
+    "options": {
+      "A": "Un texto escrito al azar.",
+      "B": "El uso del lenguaje para persuadir mediante recursos expresivos.",
+      "C": "Un reporte estadístico con gráficas.",
+      "D": "Una conversación casual entre amigos."
+    },
+    "correctAnswer": "B",
+    "explanation": "El discurso retórico utiliza el lenguaje de forma deliberada (metáforas, preguntas retóricas) para emocionar o persuadir al público.",
+    "subject": "Español",
+    "topic": "Retórica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la anáfora?",
+    "options": {
+      "A": "La omisión de palabras clave.",
+      "B": "La exageración de una idea.",
+      "C": "La repetición de palabras al inicio de frases consecutivas.",
+      "D": "La comparación directa usando 'como'."
+    },
+    "correctAnswer": "C",
+    "explanation": "La anáfora consiste en repetir una palabra o frase al inicio de varios versos u oraciones para dar énfasis y ritmo.",
+    "subject": "Español",
+    "topic": "Recursos retóricos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un debate académico?",
+    "options": {
+      "A": "Una discusión formal donde se defienden posturas opuestas con moderador.",
+      "B": "Una plática casual donde todos están de acuerdo.",
+      "C": "Una conferencia donde solo un expositor habla.",
+      "D": "Un intercambio libre sin reglas de tiempo."
+    },
+    "correctAnswer": "A",
+    "explanation": "El debate es una discusión organizada con reglas, turnos, un moderador y argumentos basados en evidencias.",
+    "subject": "Español",
+    "topic": "Oralidad",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es la antítesis?",
+    "options": {
+      "A": "La repetición de ideas similares.",
+      "B": "La personificación de objetos.",
+      "C": "La contraposición de dos ideas opuestas en la misma frase.",
+      "D": "El uso de rima constante."
+    },
+    "correctAnswer": "C",
+    "explanation": "La antítesis contrapone ideas opuestas para resaltar un contraste. Ejemplo: 'Es tan corto el amor y tan largo el olvido'.",
+    "subject": "Español",
+    "topic": "Recursos retóricos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿A qué se refiere la variedad de la lengua según el contexto (formal o informal)?",
+    "options": {
+      "A": "Al dominio perfecto de dos idiomas.",
+      "B": "Al proceso de desaparición de lenguas.",
+      "C": "A la capacidad de elegir el lenguaje adecuado según la situación.",
+      "D": "Al aprendizaje de un segundo idioma."
+    },
+    "correctAnswer": "C",
+    "explanation": "Los hablantes adaptan su lenguaje según el contexto: formal (académico, profesional) o informal (coloquial, cercano).",
+    "subject": "Español",
+    "topic": "Variantes del español",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un ensayo argumentativo?",
+    "options": {
+      "A": "Un texto científico sin postura.",
+      "B": "Un poema extenso con rima.",
+      "C": "Un relato de ficción.",
+      "D": "Un texto en prosa que defiende una tesis con argumentos."
+    },
+    "correctAnswer": "D",
+    "explanation": "El ensayo argumentativo presenta una tesis y la desarrolla con argumentos, citas y reflexiones propias.",
+    "subject": "Español",
+    "topic": "Producción de textos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué son los marcadores discursivos de contraste?",
+    "options": {
+      "A": "Palabras que añaden ideas similares.",
+      "B": "Nexos que introducen consecuencias.",
+      "C": "Palabras que ordenan eventos cronológicamente.",
+      "D": "Palabras que oponen ideas, como: sin embargo, no obstante."
+    },
+    "correctAnswer": "D",
+    "explanation": "Los marcadores de contraste (pero, sin embargo, aunque) sirven para contraponer ideas y dar cohesión al argumento.",
+    "subject": "Español",
+    "topic": "Cohesión textual",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un texto académico?",
+    "options": {
+      "A": "Un texto formal basado en objetividad, rigor y fuentes verificables.",
+      "B": "Cualquier documento impreso en la escuela.",
+      "C": "Un escrito de opinión personal sin referencias.",
+      "D": "Un texto literario de ficción."
+    },
+    "correctAnswer": "A",
+    "explanation": "El texto académico se distingue por su lenguaje preciso, estructura clara, objetividad y uso de fuentes citadas.",
+    "subject": "Español",
+    "topic": "Producción de textos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la paráfrasis?",
+    "options": {
+      "A": "Copiar textualmente un fragmento sin cambios.",
+      "B": "Expresar con palabras propias el contenido de otro texto.",
+      "C": "Resumir eliminando párrafos importantes.",
+      "D": "Traducir un documento a otro idioma."
+    },
+    "correctAnswer": "B",
+    "explanation": "La paráfrasis permite integrar ideas de otros autores explicándolas con nuestras propias palabras.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es el plagio?",
+    "options": {
+      "A": "Mencionar correctamente las fuentes.",
+      "B": "Parafrasear ideas con su cita.",
+      "C": "Hacer un resumen de un libro de texto.",
+      "D": "Presentar el trabajo ajeno como propio sin dar crédito."
+    },
+    "correctAnswer": "D",
+    "explanation": "El plagio es una falta ética grave que consiste en usar ideas o textos ajenos como propios sin citar al autor.",
+    "subject": "Español",
+    "topic": "Ética comunicativa",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es la ironía dramática?",
+    "options": {
+      "A": "Cuando el lector sabe algo que el personaje ignora.",
+      "B": "Cuando un personaje dice lo opuesto de lo que piensa.",
+      "C": "Cuando el autor hace una crítica social directa.",
+      "D": "Cuando el protagonista habla con metáforas."
+    },
+    "correctAnswer": "A",
+    "explanation": "La ironía dramática ocurre cuando el público posee información que los personajes desconocen, generando tensión.",
+    "subject": "Español",
+    "topic": "Análisis literario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la función de las notas al pie?",
+    "options": {
+      "A": "Decorar la página con datos irrelevantes.",
+      "B": "Sustituir la bibliografía final.",
+      "C": "Aclarar o citar fuentes sin interrumpir el texto principal.",
+      "D": "Corregir errores de ortografía del párrafo."
+    },
+    "correctAnswer": "C",
+    "explanation": "Las notas al pie permiten añadir información o citas que complementan el tema sin romper el ritmo de lectura.",
+    "subject": "Español",
+    "topic": "Producción de textos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la coherencia temática en un texto?",
+    "options": {
+      "A": "Que todas las ideas giren en torno al mismo tema.",
+      "B": "El empleo estricto de los signos de puntuación.",
+      "C": "Que cada párrafo tenga la misma extensión.",
+      "D": "La obligación de usar conectores al inicio de cada oración."
+    },
+    "correctAnswer": "A",
+    "explanation": "La coherencia temática garantiza que el texto mantenga un hilo conductor claro sin desviarse del tema central.",
+    "subject": "Español",
+    "topic": "Producción de textos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cómo se define un argumento de autoridad?",
+    "options": {
+      "A": "Un razonamiento basado en las vivencias del autor.",
+      "B": "Apelar a la opinión de un experto o fuente reconocida.",
+      "C": "Un intento de convencimiento basado en sentimientos.",
+      "D": "Una afirmación con datos numéricos inventados."
+    },
+    "correctAnswer": "B",
+    "explanation": "El argumento de autoridad refuerza una idea citando a expertos o instituciones con legitimidad en el tema.",
+    "subject": "Español",
+    "topic": "Argumentación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué palabras dependen del contexto para entenderse (yo, aquí, ahora)?",
+    "options": {
+      "A": "Palabras históricas.",
+      "B": "Palabras con entonación de pregunta.",
+      "C": "Palabras indicativas del contexto (deícticas).",
+      "D": "Términos técnicos científicos."
+    },
+    "correctAnswer": "C",
+    "explanation": "Existen palabras cuyo significado varía según el momento y lugar de quien habla (yo, tú, aquí, ahora).",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué caracteriza al estilo directo?",
+    "options": {
+      "A": "Reproducir las palabras exactas de alguien usando comillas o guion.",
+      "B": "Presentar la historia sin diálogos.",
+      "C": "Explicar lo dicho por un personaje mediante el narrador.",
+      "D": "Mostrar pensamientos abstractos de personajes."
+    },
+    "correctAnswer": "A",
+    "explanation": "El estilo directo reproduce fielmente las palabras de quien habla, usando marcas gráficas como guiones o comillas.",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es el estilo indirecto?",
+    "options": {
+      "A": "Citar textualmente a un autor.",
+      "B": "Contar lo que alguien dijo usando las palabras del narrador.",
+      "C": "Resumir el conflicto de un cuento.",
+      "D": "Escribir en segunda persona."
+    },
+    "correctAnswer": "B",
+    "explanation": "El estilo indirecto narra lo que alguien dijo integrándolo en el texto del narrador (ej. 'Él dijo que iría').",
+    "subject": "Español",
+    "topic": "Análisis literario",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es un eufemismo?",
+    "options": {
+      "A": "Una palabra cruda para situaciones trágicas.",
+      "B": "Una expresión suavizada para sustituir un término tabú.",
+      "C": "Una figura que exagera cualidades.",
+      "D": "Un término extranjero sin cambios."
+    },
+    "correctAnswer": "B",
+    "explanation": "El eufemismo se usa para evitar palabras que pueden sonar ofensivas o dolorosas, suavizando el mensaje.",
+    "subject": "Español",
+    "topic": "Semántica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cómo opera la falacia 'ad hominem'?",
+    "options": {
+      "A": "Cita estudios reconocidos.",
+      "B": "Apela a sentimientos de miedo.",
+      "C": "Descalifica a la persona en lugar de refutar sus argumentos.",
+      "D": "Usa estadísticas recientes."
+    },
+    "correctAnswer": "C",
+    "explanation": "Es una falacia que ataca a la persona o su carácter, evitando debatir el argumento real que propone.",
+    "subject": "Español",
+    "topic": "Argumentación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la función metalingüística del lenguaje?",
+    "options": {
+      "A": "Usar el lenguaje para hablar del propio lenguaje.",
+      "B": "Comunicar estados de ánimo.",
+      "C": "Verificar que el oyente escucha.",
+      "D": "Modificar la conducta de otro."
+    },
+    "correctAnswer": "A",
+    "explanation": "La función metalingüística ocurre cuando explicamos reglas gramaticales o el significado de palabras (como en un diccionario).",
+    "subject": "Español",
+    "topic": "Funciones del lenguaje",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la elipsis en redacción?",
+    "options": {
+      "A": "Repetir el sustantivo varias veces.",
+      "B": "El empleo de puntos suspensivos.",
+      "C": "Agregar términos innecesarios.",
+      "D": "La omisión de elementos sobreentendidos por el contexto."
+    },
+    "correctAnswer": "D",
+    "explanation": "La elipsis elimina palabras que el lector puede deducir, haciendo el discurso más ágil.",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué estudia la variación geográfica (diatópica) de la lengua?",
+    "options": {
+      "A": "Los cambios estructurales a través de los siglos.",
+      "B": "El vocabulario según el nivel socioeconómico.",
+      "C": "Los ajustes de formalidad según el evento.",
+      "D": "Las diferencias del español según la región."
+    },
+    "correctAnswer": "D",
+    "explanation": "La variación diatópica se refiere a cómo el idioma cambia según el lugar (ej. modismos o acentos).",
+    "subject": "Español",
+    "topic": "Variantes del español",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre léxico activo y pasivo?",
+    "options": {
+      "A": "El activo es escrito y el pasivo oral.",
+      "B": "Son sinónimos.",
+      "C": "El activo son palabras que usamos al hablar; el pasivo las que reconocemos pero no usamos.",
+      "D": "El pasivo es científico y el activo cotidiano."
+    },
+    "correctAnswer": "C",
+    "explanation": "El léxico activo es el vocabulario que dominamos al expresarnos; el pasivo es el que comprendemos pero no usamos habitualmente.",
+    "subject": "Español",
+    "topic": "Vocabulario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué significa que un texto tenga múltiples perspectivas o voces?",
+    "options": {
+      "A": "Usar términos científicos.",
+      "B": "Repetir ideas al inicio de capítulos.",
+      "C": "Usar diferentes tipos de letra.",
+      "D": "La presencia de varios puntos de vista dentro de un texto."
+    },
+    "correctAnswer": "D",
+    "explanation": "La riqueza de un texto a menudo reside en incluir diversas voces, opiniones o visiones sobre un mismo conflicto.",
+    "subject": "Español",
+    "topic": "Análisis literario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el propósito de la función apelativa (o conativa)?",
+    "options": {
+      "A": "Dar a conocer datos objetivos.",
+      "B": "Expresar sentimientos íntimos.",
+      "C": "Asegurar que la comunicación fluya.",
+      "D": "Influir en la conducta o actitud del receptor."
+    },
+    "correctAnswer": "D",
+    "explanation": "La función apelativa busca ordenar, pedir o convencer al receptor para que actúe o piense de cierta manera.",
+    "subject": "Español",
+    "topic": "Funciones del lenguaje",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un texto híbrido?",
+    "options": {
+      "A": "Un escrito en dos idiomas diferentes.",
+      "B": "Un folleto con mapas y dibujos.",
+      "C": "Un texto que combina características de varios géneros.",
+      "D": "Una narración con fantasía y realidad."
+    },
+    "correctAnswer": "C",
+    "explanation": "Los textos híbridos mezclan elementos de distintos géneros, como la crónica que une periodismo y literatura.",
+    "subject": "Español",
+    "topic": "Géneros discursivos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la correferencia en un escrito?",
+    "options": {
+      "A": "La relación de género entre sujeto y verbo.",
+      "B": "Vincular títulos y subtítulos.",
+      "C": "El uso de sinónimos obligatorios.",
+      "D": "Diferentes palabras que aluden al mismo referente."
+    },
+    "correctAnswer": "D",
+    "explanation": "La correferencia permite evitar repeticiones excesivas refiriéndose a una persona o cosa con distintas palabras.",
+    "subject": "Español",
+    "topic": "Cohesión textual",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cómo debe avanzar la información en un texto bien estructurado?",
+    "options": {
+      "A": "Repitiendo la misma idea en cada línea.",
+      "B": "Encadenando información nueva con datos ya conocidos.",
+      "C": "Poniendo párrafos breves al azar.",
+      "D": "Usando solo palabras técnicas."
+    },
+    "correctAnswer": "B",
+    "explanation": "Para que un texto sea claro, cada parte nueva debe conectarse con lo que el lector ya sabe.",
+    "subject": "Español",
+    "topic": "Cohesión textual",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué indica el tono de un autor en un texto (modalización)?",
+    "options": {
+      "A": "Su actitud, certeza o juicio sobre lo que dice.",
+      "B": "El volumen de voz del orador.",
+      "C": "La división estructural por subtítulos.",
+      "D": "El uso de signos de interrogación."
+    },
+    "correctAnswer": "A",
+    "explanation": "El autor utiliza adjetivos o adverbios para mostrar qué tan seguro está o qué opina sobre lo que escribe.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cómo se construye un argumento de ejemplo?",
+    "options": {
+      "A": "Usando un caso concreto representativo para apoyar una idea general.",
+      "B": "Copiando conclusiones de un especialista.",
+      "C": "Usando enunciados emotivos.",
+      "D": "Usando definiciones de diccionario."
+    },
+    "correctAnswer": "A",
+    "explanation": "Los ejemplos concretos hacen que un argumento general sea más fácil de entender y verificar.",
+    "subject": "Español",
+    "topic": "Argumentación",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué significa ir más allá del significado literal de un texto?",
+    "options": {
+      "A": "Leer solo lo impreso en la hoja.",
+      "B": "Interpretar el contexto y la intención del autor.",
+      "C": "Contar cuántas palabras desconocidas hay.",
+      "D": "Localizar ideas secundarias únicamente."
+    },
+    "correctAnswer": "B",
+    "explanation": "La buena lectura implica entender lo que el autor sugiere, más allá de las palabras exactas escritas.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un oxímoron?",
+    "options": {
+      "A": "Una exageración desmedida.",
+      "B": "La unión de dos conceptos contradictorios en una sola expresión.",
+      "C": "La repetición de sonidos.",
+      "D": "Formular una pregunta sin esperar respuesta."
+    },
+    "correctAnswer": "B",
+    "explanation": "El oxímoron une términos opuestos (ej. 'silencio ensordecedor') para crear una imagen nueva y potente.",
+    "subject": "Español",
+    "topic": "Recursos retóricos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué estudia la variación social (diastrática) del español?",
+    "options": {
+      "A": "Las diferencias según el nivel sociocultural.",
+      "B": "Los modismos de una zona geográfica.",
+      "C": "Los cambios gramaticales a través de los siglos.",
+      "D": "El uso de lenguaje solo en contextos formales."
+    },
+    "correctAnswer": "A",
+    "explanation": "La variación social analiza cómo el habla cambia según la educación, edad o grupo social del hablante.",
+    "subject": "Español",
+    "topic": "Variantes del español",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué efecto logra el hipérbaton?",
+    "options": {
+      "A": "Explicar conceptos mediante repetición.",
+      "B": "Eliminar palabras secundarias.",
+      "C": "Alterar el orden normal de la oración para dar énfasis o ritmo.",
+      "D": "Lanzar preguntas emotivas."
+    },
+    "correctAnswer": "C",
+    "explanation": "El hipérbaton cambia el orden habitual de las palabras para hacer el lenguaje más poético o llamativo.",
+    "subject": "Español",
+    "topic": "Recursos retóricos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la utilidad de la función fática del lenguaje?",
+    "options": {
+      "A": "Comunicar avances científicos.",
+      "B": "Establecer, mantener o verificar el canal de comunicación.",
+      "C": "Desahogar emociones.",
+      "D": "Explicar reglas de ortografía."
+    },
+    "correctAnswer": "B",
+    "explanation": "La función fática sirve para comprobar que la comunicación funciona (ej. '¿Me oyes?', 'Hola').",
+    "subject": "Español",
+    "topic": "Funciones del lenguaje",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué define a un texto multimodal?",
+    "options": {
+      "A": "Un escrito de opinión grupal.",
+      "B": "Un libro clásico leído en orden aleatorio.",
+      "C": "Una obra antigua traducida.",
+      "D": "Un texto que integra imagen, audio, video y escritura."
+    },
+    "correctAnswer": "D",
+    "explanation": "Los textos multimodales (infografías, web, videos) combinan diversos recursos para transmitir información.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es una fuente confiable en una investigación?",
+    "options": {
+      "A": "Cualquier blog personal de internet.",
+      "B": "Una enciclopedia con autores identificados y datos verificables.",
+      "C": "Un comentario en redes sociales sobre el tema.",
+      "D": "La opinión de un desconocido en un foro."
+    },
+    "correctAnswer": "B",
+    "explanation": "Una fuente es confiable cuando tiene autoría clara, está respaldada por instituciones y su información es comprobable.",
+    "subject": "Español",
+    "topic": "Investigación",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es el propósito de una introducción en un texto?",
+    "options": {
+      "A": "Dar la conclusión final del tema.",
+      "B": "Presentar el tema y captar el interés del lector.",
+      "C": "Listar todos los errores del autor.",
+      "D": "Agradecer a los lectores."
+    },
+    "correctAnswer": "B",
+    "explanation": "La introducción establece el contexto, plantea el tema y motiva al lector a continuar.",
+    "subject": "Español",
+    "topic": "Producción de textos",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es la idea principal de un párrafo?",
+    "options": {
+      "A": "El ejemplo más divertido del texto.",
+      "B": "La frase que contiene la información más relevante.",
+      "C": "El título del libro.",
+      "D": "La última palabra del texto."
+    },
+    "correctAnswer": "B",
+    "explanation": "La idea principal es la esencia del párrafo; sin ella, el texto pierde su sentido fundamental.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué son los conectores temporales?",
+    "options": {
+      "A": "Palabras que indican causa y efecto.",
+      "B": "Palabras que indican el orden o tiempo de los hechos (primero, después).",
+      "C": "Signos de puntuación que indican pausas.",
+      "D": "Adjetivos que describen personajes."
+    },
+    "correctAnswer": "B",
+    "explanation": "Los conectores temporales organizan el relato en el tiempo, ayudando a la cronología del texto.",
+    "subject": "Español",
+    "topic": "Cohesión textual",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es la función del punto y seguido?",
+    "options": {
+      "A": "Terminar definitivamente el escrito.",
+      "B": "Separar oraciones que hablan de un mismo tema dentro del mismo párrafo.",
+      "C": "Marcar una pausa muy larga.",
+      "D": "Indicar una emoción del autor."
+    },
+    "correctAnswer": "B",
+    "explanation": "El punto y seguido organiza las ideas dentro del párrafo, permitiendo avanzar sin cambiar de tema.",
+    "subject": "Español",
+    "topic": "Ortografía",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Para qué sirve el uso de sinónimos en un texto?",
+    "options": {
+      "A": "Para hacer el texto más largo.",
+      "B": "Para demostrar que conocemos muchas palabras.",
+      "C": "Para evitar la repetición innecesaria de palabras.",
+      "D": "Para cambiar el significado de lo que escribimos."
+    },
+    "correctAnswer": "C",
+    "explanation": "Los sinónimos dan fluidez y elegancia al texto, evitando que el lector se aburra por repeticiones.",
+    "subject": "Español",
+    "topic": "Cohesión textual",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es un pie de foto en un texto informativo?",
+    "options": {
+      "A": "La biografía del fotógrafo.",
+      "B": "Una frase breve que explica el contenido de una imagen.",
+      "C": "Un dato curioso sobre la historia de la cámara.",
+      "D": "El número de página."
+    },
+    "correctAnswer": "B",
+    "explanation": "El pie de foto ayuda a contextualizar la imagen para que el lector comprenda su relación con el texto.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Básico"
+  }
+]
+
