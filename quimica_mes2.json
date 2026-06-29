@@ -1,0 +1,702 @@
+[
+  {
+    "question": "¿Qué es un enlace iónico?",
+    "options": {
+      "A": "La transferencia de electrones entre un metal y un no metal",
+      "B": "La compartición de electrones entre dos no metales",
+      "C": "La atracción entre dos átomos del mismo elemento",
+      "D": "La unión entre dos moléculas de agua"
+    },
+    "correctAnswer": "A",
+    "explanation": "El enlace iónico se forma por la transferencia de electrones de un metal a un no metal. El metal se convierte en catión y el no metal en anión.",
+    "subject": "Química",
+    "topic": "Enlace químico",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre un catión y un anión?",
+    "options": {
+      "A": "El catión es positivo (perdió electrones) y el anión es negativo (ganó electrones)",
+      "B": "El catión es negativo y el anión es positivo",
+      "C": "Ambos tienen la misma carga eléctrica",
+      "D": "El catión es un no metal y el anión es un metal"
+    },
+    "correctAnswer": "A",
+    "explanation": "Un catión es un ion con carga positiva debido a la pérdida de electrones, mientras que un anión adquiere carga negativa al ganar electrones.",
+    "subject": "Química",
+    "topic": "Enlace químico",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué tipo de enlace tienen las moléculas de H₂O?",
+    "options": {
+      "A": "Iónico",
+      "B": "Covalente polar",
+      "C": "Metálico",
+      "D": "Covalente no polar"
+    },
+    "correctAnswer": "B",
+    "explanation": "En el H₂O, los electrones se comparten, pero el oxígeno los atrae con más fuerza, generando una polaridad en la molécula.",
+    "subject": "Química",
+    "topic": "Enlace químico",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la electronegatividad?",
+    "options": {
+      "A": "La tendencia de un átomo a perder electrones",
+      "B": "La capacidad de un átomo para atraer electrones hacia sí en un enlace",
+      "C": "La carga eléctrica de un ion",
+      "D": "El número de electrones en la última capa"
+    },
+    "correctAnswer": "B",
+    "explanation": "La electronegatividad mide la capacidad de un átomo para atraer los electrones compartidos en un enlace químico.",
+    "subject": "Química",
+    "topic": "Enlace químico",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué son las fuerzas de atracción intermoleculares?",
+    "options": {
+      "A": "Los enlaces iónicos fuertes",
+      "B": "Los enlaces covalentes dentro de una molécula",
+      "C": "Fuerzas de atracción débiles entre moléculas",
+      "D": "La fuerza que mantiene unidos los protones"
+    },
+    "correctAnswer": "C",
+    "explanation": "Son fuerzas de atracción entre moléculas neutras que determinan propiedades físicas como el punto de ebullición.",
+    "subject": "Química",
+    "topic": "Fuerzas intermoleculares",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la estequiometría?",
+    "options": {
+      "A": "El estudio de la velocidad de las reacciones",
+      "B": "El estudio de la estructura de los átomos",
+      "C": "La medición de la temperatura en reacciones",
+      "D": "El estudio de las relaciones cuantitativas entre reactivos y productos"
+    },
+    "correctAnswer": "D",
+    "explanation": "La estequiometría calcula las cantidades de sustancias que participan en una reacción química basándose en ecuaciones balanceadas.",
+    "subject": "Química",
+    "topic": "Estequiometría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "En la reacción: 2H₂ + O₂ → 2H₂O, ¿cuántas moléculas de O₂ se necesitan para producir 4 moléculas de H₂O?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "8"
+    },
+    "correctAnswer": "B",
+    "explanation": "Según la ecuación, por cada 2 moléculas de agua se requiere 1 de oxígeno. Para 4 de agua, se requieren 2 de oxígeno.",
+    "subject": "Química",
+    "topic": "Estequiometría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un mol en química?",
+    "options": {
+      "A": "Una unidad de masa igual a 1 gramo",
+      "B": "Una unidad de volumen igual a 1 litro",
+      "C": "La cantidad de sustancia que contiene 6.022×10²³ partículas",
+      "D": "La unidad de temperatura en química"
+    },
+    "correctAnswer": "C",
+    "explanation": "El mol es la unidad para medir la cantidad de sustancia, definido por el número de Avogadro.",
+    "subject": "Química",
+    "topic": "El mol",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuántos gramos hay en 2 moles de CO₂? (C=12, O=16)",
+    "options": {
+      "A": "88 g",
+      "B": "44 g",
+      "C": "56 g",
+      "D": "28 g"
+    },
+    "correctAnswer": "A",
+    "explanation": "La masa molar del CO₂ es 44 g/mol. Para 2 moles, multiplicamos 44 por 2, resultando 88 gramos.",
+    "subject": "Química",
+    "topic": "Estequiometría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la concentración de una solución?",
+    "options": {
+      "A": "La temperatura a la que se disuelve el soluto",
+      "B": "La velocidad con que se disuelve el soluto",
+      "C": "La cantidad de soluto disuelto en una cantidad de solvente",
+      "D": "El color que adquiere la solución"
+    },
+    "correctAnswer": "C",
+    "explanation": "La concentración define la relación cuantitativa entre el soluto y el disolvente.",
+    "subject": "Química",
+    "topic": "Soluciones",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es una solución saturada?",
+    "options": {
+      "A": "Una solución con muy poco soluto",
+      "B": "Una solución con temperatura muy alta",
+      "C": "Una solución que ya no puede disolver más soluto",
+      "D": "Una solución sin solvente"
+    },
+    "correctAnswer": "C",
+    "explanation": "Una solución está saturada cuando el disolvente ha alcanzado su límite de capacidad para disolver soluto a una temperatura dada.",
+    "subject": "Química",
+    "topic": "Soluciones",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué sucede generalmente con la solubilidad de los sólidos al aumentar la temperatura?",
+    "options": {
+      "A": "Disminuye",
+      "B": "No cambia",
+      "C": "Primero aumenta y luego disminuye",
+      "D": "Aumenta"
+    },
+    "correctAnswer": "D",
+    "explanation": "En la mayoría de los sólidos, el aumento de temperatura facilita su disolución en el solvente.",
+    "subject": "Química",
+    "topic": "Soluciones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cómo se calcula el porcentaje en masa de una solución?",
+    "options": {
+      "A": "% = masa soluto / masa solvente × 100",
+      "B": "% = masa solvente / masa soluto × 100",
+      "C": "% = volumen soluto / volumen solución × 100",
+      "D": "% = masa soluto / masa solución × 100"
+    },
+    "correctAnswer": "D",
+    "explanation": "El porcentaje en masa se obtiene dividiendo la masa del soluto entre la masa total de la solución y multiplicando por 100.",
+    "subject": "Química",
+    "topic": "Concentración",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es una reacción química?",
+    "options": {
+      "A": "Un cambio en el estado físico del agua",
+      "B": "La transformación de sustancias iniciales en nuevas sustancias",
+      "C": "La mezcla de dos líquidos que no reaccionan",
+      "D": "La evaporación de un solvente"
+    },
+    "correctAnswer": "B",
+    "explanation": "En una reacción química, los átomos se reordenan para formar sustancias con propiedades diferentes a las originales.",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es la función de los catalizadores en una reacción?",
+    "options": {
+      "A": "Aumentar la cantidad de producto obtenido",
+      "B": "Disminuir la temperatura requerida",
+      "C": "Aumentar la velocidad de la reacción",
+      "D": "Cambiar el color de la reacción"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los catalizadores aceleran la velocidad de una reacción química sin consumirse en el proceso.",
+    "subject": "Química",
+    "topic": "Cinética química",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es una reacción exotérmica?",
+    "options": {
+      "A": "Una reacción que absorbe calor del ambiente",
+      "B": "Una reacción que libera calor al ambiente",
+      "C": "Una reacción que no involucra cambios de energía",
+      "D": "Una reacción que solo ocurre a altas presiones"
+    },
+    "correctAnswer": "B",
+    "explanation": "En las reacciones exotérmicas, el sistema libera energía en forma de calor hacia el entorno.",
+    "subject": "Química",
+    "topic": "Termodinámica",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es una reacción endotérmica?",
+    "options": {
+      "A": "Una reacción que libera calor",
+      "B": "Una reacción que produce luz",
+      "C": "Una reacción que absorbe calor del ambiente",
+      "D": "Una reacción que ocurre instantáneamente"
+    },
+    "correctAnswer": "C",
+    "explanation": "Las reacciones endotérmicas requieren una absorción continua de energía del entorno para que ocurran.",
+    "subject": "Química",
+    "topic": "Termodinámica",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre hidrocarburos saturados e insaturados?",
+    "options": {
+      "A": "Los saturados tienen dobles enlaces",
+      "B": "Los saturados solo tienen enlaces simples; los insaturados tienen enlaces dobles o triples",
+      "C": "No hay diferencia entre ambos",
+      "D": "Los saturados son siempre líquidos"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los alcanos (saturados) poseen solo enlaces simples, mientras que alquenos y alquinos (insaturados) incluyen enlaces múltiples.",
+    "subject": "Química",
+    "topic": "Química orgánica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la fermentación?",
+    "options": {
+      "A": "La oxidación completa de glucosa con oxígeno",
+      "B": "La descomposición de azúcares por microorganismos sin oxígeno, produciendo alcohol",
+      "C": "La síntesis de proteínas",
+      "D": "La digestión de grasas"
+    },
+    "correctAnswer": "B",
+    "explanation": "La fermentación es un proceso de degradación de azúcares sin oxígeno, utilizado frecuentemente para obtener energía.",
+    "subject": "Química",
+    "topic": "Química orgánica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué son los polímeros?",
+    "options": {
+      "A": "Macromoléculas formadas por la repetición de unidades llamadas monómeros",
+      "B": "Moléculas muy pequeñas y simples",
+      "C": "Compuestos iónicos de gran masa",
+      "D": "Mezclas de varios metales"
+    },
+    "correctAnswer": "A",
+    "explanation": "Los polímeros son largas cadenas moleculares compuestas por la unión química de unidades pequeñas denominadas monómeros.",
+    "subject": "Química",
+    "topic": "Polímeros",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cómo varía el radio atómico en un periodo de la tabla periódica?",
+    "options": {
+      "A": "Aumenta de izquierda a derecha",
+      "B": "No varía",
+      "C": "Disminuye de izquierda a derecha",
+      "D": "Primero aumenta y luego disminuye"
+    },
+    "correctAnswer": "C",
+    "explanation": "El radio atómico disminuye al movernos a la derecha en un periodo, debido a que aumenta la atracción del núcleo sobre los electrones.",
+    "subject": "Química",
+    "topic": "Tabla periódica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué son los metales de transición?",
+    "options": {
+      "A": "Los elementos del grupo 1",
+      "B": "Los elementos no metálicos",
+      "C": "Los gases nobles",
+      "D": "Los elementos en el bloque central de la tabla"
+    },
+    "correctAnswer": "D",
+    "explanation": "Los metales de transición se ubican en el bloque d y se caracterizan por sus propiedades metálicas típicas.",
+    "subject": "Química",
+    "topic": "Tabla periódica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Por qué los gases nobles son estables?",
+    "options": {
+      "A": "Porque son muy pesados",
+      "B": "Porque son muy reactivos",
+      "C": "Porque tienen su capa electrónica externa completa",
+      "D": "Porque no tienen electrones"
+    },
+    "correctAnswer": "C",
+    "explanation": "Al tener su capa de valencia completa, los gases nobles poseen una estabilidad que los hace poco reactivos.",
+    "subject": "Química",
+    "topic": "Tabla periódica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la combustión completa?",
+    "options": {
+      "A": "La reacción donde se produce solo carbono",
+      "B": "La reacción sin oxígeno",
+      "C": "La reacción de un combustible con suficiente oxígeno produciendo CO₂ y H₂O",
+      "D": "La explosión de un gas"
+    },
+    "correctAnswer": "C",
+    "explanation": "La combustión completa oxida al máximo el combustible, obteniendo dióxido de carbono y agua.",
+    "subject": "Química",
+    "topic": "Reacciones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la ósmosis?",
+    "options": {
+      "A": "El movimiento de soluto de alta a baja concentración",
+      "B": "La disolución de un sólido en un líquido",
+      "C": "La separación de mezclas",
+      "D": "El movimiento de solvente a través de una membrana hacia mayor concentración"
+    },
+    "correctAnswer": "D",
+    "explanation": "La ósmosis es el paso espontáneo de disolvente hacia la solución con mayor concentración de soluto.",
+    "subject": "Química",
+    "topic": "Soluciones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Por qué el jabón limpia la grasa?",
+    "options": {
+      "A": "Porque tiene una parte que atrae agua y otra que atrae grasa",
+      "B": "Porque el jabón disuelve la grasa igual que el agua",
+      "C": "Porque el jabón es un ácido fuerte",
+      "D": "Porque el jabón genera calor"
+    },
+    "correctAnswer": "A",
+    "explanation": "El jabón es anfipático: sus colas atrapan la grasa y sus cabezas permiten que el agua la arrastre.",
+    "subject": "Química",
+    "topic": "Química y vida",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué son los materiales compuestos?",
+    "options": {
+      "A": "Materiales formados por la combinación de dos o más materiales",
+      "B": "Materiales formados por un solo elemento",
+      "C": "Aleaciones simples de metales",
+      "D": "Plásticos puros"
+    },
+    "correctAnswer": "A",
+    "explanation": "La combinación de distintos materiales permite crear productos con propiedades mecánicas superiores.",
+    "subject": "Química",
+    "topic": "Materiales",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué establece la Ley de Boyle?",
+    "options": {
+      "A": "El volumen de un gas es directamente proporcional a su temperatura",
+      "B": "La presión de un gas es directamente proporcional a su temperatura",
+      "C": "A temperatura constante, el volumen de un gas es inversamente proporcional a su presión",
+      "D": "La masa de un gas no cambia"
+    },
+    "correctAnswer": "C",
+    "explanation": "A temperatura constante, el producto de la presión por el volumen es constante.",
+    "subject": "Química",
+    "topic": "Gases",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué establece la Ley de Charles?",
+    "options": {
+      "A": "El volumen es inversamente proporcional a la temperatura",
+      "B": "A presión constante, el volumen es directamente proporcional a la temperatura absoluta",
+      "C": "La presión es inversamente proporcional a la temperatura",
+      "D": "La masa es proporcional a la temperatura"
+    },
+    "correctAnswer": "B",
+    "explanation": "A presión constante, el volumen aumenta de manera proporcional al aumentar la temperatura en Kelvin.",
+    "subject": "Química",
+    "topic": "Gases",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué son los CFC y por qué son dañinos?",
+    "options": {
+      "A": "Combustibles limpios",
+      "B": "Compuestos que destruyen la capa de ozono",
+      "C": "Gases de efecto invernadero naturales",
+      "D": "Fertilizantes para plantas"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los clorofluorocarbonos liberan átomos de cloro que catalizan la destrucción del ozono estratosférico.",
+    "subject": "Química",
+    "topic": "Química ambiental",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la química verde?",
+    "options": {
+      "A": "La química que estudia plantas",
+      "B": "El diseño de procesos químicos que minimizan sustancias peligrosas",
+      "C": "El uso de colorantes verdes",
+      "D": "La química agrícola exclusiva"
+    },
+    "correctAnswer": "B",
+    "explanation": "La química verde busca crear productos y procesos eficientes, reduciendo el impacto ambiental desde el diseño.",
+    "subject": "Química",
+    "topic": "Química ambiental",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la carga de un electrón?",
+    "options": {
+      "A": "Positiva",
+      "B": "Negativa",
+      "C": "Neutra",
+      "D": "No tiene carga"
+    },
+    "correctAnswer": "B",
+    "explanation": "El electrón es una partícula subatómica con carga eléctrica negativa.",
+    "subject": "Química",
+    "topic": "Átomo",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Dónde se encuentran los protones en el átomo?",
+    "options": {
+      "A": "En la corteza",
+      "B": "En el núcleo",
+      "C": "Orbitando alrededor",
+      "D": "Libres en el espacio"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los protones y neutrones se ubican en el núcleo central del átomo.",
+    "subject": "Química",
+    "topic": "Átomo",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es el número atómico (Z)?",
+    "options": {
+      "A": "La suma de protones y neutrones",
+      "B": "El número de electrones en la capa externa",
+      "C": "El número de protones en el núcleo",
+      "D": "La masa total del átomo"
+    },
+    "correctAnswer": "C",
+    "explanation": "El número atómico indica la cantidad de protones que posee el átomo de un elemento.",
+    "subject": "Química",
+    "topic": "Átomo",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué elemento tiene el símbolo químico O?",
+    "options": {
+      "A": "Oro",
+      "B": "Osmio",
+      "C": "Oxígeno",
+      "D": "Óxido"
+    },
+    "correctAnswer": "C",
+    "explanation": "El símbolo químico del oxígeno es la letra O.",
+    "subject": "Química",
+    "topic": "Elementos",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué sucede con los átomos en un cambio químico?",
+    "options": {
+      "A": "Se destruyen",
+      "B": "Se crean",
+      "C": "Se reordenan para formar nuevas sustancias",
+      "D": "Se transforman en otros elementos"
+    },
+    "correctAnswer": "C",
+    "explanation": "En una reacción química, los átomos se reordenan, pero su número y tipo se conservan.",
+    "subject": "Química",
+    "topic": "Reacciones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué significa el pH?",
+    "options": {
+      "A": "Potencial de hidrógeno",
+      "B": "Presión de hidrógeno",
+      "C": "Potencia de helio",
+      "D": "Pureza de hidrógeno"
+    },
+    "correctAnswer": "A",
+    "explanation": "El pH es una escala que mide el grado de acidez o basicidad de una solución.",
+    "subject": "Química",
+    "topic": "Ácidos y bases",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el pH de una solución neutra?",
+    "options": {
+      "A": "Menor a 7",
+      "B": "Mayor a 7",
+      "C": "7",
+      "D": "0"
+    },
+    "correctAnswer": "C",
+    "explanation": "Una solución neutra, como el agua pura, tiene un valor de pH de 7.",
+    "subject": "Química",
+    "topic": "Ácidos y bases",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué sabor característico tienen los ácidos?",
+    "options": {
+      "A": "Dulce",
+      "B": "Amargo",
+      "C": "Salado",
+      "D": "Agrio"
+    },
+    "correctAnswer": "D",
+    "explanation": "Muchos ácidos (como el cítrico) poseen un sabor agrio característico.",
+    "subject": "Química",
+    "topic": "Ácidos y bases",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué forma el enlace metálico?",
+    "options": {
+      "A": "Una nube de electrones compartidos por átomos metálicos",
+      "B": "La transferencia de electrones a no metales",
+      "C": "La unión iónica",
+      "D": "Fuerzas de van der Waals"
+    },
+    "correctAnswer": "A",
+    "explanation": "En los metales, los electrones de valencia se desplazan libremente, creando un 'mar de electrones'.",
+    "subject": "Química",
+    "topic": "Enlace químico",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la masa atómica?",
+    "options": {
+      "A": "El número de protones",
+      "B": "El número de electrones",
+      "C": "El promedio de la masa de los isótopos del elemento",
+      "D": "La densidad del elemento"
+    },
+    "correctAnswer": "C",
+    "explanation": "La masa atómica es un promedio ponderado de las masas de los isótopos naturales de un elemento.",
+    "subject": "Química",
+    "topic": "Átomo",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué son los isótopos?",
+    "options": {
+      "A": "Átomos del mismo elemento con diferente número de neutrones",
+      "B": "Átomos del mismo elemento con diferente número de protones",
+      "C": "Diferentes elementos",
+      "D": "Moléculas de agua"
+    },
+    "correctAnswer": "A",
+    "explanation": "Los isótopos tienen igual número de protones, pero distinta masa debido a la cantidad de neutrones.",
+    "subject": "Química",
+    "topic": "Átomo",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la unidad de medida de la energía?",
+    "options": {
+      "A": "Gramo",
+      "B": "Metro",
+      "C": "Joule",
+      "D": "Grado"
+    },
+    "correctAnswer": "C",
+    "explanation": "El Joule (J) es la unidad del Sistema Internacional para energía, trabajo y calor.",
+    "subject": "Química",
+    "topic": "Termodinámica",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es la materia?",
+    "options": {
+      "A": "Todo lo que tiene masa y ocupa un lugar en el espacio",
+      "B": "Solo los objetos sólidos",
+      "C": "La energía pura",
+      "D": "Lo que no se puede ver"
+    },
+    "correctAnswer": "A",
+    "explanation": "La materia es cualquier componente del universo que posee masa y volumen.",
+    "subject": "Química",
+    "topic": "Introducción",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué es un cambio físico?",
+    "options": {
+      "A": "Una reacción química",
+      "B": "Un cambio en la forma o estado sin alterar la composición",
+      "C": "La formación de un nuevo compuesto",
+      "D": "La descomposición por calor"
+    },
+    "correctAnswer": "B",
+    "explanation": "En un cambio físico, las sustancias mantienen su identidad química original.",
+    "subject": "Química",
+    "topic": "Introducción",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es el estado de agregación con mayor energía cinética?",
+    "options": {
+      "A": "Sólido",
+      "B": "Líquido",
+      "C": "Gas",
+      "D": "Condensado"
+    },
+    "correctAnswer": "C",
+    "explanation": "En estado gaseoso, las partículas poseen mayor movimiento y energía cinética comparado con sólidos y líquidos.",
+    "subject": "Química",
+    "topic": "Estados de agregación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la sublimación?",
+    "options": {
+      "A": "Paso de líquido a gas",
+      "B": "Paso de sólido a gas directamente",
+      "C": "Paso de gas a líquido",
+      "D": "Paso de líquido a sólido"
+    },
+    "correctAnswer": "B",
+    "explanation": "La sublimación es la transición directa de fase sólida a fase gaseosa sin pasar por el estado líquido.",
+    "subject": "Química",
+    "topic": "Estados de agregación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un coloide?",
+    "options": {
+      "A": "Una mezcla homogénea",
+      "B": "Una sustancia pura",
+      "C": "Una mezcla heterogénea de partículas pequeñas dispersas",
+      "D": "Un compuesto iónico"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los coloides son mezclas donde las partículas dispersas son mayores que en una solución, pero menores que en una suspensión.",
+    "subject": "Química",
+    "topic": "Mezclas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es el método de destilación?",
+    "options": {
+      "A": "Separación de mezclas por diferencia de puntos de ebullición",
+      "B": "Separación por filtración",
+      "C": "Separación por imanes",
+      "D": "Separación por decantación"
+    },
+    "correctAnswer": "A",
+    "explanation": "La destilación aprovecha las diferencias en los puntos de ebullición de los líquidos para separarlos.",
+    "subject": "Química",
+    "topic": "Mezclas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la densidad?",
+    "options": {
+      "A": "Relación entre masa y volumen",
+      "B": "Cantidad de materia",
+      "C": "Espacio ocupado",
+      "D": "Fuerza ejercida"
+    },
+    "correctAnswer": "A",
+    "explanation": "La densidad es una propiedad intensiva que relaciona la masa de una sustancia con el volumen que ocupa.",
+    "subject": "Química",
+    "topic": "Propiedades",
+    "level": "Básico"
+  }
+]
