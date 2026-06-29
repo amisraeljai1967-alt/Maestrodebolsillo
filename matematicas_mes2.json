@@ -1,0 +1,702 @@
+[
+  {
+    "question": "¿Cuál es la fórmula general para resolver ecuaciones cuadráticas ax² + bx + c = 0?",
+    "options": {
+      "A": "x = (-b ± √(b²-4ac)) / 2a",
+      "B": "x = (-b ± √(b²+4ac)) / 2a",
+      "C": "x = (b ± √(b²-4ac)) / 2a",
+      "D": "x = (-b ± √(b²-4ac)) / a"
+    },
+    "correctAnswer": "A",
+    "explanation": "La fórmula general permite hallar las raíces de cualquier ecuación de segundo grado. El término b²-4ac es el discriminante.",
+    "subject": "Matemáticas",
+    "topic": "Ecuaciones cuadráticas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuántas soluciones tiene una ecuación cuadrática cuando el discriminante es positivo?",
+    "options": {
+      "A": "Ninguna",
+      "B": "Una",
+      "C": "Infinitas",
+      "D": "Dos"
+    },
+    "correctAnswer": "D",
+    "explanation": "Si el discriminante (b²-4ac) > 0, existen dos soluciones reales distintas. Si es cero, hay una solución y si es negativo, no hay soluciones reales.",
+    "subject": "Matemáticas",
+    "topic": "Ecuaciones cuadráticas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "Resuelve la ecuación: x² - 5x + 6 = 0",
+    "options": {
+      "A": "x = 2 y x = 3",
+      "B": "x = -2 y x = -3",
+      "C": "x = 1 y x = 6",
+      "D": "x = 2 y x = -3"
+    },
+    "correctAnswer": "A",
+    "explanation": "Factorizando el trinomio: (x-2)(x-3) = 0. Por tanto, las soluciones son x=2 y x=3.",
+    "subject": "Matemáticas",
+    "topic": "Ecuaciones cuadráticas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la solución de la ecuación: x² - 16 = 0?",
+    "options": {
+      "A": "x = 4",
+      "B": "x = -4",
+      "C": "x = 8",
+      "D": "x = 4 y x = -4"
+    },
+    "correctAnswer": "D",
+    "explanation": "Es una diferencia de cuadrados: (x+4)(x-4)=0. Al despejar, x puede ser tanto 4 como -4.",
+    "subject": "Matemáticas",
+    "topic": "Ecuaciones cuadráticas",
+    "level": "Básico"
+  },
+  {
+    "question": "Resuelve usando la fórmula general: x² + 2x - 8 = 0",
+    "options": {
+      "A": "x = 2 y x = -4",
+      "B": "x = -2 y x = 4",
+      "C": "x = 4 y x = 2",
+      "D": "x = -2 y x = -4"
+    },
+    "correctAnswer": "A",
+    "explanation": "Aplicando la fórmula con a=1, b=2, c=-8, obtenemos x = (-2 ± 6)/2, lo que resulta en x=2 y x=-4.",
+    "subject": "Matemáticas",
+    "topic": "Ecuaciones cuadráticas",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué es el discriminante en una ecuación cuadrática?",
+    "options": {
+      "A": "La solución de la ecuación",
+      "B": "El coeficiente del término cuadrático",
+      "C": "El término independiente de la ecuación",
+      "D": "La expresión b²-4ac que determina el tipo de soluciones"
+    },
+    "correctAnswer": "D",
+    "explanation": "El discriminante (b²-4ac) es la parte de la fórmula cuadrática que define la naturaleza de las raíces.",
+    "subject": "Matemáticas",
+    "topic": "Ecuaciones cuadráticas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la solución del sistema: 2x + y = 7 y x - y = 2?",
+    "options": {
+      "A": "x=3, y=1",
+      "B": "x=2, y=3",
+      "C": "x=1, y=5",
+      "D": "x=4, y=-1"
+    },
+    "correctAnswer": "A",
+    "explanation": "Al sumar ambas ecuaciones, obtenemos 3x=9, por lo que x=3. Sustituyendo en la segunda, y=1.",
+    "subject": "Matemáticas",
+    "topic": "Sistemas de ecuaciones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué método se usa cuando se despeja una variable en una ecuación y se sustituye en la otra?",
+    "options": {
+      "A": "Método de igualación",
+      "B": "Método de eliminación",
+      "C": "Método gráfico",
+      "D": "Método de sustitución"
+    },
+    "correctAnswer": "D",
+    "explanation": "El método de sustitución es ideal para despejar una incógnita en términos de la otra y reducir el sistema.",
+    "subject": "Matemáticas",
+    "topic": "Sistemas de ecuaciones",
+    "level": "Básico"
+  },
+  {
+    "question": "Un sistema de ecuaciones es inconsistente cuando:",
+    "options": {
+      "A": "Tiene una única solución",
+      "B": "Tiene infinitas soluciones",
+      "C": "No tiene solución",
+      "D": "Tiene dos soluciones"
+    },
+    "correctAnswer": "C",
+    "explanation": "Un sistema inconsistente no tiene solución porque sus rectas son paralelas y no se intersectan en ningún punto.",
+    "subject": "Matemáticas",
+    "topic": "Sistemas de ecuaciones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "Resuelve por eliminación: 3x + 2y = 12 y x + 2y = 8",
+    "options": {
+      "A": "x=2, y=3",
+      "B": "x=3, y=2",
+      "C": "x=4, y=2",
+      "D": "x=2, y=4"
+    },
+    "correctAnswer": "A",
+    "explanation": "Al restar la segunda ecuación de la primera, queda 2x = 4, es decir x=2. Luego, sustituyendo, obtenemos y=3.",
+    "subject": "Matemáticas",
+    "topic": "Sistemas de ecuaciones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "En un triángulo rectángulo, ¿qué es el seno de un ángulo?",
+    "options": {
+      "A": "Cateto adyacente / Hipotenusa",
+      "B": "Cateto opuesto / Hipotenusa",
+      "C": "Cateto opuesto / Cateto adyacente",
+      "D": "Hipotenusa / Cateto opuesto"
+    },
+    "correctAnswer": "B",
+    "explanation": "Por definición trigonométrica, el seno es el cociente entre el cateto opuesto al ángulo y la hipotenusa.",
+    "subject": "Matemáticas",
+    "topic": "Trigonometría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el coseno de 60°?",
+    "options": {
+      "A": "√3/2",
+      "B": "√2/2",
+      "C": "1",
+      "D": "1/2"
+    },
+    "correctAnswer": "D",
+    "explanation": "El valor exacto de cos(60°) en la tabla de razones trigonométricas es 1/2.",
+    "subject": "Matemáticas",
+    "topic": "Trigonometría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuánto es la tangente de 45°?",
+    "options": {
+      "A": "0",
+      "B": "√3",
+      "C": "1",
+      "D": "√2"
+    },
+    "correctAnswer": "C",
+    "explanation": "Como en 45° el cateto opuesto y el adyacente son iguales en un triángulo isósceles rectángulo, la tangente es 1.",
+    "subject": "Matemáticas",
+    "topic": "Trigonometría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "En un triángulo rectángulo, si el ángulo A = 30° y la hipotenusa = 10 cm, ¿cuánto mide el cateto opuesto?",
+    "options": {
+      "A": "5 cm",
+      "B": "8.66 cm",
+      "C": "10 cm",
+      "D": "7.07 cm"
+    },
+    "correctAnswer": "A",
+    "explanation": "Usando la función seno: cateto opuesto = 10 * sen(30°). Como sen(30°) = 0.5, el resultado es 5 cm.",
+    "subject": "Matemáticas",
+    "topic": "Trigonometría",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es la identidad trigonométrica fundamental?",
+    "options": {
+      "A": "sen²θ - cos²θ = 1",
+      "B": "sen²θ + cos²θ = 1",
+      "C": "sen θ × cos θ = 1",
+      "D": "tan²θ + 1 = sen²θ"
+    },
+    "correctAnswer": "B",
+    "explanation": "La relación fundamental que deriva del teorema de Pitágoras es sen²θ + cos²θ = 1.",
+    "subject": "Matemáticas",
+    "topic": "Trigonometría",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es la fórmula para calcular la distancia entre dos puntos (x₁,y₁) y (x₂,y₂)?",
+    "options": {
+      "A": "d = (x₂-x₁) + (y₂-y₁)",
+      "B": "d = (x₂-x₁)² + (y₂-y₁)²",
+      "C": "d = √((x₂+x₁)² + (y₂+y₁)²)",
+      "D": "d = √((x₂-x₁)² + (y₂-y₁)²)"
+    },
+    "correctAnswer": "D",
+    "explanation": "La fórmula de distancia es la aplicación del teorema de Pitágoras sobre las diferencias de las coordenadas.",
+    "subject": "Matemáticas",
+    "topic": "Geometría analítica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la distancia entre los puntos (1,2) y (4,6)?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "7"
+    },
+    "correctAnswer": "C",
+    "explanation": "Distancia = √((4-1)² + (6-2)²) = √(3² + 4²) = √9 + 16 = √25 = 5.",
+    "subject": "Matemáticas",
+    "topic": "Geometría analítica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el punto medio entre (2,4) y (8,10)?",
+    "options": {
+      "A": "(4,6)",
+      "B": "(6,8)",
+      "C": "(3,5)",
+      "D": "(5,7)"
+    },
+    "correctAnswer": "D",
+    "explanation": "El punto medio es el promedio de las coordenadas: ((2+8)/2, (4+10)/2) = (5, 7).",
+    "subject": "Matemáticas",
+    "topic": "Geometría analítica",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Qué representa la ecuación y = 2x + 3 en el plano cartesiano?",
+    "options": {
+      "A": "Una parábola",
+      "B": "Un círculo",
+      "C": "Una línea recta",
+      "D": "Una hipérbola"
+    },
+    "correctAnswer": "C",
+    "explanation": "Esta es la forma pendiente-ordenada al origen (y = mx + b) de una línea recta.",
+    "subject": "Matemáticas",
+    "topic": "Geometría analítica",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es la pendiente de la recta que pasa por (1,3) y (4,9)?",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "6",
+      "D": "2"
+    },
+    "correctAnswer": "D",
+    "explanation": "Pendiente (m) = (y₂ - y₁) / (x₂ - x₁) = (9 - 3) / (4 - 1) = 6 / 3 = 2.",
+    "subject": "Matemáticas",
+    "topic": "Geometría analítica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la probabilidad condicional P(A|B)?",
+    "options": {
+      "A": "La probabilidad de A más la de B",
+      "B": "La probabilidad de A dado que B ya ocurrió",
+      "C": "La probabilidad de que A y B ocurran juntos",
+      "D": "La probabilidad de A menos la de B"
+    },
+    "correctAnswer": "B",
+    "explanation": "La probabilidad condicional evalúa la ocurrencia de un evento A, tomando en cuenta la información de que B ha sucedido.",
+    "subject": "Matemáticas",
+    "topic": "Probabilidad",
+    "level": "Avanzado"
+  },
+  {
+    "question": "Se lanza una moneda dos veces. ¿Cuál es la probabilidad de obtener dos caras?",
+    "options": {
+      "A": "1/2",
+      "B": "1/3",
+      "C": "1/8",
+      "D": "1/4"
+    },
+    "correctAnswer": "D",
+    "explanation": "Para eventos independientes, multiplicamos probabilidades: (1/2) * (1/2) = 1/4.",
+    "subject": "Matemáticas",
+    "topic": "Probabilidad",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la regla de la multiplicación para eventos independientes?",
+    "options": {
+      "A": "P(A y B) = P(A) + P(B)",
+      "B": "P(A y B) = P(A) × P(B)",
+      "C": "P(A y B) = P(A) - P(B)",
+      "D": "P(A y B) = P(A) / P(B)"
+    },
+    "correctAnswer": "B",
+    "explanation": "La probabilidad conjunta de dos eventos independientes es simplemente el producto de sus probabilidades individuales.",
+    "subject": "Matemáticas",
+    "topic": "Probabilidad",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuántos resultados posibles hay al lanzar 3 monedas?",
+    "options": {
+      "A": "3",
+      "B": "6",
+      "C": "9",
+      "D": "8"
+    },
+    "correctAnswer": "D",
+    "explanation": "Como cada moneda tiene 2 opciones, para 3 lanzamientos el total es 2³ = 8 resultados.",
+    "subject": "Matemáticas",
+    "topic": "Probabilidad",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la varianza en estadística?",
+    "options": {
+      "A": "El valor más frecuente en un conjunto de datos",
+      "B": "La diferencia entre el máximo y el mínimo",
+      "C": "La medida de dispersión que calcula el promedio de las desviaciones al cuadrado",
+      "D": "El valor central de un conjunto ordenado"
+    },
+    "correctAnswer": "C",
+    "explanation": "La varianza mide la variabilidad de los datos respecto a su media, expresada en unidades cuadradas.",
+    "subject": "Matemáticas",
+    "topic": "Estadística",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué es la desviación estándar?",
+    "options": {
+      "A": "La raíz cuadrada de la varianza",
+      "B": "El cuadrado de la varianza",
+      "C": "La diferencia entre la media y la moda",
+      "D": "El promedio de los datos"
+    },
+    "correctAnswer": "A",
+    "explanation": "La desviación estándar es la raíz cuadrada positiva de la varianza, lo que permite tener la medida en las unidades originales.",
+    "subject": "Matemáticas",
+    "topic": "Estadística",
+    "level": "Avanzado"
+  },
+  {
+    "question": "En los datos 2, 4, 4, 4, 5, 5, 7, 9. ¿Cuál es la media?",
+    "options": {
+      "A": "4",
+      "B": "4.5",
+      "C": "5",
+      "D": "5.5"
+    },
+    "correctAnswer": "C",
+    "explanation": "La media es la suma (40) dividida entre el número de datos (8), lo cual da 5.",
+    "subject": "Matemáticas",
+    "topic": "Estadística",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es la mediana de: 3, 7, 8, 5, 12, 14, 21, 13, 18?",
+    "options": {
+      "A": "12",
+      "B": "8",
+      "C": "13",
+      "D": "14"
+    },
+    "correctAnswer": "A",
+    "explanation": "Ordenando los datos: 3, 5, 7, 8, 12, 13, 14, 18, 21. El valor central (mediana) es 12.",
+    "subject": "Matemáticas",
+    "topic": "Estadística",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es una sucesión aritmética?",
+    "options": {
+      "A": "Una sucesión donde cada término se multiplica por una constante",
+      "B": "Una sucesión donde la diferencia entre términos consecutivos es constante",
+      "C": "Una sucesión de números primos",
+      "D": "Una sucesión donde los términos disminuyen siempre"
+    },
+    "correctAnswer": "B",
+    "explanation": "Es aquella donde cada término se obtiene sumando una cantidad fija (razón) al anterior.",
+    "subject": "Matemáticas",
+    "topic": "Sucesiones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "En la sucesión 3, 6, 12, 24, 48... ¿cuál es el siguiente término?",
+    "options": {
+      "A": "72",
+      "B": "84",
+      "C": "60",
+      "D": "96"
+    },
+    "correctAnswer": "D",
+    "explanation": "Es una sucesión geométrica con razón 2, por lo tanto el siguiente término es 48 * 2 = 96.",
+    "subject": "Matemáticas",
+    "topic": "Sucesiones",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es el término número 10 de la sucesión aritmética: 5, 8, 11, 14...?",
+    "options": {
+      "A": "29",
+      "B": "32",
+      "C": "35",
+      "D": "38"
+    },
+    "correctAnswer": "B",
+    "explanation": "Usando aₙ = a₁ + (n-1)d: a₁₀ = 5 + (9 * 3) = 5 + 27 = 32.",
+    "subject": "Matemáticas",
+    "topic": "Sucesiones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la suma de los primeros 100 números naturales?",
+    "options": {
+      "A": "4,950",
+      "B": "5,000",
+      "C": "5,100",
+      "D": "5,050"
+    },
+    "correctAnswer": "D",
+    "explanation": "Se aplica la fórmula de Gauss: n(n+1)/2 = 100 * 101 / 2 = 5,050.",
+    "subject": "Matemáticas",
+    "topic": "Sucesiones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la fórmula del interés simple?",
+    "options": {
+      "A": "I = C × r × t",
+      "B": "I = C × (1+r)^t",
+      "C": "I = C + r + t",
+      "D": "I = C / (r × t)"
+    },
+    "correctAnswer": "A",
+    "explanation": "El interés simple se calcula multiplicando el capital por la tasa de interés y el tiempo.",
+    "subject": "Matemáticas",
+    "topic": "Interés",
+    "level": "Básico"
+  },
+  {
+    "question": "Si inviertes $10,000 al 5% anual de interés simple por 3 años, ¿cuánto interés ganas?",
+    "options": {
+      "A": "$1,500",
+      "B": "$500",
+      "C": "$1,000",
+      "D": "$2,000"
+    },
+    "correctAnswer": "A",
+    "explanation": "Aplicando I = C*r*t: 10,000 * 0.05 * 3 = 1,500.",
+    "subject": "Matemáticas",
+    "topic": "Interés",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es la diferencia principal entre interés simple e interés compuesto?",
+    "options": {
+      "A": "El interés simple siempre genera más ganancias",
+      "B": "En el interés compuesto, los intereses generados se suman al capital y también generan intereses",
+      "C": "El interés compuesto solo se usa en préstamos",
+      "D": "No hay diferencia entre ambos"
+    },
+    "correctAnswer": "B",
+    "explanation": "El interés compuesto se caracteriza por la capitalización de los intereses, generando un crecimiento exponencial.",
+    "subject": "Matemáticas",
+    "topic": "Interés",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la fórmula del monto con interés compuesto?",
+    "options": {
+      "A": "M = C + r × t",
+      "B": "M = C × r × t",
+      "C": "M = C × (1+r)^t",
+      "D": "M = C / (1+r)^t"
+    },
+    "correctAnswer": "C",
+    "explanation": "La fórmula M = C(1+r)^t refleja el crecimiento del capital incluyendo el interés compuesto.",
+    "subject": "Matemáticas",
+    "topic": "Interés",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el resultado de (a + b)²?",
+    "options": {
+      "A": "a² + b²",
+      "B": "a² + ab + b²",
+      "C": "a² + 2ab + b²",
+      "D": "2a² + 2b²"
+    },
+    "correctAnswer": "C",
+    "explanation": "Es un producto notable: el cuadrado del binomio es el cuadrado del primero más el doble producto del primero por el segundo más el cuadrado del segundo.",
+    "subject": "Matemáticas",
+    "topic": "Álgebra",
+    "level": "Intermedio"
+  },
+  {
+    "question": "Simplifica: (x³ × x⁴) / x²",
+    "options": {
+      "A": "x⁵",
+      "B": "x⁷",
+      "C": "x⁹",
+      "D": "x¹²"
+    },
+    "correctAnswer": "A",
+    "explanation": "Sumamos exponentes al multiplicar: 3+4=7. Restamos exponente al dividir: 7-2=5.",
+    "subject": "Matemáticas",
+    "topic": "Álgebra",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la factorización de 4x² - 9?",
+    "options": {
+      "A": "(2x-3)²",
+      "B": "(2x+3)(2x-3)",
+      "C": "(4x-9)(x+1)",
+      "D": "(2x-3)(2x+9)"
+    },
+    "correctAnswer": "B",
+    "explanation": "Es una diferencia de cuadrados perfectos: (2x)² - (3)² = (2x+3)(2x-3).",
+    "subject": "Matemáticas",
+    "topic": "Álgebra",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es el resultado de dividir 6x³ + 4x² - 2x entre 2x?",
+    "options": {
+      "A": "3x² + 2x - 1",
+      "B": "3x + 2 - 1/x",
+      "C": "6x² + 4x - 2",
+      "D": "3x² + 2x"
+    },
+    "correctAnswer": "A",
+    "explanation": "Dividimos cada término del numerador por el monomio: 6x³/2x = 3x², 4x²/2x = 2x, -2x/2x = -1.",
+    "subject": "Matemáticas",
+    "topic": "Álgebra",
+    "level": "Avanzado"
+  },
+  {
+    "question": "Si 4 trabajadores hacen un trabajo en 6 días, ¿cuántos días tardarán 8 trabajadores?",
+    "options": {
+      "A": "2 días",
+      "B": "3 días",
+      "C": "4 días",
+      "D": "12 días"
+    },
+    "correctAnswer": "B",
+    "explanation": "Proporcionalidad inversa: al duplicar los trabajadores, el tiempo necesario se reduce a la mitad.",
+    "subject": "Matemáticas",
+    "topic": "Proporcionalidad",
+    "level": "Intermedio"
+  },
+  {
+    "question": "En una receta para 4 personas se necesitan 300g de harina. ¿Cuánta harina se necesita para 10 personas?",
+    "options": {
+      "A": "600g",
+      "B": "700g",
+      "C": "750g",
+      "D": "800g"
+    },
+    "correctAnswer": "C",
+    "explanation": "Regla de tres simple directa: (300*10)/4 = 750g.",
+    "subject": "Matemáticas",
+    "topic": "Proporcionalidad",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es el volumen de una esfera con radio 3 cm? (π ≈ 3.14)",
+    "options": {
+      "A": "28.26 cm³",
+      "B": "75.36 cm³",
+      "C": "113.04 cm³",
+      "D": "339.12 cm³"
+    },
+    "correctAnswer": "C",
+    "explanation": "Fórmula: V = (4/3)πr³. V = (4/3) * 3.14 * 27 = 4 * 3.14 * 9 = 113.04 cm³.",
+    "subject": "Matemáticas",
+    "topic": "Geometría",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es el área total de un cilindro con radio 4 cm y altura 10 cm? (π ≈ 3.14)",
+    "options": {
+      "A": "251.2 cm²",
+      "B": "351.68 cm²",
+      "C": "326.7 cm²",
+      "D": "452.16 cm²"
+    },
+    "correctAnswer": "B",
+    "explanation": "Área total = 2πr² + 2πrh = 2*3.14*16 + 2*3.14*4*10 = 100.48 + 251.2 = 351.68 cm².",
+    "subject": "Matemáticas",
+    "topic": "Geometría",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuántos vértices tiene un cubo?",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "12"
+    },
+    "correctAnswer": "C",
+    "explanation": "Un cubo tiene 8 vértices, 12 aristas y 6 caras.",
+    "subject": "Matemáticas",
+    "topic": "Geometría",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es el resultado de 0.3 × 0.3?",
+    "options": {
+      "A": "0.9",
+      "B": "0.09",
+      "C": "0.009",
+      "D": "0.6"
+    },
+    "correctAnswer": "B",
+    "explanation": "Al multiplicar 3*3 obtenemos 9, y como hay dos decimales en total, el resultado es 0.09.",
+    "subject": "Matemáticas",
+    "topic": "Operaciones",
+    "level": "Básico"
+  },
+  {
+    "question": "¿Cuál es el valor de 2⁻³?",
+    "options": {
+      "A": "-8",
+      "B": "-6",
+      "C": "1/8",
+      "D": "1/6"
+    },
+    "correctAnswer": "C",
+    "explanation": "Un exponente negativo indica el recíproco: 2⁻³ = 1/2³ = 1/8.",
+    "subject": "Matemáticas",
+    "topic": "Potencias",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el resultado de √(a²b⁴)?",
+    "options": {
+      "A": "ab²",
+      "B": "a²b²",
+      "C": "ab⁴",
+      "D": "a²b"
+    },
+    "correctAnswer": "A",
+    "explanation": "La raíz cuadrada de una potencia se obtiene dividiendo el exponente entre 2: √a²=a¹ y √b⁴=b².",
+    "subject": "Matemáticas",
+    "topic": "Raíces",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es la notación científica de 0.00045?",
+    "options": {
+      "A": "4.5 × 10³",
+      "B": "4.5 × 10⁻⁴",
+      "C": "45 × 10⁻⁵",
+      "D": "4.5 × 10⁴"
+    },
+    "correctAnswer": "B",
+    "explanation": "Desplazamos el punto decimal 4 lugares a la derecha para obtener un número entre 1 y 10, por eso el exponente es -4.",
+    "subject": "Matemáticas",
+    "topic": "Notación científica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el resultado de (3/4) ÷ (1/2)?",
+    "options": {
+      "A": "3/8",
+      "B": "3/2",
+      "C": "6/4",
+      "D": "1/2"
+    },
+    "correctAnswer": "B",
+    "explanation": "Para dividir fracciones, multiplicamos por la recíproca: (3/4) * (2/1) = 6/4 = 3/2.",
+    "subject": "Matemáticas",
+    "topic": "Fracciones",
+    "level": "Básico"
+  }
+]
