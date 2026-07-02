@@ -1,32 +1,49 @@
 exports.handler = async function(event, context) {
-  if (event.httpMethod !== 'POST') {
-    return { statusCode: 405, body: 'Method Not Allowed' };
+  // 1. Validar el origen: ¿La petición viene de Hotmart?
+  const referer = event.headers.referer || '';
+  
+  if (!referer.includes('hotmart.com')) {
+    return {
+      statusCode: 403,
+      headers: { 'Content-Type': 'text/plain' },
+      body: 'Acceso Denegado: Este material solo puede visualizarse dentro de la plataforma.'
+    };
   }
 
+  // 2. Lógica de páginas permitidas
+  const page = event.queryStringParameters && event.queryStringParameters.page;
+  const pagesMes1 = ['historia', 'espanol', 'matematicas', 'quimica', 'civica'];
+  const pagesMes2 = ['historia_mes2', 'espanol_mes2', 'matematicas_mes2', 'quimica_mes2', 'civica_mes2'];
+
+  // 3. Verificación de acceso por cookies (mantenemos tu lógica existente)
+  const cookies = event.headers.cookie || '';
+  const tieneAccesoMes1 = cookies.includes('acceso=mes1') || cookies.includes('acceso=mes2');
+  const tieneAccesoMes2 = cookies.includes('acceso=mes2');
+
+  if (pagesMes1.includes(page) && !tieneAccesoMes1) {
+    return { statusCode: 302, headers: { 'Location': 'https://pay.hotmart.com/X106434037V' }, body: '' };
+  }
+  if (pagesMes2.includes(page) && !tieneAccesoMes2) {
+    return { statusCode: 302, headers: { 'Location': 'https://pay.hotmart.com/X106434037V' }, body: '' };
+  }
+
+  const fs = require('fs');
+  const path = require('path');
+  const filePath = path.join('/var/task', page + '.html');
+
   try {
-    const body = JSON.parse(event.body);
-    const evento = body.event;
-
-    if (evento === 'PURCHASE_APPROVED' || evento === 'PURCHASE_COMPLETE') {
-      return {
-        statusCode: 200,
-        headers: {
-          'Set-Cookie': 'acceso=mes1; path=/; max-age=2592000; SameSite=Lax',
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ success: true })
-      };
-    }
-
+    const html = fs.readFileSync(filePath, 'utf8');
     return {
       statusCode: 200,
-      body: JSON.stringify({ received: true })
+      headers: { 
+        'Content-Type': 'text/html',
+        // Esto le dice al navegador que solo permita cargar esto si está en Hotmart
+        'X-Frame-Options': 'ALLOW-FROM https://hotmart.com',
+        'Content-Security-Policy': "frame-ancestors 'self' https://app.hotmart.com"
+      },
+      body: html
     };
-
   } catch(e) {
-    return {
-      statusCode: 200,
-      body: JSON.stringify({ received: true })
-    };
+    return { statusCode: 404, body: 'Página no encontrada' };
   }
 };
