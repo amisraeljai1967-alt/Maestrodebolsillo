@@ -1,6 +1,1011 @@
-[
+{
+  "materia": "Matemáticas",
+  "grado": "3° de Secundaria",
+  "mes": 1,
+  "total_preguntas": 50,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "¿Cuál de los siguientes números es irracional?",
+      "options": {
+        "A": "√2",
+        "B": "√9",
+        "C": "3/4",
+        "D": "0.5"
+      },
+      "correctAnswer": "A",
+      "explanation": "√2 es irracional porque no puede expresarse como fracción de enteros. Su decimal es infinito y no periódico. √9 = 3 es racional, al igual que 3/4 y 0.5.",
+      "subject": "Matemáticas",
+      "topic": "Números reales",
+      "level": "Básico"
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Qué tipo de número es π (pi)?",
+      "options": {
+        "A": "Racional",
+        "B": "Irracional",
+        "C": "Natural",
+        "D": "Entero"
+      },
+      "correctAnswer": "B",
+      "explanation": "π es irracional porque su valor decimal es infinito y no periódico. No puede expresarse como una fracción exacta de dos números enteros.",
+      "subject": "Matemáticas",
+      "topic": "Números reales",
+      "level": "Básico"
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Cuál es el resultado de √(25/49)?",
+      "options": {
+        "A": "7/5",
+        "B": "25/7",
+        "C": "5/49",
+        "D": "5/7"
+      },
+      "correctAnswer": "D",
+      "explanation": "√(25/49) = √25 / √49 = 5/7. La raíz cuadrada de una fracción se obtiene sacando raíz del numerador y del denominador por separado.",
+      "subject": "Matemáticas",
+      "topic": "Números reales",
+      "level": "Básico"
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Cuál de los siguientes conjuntos contiene SOLO números racionales?",
+      "options": {
+        "A": "π, √2, 1/3",
+        "B": "√7, 0.333..., π",
+        "C": "1/2, 0.75, 3",
+        "D": "√2, √3, √5"
+      },
+      "correctAnswer": "C",
+      "explanation": "1/2, 0.75 (3/4) y 3 son racionales. Los números racionales se pueden expresar como fracción de dos enteros. Los demás incluyen irracionales.",
+      "subject": "Matemáticas",
+      "topic": "Números reales",
+      "level": "Intermedio"
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Cuál es el valor aproximado de √50?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "7",
+        "D": "7.07"
+      },
+      "correctAnswer": "D",
+      "explanation": "√50 ≈ 7.07. Como 7² = 49 y 8² = 64, √50 está entre 7 y 8, más cerca de 7. Exactamente √50 = 5√2 ≈ 7.071.",
+      "subject": "Matemáticas",
+      "topic": "Números reales",
+      "level": "Intermedio"
+    },
+    {
+      "id": 6,
+      "pregunta": "¿Cuál es el orden correcto de menor a mayor: -3, √5, 0, -1/2?",
+      "options": {
+        "A": "√5, 0, -1/2, -3",
+        "B": "0, -1/2, -3, √5",
+        "C": "-3, -1/2, 0, √5",
+        "D": "-1/2, -3, 0, √5"
+      },
+      "correctAnswer": "C",
+      "explanation": "-3 < -0.5 < 0 < √5 (≈2.236). Los negativos van primero (el más pequeño es el más negativo), luego el cero y los positivos.",
+      "subject": "Matemáticas",
+      "topic": "Números reales",
+      "level": "Intermedio"
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Cuánto es (-3)²?",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "-6",
+        "D": "-9"
+      },
+      "correctAnswer": "B",
+      "explanation": "(-3)² = (-3) × (-3) = 9. Cuando el exponente es par, el resultado de un número negativo elevado a potencia es positivo.",
+      "subject": "Matemáticas",
+      "topic": "Potencias",
+      "level": "Básico"
+    },
+    {
+      "id": 8,
+      "pregunta": "¿Cuál es el resultado de 2⁵?",
+      "options": {
+        "A": "64",
+        "B": "10",
+        "C": "16",
+        "D": "32"
+      },
+      "correctAnswer": "D",
+      "explanation": "2⁵ = 2 × 2 × 2 × 2 × 2 = 32.",
+      "subject": "Matemáticas",
+      "topic": "Potencias",
+      "level": "Básico"
+    },
+    {
+      "id": 9,
+      "pregunta": "¿Cuánto es 3⁰?",
+      "options": {
+        "A": "1",
+        "B": "Indefinido",
+        "C": "0",
+        "D": "3"
+      },
+      "correctAnswer": "A",
+      "explanation": "Cualquier número diferente de cero elevado a la potencia 0 es igual a 1. Propiedad: a⁰ = 1.",
+      "subject": "Matemáticas",
+      "topic": "Potencias",
+      "level": "Básico"
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Cuál es el resultado de 10³?",
+      "options": {
+        "A": "100",
+        "B": "30",
+        "C": "300",
+        "D": "1000"
+      },
+      "correctAnswer": "D",
+      "explanation": "10³ = 10 × 10 × 10 = 1,000. Una potencia de 10 equivale a 1 seguido de tantos ceros como indica el exponente.",
+      "subject": "Matemáticas",
+      "topic": "Potencias",
+      "level": "Básico"
+    },
+    {
+      "id": 11,
+      "pregunta": "¿Cuánto es 2³ × 2²?",
+      "options": {
+        "A": "2⁵",
+        "B": "4⁶",
+        "C": "4⁵",
+        "D": "2⁶"
+      },
+      "correctAnswer": "A",
+      "explanation": "Cuando se multiplican potencias con la misma base, se suman los exponentes: 2³ × 2² = 2^(3+2) = 2⁵ = 32.",
+      "subject": "Matemáticas",
+      "topic": "Potencias",
+      "level": "Intermedio"
+    },
+    {
+      "id": 12,
+      "pregunta": "¿Cuánto es (2³)²?",
+      "options": {
+        "A": "2⁵",
+        "B": "2⁹",
+        "C": "4⁶",
+        "D": "2⁶"
+      },
+      "correctAnswer": "D",
+      "explanation": "Cuando una potencia se eleva a otra, se multiplican los exponentes: (2³)² = 2^(3×2) = 2⁶ = 64.",
+      "subject": "Matemáticas",
+      "topic": "Potencias",
+      "level": "Intermedio"
+    },
+    {
+      "id": 13,
+      "pregunta": "¿Cuál es el resultado de 5⁻²?",
+      "options": {
+        "A": "1/25",
+        "B": "-25",
+        "C": "1/10",
+        "D": "-10"
+      },
+      "correctAnswer": "A",
+      "explanation": "5⁻² = 1/5² = 1/25. Un exponente negativo indica el recíproco: a⁻ⁿ = 1/aⁿ.",
+      "subject": "Matemáticas",
+      "topic": "Potencias",
+      "level": "Intermedio"
+    },
+    {
+      "id": 14,
+      "pregunta": "¿Cuánto es 4⁶ ÷ 4³?",
+      "options": {
+        "A": "4²",
+        "B": "4³",
+        "C": "1³",
+        "D": "4⁹"
+      },
+      "correctAnswer": "B",
+      "explanation": "Al dividir potencias con la misma base, se restan los exponentes: 4⁶ ÷ 4³ = 4^(6-3) = 4³ = 64.",
+      "subject": "Matemáticas",
+      "topic": "Potencias",
+      "level": "Intermedio"
+    },
+    {
+      "id": 15,
+      "pregunta": "¿Cuál es la raíz cúbica de 27?",
+      "options": {
+        "A": "7",
+        "B": "3",
+        "C": "9",
+        "D": "4"
+      },
+      "correctAnswer": "B",
+      "explanation": "∛27 = 3 porque 3³ = 27.",
+      "subject": "Matemáticas",
+      "topic": "Raíces",
+      "level": "Básico"
+    },
+    {
+      "id": 16,
+      "pregunta": "¿Cuál es la raíz cuadrada de 0.25?",
+      "options": {
+        "A": "0.025",
+        "B": "0.5",
+        "C": "2.5",
+        "D": "5"
+      },
+      "correctAnswer": "B",
+      "explanation": "√0.25 = 0.5 porque 0.5 × 0.5 = 0.25.",
+      "subject": "Matemáticas",
+      "topic": "Raíces",
+      "level": "Intermedio"
+    },
+    {
+      "id": 17,
+      "pregunta": "¿Cuánto es √(16 × 9)?",
+      "options": {
+        "A": "144",
+        "B": "25",
+        "C": "12",
+        "D": "72"
+      },
+      "correctAnswer": "C",
+      "explanation": "√(16 × 9) = √16 × √9 = 4 × 3 = 12.",
+      "subject": "Matemáticas",
+      "topic": "Raíces",
+      "level": "Intermedio"
+    },
+    {
+      "id": 18,
+      "pregunta": "¿Cuál es el resultado de ∛(-8)?",
+      "options": {
+        "A": "-2",
+        "B": "-4",
+        "C": "No existe",
+        "D": "2"
+      },
+      "correctAnswer": "A",
+      "explanation": "∛(-8) = -2 porque (-2)³ = -8. Las raíces cúbicas de números negativos sí existen y son negativas.",
+      "subject": "Matemáticas",
+      "topic": "Raíces",
+      "level": "Avanzado"
+    },
+    {
+      "id": 19,
+      "pregunta": "¿Cuál es el valor de 3x + 5 cuando x = 4?",
+      "options": {
+        "A": "32",
+        "B": "17",
+        "C": "23",
+        "D": "12"
+      },
+      "correctAnswer": "B",
+      "explanation": "3(4) + 5 = 12 + 5 = 17.",
+      "subject": "Matemáticas",
+      "topic": "Álgebra",
+      "level": "Básico"
+    },
+    {
+      "id": 20,
+      "pregunta": "¿Cuál es la solución de la ecuación 2x - 6 = 10?",
+      "options": {
+        "A": "x = 4",
+        "B": "x = 2",
+        "C": "x = 8",
+        "D": "x = 16"
+      },
+      "correctAnswer": "C",
+      "explanation": "2x - 6 = 10 → 2x = 16 → x = 8.",
+      "subject": "Matemáticas",
+      "topic": "Álgebra",
+      "level": "Básico"
+    },
+    {
+      "id": 21,
+      "pregunta": "Simplifica: 5x + 3y - 2x + y",
+      "options": {
+        "A": "7x + 4y",
+        "B": "3x + 2y",
+        "C": "7x + 2y",
+        "D": "3x + 4y"
+      },
+      "correctAnswer": "D",
+      "explanation": "5x + 3y - 2x + y = (5x - 2x) + (3y + y) = 3x + 4y.",
+      "subject": "Matemáticas",
+      "topic": "Álgebra",
+      "level": "Básico"
+    },
+    {
+      "id": 22,
+      "pregunta": "¿Cuál es el resultado de (x + 3)(x - 3)?",
+      "options": {
+        "A": "x² - 6x + 9",
+        "B": "x² - 9",
+        "C": "x² + 6x - 9",
+        "D": "x² + 9"
+      },
+      "correctAnswer": "B",
+      "explanation": "(x + 3)(x - 3) = x² - 9 (diferencia de cuadrados).",
+      "subject": "Matemáticas",
+      "topic": "Álgebra",
+      "level": "Intermedio"
+    },
+    {
+      "id": 23,
+      "pregunta": "¿Cuál es la solución del sistema: x + y = 5 y x - y = 1?",
+      "options": {
+        "A": "x=3, y=2",
+        "B": "x=4, y=1",
+        "C": "x=1, y=4",
+        "D": "x=2, y=3"
+      },
+      "correctAnswer": "A",
+      "explanation": "Sumando: 2x = 6 → x = 3. Luego y = 2.",
+      "subject": "Matemáticas",
+      "topic": "Álgebra",
+      "level": "Intermedio"
+    },
+    {
+      "id": 24,
+      "pregunta": "Factoriza: x² - 5x + 6",
+      "options": {
+        "A": "(x-1)(x-6)",
+        "B": "(x-2)(x-3)",
+        "C": "(x+2)(x-3)",
+        "D": "(x+2)(x+3)"
+      },
+      "correctAnswer": "B",
+      "explanation": "x² - 5x + 6 = (x-2)(x-3).",
+      "subject": "Matemáticas",
+      "topic": "Álgebra",
+      "level": "Avanzado"
+    },
+    {
+      "id": 25,
+      "pregunta": "¿Cuál es el área de un triángulo con base 8 cm y altura 5 cm?",
+      "options": {
+        "A": "20 cm²",
+        "B": "40 cm²",
+        "C": "80 cm²",
+        "D": "13 cm²"
+      },
+      "correctAnswer": "A",
+      "explanation": "Área = (base × altura) / 2 = (8 × 5) / 2 = 20 cm².",
+      "subject": "Matemáticas",
+      "topic": "Geometría",
+      "level": "Básico"
+    },
+    {
+      "id": 26,
+      "pregunta": "¿Cuál es el perímetro de un rectángulo de 12 cm de largo y 5 cm de ancho?",
+      "options": {
+        "A": "120 cm",
+        "B": "60 cm",
+        "C": "34 cm",
+        "D": "17 cm"
+      },
+      "correctAnswer": "C",
+      "explanation": "Perímetro = 2(largo + ancho) = 2(12 + 5) = 34 cm.",
+      "subject": "Matemáticas",
+      "topic": "Geometría",
+      "level": "Básico"
+    },
+    {
+      "id": 27,
+      "pregunta": "Un círculo tiene radio de 7 cm. ¿Cuál es su área? (usa π ≈ 3.14)",
+      "options": {
+        "A": "153.86 cm²",
+        "B": "43.96 cm²",
+        "C": "21.98 cm²",
+        "D": "307.72 cm²"
+      },
+      "correctAnswer": "A",
+      "explanation": "Área = π × r² = 3.14 × 49 ≈ 153.86 cm².",
+      "subject": "Matemáticas",
+      "topic": "Geometría",
+      "level": "Básico"
+    },
+    {
+      "id": 28,
+      "pregunta": "¿Cuál es la hipotenusa de un triángulo rectángulo con catetos 3 cm y 4 cm?",
+      "options": {
+        "A": "√7 cm",
+        "B": "6 cm",
+        "C": "7 cm",
+        "D": "5 cm"
+      },
+      "correctAnswer": "D",
+      "explanation": "Por el teorema de Pitágoras: √(3² + 4²) = √25 = 5 cm.",
+      "subject": "Matemáticas",
+      "topic": "Geometría",
+      "level": "Intermedio"
+    },
+    {
+      "id": 29,
+      "pregunta": "¿Cuál es el volumen de un cubo de arista 4 cm?",
+      "options": {
+        "A": "16 cm³",
+        "B": "48 cm³",
+        "C": "24 cm³",
+        "D": "64 cm³"
+      },
+      "correctAnswer": "D",
+      "explanation": "Volumen = arista³ = 4³ = 64 cm³.",
+      "subject": "Matemáticas",
+      "topic": "Geometría",
+      "level": "Intermedio"
+    },
+    {
+      "id": 30,
+      "pregunta": "En el grupo hay 10 alumnos con calificaciones: 8, 7, 9, 6, 8, 10, 7, 8, 9, 8. ¿Cuál es la moda?",
+      "options": {
+        "A": "7",
+        "B": "10",
+        "C": "9",
+        "D": "8"
+      },
+      "correctAnswer": "D",
+      "explanation": "La moda es el número que más se repite. El 8 aparece 4 veces.",
+      "subject": "Matemáticas",
+      "topic": "Estadística",
+      "level": "Básico"
+    },
+    {
+      "id": 31,
+      "pregunta": "¿Cuál es la media de: 5, 8, 6, 9, 7?",
+      "options": {
+        "A": "7.5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correctAnswer": "C",
+      "explanation": "Media = (5+8+6+9+7)/5 = 35/5 = 7.",
+      "subject": "Matemáticas",
+      "topic": "Estadística",
+      "level": "Básico"
+    },
+    {
+      "id": 32,
+      "pregunta": "En los datos: 3, 5, 7, 9, 11. ¿Cuál es la mediana?",
+      "options": {
+        "A": "5",
+        "B": "9",
+        "C": "35",
+        "D": "7"
+      },
+      "correctAnswer": "D",
+      "explanation": "Con 5 datos ordenados, la mediana es el valor central: 7.",
+      "subject": "Matemáticas",
+      "topic": "Estadística",
+      "level": "Básico"
+    },
+    {
+      "id": 33,
+      "pregunta": "Se lanza un dado de 6 caras. ¿Cuál es la probabilidad de obtener un número par?",
+      "options": {
+        "A": "1/2",
+        "B": "2/3",
+        "C": "1/6",
+        "D": "1/3"
+      },
+      "correctAnswer": "A",
+      "explanation": "Números pares: 2,4,6 → 3 de 6 → 3/6 = 1/2.",
+      "subject": "Matemáticas",
+      "topic": "Probabilidad",
+      "level": "Básico"
+    },
+    {
+      "id": 34,
+      "pregunta": "Una bolsa tiene 3 canicas rojas, 2 azules y 5 verdes. ¿Probabilidad de sacar una azul?",
+      "options": {
+        "A": "2/5",
+        "B": "1/5",
+        "C": "1/10",
+        "D": "1/2"
+      },
+      "correctAnswer": "B",
+      "explanation": "2 azules de 10 totales → 2/10 = 1/5.",
+      "subject": "Matemáticas",
+      "topic": "Probabilidad",
+      "level": "Intermedio"
+    },
+    {
+      "id": 35,
+      "pregunta": "¿Cuál es el rango de los datos: 4, 8, 15, 16, 23, 42?",
+      "options": {
+        "A": "38",
+        "B": "46",
+        "C": "42",
+        "D": "4"
+      },
+      "correctAnswer": "A",
+      "explanation": "Rango = máximo - mínimo = 42 - 4 = 38.",
+      "subject": "Matemáticas",
+      "topic": "Estadística",
+      "level": "Intermedio"
+    },
+    {
+      "id": 36,
+      "pregunta": "¿Qué tipo de función representa y = 3x + 2?",
+      "options": {
+        "A": "Exponencial",
+        "B": "Cúbica",
+        "C": "Lineal",
+        "D": "Cuadrática"
+      },
+      "correctAnswer": "C",
+      "explanation": "Es una función lineal (grado 1). Su gráfica es una línea recta.",
+      "subject": "Matemáticas",
+      "topic": "Funciones",
+      "level": "Básico"
+    },
+    {
+      "id": 37,
+      "pregunta": "En la función y = mx + b, ¿qué representa 'm'?",
+      "options": {
+        "A": "El dominio",
+        "B": "El intercepto en y",
+        "C": "El intercepto en x",
+        "D": "La pendiente"
+      },
+      "correctAnswer": "D",
+      "explanation": "'m' es la pendiente de la recta.",
+      "subject": "Matemáticas",
+      "topic": "Funciones",
+      "level": "Intermedio"
+    },
+    {
+      "id": 38,
+      "pregunta": "¿Cuáles son las coordenadas del punto de intersección de y = x + 2 y y = -x + 4?",
+      "options": {
+        "A": "(0, 2)",
+        "B": "(3, 1)",
+        "C": "(2, 4)",
+        "D": "(1, 3)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Igualando: x + 2 = -x + 4 → 2x = 2 → x = 1, y = 3.",
+      "subject": "Matemáticas",
+      "topic": "Funciones",
+      "level": "Avanzado"
+    },
+    {
+      "id": 39,
+      "pregunta": "¿Qué figura describe la gráfica de y = x²?",
+      "options": {
+        "A": "Una línea recta",
+        "B": "Un círculo",
+        "C": "Una parábola",
+        "D": "Un triángulo"
+      },
+      "correctAnswer": "C",
+      "explanation": "y = x² es una función cuadrática y su gráfica es una parábola.",
+      "subject": "Matemáticas",
+      "topic": "Funciones",
+      "level": "Intermedio"
+    },
+    {
+      "id": 40,
+      "pregunta": "¿Cuánto es el 20% de 350?",
+      "options": {
+        "A": "70",
+        "B": "60",
+        "C": "50",
+        "D": "80"
+      },
+      "correctAnswer": "A",
+      "explanation": "20% de 350 = 0.20 × 350 = 70.",
+      "subject": "Matemáticas",
+      "topic": "Porcentajes",
+      "level": "Básico"
+    },
+    {
+      "id": 41,
+      "pregunta": "Un artículo cuesta $800 y tiene un descuento del 15%. ¿Cuánto pagas?",
+      "options": {
+        "A": "$785",
+        "B": "$680",
+        "C": "$120",
+        "D": "$920"
+      },
+      "correctAnswer": "B",
+      "explanation": "Descuento = 0.15 × 800 = 120. Precio final = 800 - 120 = 680.",
+      "subject": "Matemáticas",
+      "topic": "Porcentajes",
+      "level": "Intermedio"
+    },
+    {
+      "id": 42,
+      "pregunta": "Si 6 obreros terminan un trabajo en 4 días, ¿cuántos días tardan 8 obreros?",
+      "options": {
+        "A": "5 días",
+        "B": "6 días",
+        "C": "3 días",
+        "D": "2 días"
+      },
+      "correctAnswer": "C",
+      "explanation": "Trabajo total = 6 × 4 = 24 días-obrero. Con 8 obreros: 24 ÷ 8 = 3 días.",
+      "subject": "Matemáticas",
+      "topic": "Proporcionalidad",
+      "level": "Avanzado"
+    },
+    {
+      "id": 43,
+      "pregunta": "Si el precio subió de $200 a $250, ¿cuál es el porcentaje de aumento?",
+      "options": {
+        "A": "125%",
+        "B": "50%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "correctAnswer": "D",
+      "explanation": "Aumento = 50. Porcentaje = (50 / 200) × 100 = 25%.",
+      "subject": "Matemáticas",
+      "topic": "Porcentajes",
+      "level": "Intermedio"
+    },
+    {
+      "id": 44,
+      "pregunta": "¿Cuánto es (-4) × (-6)?",
+      "options": {
+        "A": "-10",
+        "B": "10",
+        "C": "24",
+        "D": "-24"
+      },
+      "correctAnswer": "C",
+      "explanation": "Negativo × negativo = positivo → 24.",
+      "subject": "Matemáticas",
+      "topic": "Números enteros",
+      "level": "Básico"
+    },
+    {
+      "id": 45,
+      "pregunta": "Resuelve: 3² + 4² - √25",
+      "options": {
+        "A": "15",
+        "B": "30",
+        "C": "10",
+        "D": "20"
+      },
+      "correctAnswer": "D",
+      "explanation": "9 + 16 - 5 = 20.",
+      "subject": "Matemáticas",
+      "topic": "Operaciones combinadas",
+      "level": "Intermedio"
+    },
+    {
+      "id": 46,
+      "pregunta": "¿Cuál es el MCM de 12 y 18?",
+      "options": {
+        "A": "18",
+        "B": "36",
+        "C": "6",
+        "D": "216"
+      },
+      "correctAnswer": "B",
+      "explanation": "MCM(12,18) = 36.",
+      "subject": "Matemáticas",
+      "topic": "Divisibilidad",
+      "level": "Intermedio"
+    },
+    {
+      "id": 47,
+      "pregunta": "¿Cuál es el MCD de 24 y 36?",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "12",
+        "D": "72"
+      },
+      "correctAnswer": "C",
+      "explanation": "MCD(24,36) = 12.",
+      "subject": "Matemáticas",
+      "topic": "Divisibilidad",
+      "level": "Intermedio"
+    },
+    {
+      "id": 48,
+      "pregunta": "¿Cuál es el resultado de 2 + 3 × 4 - 1?",
+      "options": {
+        "A": "13",
+        "B": "21",
+        "C": "19",
+        "D": "15"
+      },
+      "correctAnswer": "A",
+      "explanation": "Primero multiplicación: 2 + 12 - 1 = 13.",
+      "subject": "Matemáticas",
+      "topic": "Operaciones combinadas",
+      "level": "Básico"
+    },
+    {
+      "id": 49,
+      "pregunta": "Un terreno rectangular mide 15 m de largo y tiene un área de 90 m². ¿Cuál es su ancho?",
+      "options": {
+        "A": "5 m",
+        "B": "6 m",
+        "C": "7 m",
+        "D": "75 m"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ancho = Área / Largo = 90 / 15 = 6 m.",
+      "subject": "Matemáticas",
+      "topic": "Geometría",
+      "level": "Básico"
+    },
+    {
+      "id": 50,
+      "pregunta": "¿Cuál es el orden correcto de menor a mayor: -3, √5, 0, -1/2?",
+      "options": {
+        "A": "√5, 0, -1/2, -3",
+        "B": "0, -1/2, -3, √5",
+        "C": "-3, -1/2, 0, √5",
+        "D": "-1/2, -3, 0, √5"
+      },
+      "correctAnswer": "C",
+      "explanation": "-3 < -0.5 < 0 < √5.",
+      "subject": "Matemáticas",
+      "topic": "Números reales",
+      "level": "Intermedio"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz de Matemáticas - 3° Secundaria</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 20px auto; padding: 20px; }
+        .pregunta { margin-bottom: 25px; border-bottom: 1px solid #ccc; padding-bottom: 15px; }
+        .opciones { list-style-type: none; padding: 0; }
+        .opcion { margin: 5px 0; }
+        .explicacion { font-size: 0.9em; color: #555; background: #f9f9f9; padding: 10px; border-left: 4px solid #007bff; margin-top: 10px; }
+        h2 { color: #333; }
+    </style>
+</head>
+<body>
+
+    <h2>Quiz de Matemáticas: 3° de Secundaria</h2>
+    
+    <div id="quiz-container">
+        </div>
+
+    <script>
+        const quizData = [/* ... aquí iría el arreglo de preguntas del JSON ... */];
+        
+        const container = document.getElementById('quiz-container');
+        
+        quizData.forEach((q, index) => {
+            const div = document.createElement('div');
+            div.className = 'pregunta';
+            div.innerHTML = `
+                <p><strong>${index + 1}. ${q.pregunta}</strong></p>
+                <ul class="opciones">
+                    ${Object.entries(q.options).map(([key, val]) => `
+                        <li class="opcion">${key}: ${val} ${key === q.correctAnswer ? '✔️' : ''}</li>
+                    `).join('')}
+                </ul>
+                <div class="explicacion"><strong>Explicación:</strong> ${q.explanation}</div>
+            `;
+            container.appendChild(div);
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML Y JSON 
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemáticas - Mes 1 | 3° de Secundaria</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f9f9f9;
+            color: #333;
+        }
+        h1 { color: #1e3a8a; text-align: center; }
+        .pregunta {
+            background: white;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .pregunta h3 { color: #1e40af; margin-top: 0; }
+        .opciones {
+            list-style-type: none;
+            padding: 0;
+        }
+        .opcion {
+            padding: 8px 12px;
+            margin: 6px 0;
+            background: #f1f5f9;
+            border-radius: 6px;
+        }
+        .correcta {
+            background: #d1fae5;
+            font-weight: bold;
+        }
+        .explicacion {
+            margin-top: 15px;
+            padding: 12px;
+            background: #e0f2fe;
+            border-left: 5px solid #3b82f6;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧮 Matemáticas - Mes 1</h1>
+    <p style="text-align:center; color:#666;">3° de Secundaria</p>
+
+    <div id="quiz"></div>
+
+    <script>
+        const quizData = [ 
+            // Aquí pega todo tu array JSON de preguntas
+            // (las 50 preguntas)
+        ];
+
+        const container = document.getElementById('quiz');
+
+        quizData.forEach((q, index) => {
+            const div = document.createElement('div');
+            div.className = 'pregunta';
+            div.innerHTML = `
+                <h3>Pregunta ${index + 1}</h3>
+                <p><strong>${q.question}</strong></p>
+                <ul class="opciones">
+                    ${Object.entries(q.options).map(([key, value]) => `
+                        <li class="opcion ${key === q.correctAnswer ? 'correcta' : ''}">
+                            <strong>${key}:</strong> ${value}
+                        </li>
+                    `).join('')}
+                </ul>
+                <div class="explicacion">
+                    <strong>Explicación:</strong> ${q.explanation}
+                </div>
+            `;
+            container.appendChild(div);
+        });
+    </script>
+</body>
+</html>
+
+
+
+HTML Y JSON COMPLETO
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemáticas - Mes 1 | 3° de Secundaria</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f8fafc;
+        }
+        h1 { color: #1e40af; text-align: center; }
+        .pregunta {
+            background: white;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .opciones {
+            list-style-type: none;
+            padding: 0;
+        }
+        .opcion {
+            padding: 10px;
+            margin: 8px 0;
+            background: #f1f5f9;
+            border-radius: 8px;
+        }
+        .correcta {
+            background: #dcfce7;
+            font-weight: bold;
+            border-left: 5px solid #22c55e;
+        }
+        .explicacion {
+            margin-top: 15px;
+            padding: 15px;
+            background: #e0f2fe;
+            border-left: 5px solid #3b82f6;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧮 Matemáticas - Mes 1</h1>
+    <p style="text-align:center; color:#64748b;">3° de Secundaria</p>
+
+    <div id="quiz"></div>
+
+    <script>
+        const quizData = [
   {
-    "question": "¿Cuál de los siguientes números es irracional?",
+    "id": 1,
+    "pregunta": "¿Cuál de los siguientes números es irracional?",
     "options": {
       "A": "√2",
       "B": "√9",
@@ -8,13 +1013,14 @@
       "D": "0.5"
     },
     "correctAnswer": "A",
-    "explanation": "√2 es irracional porque no puede expresarse como fracción exacta. Su valor decimal es 1.41421... y no termina ni se repite. En cambio, √9=3 es entero, 0.5 y 3/4 son racionales.",
+    "explanation": "√2 es irracional porque no puede expresarse como fracción de enteros. Su decimal es infinito y no periódico. √9 = 3 es racional, al igual que 3/4 y 0.5.",
     "subject": "Matemáticas",
     "topic": "Números reales",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Qué tipo de número es π (pi)?",
+    "id": 2,
+    "pregunta": "¿Qué tipo de número es π (pi)?",
     "options": {
       "A": "Racional",
       "B": "Irracional",
@@ -22,13 +1028,14 @@
       "D": "Entero"
     },
     "correctAnswer": "B",
-    "explanation": "π (pi) es irracional porque su valor decimal (3.14159...) es infinito y no tiene patrón que se repita. No puede expresarse como fracción exacta de dos enteros.",
+    "explanation": "π es irracional porque su valor decimal es infinito y no periódico. No puede expresarse como una fracción exacta de dos números enteros.",
     "subject": "Matemáticas",
     "topic": "Números reales",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Cuál es el resultado de √(25/49)?",
+    "id": 3,
+    "pregunta": "¿Cuál es el resultado de √(25/49)?",
     "options": {
       "A": "7/5",
       "B": "25/7",
@@ -36,13 +1043,14 @@
       "D": "5/7"
     },
     "correctAnswer": "D",
-    "explanation": "√(25/49) = √25/√49 = 5/7. La raíz cuadrada de una fracción se obtiene sacando la raíz del numerador y del denominador por separado.",
+    "explanation": "√(25/49) = √25 / √49 = 5/7. La raíz cuadrada de una fracción se obtiene sacando raíz del numerador y del denominador por separado.",
     "subject": "Matemáticas",
     "topic": "Números reales",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Cuál de los siguientes conjuntos contiene SOLO números racionales?",
+    "id": 4,
+    "pregunta": "¿Cuál de los siguientes conjuntos contiene SOLO números racionales?",
     "options": {
       "A": "π, √2, 1/3",
       "B": "√7, 0.333..., π",
@@ -50,13 +1058,14 @@
       "D": "√2, √3, √5"
     },
     "correctAnswer": "C",
-    "explanation": "1/2, 0.75 y 3 son todos racionales: 1/2 es fracción, 0.75 = 3/4, y 3 es entero. Los números racionales son los que se pueden expresar como fracción de dos enteros.",
+    "explanation": "1/2, 0.75 (3/4) y 3 son racionales. Los números racionales se pueden expresar como fracción de dos enteros. Los demás incluyen irracionales.",
     "subject": "Matemáticas",
     "topic": "Números reales",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el valor aproximado de √50?",
+    "id": 5,
+    "pregunta": "¿Cuál es el valor aproximado de √50?",
     "options": {
       "A": "6",
       "B": "8",
@@ -64,13 +1073,14 @@
       "D": "7.07"
     },
     "correctAnswer": "D",
-    "explanation": "√50 ≈ 7.07 porque 7² = 49 y 8² = 64. √50 está entre 7 y 8, más cerca de 7. Exactamente, √50 = √(25×2) = 5√2 ≈ 7.071.",
+    "explanation": "√50 ≈ 7.07. Como 7² = 49 y 8² = 64, √50 está entre 7 y 8, más cerca de 7. Exactamente √50 = 5√2 ≈ 7.071.",
     "subject": "Matemáticas",
     "topic": "Números reales",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el orden correcto de menor a mayor: -3, √5, 0, -1/2?",
+    "id": 6,
+    "pregunta": "¿Cuál es el orden correcto de menor a mayor: -3, √5, 0, -1/2?",
     "options": {
       "A": "√5, 0, -1/2, -3",
       "B": "0, -1/2, -3, √5",
@@ -78,13 +1088,14 @@
       "D": "-1/2, -3, 0, √5"
     },
     "correctAnswer": "C",
-    "explanation": "-3 < -1/2 < 0 < √5 (≈2.23). Para ordenar números reales, los negativos van primero (el más negativo es el menor), luego el cero, y después los positivos.",
+    "explanation": "-3 < -0.5 < 0 < √5 (≈2.236). Los negativos van primero (el más pequeño es el más negativo), luego el cero y los positivos.",
     "subject": "Matemáticas",
     "topic": "Números reales",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuánto es (-3)²?",
+    "id": 7,
+    "pregunta": "¿Cuánto es (-3)²?",
     "options": {
       "A": "6",
       "B": "9",
@@ -92,13 +1103,14 @@
       "D": "-9"
     },
     "correctAnswer": "B",
-    "explanation": "(-3)² = (-3) × (-3) = 9. Cuando un número negativo se eleva al cuadrado (exponente par), el resultado siempre es positivo porque negativo × negativo = positivo.",
+    "explanation": "(-3)² = (-3) × (-3) = 9. Cuando el exponente es par, el resultado de un número negativo elevado a potencia es positivo.",
     "subject": "Matemáticas",
     "topic": "Potencias",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Cuál es el resultado de 2⁵?",
+    "id": 8,
+    "pregunta": "¿Cuál es el resultado de 2⁵?",
     "options": {
       "A": "64",
       "B": "10",
@@ -106,13 +1118,14 @@
       "D": "32"
     },
     "correctAnswer": "D",
-    "explanation": "2⁵ = 2×2×2×2×2 = 32. La potencia indica cuántas veces se multiplica la base por sí misma. 2¹=2, 2²=4, 2³=8, 2⁴=16, 2⁵=32.",
+    "explanation": "2⁵ = 2 × 2 × 2 × 2 × 2 = 32.",
     "subject": "Matemáticas",
     "topic": "Potencias",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Cuánto es 3⁰?",
+    "id": 9,
+    "pregunta": "¿Cuánto es 3⁰?",
     "options": {
       "A": "1",
       "B": "Indefinido",
@@ -120,13 +1133,14 @@
       "D": "3"
     },
     "correctAnswer": "A",
-    "explanation": "Cualquier número (distinto de cero) elevado a la potencia 0 es igual a 1. Esto es una propiedad fundamental de las potencias: a⁰ = 1, siempre que a ≠ 0.",
+    "explanation": "Cualquier número diferente de cero elevado a la potencia 0 es igual a 1. Propiedad: a⁰ = 1.",
     "subject": "Matemáticas",
     "topic": "Potencias",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Cuál es el resultado de 10³?",
+    "id": 10,
+    "pregunta": "¿Cuál es el resultado de 10³?",
     "options": {
       "A": "100",
       "B": "30",
@@ -134,13 +1148,14 @@
       "D": "1000"
     },
     "correctAnswer": "D",
-    "explanation": "10³ = 10×10×10 = 1,000. Una potencia de 10 equivale a escribir el número 1 seguido de tantos ceros como indique el exponente. 10¹=10, 10²=100, 10³=1,000.",
+    "explanation": "10³ = 10 × 10 × 10 = 1,000. Una potencia de 10 equivale a 1 seguido de tantos ceros como indica el exponente.",
     "subject": "Matemáticas",
     "topic": "Potencias",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Cuánto es 2³ × 2²?",
+    "id": 11,
+    "pregunta": "¿Cuánto es 2³ × 2²?",
     "options": {
       "A": "2⁵",
       "B": "4⁶",
@@ -148,13 +1163,14 @@
       "D": "2⁶"
     },
     "correctAnswer": "A",
-    "explanation": "2³ × 2² = 2^(3+2) = 2⁵ = 32. Cuando se multiplican potencias con la misma base, se suman los exponentes. Esta es la propiedad del producto de potencias.",
+    "explanation": "Cuando se multiplican potencias con la misma base, se suman los exponentes: 2³ × 2² = 2^(3+2) = 2⁵ = 32.",
     "subject": "Matemáticas",
     "topic": "Potencias",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuánto es (2³)²?",
+    "id": 12,
+    "pregunta": "¿Cuánto es (2³)²?",
     "options": {
       "A": "2⁵",
       "B": "2⁹",
@@ -162,13 +1178,14 @@
       "D": "2⁶"
     },
     "correctAnswer": "D",
-    "explanation": "(2³)² = 2^(3×2) = 2⁶ = 64. Cuando una potencia se eleva a otra potencia, se multiplican los exponentes. Esta es la propiedad de la potencia de una potencia.",
+    "explanation": "Cuando una potencia se eleva a otra, se multiplican los exponentes: (2³)² = 2^(3×2) = 2⁶ = 64.",
     "subject": "Matemáticas",
     "topic": "Potencias",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el resultado de 5⁻²?",
+    "id": 13,
+    "pregunta": "¿Cuál es el resultado de 5⁻²?",
     "options": {
       "A": "1/25",
       "B": "-25",
@@ -176,13 +1193,14 @@
       "D": "-10"
     },
     "correctAnswer": "A",
-    "explanation": "5⁻² = 1/5² = 1/25. Un exponente negativo indica el inverso de la potencia positiva: a⁻ⁿ = 1/aⁿ. Entonces 5⁻² = 1/25 = 0.04.",
+    "explanation": "5⁻² = 1/5² = 1/25. Un exponente negativo indica el recíproco: a⁻ⁿ = 1/aⁿ.",
     "subject": "Matemáticas",
     "topic": "Potencias",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuánto es 4⁶ ÷ 4³?",
+    "id": 14,
+    "pregunta": "¿Cuánto es 4⁶ ÷ 4³?",
     "options": {
       "A": "4²",
       "B": "4³",
@@ -190,13 +1208,14 @@
       "D": "4⁹"
     },
     "correctAnswer": "B",
-    "explanation": "4⁶ ÷ 4³ = 4^(6-3) = 4³ = 64. Cuando se dividen potencias con la misma base, se restan los exponentes. Esta es la propiedad del cociente de potencias.",
+    "explanation": "Al dividir potencias con la misma base, se restan los exponentes: 4⁶ ÷ 4³ = 4^(6-3) = 4³ = 64.",
     "subject": "Matemáticas",
     "topic": "Potencias",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es la raíz cúbica de 27?",
+    "id": 15,
+    "pregunta": "¿Cuál es la raíz cúbica de 27?",
     "options": {
       "A": "7",
       "B": "3",
@@ -204,13 +1223,14 @@
       "D": "4"
     },
     "correctAnswer": "B",
-    "explanation": "∛27 = 3 porque 3³ = 3×3×3 = 27. La raíz cúbica de un número es el valor que multiplicado por sí mismo 3 veces da ese número.",
+    "explanation": "∛27 = 3 porque 3³ = 27.",
     "subject": "Matemáticas",
     "topic": "Raíces",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Cuál es la raíz cuadrada de 0.25?",
+    "id": 16,
+    "pregunta": "¿Cuál es la raíz cuadrada de 0.25?",
     "options": {
       "A": "0.025",
       "B": "0.5",
@@ -218,13 +1238,14 @@
       "D": "5"
     },
     "correctAnswer": "B",
-    "explanation": "√0.25 = 0.5 porque 0.5 × 0.5 = 0.25. También puedes expresarlo como √(1/4) = 1/2 = 0.5.",
+    "explanation": "√0.25 = 0.5 porque 0.5 × 0.5 = 0.25.",
     "subject": "Matemáticas",
     "topic": "Raíces",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuánto es √(16 × 9)?",
+    "id": 17,
+    "pregunta": "¿Cuánto es √(16 × 9)?",
     "options": {
       "A": "144",
       "B": "25",
@@ -232,13 +1253,14 @@
       "D": "72"
     },
     "correctAnswer": "C",
-    "explanation": "√(16×9) = √16 × √9 = 4 × 3 = 12. La raíz cuadrada de un producto es igual al producto de las raíces cuadradas.",
+    "explanation": "√(16 × 9) = √16 × √9 = 4 × 3 = 12.",
     "subject": "Matemáticas",
     "topic": "Raíces",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el resultado de ∛(-8)?",
+    "id": 18,
+    "pregunta": "¿Cuál es el resultado de ∛(-8)?",
     "options": {
       "A": "-2",
       "B": "-4",
@@ -246,13 +1268,14 @@
       "D": "2"
     },
     "correctAnswer": "A",
-    "explanation": "∛(-8) = -2 porque (-2)³ = (-2)×(-2)×(-2) = -8. A diferencia de las raíces cuadradas, las raíces cúbicas de números negativos sí existen y son negativas.",
+    "explanation": "∛(-8) = -2 porque (-2)³ = -8. Las raíces cúbicas de números negativos sí existen y son negativas.",
     "subject": "Matemáticas",
     "topic": "Raíces",
     "level": "Avanzado"
   },
   {
-    "question": "¿Cuál es el valor de 3x + 5 cuando x = 4?",
+    "id": 19,
+    "pregunta": "¿Cuál es el valor de 3x + 5 cuando x = 4?",
     "options": {
       "A": "32",
       "B": "17",
@@ -260,13 +1283,14 @@
       "D": "12"
     },
     "correctAnswer": "B",
-    "explanation": "Sustituye x = 4: 3(4) + 5 = 12 + 5 = 17. Para evaluar una expresión algebraica, reemplaza la variable por el valor dado y realiza las operaciones.",
+    "explanation": "3(4) + 5 = 12 + 5 = 17.",
     "subject": "Matemáticas",
     "topic": "Álgebra",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Cuál es la solución de la ecuación 2x - 6 = 10?",
+    "id": 20,
+    "pregunta": "¿Cuál es la solución de la ecuación 2x - 6 = 10?",
     "options": {
       "A": "x = 4",
       "B": "x = 2",
@@ -274,13 +1298,14 @@
       "D": "x = 16"
     },
     "correctAnswer": "C",
-    "explanation": "2x - 6 = 10 → 2x = 10 + 6 → 2x = 16 → x = 8. Para resolver, pasa el -6 al otro lado sumando, y luego divide entre 2. Verifica: 2(8)-6 = 16-6 = 10. ✓",
+    "explanation": "2x - 6 = 10 → 2x = 16 → x = 8.",
     "subject": "Matemáticas",
     "topic": "Álgebra",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "Simplifica: 5x + 3y - 2x + y",
+    "id": 21,
+    "pregunta": "Simplifica: 5x + 3y - 2x + y",
     "options": {
       "A": "7x + 4y",
       "B": "3x + 2y",
@@ -288,13 +1313,14 @@
       "D": "3x + 4y"
     },
     "correctAnswer": "D",
-    "explanation": "5x + 3y - 2x + y = (5x-2x) + (3y+y) = 3x + 4y. Solo se pueden combinar términos semejantes (los que tienen la misma variable con el mismo exponente).",
+    "explanation": "5x + 3y - 2x + y = (5x - 2x) + (3y + y) = 3x + 4y.",
     "subject": "Matemáticas",
     "topic": "Álgebra",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Cuál es el resultado de (x + 3)(x - 3)?",
+    "id": 22,
+    "pregunta": "¿Cuál es el resultado de (x + 3)(x - 3)?",
     "options": {
       "A": "x² - 6x + 9",
       "B": "x² - 9",
@@ -302,13 +1328,14 @@
       "D": "x² + 9"
     },
     "correctAnswer": "B",
-    "explanation": "(x+3)(x-3) = x² - 9. Es el producto de una suma por su diferencia (diferencia de cuadrados): (a+b)(a-b) = a² - b². Aquí a=x y b=3, entonces x² - 3² = x² - 9.",
+    "explanation": "(x + 3)(x - 3) = x² - 9 (diferencia de cuadrados).",
     "subject": "Matemáticas",
     "topic": "Álgebra",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es la solución del sistema: x + y = 5, x - y = 1?",
+    "id": 23,
+    "pregunta": "¿Cuál es la solución del sistema: x + y = 5 y x - y = 1?",
     "options": {
       "A": "x=3, y=2",
       "B": "x=4, y=1",
@@ -316,13 +1343,14 @@
       "D": "x=2, y=3"
     },
     "correctAnswer": "A",
-    "explanation": "Sumando las dos ecuaciones: 2x = 6, entonces x = 3. Sustituyendo: 3 + y = 5, y = 2. Verificación: 3+2=5 ✓ y 3-2=1 ✓.",
+    "explanation": "Sumando: 2x = 6 → x = 3. Luego y = 2.",
     "subject": "Matemáticas",
     "topic": "Álgebra",
     "level": "Intermedio"
   },
   {
-    "question": "Factoriza: x² - 5x + 6",
+    "id": 24,
+    "pregunta": "Factoriza: x² - 5x + 6",
     "options": {
       "A": "(x-1)(x-6)",
       "B": "(x-2)(x-3)",
@@ -330,13 +1358,14 @@
       "D": "(x+2)(x+3)"
     },
     "correctAnswer": "B",
-    "explanation": "x² - 5x + 6 = (x-2)(x-3). Se buscan dos números que multiplicados den 6 y sumados den -5: son -2 y -3. Verifica: (x-2)(x-3) = x²-3x-2x+6 = x²-5x+6. ✓",
+    "explanation": "x² - 5x + 6 = (x-2)(x-3).",
     "subject": "Matemáticas",
     "topic": "Álgebra",
     "level": "Avanzado"
   },
   {
-    "question": "¿Cuál es el área de un triángulo con base 8 cm y altura 5 cm?",
+    "id": 25,
+    "pregunta": "¿Cuál es el área de un triángulo con base 8 cm y altura 5 cm?",
     "options": {
       "A": "20 cm²",
       "B": "40 cm²",
@@ -344,13 +1373,14 @@
       "D": "13 cm²"
     },
     "correctAnswer": "A",
-    "explanation": "Área del triángulo = (base × altura) / 2 = (8 × 5) / 2 = 40 / 2 = 20 cm². La fórmula del área del triángulo siempre divide entre 2 porque es la mitad de un paralelogramo.",
+    "explanation": "Área = (base × altura) / 2 = (8 × 5) / 2 = 20 cm².",
     "subject": "Matemáticas",
     "topic": "Geometría",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Cuál es el perímetro de un rectángulo con largo 12 cm y ancho 5 cm?",
+    "id": 26,
+    "pregunta": "¿Cuál es el perímetro de un rectángulo de 12 cm de largo y 5 cm de ancho?",
     "options": {
       "A": "120 cm",
       "B": "60 cm",
@@ -358,13 +1388,14 @@
       "D": "17 cm"
     },
     "correctAnswer": "C",
-    "explanation": "Perímetro = 2(largo + ancho) = 2(12 + 5) = 2(17) = 34 cm. El perímetro es la suma de todos los lados. En un rectángulo hay dos lados largos y dos anchos.",
+    "explanation": "Perímetro = 2(largo + ancho) = 2(12 + 5) = 34 cm.",
     "subject": "Matemáticas",
     "topic": "Geometría",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "Un círculo tiene radio de 7 cm. ¿Cuál es su área? (usa π ≈ 3.14)",
+    "id": 27,
+    "pregunta": "Un círculo tiene radio de 7 cm. ¿Cuál es su área? (usa π ≈ 3.14)",
     "options": {
       "A": "153.86 cm²",
       "B": "43.96 cm²",
@@ -372,13 +1403,14 @@
       "D": "307.72 cm²"
     },
     "correctAnswer": "A",
-    "explanation": "Área del círculo = π × r² = 3.14 × 7² = 3.14 × 49 = 153.86 cm². La fórmula del área del círculo usa el radio al cuadrado multiplicado por π.",
+    "explanation": "Área = π × r² = 3.14 × 49 ≈ 153.86 cm².",
     "subject": "Matemáticas",
     "topic": "Geometría",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Cuánto mide la hipotenusa de un triángulo rectángulo con catetos de 3 y 4 cm?",
+    "id": 28,
+    "pregunta": "¿Cuál es la hipotenusa de un triángulo rectángulo con catetos 3 cm y 4 cm?",
     "options": {
       "A": "√7 cm",
       "B": "6 cm",
@@ -386,13 +1418,14 @@
       "D": "5 cm"
     },
     "correctAnswer": "D",
-    "explanation": "Por el teorema de Pitágoras: c² = a² + b² = 3² + 4² = 9 + 16 = 25, entonces c = √25 = 5 cm. El triángulo 3-4-5 es el triángulo rectángulo más conocido.",
+    "explanation": "Por el teorema de Pitágoras: √(3² + 4²) = √25 = 5 cm.",
     "subject": "Matemáticas",
     "topic": "Geometría",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el volumen de un cubo con arista de 4 cm?",
+    "id": 29,
+    "pregunta": "¿Cuál es el volumen de un cubo de arista 4 cm?",
     "options": {
       "A": "16 cm³",
       "B": "48 cm³",
@@ -400,27 +1433,14 @@
       "D": "64 cm³"
     },
     "correctAnswer": "D",
-    "explanation": "Volumen del cubo = arista³ = 4³ = 4×4×4 = 64 cm³. El cubo tiene todos sus lados iguales, por eso el volumen es el lado elevado a la tercera potencia.",
+    "explanation": "Volumen = arista³ = 4³ = 64 cm³.",
     "subject": "Matemáticas",
     "topic": "Geometría",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el área lateral de un cilindro con radio 3 cm y altura 10 cm? (usa π ≈ 3.14)",
-    "options": {
-      "A": "30 cm²",
-      "B": "188.4 cm²",
-      "C": "94.2 cm²",
-      "D": "282.6 cm²"
-    },
-    "correctAnswer": "B",
-    "explanation": "Área lateral = 2πrh = 2 × 3.14 × 3 × 10 = 188.4 cm². El área lateral del cilindro equivale a desenvolver la superficie curva: un rectángulo cuya base es la circunferencia (2πr) y altura es h.",
-    "subject": "Matemáticas",
-    "topic": "Geometría",
-    "level": "Avanzado"
-  },
-  {
-    "question": "En el grupo hay 10 alumnos con estas calificaciones: 8, 7, 9, 6, 8, 10, 7, 8, 9, 8. ¿Cuál es la moda?",
+    "id": 30,
+    "pregunta": "En el grupo hay 10 alumnos con calificaciones: 8, 7, 9, 6, 8, 10, 7, 8, 9, 8. ¿Cuál es la moda?",
     "options": {
       "A": "7",
       "B": "10",
@@ -428,13 +1448,14 @@
       "D": "8"
     },
     "correctAnswer": "D",
-    "explanation": "La moda es el valor que más se repite. El 8 aparece 4 veces (más que cualquier otro número), por eso es la moda. 7 y 9 aparecen 2 veces cada uno, y 6 y 10 solo una vez.",
+    "explanation": "La moda es el número que más se repite. El 8 aparece 4 veces.",
     "subject": "Matemáticas",
     "topic": "Estadística",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "¿Cuál es el promedio (media) de: 5, 8, 6, 9, 7?",
+    "id": 31,
+    "pregunta": "¿Cuál es la media de: 5, 8, 6, 9, 7?",
     "options": {
       "A": "7.5",
       "B": "6",
@@ -442,13 +1463,14 @@
       "D": "8"
     },
     "correctAnswer": "C",
-    "explanation": "Media = suma de datos / cantidad de datos = (5+8+6+9+7) / 5 = 35 / 5 = 7. El promedio o media aritmética es la suma de todos los valores dividida entre el número de valores.",
+    "explanation": "Media = (5+8+6+9+7)/5 = 35/5 = 7.",
     "subject": "Matemáticas",
     "topic": "Estadística",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "En los datos: 3, 5, 7, 9, 11. ¿Cuál es la mediana?",
+    "id": 32,
+    "pregunta": "En los datos: 3, 5, 7, 9, 11. ¿Cuál es la mediana?",
     "options": {
       "A": "5",
       "B": "9",
@@ -456,13 +1478,14 @@
       "D": "7"
     },
     "correctAnswer": "D",
-    "explanation": "La mediana es el valor central cuando los datos están ordenados. Con 5 datos, el valor central es el 3er dato: 3, 5, [7], 9, 11. La mediana es 7.",
+    "explanation": "Con 5 datos ordenados, la mediana es el valor central: 7.",
     "subject": "Matemáticas",
     "topic": "Estadística",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "Se lanza un dado de 6 caras. ¿Cuál es la probabilidad de obtener un número par?",
+    "id": 33,
+    "pregunta": "Se lanza un dado de 6 caras. ¿Cuál es la probabilidad de obtener un número par?",
     "options": {
       "A": "1/2",
       "B": "2/3",
@@ -470,13 +1493,14 @@
       "D": "1/3"
     },
     "correctAnswer": "A",
-    "explanation": "Los números pares en un dado son: 2, 4, 6 → 3 casos favorables de 6 posibles. Probabilidad = 3/6 = 1/2. Hay igual probabilidad de obtener par que impar.",
+    "explanation": "Números pares: 2,4,6 → 3 de 6 → 3/6 = 1/2.",
     "subject": "Matemáticas",
     "topic": "Probabilidad",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "Una bolsa tiene 3 canicas rojas, 2 azules y 5 verdes. ¿Cuál es la probabilidad de sacar una azul?",
+    "id": 34,
+    "pregunta": "Una bolsa tiene 3 canicas rojas, 2 azules y 5 verdes. ¿Probabilidad de sacar una azul?",
     "options": {
       "A": "2/5",
       "B": "1/5",
@@ -484,13 +1508,14 @@
       "D": "1/2"
     },
     "correctAnswer": "B",
-    "explanation": "Total de canicas = 3+2+5 = 10. Canicas azules = 2. Probabilidad = 2/10 = 1/5. La probabilidad siempre se calcula como casos favorables entre casos totales posibles.",
+    "explanation": "2 azules de 10 totales → 2/10 = 1/5.",
     "subject": "Matemáticas",
     "topic": "Probabilidad",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el rango de los datos: 4, 8, 15, 16, 23, 42?",
+    "id": 35,
+    "pregunta": "¿Cuál es el rango de los datos: 4, 8, 15, 16, 23, 42?",
     "options": {
       "A": "38",
       "B": "46",
@@ -498,13 +1523,14 @@
       "D": "4"
     },
     "correctAnswer": "A",
-    "explanation": "El rango = valor máximo - valor mínimo = 42 - 4 = 38. El rango mide la dispersión o amplitud de un conjunto de datos, es decir, qué tan separados están el mayor y el menor.",
+    "explanation": "Rango = máximo - mínimo = 42 - 4 = 38.",
     "subject": "Matemáticas",
     "topic": "Estadística",
     "level": "Intermedio"
   },
   {
-    "question": "¿Qué tipo de función representa y = 3x + 2?",
+    "id": 36,
+    "pregunta": "¿Qué tipo de función representa y = 3x + 2?",
     "options": {
       "A": "Exponencial",
       "B": "Cúbica",
@@ -512,13 +1538,14 @@
       "D": "Cuadrática"
     },
     "correctAnswer": "C",
-    "explanation": "y = 3x + 2 es una función lineal porque la variable x tiene exponente 1. Su gráfica es una línea recta. La forma general es y = mx + b, donde m es la pendiente y b el intercepto.",
+    "explanation": "Es una función lineal (grado 1). Su gráfica es una línea recta.",
     "subject": "Matemáticas",
     "topic": "Funciones",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "En la función y = mx + b, ¿qué representa 'm'?",
+    "id": 37,
+    "pregunta": "En la función y = mx + b, ¿qué representa 'm'?",
     "options": {
       "A": "El dominio",
       "B": "El intercepto en y",
@@ -526,13 +1553,14 @@
       "D": "La pendiente"
     },
     "correctAnswer": "D",
-    "explanation": "En y = mx + b, 'm' es la pendiente de la recta. Indica cuánto sube o baja y por cada unidad que avanza x. Una pendiente positiva sube, una negativa baja, y cero es horizontal.",
+    "explanation": "'m' es la pendiente de la recta.",
     "subject": "Matemáticas",
     "topic": "Funciones",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuáles son las coordenadas del punto de intersección de y = x + 2 y y = -x + 4?",
+    "id": 38,
+    "pregunta": "¿Cuáles son las coordenadas del punto de intersección de y = x + 2 y y = -x + 4?",
     "options": {
       "A": "(0, 2)",
       "B": "(3, 1)",
@@ -540,13 +1568,14 @@
       "D": "(1, 3)"
     },
     "correctAnswer": "D",
-    "explanation": "Igualando: x + 2 = -x + 4 → 2x = 2 → x = 1. Luego y = 1 + 2 = 3. El punto es (1, 3). Se verifica en la segunda ecuación: y = -1 + 4 = 3. ✓",
+    "explanation": "Igualando: x + 2 = -x + 4 → 2x = 2 → x = 1, y = 3.",
     "subject": "Matemáticas",
     "topic": "Funciones",
     "level": "Avanzado"
   },
   {
-    "question": "¿Qué figura describe la gráfica de y = x²?",
+    "id": 39,
+    "pregunta": "¿Qué figura describe la gráfica de y = x²?",
     "options": {
       "A": "Una línea recta",
       "B": "Un círculo",
@@ -554,13 +1583,14 @@
       "D": "Un triángulo"
     },
     "correctAnswer": "C",
-    "explanation": "y = x² es una función cuadrática y su gráfica es una parábola. Abre hacia arriba, tiene su vértice en el origen (0,0) y es simétrica respecto al eje y.",
+    "explanation": "y = x² es una función cuadrática y su gráfica es una parábola.",
     "subject": "Matemáticas",
     "topic": "Funciones",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuánto es el 20% de 350?",
+    "id": 40,
+    "pregunta": "¿Cuánto es el 20% de 350?",
     "options": {
       "A": "70",
       "B": "60",
@@ -568,13 +1598,14 @@
       "D": "80"
     },
     "correctAnswer": "A",
-    "explanation": "20% de 350 = (20/100) × 350 = 0.20 × 350 = 70. Para calcular un porcentaje, divide el porcentaje entre 100 y multiplica por el total.",
+    "explanation": "20% de 350 = 0.20 × 350 = 70.",
     "subject": "Matemáticas",
     "topic": "Porcentajes",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "Un artículo cuesta $800 y tiene un descuento del 15%. ¿Cuánto pagas?",
+    "id": 41,
+    "pregunta": "Un artículo cuesta $800 y tiene un descuento del 15%. ¿Cuánto pagas?",
     "options": {
       "A": "$785",
       "B": "$680",
@@ -582,13 +1613,14 @@
       "D": "$920"
     },
     "correctAnswer": "B",
-    "explanation": "Descuento = 15% de 800 = 0.15 × 800 = $120. Precio final = 800 - 120 = $680. También puedes calcular directamente: 800 × 0.85 = $680 (pagas el 85% del precio original).",
+    "explanation": "Descuento = 0.15 × 800 = 120. Precio final = 800 - 120 = 680.",
     "subject": "Matemáticas",
     "topic": "Porcentajes",
     "level": "Intermedio"
   },
   {
-    "question": "Si 6 obreros terminan un trabajo en 4 días, ¿cuántos días tardarán 8 obreros en hacer el mismo trabajo, a ritmo constante?",
+    "id": 42,
+    "pregunta": "Si 6 obreros terminan un trabajo en 4 días, ¿cuántos días tardan 8 obreros?",
     "options": {
       "A": "5 días",
       "B": "6 días",
@@ -596,13 +1628,14 @@
       "D": "2 días"
     },
     "correctAnswer": "C",
-    "explanation": "Es proporcionalidad inversa (más obreros = menos días). Total trabajo = 6 × 4 = 24 días-obrero. Con 8 obreros: 24 ÷ 8 = 3 días. A más trabajadores, menos tiempo.",
+    "explanation": "Trabajo total = 6 × 4 = 24 días-obrero. Con 8 obreros: 24 ÷ 8 = 3 días.",
     "subject": "Matemáticas",
     "topic": "Proporcionalidad",
     "level": "Avanzado"
   },
   {
-    "question": "Si el precio de un producto aumentó de $200 a $250, ¿cuál es el porcentaje de aumento?",
+    "id": 43,
+    "pregunta": "Si el precio subió de $200 a $250, ¿cuál es el porcentaje de aumento?",
     "options": {
       "A": "125%",
       "B": "50%",
@@ -610,13 +1643,14 @@
       "D": "25%"
     },
     "correctAnswer": "D",
-    "explanation": "Aumento = 250 - 200 = 50. Porcentaje = (50/200) × 100 = 25%. Para calcular el porcentaje de cambio: (nuevo - original) / original × 100.",
+    "explanation": "Aumento = 50. Porcentaje = (50 / 200) × 100 = 25%.",
     "subject": "Matemáticas",
     "topic": "Porcentajes",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuánto es (-4) × (-6)?",
+    "id": 44,
+    "pregunta": "¿Cuánto es (-4) × (-6)?",
     "options": {
       "A": "-10",
       "B": "10",
@@ -624,13 +1658,14 @@
       "D": "-24"
     },
     "correctAnswer": "C",
-    "explanation": "(-4) × (-6) = 24. La regla de signos en la multiplicación establece que negativo × negativo = positivo, porque los signos iguales dan resultado positivo.",
+    "explanation": "Negativo × negativo = positivo → 24.",
     "subject": "Matemáticas",
     "topic": "Números enteros",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "Resuelve: 3² + 4² - √25",
+    "id": 45,
+    "pregunta": "Resuelve: 3² + 4² - √25",
     "options": {
       "A": "15",
       "B": "30",
@@ -638,13 +1673,14 @@
       "D": "20"
     },
     "correctAnswer": "D",
-    "explanation": "3² + 4² - √25 = 9 + 16 - 5 = 20. Primero resuelve las potencias y raíces, luego suma y resta. El orden de operaciones es: potencias/raíces → multiplicación/división → suma/resta.",
+    "explanation": "9 + 16 - 5 = 20.",
     "subject": "Matemáticas",
     "topic": "Operaciones combinadas",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el MCM de 12 y 18?",
+    "id": 46,
+    "pregunta": "¿Cuál es el MCM de 12 y 18?",
     "options": {
       "A": "18",
       "B": "36",
@@ -652,13 +1688,14 @@
       "D": "216"
     },
     "correctAnswer": "B",
-    "explanation": "MCM(12,18) = 36. Factorizando: 12 = 2²×3 y 18 = 2×3². El MCM toma los factores comunes y no comunes con el mayor exponente: 2²×3² = 4×9 = 36.",
+    "explanation": "MCM(12,18) = 36.",
     "subject": "Matemáticas",
     "topic": "Divisibilidad",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el MCD de 24 y 36?",
+    "id": 47,
+    "pregunta": "¿Cuál es el MCD de 24 y 36?",
     "options": {
       "A": "6",
       "B": "4",
@@ -666,13 +1703,14 @@
       "D": "72"
     },
     "correctAnswer": "C",
-    "explanation": "MCD(24,36) = 12. Factorizando: 24 = 2³×3 y 36 = 2²×3². El MCD toma los factores comunes con el menor exponente: 2²×3 = 4×3 = 12.",
+    "explanation": "MCD(24,36) = 12.",
     "subject": "Matemáticas",
     "topic": "Divisibilidad",
     "level": "Intermedio"
   },
   {
-    "question": "¿Cuál es el resultado de 2 + 3 × 4 - 1?",
+    "id": 48,
+    "pregunta": "¿Cuál es el resultado de 2 + 3 × 4 - 1?",
     "options": {
       "A": "13",
       "B": "21",
@@ -680,13 +1718,14 @@
       "D": "15"
     },
     "correctAnswer": "A",
-    "explanation": "2 + 3×4 - 1 = 2 + 12 - 1 = 13. Primero se hace la multiplicación (3×4=12), luego suma y resta de izquierda a derecha. El orden de operaciones es: primero × y ÷, luego + y -.",
+    "explanation": "Primero multiplicación: 2 + 12 - 1 = 13.",
     "subject": "Matemáticas",
     "topic": "Operaciones combinadas",
-    "level": "Basico"
+    "level": "Básico"
   },
   {
-    "question": "Un terreno rectangular mide 15 m de largo y tiene un área de 90 m². ¿Cuál es su ancho?",
+    "id": 49,
+    "pregunta": "Un terreno rectangular mide 15 m de largo y tiene un área de 90 m². ¿Cuál es su ancho?",
     "options": {
       "A": "5 m",
       "B": "6 m",
@@ -694,9 +1733,51 @@
       "D": "75 m"
     },
     "correctAnswer": "B",
-    "explanation": "Área = largo × ancho, entonces ancho = área ÷ largo = 90 ÷ 15 = 6 m. Para encontrar una dimensión faltante a partir del área, se despeja dividiendo entre la dimensión conocida.",
+    "explanation": "Ancho = Área / Largo = 90 / 15 = 6 m.",
     "subject": "Matemáticas",
     "topic": "Geometría",
-    "level": "Basico"
+    "level": "Básico"
+  },
+  {
+    "id": 50,
+    "pregunta": "¿Cuál es el orden correcto de menor a mayor: -3, √5, 0, -1/2?",
+    "options": {
+      "A": "√5, 0, -1/2, -3",
+      "B": "0, -1/2, -3, √5",
+      "C": "-3, -1/2, 0, √5",
+      "D": "-1/2, -3, 0, √5"
+    },
+    "correctAnswer": "C",
+    "explanation": "-3 < -0.5 < 0 < √5.",
+    "subject": "Matemáticas",
+    "topic": "Números reales",
+    "level": "Intermedio"
   }
-]
+];
+
+        const container = document.getElementById('quiz');
+
+        quizData.forEach((q, index) => {
+            const div = document.createElement('div');
+            div.className = 'pregunta';
+            div.innerHTML = `
+                <h3>Pregunta ${index + 1} de 50</h3>
+                <p><strong>${q.pregunta}</strong></p>
+                <ul class="opciones">
+                    ${Object.entries(q.options).map(([key, value]) => `
+                        <li class="opcion ${key === q.correctAnswer ? 'correcta' : ''}">
+                            <strong>${key}:</strong> ${value}
+                        </li>
+                    `).join('')}
+                </ul>
+                <div class="explicacion">
+                    <strong>Explicación:</strong> ${q.explanation}
+                </div>
+            `;
+            container.appendChild(div);
+        });
+    </script>
+</body>
+</html>
+
+
