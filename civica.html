@@ -102,7 +102,7 @@
     let currentQuestion = 0;
     let score = 0;
     let answered = false;
-    fetch(`espanol_mes${mes}.json`)
+    fetch(`cívica_mes${mes}.json`)
       .then(response => response.json())
       .then(data => {
         questions = Array.isArray(data) ? data : (data.preguntas || []);
