@@ -22,7 +22,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>🎓 Maestro de Bolsillo</h1>
+    <h1>Maestro de Bolsillo</h1>
     <p>Inicia sesión para acceder a tus materias</p>
     <div class="campo">
       <label>Correo electrónico</label>
@@ -40,7 +40,7 @@
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
     import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
-    import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+    import { getFirestore, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
     const firebaseConfig = {
       apiKey: "AIzaSyBeBXOjikdvJJv0qHCidgiCpBhphhRDR90",
@@ -56,7 +56,7 @@
     const db = getFirestore(app);
 
     window.iniciarSesion = async function() {
-      const email = document.getElementById('email').value;
+      const email = document.getElementById('email').value.trim().toLowerCase();
       const password = document.getElementById('password').value;
       const errorDiv = document.getElementById('error');
       const loadingDiv = document.getElementById('loading');
@@ -70,20 +70,36 @@
 
         const docRef = doc(db, "usuarios", user.uid);
         const docSnap = await getDoc(docRef);
+        let meses = [];
 
         if (docSnap.exists()) {
-          const data = docSnap.data();
-          const meses = data.meses || [];
-          localStorage.setItem('meses_acceso', JSON.stringify(meses));
-          localStorage.setItem('usuario_uid', user.uid);
-          window.location.href = '/dashboard.html';
-        } else {
+          meses = docSnap.data().meses || [];
+        }
+
+        // Revisar compras pendientes (hechas antes de registrarse)
+        const pendingRef = doc(db, "purchases_pending", email);
+        const pendingSnap = await getDoc(pendingRef);
+        if (pendingSnap.exists()) {
+          const pendingMeses = pendingSnap.data().meses || [];
+          meses = [...new Set([...meses, ...pendingMeses])];
+          await setDoc(docRef, {
+            email,
+            meses,
+            createdAt: docSnap.exists() ? docSnap.data().createdAt : new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
+          });
+        } else if (!docSnap.exists()) {
           errorDiv.textContent = 'No tienes acceso activo. Verifica tu suscripción.';
           errorDiv.style.display = 'block';
+          loadingDiv.style.display = 'none';
+          return;
         }
+
+        localStorage.setItem('meses_acceso', JSON.stringify(meses));
+        localStorage.setItem('usuario_uid', user.uid);
+        window.location.href = '/dashboard.html';
       } catch(e) {
         errorDiv.style.display = 'block';
-        loadingDiv.style.display = 'none';
       }
       loadingDiv.style.display = 'none';
     }
