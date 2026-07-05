@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cívica y Etica | Maestro de Bolsillo</title>
+  <title>Cívica y Ética | Maestro de Bolsillo</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
     body { min-height: 100vh; background: #f6f8ff; color: #141a2e; }
@@ -58,7 +58,7 @@
   </header>
   <section class="hero">
     <div class="hero-card">
-      <span class="tag" id="heroTag">Cívica y Etica</span>
+      <span class="tag" id="heroTag">Cívica y Ética</span>
       <h1>Practica, responde y aprende de tus errores</h1>
       <p>Elige una respuesta, revisa la explicación y avanza paso a paso.</p>
     </div>
@@ -91,13 +91,13 @@
     if (!mesesAcceso.includes(mesNum) && mesesAcceso.length > 0) {
       document.getElementById("access-error").style.display = "block";
       document.getElementById("quizContent").style.display = "none";
-      document.getElementById("heroTag").textContent = "Cívica y Etica - Sin acceso";
+      document.getElementById("heroTag").textContent = "Cívica y Ética - Sin acceso";
       throw new Error("Sin acceso al mes " + mes);
     }
     if (!localStorage.getItem("usuario_uid")) {
       window.location.href = "/login.html";
     }
-    document.getElementById("heroTag").textContent = `Cívica y Etica · Mes ${mes}`;
+    document.getElementById("heroTag").textContent = `Cívica y Ética · Mes ${mes}`;
     let questions = [];
     let currentQuestion = 0;
     let score = 0;
