@@ -2,67 +2,6 @@
   functions = "netlify/functions"
 
 [[redirects]]
-  from = "/SayeretMatkal/*"
-  to = "/:splat"
+  from = "/"
+  to = "/index.html"
   status = 200
-  force = true
-
-[[redirects]]
-  from = "/civica.html"
-  to = "/.netlify/functions/verificar?page=civica"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/espanol.html"
-  to = "/.netlify/functions/verificar?page=espanol"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/historia.html"
-  to = "/.netlify/functions/verificar?page=historia"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/matematicas.html"
-  to = "/.netlify/functions/verificar?page=matematicas"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/quimica.html"
-  to = "/.netlify/functions/verificar?page=quimica"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/civica_mes2.html"
-  to = "/.netlify/functions/verificar?page=civica_mes2"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/espanol_mes2.html"
-  to = "/.netlify/functions/verificar?page=espanol_mes2"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/historia_mes2.html"
-  to = "/.netlify/functions/verificar?page=historia_mes2"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/matematicas_mes2.html"
-  to = "/.netlify/functions/verificar?page=matematicas_mes2"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/quimica_mes2.html"
-  to = "/.netlify/functions/verificar?page=quimica_mes2"
-  status = 200
-  force = true
