@@ -10,25 +10,134 @@
     .header { background: #3b4fd8; color: white; padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; }
     .header h1 { font-size: 20px; }
     .btn-salir { background: white; color: #3b4fd8; border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-weight: bold; }
-    .container { max-width: 600px; margin: 30px auto; padding: 0 20px; }
+    .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
     .mes { background: white; border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
     .mes h2 { color: #3b4fd8; font-size: 18px; margin-bottom: 16px; }
-    .materias { display: flex; flex-direction: column; gap: 10px; }
+    .materias { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
     .btn-materia { display: block; padding: 12px; border-radius: 8px; background: #3b4fd8; color: white; text-decoration: none; font-size: 15px; font-weight: bold; text-align: center; }
     .btn-materia:hover { background: #2a3ab8; }
-    .sin-acceso { text-align: center; color: #888; padding: 20px; }
     .bloqueado { background: #f5f5f5; border: 2px dashed #ddd; border-radius: 12px; padding: 24px; margin-bottom: 20px; text-align: center; color: #aaa; }
+    .bloqueado h2 { color: #bbb; }
+    #loading, #no-access { text-align: center; padding: 40px; color: #888; display: none; }
+    #loading { display: block; }
+    .welcome-msg { text-align: center; color: #555; margin-bottom: 24px; font-size: 15px; }
   </style>
 </head>
 <body>
   <div class="header">
-    <h1>🎓 Maestro de Bolsillo</h1>
+    <h1>Maestro de Bolsillo</h1>
     <button class="btn-salir" onclick="cerrarSesion()">Cerrar sesión</button>
   </div>
 
   <div class="container" id="contenido">
-    <p style="text-align:center; color:#888; margin-top:40px;">Cargando tus materias...</p>
+    <div id="loading">Cargando tus materias...</div>
   </div>
 
   <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+    import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyBeBXOjikdvJJv0qHCidgiCpBhphhRDR90",
+      authDomain: "maestrodebolsillo-8ade1.firebaseapp.com",
+      projectId: "maestrodebolsillo-8ade1",
+      storageBucket: "maestrodebolsillo-8ade1.firebasestorage.app",
+      messagingSenderId: "215761472653",
+      appId: "1:215761472653:web:c187042e8fc889cb2ae6c4"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+
+    const MATERIAS = [
+      { id: "matematicas", nombre: "Matemáticas" },
+      { id: "espanol", nombre: "Español" },
+      { id: "historia", nombre: "Historia" },
+      { id: "quimica", nombre: "Química" },
+      { id: "civica", nombre: "Cívica y Ética" }
+    ];
+
+    const MESES_INFO = {
+      1: { nombre: "Septiembre" },
+      2: { nombre: "Octubre" },
+      3: { nombre: "Noviembre" },
+      4: { nombre: "Diciembre" },
+      5: { nombre: "Enero" },
+      6: { nombre: "Febrero" },
+      7: { nombre: "Marzo" },
+      8: { nombre: "Abril" },
+      9: { nombre: "Mayo" }
+    };
+
+    window.cerrarSesion = async function () {
+      await signOut(auth);
+      localStorage.removeItem("meses_acceso");
+      localStorage.removeItem("usuario_uid");
+      window.location.href = "/login.html";
+    };
+
+    onAuthStateChanged(auth, async (user) => {
+      const loading = document.getElementById("loading");
+      const contenido = document.getElementById("contenido");
+
+      if (!user) {
+        localStorage.removeItem("meses_acceso");
+        localStorage.removeItem("usuario_uid");
+        window.location.href = "/login.html";
+        return;
+      }
+
+      try {
+        const docRef = doc(db, "usuarios", user.uid);
+        const docSnap = await getDoc(docRef);
+
+        let meses = [];
+        if (docSnap.exists()) {
+          meses = docSnap.data().meses || [];
+          localStorage.setItem("meses_acceso", JSON.stringify(meses));
+          localStorage.setItem("usuario_uid", user.uid);
+        }
+
+        loading.style.display = "none";
+
+        if (meses.length === 0) {
+          contenido.innerHTML = `
+            <div id="no-access" style="display:block;">
+              <h2>Aún no tienes acceso a ningún mes</h2>
+              <p style="margin:16px 0;">Adquiere tu suscripción en Hotmart para empezar.</p>
+              <a href="https://pay.hotmart.com/X106434037V" style="display:inline-block;padding:14px 24px;background:#3b4fd8;color:white;border-radius:10px;text-decoration:none;font-weight:bold;">Ver planes en Hotmart</a>
+            </div>
+          `;
+          return;
+        }
+
+        let html = `<p class="welcome-msg">Bienvenido, ${user.email}</p>`;
+        const mesesOrdenados = meses.sort((a, b) => a - b);
+
+        for (const mes of mesesOrdenados) {
+          const info = MESES_INFO[mes] || { nombre: `Mes ${mes}` };
+          html += `<div class="mes"><h2>Mes ${mes} &mdash; ${info.nombre}</h2><div class="materias">`;
+          for (const m of MATERIAS) {
+            const link = `/${m.id}.html?mes=${mes}`;
+            html += `<a class="btn-materia" href="${link}">${m.nombre}</a>`;
+          }
+          html += `</div></div>`;
+        }
+
+        for (let m = 1; m <= 9; m++) {
+          if (!mesesOrdenados.includes(m)) {
+            const info = MESES_INFO[m] || { nombre: `Mes ${m}` };
+            html += `<div class="bloqueado"><h2>Mes ${m} &mdash; ${info.nombre}</h2><p>&#128274; No tienes acceso a este mes</p></div>`;
+          }
+        }
+
+        contenido.innerHTML = html;
+      } catch (e) {
+        loading.textContent = "Error al cargar tus datos. Recarga la p&aacute;gina.";
+      }
+    });
+  </script>
+</body>
+</html>
