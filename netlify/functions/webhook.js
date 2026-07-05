@@ -3,7 +3,7 @@ exports.handler = async function(event, context) {
   if (event.httpMethod !== 'POST') {
     return { statusCode: 405, body: 'Method Not Allowed' };
   }
-
+ 
   // Aquí solo confirmamos que recibimos el aviso de Hotmart
   return {
     statusCode: 200,
