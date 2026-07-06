@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Matemáticas | Maestro de Bolsillo</title>
+  <title>Matemáticas Mes 1 | Maestro de Bolsillo</title>
 
   <style>
     * {
@@ -15,7 +15,7 @@
 
     body {
       min-height: 100vh;
-      background: #f6f8ff;
+      background: #f0f4fe;
       color: #141a2e;
     }
 
@@ -31,14 +31,14 @@
     .logo {
       font-size: 22px;
       font-weight: 800;
-      color: #3454d1;
+      color: #3b4fd8;
     }
 
     .back-link {
       text-decoration: none;
       font-weight: 700;
-      color: #3454d1;
-      background: #eef1ff;
+      color: #3b4fd8;
+      background: #dce3ff;
       padding: 10px 16px;
       border-radius: 14px;
     }
@@ -48,12 +48,12 @@
     }
 
     .hero-card {
-      background: linear-gradient(135deg, #3454d1, #7b4dff);
+      background: linear-gradient(135deg, #6366f1, #4f46e5);
       color: white;
       border-radius: 32px;
       padding: 40px;
       text-align: center;
-      box-shadow: 0 25px 60px rgba(52,84,209,.25);
+      box-shadow: 0 25px 60px rgba(99,102,241,.25);
     }
 
     .tag {
@@ -88,7 +88,8 @@
       background: white;
       padding: 35px;
       border-radius: 30px;
-      box-shadow: 0 25px 60px rgba(52,84,209,.15);
+      border: 1px solid #e0e6f0;
+      box-shadow: 0 25px 60px rgba(99,102,241,.15);
     }
 
     .top-info {
@@ -98,11 +99,11 @@
       flex-wrap: wrap;
       margin-bottom: 20px;
       font-weight: 700;
-      color: #3454d1;
+      color: #3b4fd8;
     }
 
     .pill {
-      background: #eef1ff;
+      background: #dce3ff;
       padding: 10px 14px;
       border-radius: 18px;
     }
@@ -110,7 +111,7 @@
     .progress-bar {
       width: 100%;
       height: 12px;
-      background: #eef1ff;
+      background: #dce3ff;
       border-radius: 99px;
       overflow: hidden;
       margin-bottom: 30px;
@@ -119,7 +120,7 @@
     .progress-fill {
       height: 100%;
       width: 0%;
-      background: linear-gradient(135deg, #3454d1, #7b4dff);
+      background: linear-gradient(135deg, #6366f1, #4f46e5);
       border-radius: 99px;
       transition: width .3s ease;
     }
@@ -141,7 +142,7 @@
     .option-btn {
       width: 100%;
       border: 2px solid transparent;
-      background: #f1f4ff;
+      background: #e8edff;
       padding: 16px 18px;
       border-radius: 16px;
       font-size: 17px;
@@ -154,8 +155,8 @@
 
     .option-btn:hover {
       transform: translateY(-2px);
-      background: #e5eaff;
-      border-color: #cfd8ff;
+      background: #dde4ff;
+      border-color: #d4dcf5;
     }
 
     .option-btn.correct {
@@ -188,7 +189,7 @@
     .next-btn {
       display: none;
       margin: 28px auto 0;
-      background: linear-gradient(135deg, #3454d1, #7b4dff);
+      background: linear-gradient(135deg, #6366f1, #4f46e5);
       color: white;
       padding: 15px 28px;
       border: none;
@@ -196,7 +197,7 @@
       font-size: 16px;
       font-weight: 800;
       cursor: pointer;
-      box-shadow: 0 12px 30px rgba(52,84,209,.25);
+      box-shadow: 0 12px 30px rgba(99,102,241,.25);
     }
 
     .result {
@@ -207,7 +208,7 @@
 
     .result h2 {
       font-size: 34px;
-      color: #3454d1;
+      color: #3b4fd8;
       margin-bottom: 10px;
     }
 
@@ -220,7 +221,7 @@
 
     .restart-btn {
       margin-top: 20px;
-      background: linear-gradient(135deg, #3454d1, #7b4dff);
+      background: linear-gradient(135deg, #6366f1, #4f46e5);
       color: white;
       padding: 14px 24px;
       border-radius: 14px;
@@ -229,15 +230,6 @@
       cursor: pointer;
     }
 
-    #access-error {
-      display: none;
-      text-align: center;
-      padding: 40px;
-    }
-
-    #access-error h2 { color: #c0392b; margin-bottom: 12px; }
-    #access-error p { color: #666; margin-bottom: 20px; }
-
     @media (max-width: 700px) {
       header {
         flex-direction: column;
@@ -245,41 +237,71 @@
         padding: 18px 6%;
         text-align: center;
       }
-      .hero { padding: 25px 6% 15px; }
-      .hero-card { padding: 28px 22px; border-radius: 24px; }
-      h1 { font-size: 28px; }
-      .quiz-wrapper { padding: 20px 6% 45px; }
-      .quiz-card { padding: 24px; border-radius: 24px; }
-      .top-info { justify-content: center; text-align: center; }
-      .question { font-size: 21px; }
-      .option-btn { font-size: 15px; text-align: center; }
-      .next-btn, .restart-btn { width: 100%; }
+
+      .hero {
+        padding: 25px 6% 15px;
+      }
+
+      .hero-card {
+        padding: 28px 22px;
+        border-radius: 24px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .quiz-wrapper {
+        padding: 20px 6% 45px;
+      }
+
+      .quiz-card {
+        padding: 24px;
+        border-radius: 24px;
+      }
+
+      .top-info {
+        justify-content: center;
+        text-align: center;
+      }
+
+      .question {
+        font-size: 21px;
+      }
+
+      .option-btn {
+        font-size: 15px;
+        text-align: center;
+      }
+
+      .next-btn,
+      .restart-btn {
+        width: 100%;
+      }
     }
   </style>
 </head>
+
 <body>
 
   <header>
     <div class="logo">Maestro de Bolsillo</div>
-    <a class="back-link" href="dashboard.html">← Mis materias</a>
+    <a class="back-link" href="index.html">← Volver al inicio</a>
   </header>
 
   <section class="hero">
     <div class="hero-card">
-      <span class="tag" id="heroTag">Matemáticas</span>
+      <span class="tag">Matemáticas · Mes 1</span>
       <h1>Practica, responde y aprende de tus errores</h1>
-      <p>Elige una respuesta, revisa la explicación y avanza paso a paso.</p>
+      <p>
+        Elige una respuesta, revisa la explicación y avanza paso a paso.
+      </p>
     </div>
   </section>
 
   <section class="quiz-wrapper">
-    <div id="access-error">
-      <h2>Sin acceso</h2>
-      <p>No tienes acceso a este contenido. Adquiere el mes correspondiente en Hotmart.</p>
-      <a href="https://pay.hotmart.com/X106434037V" style="display:inline-block;padding:14px 24px;background:#3b4fd8;color:white;border-radius:10px;text-decoration:none;font-weight:bold;">Comprar acceso</a>
-    </div>
+    <div class="quiz-card">
 
-    <div class="quiz-card" id="quizContent">
       <div class="top-info">
         <div class="pill" id="progressText">Cargando preguntas...</div>
         <div class="pill" id="scoreText">Aciertos: 0</div>
@@ -293,51 +315,30 @@
 
       <div class="explanation" id="explanationBox"></div>
 
-      <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Siguiente pregunta →</button>
+      <button class="next-btn" id="nextBtn" onclick="nextQuestion()">
+        Siguiente pregunta →
+      </button>
 
       <div class="result" id="resultBox"></div>
+
     </div>
   </section>
 
   <script>
-    // --- Extraer mes de la URL ---
-    const urlParams = new URLSearchParams(window.location.search);
-    const mes = urlParams.get("mes") || "1";
-
-    // --- Verificar acceso ---
-    const mesesAcceso = JSON.parse(localStorage.getItem("meses_acceso") || "[]");
-    const mesNum = parseInt(mes);
-
-    if (!mesesAcceso.includes(mesNum) && mesesAcceso.length > 0) {
-      document.getElementById("access-error").style.display = "block";
-      document.getElementById("quizContent").style.display = "none";
-      document.getElementById("heroTag").textContent = "Matemáticas - Sin acceso";
-      throw new Error("Sin acceso al mes " + mes);
-    }
-
-    // También verificar si hay sesión activa
-    if (!localStorage.getItem("usuario_uid")) {
-      window.location.href = "/login.html";
-    }
-
-    document.getElementById("heroTag").textContent = `Matemáticas · Mes ${mes}`;
-
-    // --- Lógica del Quiz ---
     let questions = [];
     let currentQuestion = 0;
     let score = 0;
     let answered = false;
 
-    fetch(`matematicas_mes${mes}.json`)
+    fetch("matematicas_mes1.json")
       .then(response => response.json())
       .then(data => {
-        questions = Array.isArray(data) ? data : (data.preguntas || []);
-        if (questions.length === 0) throw new Error("No se encontraron preguntas");
+        questions = data;
         showQuestion();
       })
       .catch(error => {
         document.getElementById("quizArea").innerHTML =
-          "<p>No se pudieron cargar las preguntas. Verifica que el archivo exista en GitHub.</p>";
+          "<p>No se pudieron cargar las preguntas. Revisa que el archivo matematicas_mes1.json esté en GitHub.</p>";
         console.error("Error:", error);
       });
 
@@ -345,7 +346,7 @@
       answered = false;
 
       const question = questions[currentQuestion];
-      const progressPercent = (currentQuestion / questions.length) * 100;
+      const progressPercent = ((currentQuestion) / questions.length) * 100;
 
       document.getElementById("progressText").textContent =
         `Pregunta ${currentQuestion + 1} de ${questions.length}`;
@@ -353,55 +354,56 @@
       document.getElementById("scoreText").textContent =
         `Aciertos: ${score}`;
 
-      document.getElementById("progressFill").style.width = `${progressPercent}%`;
+      document.getElementById("progressFill").style.width =
+        `${progressPercent}%`;
 
       document.getElementById("explanationBox").style.display = "none";
       document.getElementById("explanationBox").innerHTML = "";
       document.getElementById("nextBtn").style.display = "none";
       document.getElementById("resultBox").style.display = "none";
 
-      const qText = question.question || question.pregunta;
-      const opts = question.options || {};
-
       document.getElementById("quizArea").innerHTML = `
-        <div class="question">${qText || "Pregunta no disponible"}</div>
+        <div class="question">${question.question}</div>
+
         <div class="options">
-          <button class="option-btn" onclick="checkAnswer('A', this)">A) ${opts.A || "?"}</button>
-          <button class="option-btn" onclick="checkAnswer('B', this)">B) ${opts.B || "?"}</button>
-          <button class="option-btn" onclick="checkAnswer('C', this)">C) ${opts.C || "?"}</button>
-          <button class="option-btn" onclick="checkAnswer('D', this)">D) ${opts.D || "?"}</button>
+          <button class="option-btn" onclick="checkAnswer('A', this)">A) ${question.options.A}</button>
+          <button class="option-btn" onclick="checkAnswer('B', this)">B) ${question.options.B}</button>
+          <button class="option-btn" onclick="checkAnswer('C', this)">C) ${question.options.C}</button>
+          <button class="option-btn" onclick="checkAnswer('D', this)">D) ${question.options.D}</button>
         </div>
       `;
     }
 
     function checkAnswer(selected, button) {
       if (answered) return;
+
       answered = true;
 
       const question = questions[currentQuestion];
-      const correctKey = question.correctAnswer || question.respuesta;
       const buttons = document.querySelectorAll(".option-btn");
 
       buttons.forEach(btn => {
         btn.disabled = true;
-        if (btn.textContent.startsWith(correctKey + ")")) {
+
+        if (btn.textContent.startsWith(question.correctAnswer + ")")) {
           btn.classList.add("correct");
         }
       });
 
-      if (selected === correctKey) {
+      if (selected === question.correctAnswer) {
         button.classList.add("correct");
         score++;
       } else {
         button.classList.add("incorrect");
       }
 
-      document.getElementById("scoreText").textContent = `Aciertos: ${score}`;
+      document.getElementById("scoreText").textContent =
+        `Aciertos: ${score}`;
 
-      const explanation = question.explanation || question.explicacion || "";
       document.getElementById("explanationBox").style.display = "block";
       document.getElementById("explanationBox").innerHTML = `
-        <strong>Explicación:</strong><br>${explanation}
+        <strong>💡 Explicación:</strong><br>
+        ${question.explanation}
       `;
 
       document.getElementById("nextBtn").style.display = "block";
@@ -409,6 +411,7 @@
 
     function nextQuestion() {
       currentQuestion++;
+
       if (currentQuestion < questions.length) {
         showQuestion();
       } else {
@@ -418,6 +421,7 @@
 
     function showResult() {
       const percentage = Math.round((score / questions.length) * 100);
+
       document.getElementById("progressText").textContent = "Quiz terminado";
       document.getElementById("scoreText").textContent = `Aciertos: ${score}`;
       document.getElementById("progressFill").style.width = "100%";
@@ -427,7 +431,7 @@
 
       document.getElementById("resultBox").style.display = "block";
       document.getElementById("resultBox").innerHTML = `
-        <h2>¡Terminaste!</h2>
+        <h2>🎉 ¡Terminaste!</h2>
         <p>Tu resultado final fue:</p>
         <div class="score-number">${score}/${questions.length}</div>
         <p>${percentage}% de respuestas correctas</p>
@@ -441,5 +445,7 @@
       showQuestion();
     }
   </script>
+
 </body>
 </html>
+```
