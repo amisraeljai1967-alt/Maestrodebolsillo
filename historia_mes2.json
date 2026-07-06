@@ -684,6 +684,20 @@
     "subject": "Historia",
     "topic": "México contemporáneo",
     "level": "Básico"
+  },
+  {
+    "question": "¿Qué fue la Independencia de México?",
+    "options": {
+      "A": "El proceso armado que liberó a México del dominio español (1810-1821)",
+      "B": "La guerra entre México y Estados Unidos",
+      "C": "La reforma agraria del siglo XX",
+      "D": "El movimiento estudiantil de 1968"
+    },
+    "correctAnswer": "A",
+    "explanation": "La Independencia inició con el Grito de Dolores en 1810 liderado por Miguel Hidalgo y culminó con la entrada del Ejército Trigarante en 1821.",
+    "subject": "Historia",
+    "topic": "Independencia",
+    "level": "Básico"
   }
 ]
 
