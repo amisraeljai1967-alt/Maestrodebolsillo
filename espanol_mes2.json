@@ -684,6 +684,20 @@
     "subject": "Español",
     "topic": "Comprensión lectora",
     "level": "Básico"
+  },
+  {
+    "question": "¿Qué diferencia hay entre un hecho y una opinión en un texto?",
+    "options": {
+      "A": "El hecho es verificable y objetivo; la opinión es subjetiva y expresa un punto de vista.",
+      "B": "El hecho es falso y la opinión es verdadera.",
+      "C": "Ambos son lo mismo, solo cambia el contexto.",
+      "D": "La opinión es científica; el hecho es literario."
+    },
+    "correctAnswer": "A",
+    "explanation": "Los hechos pueden comprobarse con datos objetivos (fechas, cifras). Las opiniones expresan juicios personales que pueden ser debatidos.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Básico"
   }
 ]
 
