@@ -56,6 +56,19 @@
       text-align: center;
     }
 
+    .btn-outline {
+      background: white;
+      color: #3454d1;
+      border: 2px solid #3454d1;
+      box-shadow: none;
+    }
+
+    .header-btns {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
     .hero {
       padding: 80px 8%;
       display: grid;
@@ -109,6 +122,14 @@
       border-radius: 12px;
       font-weight: 700;
       box-shadow: 0 5px 15px rgba(0,0,0,.06);
+    }
+
+    .hero-btns {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 20px;
     }
 
     .quiz-card {
@@ -430,6 +451,16 @@
         width: 100%;
         text-align: center;
       }
+
+      .hero-btns {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .header-btns {
+        flex-direction: column;
+        gap: 8px;
+      }
     }
   </style>
 </head>
@@ -445,8 +476,10 @@
       <a href="#precio">Precio</a>
       <a href="#faq">FAQ</a>
     </nav>
-   <a href="https://pay.hotmart.com/X106434037V" class="btn">Suscribirme ahora</a>
-      </div>
+    <div class="header-btns">
+      <a href="login.html" class="btn btn-outline" style="padding:10px 16px;font-size:14px;">Entrar a mi cuenta</a>
+      <a href="https://pay.hotmart.com/X106434037V" class="btn" style="padding:10px 16px;font-size:14px;">Suscribirme</a>
+    </div>
   </header>
 
   <main>
@@ -461,16 +494,16 @@
 
         <div class="badges">
           <span>Matemáticas</span>
-
-
-          
           <span>Química</span>
           <span>Historia</span>
           <span>Español</span>
           <span>Cívica y Ética</span>
         </div>
 
-       <a href="https://pay.hotmart.com/X106434037V" class="btn">Suscribirme ahora</a>
+        <div class="hero-btns">
+          <a href="https://pay.hotmart.com/X106434037V" class="btn">🔥 Comprar acceso</a>
+          <a href="login.html" class="btn btn-outline">✅ Ya tengo acceso · Entrar</a>
+        </div>
       </div>
 
       <div class="quiz-card">
@@ -567,18 +600,18 @@
      <div class="grid steps">
 
 <div class="card">
-  <h3>1. Regístrate en Hotmart</h3>
-  <p>Haz clic en el botón de suscripción para completar tu pago seguro a través de Hotmart.</p>
+  <h3>1. Compra tu acceso</h3>
+  <p>Haz clic en "Comprar acceso" y completa tu pago seguro en Hotmart. <strong>Usa tu correo electrónico</strong> al pagar.</p>
 </div>
 
 <div class="card">
-  <h3>2. Acceso inmediato</h3>
-  <p>Una vez completada la compra, obtén acceso al contenido mensual y a todas las materias disponibles.</p>
+  <h3>2. Entra a tu cuenta</h3>
+  <p>Ve a "Ya tengo acceso · Entrar". <strong>Regístrate con el mismo correo</strong> que usaste al pagar. Automáticamente verás tus materias desbloqueadas.</p>
 </div>
 
 <div class="card">
   <h3>3. Practica y mejora</h3>
-  <p>Responde quizzes, revisa explicaciones y fortalece tus conocimientos.</p>
+  <p>Responde quizzes, revisa explicaciones y fortalece tus conocimientos en las 5 materias.</p>
 </div>
 
     </div>
@@ -679,10 +712,12 @@
     </div>
 
     <div class="faq-item">
-      <h3>¿Pierdo acceso a los meses que ya compré?</h3>
+      <h3>¿Ya pagué, cómo entro a mis materias?</h3>
       <p>
-        No. Los meses que hayas adquirido seguirán disponibles para ti
-        de forma permanente.
+        Da clic en "Ya tengo acceso · Entrar". Si es tu primera vez,
+        regístrate con el <strong>mismo correo</strong> que usaste al pagar.
+        Si ya te registraste antes, solo inicia sesión. Tus materias se
+        desbloquearán automáticamente.
       </p>
     </div>
 
@@ -710,4 +745,3 @@
 
  </body>
 </html>
-```
