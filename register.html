@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrarse - Maestro de Bolsillo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #f0f4ff; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+    .container { background: white; border-radius: 16px; padding: 40px; max-width: 400px; width: 90%; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+    h1 { color: #3b4fd8; font-size: 24px; margin-bottom: 8px; text-align: center; }
+    p { color: #555; font-size: 14px; margin-bottom: 24px; text-align: center; }
+    .campo { margin-bottom: 16px; }
+    label { display: block; font-size: 13px; color: #333; margin-bottom: 6px; font-weight: bold; }
+    input { width: 100%; padding: 12px; border: 1.5px solid #ddd; border-radius: 8px; font-size: 15px; outline: none; }
+    input:focus { border-color: #3b4fd8; }
+    .btn { width: 100%; padding: 14px; background: #3b4fd8; color: white; border: none; border-radius: 10px; font-size: 16px; font-weight: bold; cursor: pointer; margin-top: 8px; }
+    .btn:hover { background: #2a3ab8; }
+    .error { color: #c0392b; font-size: 13px; margin-top: 12px; text-align: center; display: none; }
+    .loading { display: none; text-align: center; color: #3b4fd8; margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Crear Cuenta</h1>
+    <p>Regístrate para acceder a tus materias</p>
+    <div class="campo">
+      <label>Correo electrónico</label>
+      <input type="email" id="email" placeholder="tu@correo.com">
+    </div>
+    <div class="campo">
+      <label>Contraseña</label>
+      <input type="password" id="password" placeholder="Mínimo 6 caracteres">
+    </div>
+    <button class="btn" onclick="registrar()">Crear cuenta</button>
+    <div class="error" id="error">Error al crear la cuenta. Intenta de nuevo.</div>
+    <div class="loading" id="loading">Creando cuenta...</div>
+    <p style="margin-top:16px;text-align:center;font-size:13px;">¿Ya tienes cuenta? <a href="login.html" style="color:#3b4fd8;font-weight:bold;">Inicia sesión</a></p>
+  </div>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+    import { getFirestore, doc, setDoc, getDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyB" + "eBXOjikdvJJv0qHCidgiCpBhphhRDR90",
+      authDomain: "maestrodebolsillo-8ade1.firebaseapp.com",
+      projectId: "maestrodebolsillo-8ade1",
+      storageBucket: "maestrodebolsillo-8ade1.firebasestorage.app",
+      messagingSenderId: "215761472653",
+      appId: "1:215761472653:web:c187042e8fc889cb2ae6c4"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+
+    window.registrar = async function() {
+      const email = document.getElementById('email').value.trim().toLowerCase();
+      const password = document.getElementById('password').value;
+      const errorDiv = document.getElementById('error');
+      const loadingDiv = document.getElementById('loading');
+
+      errorDiv.style.display = 'none';
+      loadingDiv.style.display = 'block';
+
+      try {
+        const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        const user = userCredential.user;
+
+        const pendingRef = doc(db, "purchases_pending", email);
+        const pendingSnap = await getDoc(pendingRef);
+        let meses = [];
+        if (pendingSnap.exists()) {
+          meses = pendingSnap.data().meses || [];
+        }
+
+        await setDoc(doc(db, "usuarios", user.uid), {
+          email,
+          meses,
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
+        });
+
+        localStorage.setItem('meses_acceso', JSON.stringify(meses));
+        localStorage.setItem('usuario_uid', user.uid);
+        window.location.href = '/dashboard.html';
+      } catch(e) {
+        errorDiv.textContent = e.message || 'Error al crear la cuenta.';
+        errorDiv.style.display = 'block';
+      }
+      loadingDiv.style.display = 'none';
+    }
+  </script>
+</body>
+</html>
