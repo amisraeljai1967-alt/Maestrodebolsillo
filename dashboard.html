@@ -6,7 +6,7 @@
   <title>Mis Materias - Maestro de Bolsillo</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, sans-serif; background: #f0f4fe; min-height: 100vh; }
+    body { font-family: Arial, sans-serif; background: #f0f4ff; min-height: 100vh; }
     .header { background: #3b4fd8; color: white; padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; }
     .header h1 { font-size: 20px; }
     .btn-salir { background: white; color: #3b4fd8; border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-weight: bold; }
@@ -20,7 +20,7 @@
     .bloqueado h2 { color: #bbb; }
     #loading, #no-access { text-align: center; padding: 40px; color: #888; display: none; }
     #loading { display: block; }
-    .welcome-msg { text-align: center; color: #4b5563; margin-bottom: 24px; font-size: 15px; }
+    .welcome-msg { text-align: center; color: #555; margin-bottom: 24px; font-size: 15px; }
   </style>
 </head>
 <body>
@@ -39,12 +39,12 @@
     import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
     const firebaseConfig = {
-      apiKey: "AIzaSyB" + "eBXOjikdvJJv0qHCidgiCpBhphhRDR90",
-      authDomain: "maestrodebolsillo-8ade1.firebaseapp.com",
-      projectId: "maestrodebolsillo-8ade1",
-      storageBucket: "maestrodebolsillo-8ade1.firebasestorage.app",
-      messagingSenderId: "215761472653",
-      appId: "1:215761472653:web:c187042e8fc889cb2ae6c4"
+      apiKey: "AIzaSyD9kagpjBX7lV-UIbpym0JACmpcQWj8L6I",
+      authDomain: "maestro-de-bolsillo-d8acb.firebaseapp.com",
+      projectId: "maestro-de-bolsillo-d8acb",
+      storageBucket: "maestro-de-bolsillo-d8acb.appspot.com",
+      messagingSenderId: "926780484863",
+      appId: "1:926780484863:web:805b7a13093eb7e4f855a0"
     };
 
     const app = initializeApp(firebaseConfig);
@@ -98,6 +98,9 @@
           meses = docSnap.data().meses || [];
           localStorage.setItem("meses_acceso", JSON.stringify(meses));
           localStorage.setItem("usuario_uid", user.uid);
+        } else {
+          const stored = localStorage.getItem("meses_acceso");
+          meses = stored ? JSON.parse(stored) : [];
         }
 
         loading.style.display = "none";
@@ -118,7 +121,7 @@
 
         for (const mes of mesesOrdenados) {
           const info = MESES_INFO[mes] || { nombre: `Mes ${mes}` };
-          html += `<div class="mes"><h2>Mes ${mes} &mdash; ${info.nombre}</h2><div class="materias">`;
+          html += `<div class="mes"><h2>Mes ${mes} — ${info.nombre}</h2><div class="materias">`;
           for (const m of MATERIAS) {
             const link = `/${m.id}.html?mes=${mes}`;
             html += `<a class="btn-materia" href="${link}">${m.nombre}</a>`;
@@ -129,13 +132,14 @@
         for (let m = 1; m <= 9; m++) {
           if (!mesesOrdenados.includes(m)) {
             const info = MESES_INFO[m] || { nombre: `Mes ${m}` };
-            html += `<div class="bloqueado"><h2>Mes ${m} &mdash; ${info.nombre}</h2><p>&#128274; No tienes acceso a este mes</p></div>`;
+            html += `<div class="bloqueado"><h2>Mes ${m} — ${info.nombre}</h2><p>🔒 No tienes acceso a este mes</p></div>`;
           }
         }
 
         contenido.innerHTML = html;
       } catch (e) {
-        loading.textContent = "Error al cargar tus datos. Recarga la p&aacute;gina.";
+        loading.textContent = "Error al cargar tus datos. Recarga la página.";
+        console.error(e);
       }
     });
   </script>
