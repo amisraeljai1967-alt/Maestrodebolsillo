@@ -161,18 +161,18 @@
     </div>
   </div>
 
-  <script>
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-    import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
-    import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+    import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
     const firebaseConfig = {
-      apiKey: "AIzaSyD9kagpjBX7lV-UIbpym0JACmpcQWj8L6I",
-      authDomain: "maestro-de-bolsillo-d8acb.firebaseapp.com",
-      projectId: "maestro-de-bolsillo-d8acb",
-      storageBucket: "maestro-de-bolsillo-d8acb.appspot.com",
-      messagingSenderId: "926780484863",
-      appId: "1:926780484863:web:805b7a13093eb7e4f855a0"
+      apiKey: "AIzaSyB" + "eBXOjikdvJJv0qHCidgiCpBhphhRDR90",
+      authDomain: "maestrodebolsillo-8ade1.firebaseapp.com",
+      projectId: "maestrodebolsillo-8ade1",
+      storageBucket: "maestrodebolsillo-8ade1.firebasestorage.app",
+      messagingSenderId: "215761472653",
+      appId: "1:215761472653:web:c187042e8fc889cb2ae6c4"
     };
 
     const app = initializeApp(firebaseConfig);
@@ -199,7 +199,7 @@
           localStorage.setItem("usuario_uid", user.uid);
           localStorage.setItem("usuario_nombre", data.nombre || "Alumno");
           localStorage.setItem("usuario_email", user.email);
-          localStorage.setItem("meses_acceso", JSON.stringify(data.meses_acceso || []));
+          localStorage.setItem("meses_acceso", JSON.stringify(data.meses || []));
         } else {
           localStorage.setItem("usuario_uid", user.uid);
           localStorage.setItem("usuario_nombre", "Alumno");
