@@ -80,9 +80,10 @@
         localStorage.setItem('meses_acceso', JSON.stringify(meses));
         localStorage.setItem('usuario_uid', user.uid);
         window.location.href = 'dashboard.html';
-      } catch(e) {
+          } catch(e) {
+        errorDiv.textContent = e.message || 'Correo o contraseña incorrectos';
         errorDiv.style.display = 'block';
-      }
+      }    
       loadingDiv.style.display = 'none';
     }
   </script>
