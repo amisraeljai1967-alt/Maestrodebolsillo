@@ -55,7 +55,7 @@
     const auth = getAuth(app);
     const db = getFirestore(app);
 
-    window.iniciarSesion = async function() {
+       window.iniciarSesion = async function() {
       const email = document.getElementById('email').value.trim().toLowerCase();
       const password = document.getElementById('password').value;
       const errorDiv = document.getElementById('error');
@@ -73,35 +73,17 @@
         let meses = [];
 
         if (docSnap.exists()) {
-          meses = docSnap.data().meses || [];
-        }
-
-        const pendingRef = doc(db, "purchases_pending", email);
-        const pendingSnap = await getDoc(pendingRef);
-        if (pendingSnap.exists()) {
-          const pendingMeses = pendingSnap.data().meses || [];
-          meses = [...new Set([...meses, ...pendingMeses])];
-          await setDoc(docRef, {
-            email,
-            meses,
-            createdAt: docSnap.exists() ? docSnap.data().createdAt : new Date().toISOString(),
-            updatedAt: new Date().toISOString(),
-          });
-        } else if (!docSnap.exists()) {
-          errorDiv.textContent = 'No tienes acceso activo. Verifica tu suscripción.';
-          errorDiv.style.display = 'block';
-          loadingDiv.style.display = 'none';
-          return;
+          const data = docSnap.data();
+          meses = data.meses_acceso || data.meses || [];
         }
 
         localStorage.setItem('meses_acceso', JSON.stringify(meses));
         localStorage.setItem('usuario_uid', user.uid);
-        window.location.href = '/dashboard.html';
+        window.location.href = 'dashboard.html';
       } catch(e) {
         errorDiv.style.display = 'block';
       }
       loadingDiv.style.display = 'none';
     }
-  </script>
 </body>
 </html>
