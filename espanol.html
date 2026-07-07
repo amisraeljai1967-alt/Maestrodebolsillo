@@ -88,7 +88,7 @@
     const mes = urlParams.get("mes") || "1";
     const mesesAcceso = JSON.parse(localStorage.getItem("meses_acceso") || "[]");
     const mesNum = parseInt(mes);
-    if (!mesesAcceso.includes(mesNum) && mesesAcceso.length > 0) {
+    if (!mesesAcceso.includes(mesNum)) {
       document.getElementById("access-error").style.display = "block";
       document.getElementById("quizContent").style.display = "none";
       document.getElementById("heroTag").textContent = "Español - Sin acceso";
