@@ -157,67 +157,102 @@
     </div>
 </section>
     </main>
+<script>
+    let currentQuestions = [];
+    let currentIndex = 0;
+    let answered = false;
 
-    <script>
-        async function startQuiz(materia) {
-            try {
-                const response = await fetch(`data/${materia}.json`);
-                const data = await response.json();
-                const preguntas = data.preguntas;
-                
-                const preguntaActual = preguntas[Math.floor(Math.random() * preguntas.length)];
-                
-                document.getElementById('quiz-container').classList.remove('hidden');
-                document.getElementById('quiz-title').innerText = "Quiz de Práctica: " + data.materia;
-                document.getElementById('question-text').innerText = preguntaActual.pregunta;
-                
-                const optionsBox = document.getElementById('options-box');
-                optionsBox.innerHTML = '';
-                document.getElementById('explanation-box').classList.add('hidden');
+    async function startQuiz(materia) {
+        try {
+            const response = await fetch(`data/${materia}.json`);
+            const data = await response.json();
+            currentQuestions = data.preguntas;
+            currentIndex = 0;
+            answered = false;
 
-                const options = preguntaActual.options;
-                const keys = Object.keys(options);
-                
-                keys.forEach((key) => {
-                    const btn = document.createElement('button');
-                    btn.className = "w-full text-left p-3.5 border border-gray-200 rounded-xl hover:bg-gray-50 transition text-base font-medium flex justify-between items-center";
-                    btn.innerHTML = `<span>${key}: ${options[key]}</span>`;
-                    btn.onclick = () => checkAnswer(key, preguntaActual.correctAnswer, preguntaActual.explanation, btn);
-                    optionsBox.appendChild(btn);
-                });
+            document.getElementById('subjects-grid').classList.add('hidden');
+            document.getElementById('quiz-container').classList.remove('hidden');
+            document.getElementById('quiz-title').innerText = "Quiz: " + data.materia;
 
-                document.getElementById('quiz-container').scrollIntoView({ behavior: 'smooth' });
-            } catch (error) {
-                console.error('Error al cargar preguntas:', error);
-                alert("Error al cargar las preguntas. Asegúrate de que los archivos JSON estén en la carpeta data/");
-            }
+            renderQuestion();
+            document.getElementById('quiz-container').scrollIntoView({ behavior: 'smooth' });
+        } catch (error) {
+            console.error('Error al cargar preguntas:', error);
+            alert("Error al cargar las preguntas.");
         }
+    }
 
-        function checkAnswer(chosen, correct, explicacion, element) {
-            const expBox = document.getElementById('explanation-box');
-            const expText = document.getElementById('explanation-text');
-            
-            const buttons = document.getElementById('options-box').children;
-            for(let btn of buttons) { btn.disabled = true; }
+    function renderQuestion() {
+        const pregunta = currentQuestions[currentIndex];
+        const total = currentQuestions.length;
+        const pct = ((currentIndex + 1) / total) * 100;
 
-            if(chosen === correct) {
-                element.classList.add('bg-green-100', 'border-green-500', 'text-green-800');
-                element.innerHTML += '<i class="fas fa-check-circle text-green-600 text-base ml-auto"></i>';
-                expBox.className = "mt-4 p-4 rounded-xl border border-green-200 bg-green-50 text-green-900";
-            } else {
-                element.classList.add('bg-red-100', 'border-red-500', 'text-red-800');
-                element.innerHTML += '<i class="fas fa-times-circle text-red-600 text-base ml-auto"></i>';
-                for(let btn of buttons) {
-                    if(btn.textContent.startsWith(correct + ":")) {
-                        btn.classList.add('bg-green-100', 'border-green-500', 'text-green-800');
-                    }
+        document.getElementById('progress-fill').style.width = pct + '%';
+        document.getElementById('progress-text').innerText = `Pregunta ${currentIndex + 1} de ${total}`;
+        document.getElementById('question-text').innerText = pregunta.pregunta;
+
+        const optionsBox = document.getElementById('options-box');
+        optionsBox.innerHTML = '';
+        document.getElementById('explanation-box').classList.add('hidden');
+        document.getElementById('next-btn').classList.add('hidden');
+        answered = false;
+
+        const options = pregunta.options;
+        Object.keys(options).forEach((key) => {
+            const btn = document.createElement('button');
+            btn.className = "w-full text-left p-3.5 border border-gray-200 rounded-xl hover:bg-gray-50 transition text-base font-medium flex justify-between items-center";
+            btn.innerHTML = `<span>${key}: ${options[key]}</span>`;
+            btn.onclick = () => checkAnswer(key, pregunta.correctAnswer, pregunta.explanation, btn);
+            optionsBox.appendChild(btn);
+        });
+    }
+
+    function checkAnswer(chosen, correct, explicacion, element) {
+        if (answered) return;
+        answered = true;
+
+        const expBox = document.getElementById('explanation-box');
+        const expText = document.getElementById('explanation-text');
+
+        const buttons = document.getElementById('options-box').children;
+        for(let btn of buttons) { btn.disabled = true; }
+
+        if(chosen === correct) {
+            element.classList.add('bg-green-100', 'border-green-500', 'text-green-800');
+            element.innerHTML += '<i class="fas fa-check-circle text-green-600 text-base ml-auto"></i>';
+            expBox.className = "mt-4 p-4 rounded-xl border border-green-200 bg-green-50 text-green-900";
+        } else {
+            element.classList.add('bg-red-100', 'border-red-500', 'text-red-800');
+            element.innerHTML += '<i class="fas fa-times-circle text-red-600 text-base ml-auto"></i>';
+            for(let btn of buttons) {
+                if(btn.textContent.startsWith(correct + ":")) {
+                    btn.classList.add('bg-green-100', 'border-green-500', 'text-green-800');
                 }
-                expBox.className = "mt-4 p-4 rounded-xl border border-amber-200 bg-amber-50 text-amber-900";
             }
-
-            expText.innerText = explicacion;
-            expBox.classList.remove('hidden');
+            expBox.className = "mt-4 p-4 rounded-xl border border-amber-200 bg-amber-50 text-amber-900";
         }
-    </script>
+
+        expText.innerText = explicacion;
+        expBox.classList.remove('hidden');
+
+        if (currentIndex < currentQuestions.length - 1) {
+            document.getElementById('next-btn').classList.remove('hidden');
+        }
+    }
+
+    function nextQuestion() {
+        currentIndex++;
+        renderQuestion();
+        document.getElementById('quiz-container').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function goBack() {
+        document.getElementById('quiz-container').classList.add('hidden');
+        document.getElementById('subjects-grid').classList.remove('hidden');
+        currentQuestions = [];
+        currentIndex = 0;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
 </body>
 </html>
