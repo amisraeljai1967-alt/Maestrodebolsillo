@@ -1,0 +1,606 @@
+{
+  "materia": "Química",
+  "total_preguntas": 50,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "¿Qué tipo de enlace químico ocurre cuando dos átomos comparten electrones?",
+      "options": {
+        "A": "Enlace Iónico",
+        "B": "Enlace Metálico",
+        "C": "Enlace Covalente",
+        "D": "Enlace de Hidrógeno"
+      },
+      "correctAnswer": "C",
+      "explanation": "El enlace Covalente ocurre cuando los átomos comparten electrones para alcanzar la estabilidad. En el iónico, un átomo le roba electrones al otro."
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Cuál es el símbolo químico del agua?",
+      "options": {
+        "A": "HO",
+        "B": "H2O",
+        "C": "OH2",
+        "D": "2HO"
+      },
+      "correctAnswer": "B",
+      "explanation": "El agua está compuesta por 2 átomos de hidrógeno y 1 de oxígeno: H₂O."
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Qué elemento tiene el símbolo 'Fe'?",
+      "options": {
+        "A": "Flúor",
+        "B": "Fósforo",
+        "C": "Hierro",
+        "D": "Plata"
+      },
+      "correctAnswer": "C",
+      "explanation": "Fe viene del latín 'Ferrum', que significa hierro."
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Cuál es la unidad básica de la materia?",
+      "options": {
+        "A": "Molécula",
+        "B": "Átomo",
+        "C": "Electrón",
+        "D": "Núcleo"
+      },
+      "correctAnswer": "B",
+      "explanation": "El átomo es la unidad básica de la materia. Todo está formado por átomos."
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Qué gas es esencial para la respiración?",
+      "options": {
+        "A": "Nitrógeno",
+        "B": "Dióxido de carbono",
+        "C": "Oxígeno",
+        "D": "Hidrógeno"
+      },
+      "correctAnswer": "C",
+      "explanation": "El oxígeno (O₂) es esencial para la respiración de los seres vivos."
+    },
+    {
+      "id": 6,
+      "pregunta": "¿Cuál es la fórmula química del cloruro de sodio?",
+      "options": {
+        "A": "NaO",
+        "B": "NaCl",
+        "C": "NaCl2",
+        "D": "Na2Cl"
+      },
+      "correctAnswer": "B",
+      "explanation": "El cloruro de sodio (sal común) es NaCl: un átomo de sodio y uno de cloro."
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Qué carga tiene el electrón?",
+      "options": {
+        "A": "Positiva",
+        "B": "Negativa",
+        "C": "Neutra",
+        "D": "Variable"
+      },
+      "correctAnswer": "B",
+      "explanation": "El electrón tiene carga negativa. El protón tiene carga positiva."
+    },
+    {
+      "id": 8,
+      "pregunta": "¿Cuántos elementos tiene la tabla periódica actual?",
+      "options": {
+        "A": "100",
+        "B": "112",
+        "C": "118",
+        "D": "120"
+      },
+      "correctAnswer": "C",
+      "explanation": "La tabla periódica actual tiene 118 elementos confirmados."
+    },
+    {
+      "id": 9,
+      "pregunta": "¿Qué tipo de reacción es: 2H₂ + O₂ → 2H₂O?",
+      "options": {
+        "A": "Descomposición",
+        "B": "Sustitución",
+        "C": "Combinación",
+        "D": "Doble sustitución"
+      },
+      "correctAnswer": "C",
+      "explanation": "Es una reacción de combinación o síntesis: dos sustancias se unen para formar una sola."
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Cuál es el pH del agua pura?",
+      "options": {
+        "A": "0",
+        "B": "5",
+        "C": "7",
+        "D": "14"
+      },
+      "correctAnswer": "C",
+      "explanation": "El agua pura tiene pH neutro, que es 7."
+    },
+    {
+      "id": 11,
+      "pregunta": "¿Qué elemento es el más abundante en el universo?",
+      "options": {
+        "A": "Oxígeno",
+        "B": "Carbono",
+        "C": "Helio",
+        "D": "Hidrógeno"
+      },
+      "correctAnswer": "D",
+      "explanation": "El hidrógeno es el elemento más abundante del universo."
+    },
+    {
+      "id": 12,
+      "pregunta": "¿Qué son los iones?",
+      "options": {
+        "A": "Átomos con carga",
+        "B": "Moléculas rotas",
+        "C": "Electrones libres",
+        "D": "Núcleos atómicos"
+      },
+      "correctAnswer": "A",
+      "explanation": "Los iones son átomos o moléculas con carga eléctrica (ganan o pierden electrones)."
+    },
+    {
+      "id": 13,
+      "pregunta": "¿Qué gas producimos al respirar?",
+      "options": {
+        "A": "Oxígeno",
+        "B": "Nitrógeno",
+        "C": "Dióxido de carbono",
+        "D": "Hidrógeno"
+      },
+      "correctAnswer": "C",
+      "explanation": "Al respirar, nuestro cuerpo produce dióxido de carbono (CO₂) como desecho."
+    },
+    {
+      "id": 14,
+      "pregunta": "¿Qué es una molécula?",
+      "options": {
+        "A": "Un átomo suelto",
+        "B": "Dos o más átomos unidos",
+        "C": "Un núcleo atómico",
+        "D": "Un electrón libre"
+      },
+      "correctAnswer": "B",
+      "explanation": "Una molécula es cuando dos o más átomos se unen químicamente."
+    },
+    {
+      "id": 15,
+      "pregunta": "¿Cuál es el símbolo químico del oxígeno?",
+      "options": {
+        "A": "Ox",
+        "B": "Og",
+        "C": "O",
+        "D": "O2"
+      },
+      "correctAnswer": "C",
+      "explanation": "El símbolo del oxígeno es O. El oxígeno molecular es O₂."
+    },
+    {
+      "id": 16,
+      "pregunta": "¿Qué tipo de sustancia es el azúcar?",
+      "options": {
+        "A": "Ácido",
+        "B": "Base",
+        "C": "Orgánica",
+        "D": "Metálica"
+      },
+      "correctAnswer": "C",
+      "explanation": "El azúcar (sacarosa) es una sustancia orgánica, compuesta por carbono, hidrógeno y oxígeno."
+    },
+    {
+      "id": 17,
+      "pregunta": "¿Qué elemento es fundamental para la vida?",
+      "options": {
+        "A": "Oro",
+        "B": "Plomo",
+        "C": "Carbono",
+        "D": "Hierro"
+      },
+      "correctAnswer": "C",
+      "explanation": "El carbono es la base de todos los seres vivos y moléculas orgánicas."
+    },
+    {
+      "id": 18,
+      "pregunta": "¿Qué es una reacción química?",
+      "options": {
+        "A": "Cuando algo cambia de color",
+        "B": "Cuando se forma una nueva sustancia",
+        "C": "Cuando se funde un metal",
+        "D": "Cuando se disuelve algo"
+      },
+      "correctAnswer": "B",
+      "explanation": "Una reacción química es cuando los reactivos se transforman en productos nuevos."
+    },
+    {
+      "id": 19,
+      "pregunta": "¿Cuál es la valencia del oxígeno?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctAnswer": "B",
+      "explanation": "El oxígeno tiene valencia 2, por eso se une con 2 hidrógenos en el agua (H₂O)."
+    },
+    {
+      "id": 20,
+      "pregunta": "¿Qué gas es el más abundante en la atmósfera?",
+      "options": {
+        "A": "Oxígeno",
+        "B": "Dióxido de carbono",
+        "C": "Nitrógeno",
+        "D": "Argón"
+      },
+      "correctAnswer": "C",
+      "explanation": "El nitrógeno (N₂) representa aproximadamente el 78% de la atmósfera."
+    },
+    {
+      "id": 21,
+      "pregunta": "¿Qué es un elemento químico?",
+      "options": {
+        "A": "Una mezcla de sustancias",
+        "B": "Una sustancia pura que no se puede descomponer",
+        "C": "Un compuesto químico",
+        "D": "Una molécula rota"
+      },
+      "correctAnswer": "B",
+      "explanation": "Un elemento es una sustancia pura formada por un solo tipo de átomo."
+    },
+    {
+      "id": 22,
+      "pregunta": "¿Cuál es el símbolo del sodio?",
+      "options": {
+        "A": "So",
+        "B": "Sd",
+        "C": "Na",
+        "D": "S"
+      },
+      "correctAnswer": "C",
+      "explanation": "El sodio tiene el símbolo Na, del latín 'Natrium'."
+    },
+    {
+      "id": 23,
+      "pregunta": "¿Qué es una disolución?",
+      "options": {
+        "A": "Una mezcla homogénea",
+        "B": "Una mezcla heterogénea",
+        "C": "Un compuesto químico",
+        "D": "Un elemento puro"
+      },
+      "correctAnswer": "A",
+      "explanation": "Una disolución es una mezcla homogénea donde el soluto se disuelve en el solvente."
+    },
+    {
+      "id": 24,
+      "pregunta": "¿Qué sucede con la masa en una reacción química?",
+      "options": {
+        "A": "Se crea materia",
+        "B": "Se destruye materia",
+        "C": "Se conserva la masa",
+        "D": "La masa cambia"
+      },
+      "correctAnswer": "C",
+      "explanation": "Por la Ley de Conservación de la Masa, la masa total se mantiene constante."
+    },
+    {
+      "id": 25,
+      "pregunta": "¿Qué es un catalizador?",
+      "options": {
+        "A": "Un reactivo",
+        "B": "Un producto",
+        "C": "Una sustancia que acelera la reacción",
+        "D": "Un metal pesado"
+      },
+      "correctAnswer": "C",
+      "explanation": "Un catalizador acelera la reacción química sin ser consumido."
+    },
+    {
+      "id": 26,
+      "pregunta": "¿Cuál es el símbolo del potasio?",
+      "options": {
+        "A": "Po",
+        "B": "Pt",
+        "C": "K",
+        "D": "Kt"
+      },
+      "correctAnswer": "C",
+      "explanation": "El potasio tiene el símbolo K, del alemán 'Kalium'."
+    },
+    {
+      "id": 27,
+      "pregunta": "¿Qué es un compuesto químico?",
+      "options": {
+        "A": "Una mezcla de elementos",
+        "B": "Una sustancia formada por dos o más elementos",
+        "C": "Un átomo suelto",
+        "D": "Una molécula rota"
+      },
+      "correctAnswer": "B",
+      "explanation": "Un compuesto está formado por dos o más elementos químicamente combinados."
+    },
+    {
+      "id": 28,
+      "pregunta": "¿Qué gas es el CO₂?",
+      "options": {
+        "A": "Monóxido de carbono",
+        "B": "Dióxido de carbono",
+        "C": "Oxígeno molecular",
+        "D": "Nitrógeno molecular"
+      },
+      "correctAnswer": "B",
+      "explanation": "CO₂ es dióxido de carbono: un átomo de carbono y dos de oxígeno."
+    },
+    {
+      "id": 29,
+      "pregunta": "¿Qué es una base?",
+      "options": {
+        "A": "Sustancia con pH menor a 7",
+        "B": "Sustancia con pH igual a 7",
+        "C": "Sustancia con pH mayor a 7",
+        "D": "Sustancia sin pH"
+      },
+      "correctAnswer": "C",
+      "explanation": "Las bases tienen pH mayor a 7. Ejemplo: el jabón, la lejía."
+    },
+    {
+      "id": 30,
+      "pregunta": "¿Qué es un ácido?",
+      "options": {
+        "A": "Sustancia con pH mayor a 7",
+        "B": "Sustancia con pH igual a 7",
+        "C": "Sustancia con pH menor a 7",
+        "D": "Sustancia neutra"
+      },
+      "correctAnswer": "C",
+      "explanation": "Los ácidos tienen pH menor a 7. Ejemplo: el vinagre, el limón."
+    },
+    {
+      "id": 31,
+      "pregunta": "¿Qué tipo de enlace se forma con metales y no metales?",
+      "options": {
+        "A": "Covalente",
+        "B": "Iónico",
+        "C": "Metálico",
+        "D": "Polar"
+      },
+      "correctAnswer": "B",
+      "explanation": "El enlace iónico se forma cuando un metal cede electrones a un no metal."
+    },
+    {
+      "id": 32,
+      "pregunta": "¿Qué es el estado sólido?",
+      "options": {
+        "A": "Partículas muy separadas",
+        "B": "Partículas muy juntas y ordenadas",
+        "C": "Partículas en movimiento libre",
+        "D": "Partículas en estado gaseoso"
+      },
+      "correctAnswer": "B",
+      "explanation": "En el estado sólido, las partículas están muy juntas y en posiciones fijas."
+    },
+    {
+      "id": 33,
+      "pregunta": "¿Qué es el estado líquido?",
+      "options": {
+        "A": "Partículas fijas",
+        "B": "Partículas que se deslizan unas sobre otras",
+        "C": "Partículas muy separadas",
+        "D": "Partículas en movimiento rápido"
+      },
+      "correctAnswer": "B",
+      "explanation": "En el estado líquido, las partículas pueden moverse entre sí."
+    },
+    {
+      "id": 34,
+      "pregunta": "¿Qué es el estado gaseoso?",
+      "options": {
+        "A": "Partículas ordenadas",
+        "B": "Partículas muy juntas",
+        "C": "Partículas con alta energía y separadas",
+        "D": "Partículas fijas"
+      },
+      "correctAnswer": "C",
+      "explanation": "En el estado gaseoso, las partículas tienen mucha energía y se mueven libremente."
+    },
+    {
+      "id": 35,
+      "pregunta": "¿Qué es la tabla periódica?",
+      "options": {
+        "A": "Una lista de elementos",
+        "B": "Un gráfico de temperaturas",
+        "C": "Una tabla de multiplicar",
+        "D": "Un calendario químico"
+      },
+      "correctAnswer": "A",
+      "explanation": "La tabla periódica organiza todos los elementos químicos conocidos."
+    },
+    {
+      "id": 36,
+      "pregunta": "¿Qué es el número atómico?",
+      "options": {
+        "A": "El número de neutrones",
+        "B": "El número de protones",
+        "C": "El número de electrones",
+        "D": "El peso del átomo"
+      },
+      "correctAnswer": "B",
+      "explanation": "El número atómico indica la cantidad de protones en el núcleo."
+    },
+    {
+      "id": 37,
+      "pregunta": "¿Qué es la masa atómica?",
+      "options": {
+        "A": "El número de electrones",
+        "B": "La suma de protones y neutrones",
+        "C": "El número de átomos",
+        "D": "El peso del electrón"
+      },
+      "correctAnswer": "B",
+      "explanation": "La masa atómica es la suma de protones y neutrones del núcleo."
+    },
+    {
+      "id": 38,
+      "pregunta": "¿Qué es un metal?",
+      "options": {
+        "A": "Un elemento que conduce la electricidad",
+        "B": "Un elemento que no conduce la electricidad",
+        "C": "Un gas noble",
+        "D": "Un halógeno"
+      },
+      "correctAnswer": "A",
+      "explanation": "Los metales son buenos conductores de electricidad y calor."
+    },
+    {
+      "id": 39,
+      "pregunta": "¿Qué es un no metal?",
+      "options": {
+        "A": "Un elemento brillante",
+        "B": "Un elemento que conduce la electricidad",
+        "C": "Un elemento que no conduce la electricidad",
+        "D": "Un elemento líquido"
+      },
+      "correctAnswer": "C",
+      "explanation": "Los no metales son malos conductores de electricidad y calor."
+    },
+    {
+      "id": 40,
+      "pregunta": "¿Qué es un gas noble?",
+      "options": {
+        "A": "Un gas muy reactivo",
+        "B": "Un gas que no reacciona fácilmente",
+        "C": "Un gas tóxico",
+        "D": "Un gas que arde"
+      },
+      "correctAnswer": "B",
+      "explanation": "Los gases nobles (helio, neón, etc.) son muy estables y no reaccionan fácilmente."
+    },
+    {
+      "id": 41,
+      "pregunta": "¿Qué es un halógeno?",
+      "options": {
+        "A": "Un metal pesado",
+        "B": "Un gas noble",
+        "C": "Un elemento del grupo 17",
+        "D": "Un elemento del grupo 1"
+      },
+      "correctAnswer": "C",
+      "explanation": "Los halógenos están en el grupo 17: flúor, cloro, bromo, yodo."
+    },
+    {
+      "id": 42,
+      "pregunta": "¿Qué es una reacción de oxidación?",
+      "options": {
+        "A": "Cuando se gana hidrógeno",
+        "B": "Cuando se pierde oxígeno",
+        "C": "Cuando se gana oxígeno o se pierde hidrógeno",
+        "D": "Cuando se forma agua"
+      },
+      "correctAnswer": "C",
+      "explanation": "La oxidación es cuando una sustancia gana oxígeno o pierde hidrógeno."
+    },
+    {
+      "id": 43,
+      "pregunta": "¿Qué es una reacción de reducción?",
+      "options": {
+        "A": "Cuando se gana oxígeno",
+        "B": "Cuando se pierde oxígeno o se gana hidrógeno",
+        "C": "Cuando se forma un ácido",
+        "D": "Cuando se disuelve un metal"
+      },
+      "correctAnswer": "B",
+      "explanation": "La reducción es cuando una sustancia pierde oxígeno o gana hidrógeno."
+    },
+    {
+      "id": 44,
+      "pregunta": "¿Qué es una solución saturada?",
+      "options": {
+        "A": "Una solución muy diluida",
+        "B": "Una solución que contiene la máxima cantidad de soluto",
+        "C": "Una solución sin soluto",
+        "D": "Una solución que hierve"
+      },
+      "correctAnswer": "B",
+      "explanation": "Una solución saturada contiene la máxima cantidad de soluto posible."
+    },
+    {
+      "id": 45,
+      "pregunta": "¿Qué es un coloide?",
+      "options": {
+        "A": "Una mezcla homogénea",
+        "B": "Una mezcla heterogénea",
+        "C": "Una suspensión",
+        "D": "Un elemento puro"
+      },
+      "correctAnswer": "B",
+      "explanation": "Un coloide es una mezcla heterogénea donde las partículas están dispersas."
+    },
+    {
+      "id": 46,
+      "pregunta": "¿Qué es una suspensión?",
+      "options": {
+        "A": "Una mezcla homogénea",
+        "B": "Una mezcla donde las partículas se asientan",
+        "C": "Una solución saturada",
+        "D": "Un gas noble"
+      },
+      "correctAnswer": "B",
+      "explanation": "En una suspensión, las partículas grandes se asientan con el tiempo."
+    },
+    {
+      "id": 47,
+      "pregunta": "¿Qué es el pH?",
+      "options": {
+        "A": "Una medida de temperatura",
+        "B": "Una medida de acidez o alcalinidad",
+        "C": "Una medida de peso",
+        "D": "Una medida de volumen"
+      },
+      "correctAnswer": "B",
+      "explanation": "El pH mide qué tan ácida o básica es una sustancia (0-14)."
+    },
+    {
+      "id": 48,
+      "pregunta": "¿Qué elemento es el más abundante en la corteza terrestre?",
+      "options": {
+        "A": "Hierro",
+        "B": "Silicio",
+        "C": "Oxígeno",
+        "D": "Aluminio"
+      },
+      "correctAnswer": "C",
+      "explanation": "El oxígeno es el elemento más abundante en la corteza terrestre."
+    },
+    {
+      "id": 49,
+      "pregunta": "¿Qué es el proceso de destilación?",
+      "options": {
+        "A": "Separar sólidos por tamaño",
+        "B": "Separar líquidos por punto de ebullición",
+        "C": "Separar gases por densidad",
+        "D": "Disolver un sólido"
+      },
+      "correctAnswer": "B",
+      "explanation": "La destilación separa líquidos aprovechando sus diferentes puntos de ebullición."
+    },
+    {
+      "id": 50,
+      "pregunta": "¿Qué es una reacción endotérmica?",
+      "options": {
+        "A": "Una reacción que libera calor",
+        "B": "Una reacción que absorbe calor",
+        "C": "Una reacción que no cambia de temperatura",
+        "D": "Una reacción que produce luz"
+      },
+      "correctAnswer": "B",
+      "explanation": "Una reacción endotérmica absorbe calor del entorno (se siente fría)."
+    }
+  ]
+}
