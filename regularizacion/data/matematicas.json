@@ -1,0 +1,760 @@
+{
+  "materia": "Matemáticas",
+  "grado": "3° de Secundaria",
+  "producto": "Regularización de Verano",
+  "bloque": "Bloque 1 - Álgebra",
+  "total_preguntas": 50,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "Traduce a lenguaje algebraico: 'el doble de un número aumentado en 5'.",
+      "options": {
+        "A": "2(x + 5)",
+        "B": "x + 5 + 2",
+        "C": "2x - 5",
+        "D": "2x + 5"
+      },
+      "correctAnswer": "D",
+      "explanation": "El doble de un número es 2x; 'aumentado en 5' significa sumarle 5, por eso queda 2x + 5.",
+      "subject": "Matemáticas",
+      "topic": "Lenguaje algebraico",
+      "level": "Básico"
+    },
+    {
+      "id": 2,
+      "pregunta": "Traduce: 'la mitad de un número disminuida en 3'.",
+      "options": {
+        "A": "3 - x/2",
+        "B": "x/2 - 3",
+        "C": "(x - 3)/2",
+        "D": "x/2 + 3"
+      },
+      "correctAnswer": "B",
+      "explanation": "La mitad de un número es x/2; 'disminuida en 3' indica restar 3 después de sacar la mitad.",
+      "subject": "Matemáticas",
+      "topic": "Lenguaje algebraico",
+      "level": "Básico"
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Cómo se expresa 'el cuadrado de la suma de dos números a y b'?",
+      "options": {
+        "A": "a² + b²",
+        "B": "a² + 2ab",
+        "C": "(a + b)²",
+        "D": "2(a + b)"
+      },
+      "correctAnswer": "C",
+      "explanation": "Primero se suman los números y luego se eleva al cuadrado el resultado completo: (a+b)². No es lo mismo que a² + b².",
+      "subject": "Matemáticas",
+      "topic": "Lenguaje algebraico",
+      "level": "Intermedio"
+    },
+    {
+      "id": 4,
+      "pregunta": "Traduce: 'tres veces un número menos 7'.",
+      "options": {
+        "A": "3(x - 7)",
+        "B": "7 - 3x",
+        "C": "3x + 7",
+        "D": "3x - 7"
+      },
+      "correctAnswer": "D",
+      "explanation": "Tres veces un número es 3x; 'menos 7' se resta después de la multiplicación, no antes.",
+      "subject": "Matemáticas",
+      "topic": "Lenguaje algebraico",
+      "level": "Básico"
+    },
+    {
+      "id": 5,
+      "pregunta": "Si x representa un número, ¿cuál expresión representa 'la suma de un número y su consecutivo', sin simplificar?",
+      "options": {
+        "A": "x + (x - 1)",
+        "B": "x + (x + 1)",
+        "C": "2(x + 1)",
+        "D": "x + 2"
+      },
+      "correctAnswer": "B",
+      "explanation": "El consecutivo de x es x + 1, así que la suma sin simplificar se escribe x + (x + 1).",
+      "subject": "Matemáticas",
+      "topic": "Lenguaje algebraico",
+      "level": "Intermedio"
+    },
+    {
+      "id": 6,
+      "pregunta": "Simplifica: (3x + 5) + (2x - 3).",
+      "options": {
+        "A": "5x + 2",
+        "B": "5x + 8",
+        "C": "x + 2",
+        "D": "6x + 2"
+      },
+      "correctAnswer": "A",
+      "explanation": "Se suman los términos semejantes: 3x + 2x = 5x, y 5 + (-3) = 2.",
+      "subject": "Matemáticas",
+      "topic": "Operaciones con polinomios",
+      "level": "Básico"
+    },
+    {
+      "id": 7,
+      "pregunta": "Simplifica: (5x² + 3x) - (2x² + x).",
+      "options": {
+        "A": "3x² + 4x",
+        "B": "3x² + 2x",
+        "C": "7x² + 4x",
+        "D": "3x² - 2x"
+      },
+      "correctAnswer": "B",
+      "explanation": "Se restan los términos semejantes: 5x² - 2x² = 3x², y 3x - x = 2x.",
+      "subject": "Matemáticas",
+      "topic": "Operaciones con polinomios",
+      "level": "Intermedio"
+    },
+    {
+      "id": 8,
+      "pregunta": "Multiplica: 3x(2x + 4).",
+      "options": {
+        "A": "6x² + 12x",
+        "B": "6x + 12",
+        "C": "6x² + 4x",
+        "D": "3x² + 12x"
+      },
+      "correctAnswer": "A",
+      "explanation": "Se distribuye 3x a cada término: 3x·2x = 6x², 3x·4 = 12x.",
+      "subject": "Matemáticas",
+      "topic": "Operaciones con polinomios",
+      "level": "Básico"
+    },
+    {
+      "id": 9,
+      "pregunta": "Multiplica: (x + 2)(x + 5).",
+      "options": {
+        "A": "x² + 10x + 7",
+        "B": "x² + 7x + 7",
+        "C": "x² + 7x + 10",
+        "D": "x² + 3x + 10"
+      },
+      "correctAnswer": "C",
+      "explanation": "Se multiplican los binomios (FOIL): x² + 5x + 2x + 10 = x² + 7x + 10.",
+      "subject": "Matemáticas",
+      "topic": "Operaciones con polinomios",
+      "level": "Intermedio"
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Cuál es el grado del polinomio 4x³ - 2x + 7?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "7"
+      },
+      "correctAnswer": "A",
+      "explanation": "El grado del polinomio es el mayor exponente de la variable, en este caso 3.",
+      "subject": "Matemáticas",
+      "topic": "Operaciones con polinomios",
+      "level": "Básico"
+    },
+    {
+      "id": 11,
+      "pregunta": "Simplifica: 4x² - 3x² + x.",
+      "options": {
+        "A": "x² + x",
+        "B": "x² - x",
+        "C": "7x² + x",
+        "D": "x²"
+      },
+      "correctAnswer": "A",
+      "explanation": "Se combinan los términos con x²: 4x² - 3x² = x², y el término x se queda igual porque no tiene semejante.",
+      "subject": "Matemáticas",
+      "topic": "Operaciones con polinomios",
+      "level": "Básico"
+    },
+    {
+      "id": 12,
+      "pregunta": "Desarrolla: (x + 4)².",
+      "options": {
+        "A": "x² + 16",
+        "B": "x² + 8x + 16",
+        "C": "x² + 4x + 16",
+        "D": "x² + 8x + 4"
+      },
+      "correctAnswer": "B",
+      "explanation": "Binomio al cuadrado: x² + 2(4)x + 4² = x² + 8x + 16.",
+      "subject": "Matemáticas",
+      "topic": "Productos notables",
+      "level": "Intermedio"
+    },
+    {
+      "id": 13,
+      "pregunta": "Desarrolla: (x - 3)².",
+      "options": {
+        "A": "x² - 9",
+        "B": "x² - 3x + 9",
+        "C": "x² - 6x - 9",
+        "D": "x² - 6x + 9"
+      },
+      "correctAnswer": "D",
+      "explanation": "Binomio al cuadrado: x² - 2(3)x + 3² = x² - 6x + 9.",
+      "subject": "Matemáticas",
+      "topic": "Productos notables",
+      "level": "Intermedio"
+    },
+    {
+      "id": 14,
+      "pregunta": "Desarrolla: (x + 5)(x - 5).",
+      "options": {
+        "A": "x² + 25",
+        "B": "x² - 25",
+        "C": "x² - 10x - 25",
+        "D": "x² - 5"
+      },
+      "correctAnswer": "B",
+      "explanation": "Es una diferencia de cuadrados: (x + 5)(x - 5) = x² - 25.",
+      "subject": "Matemáticas",
+      "topic": "Productos notables",
+      "level": "Básico"
+    },
+    {
+      "id": 15,
+      "pregunta": "Desarrolla: (2x + 3)².",
+      "options": {
+        "A": "4x² + 9",
+        "B": "2x² + 12x + 9",
+        "C": "4x² + 12x + 9",
+        "D": "4x² + 6x + 9"
+      },
+      "correctAnswer": "C",
+      "explanation": "Binomio al cuadrado: (2x)² + 2(2x)(3) + 3² = 4x² + 12x + 9.",
+      "subject": "Matemáticas",
+      "topic": "Productos notables",
+      "level": "Avanzado"
+    },
+    {
+      "id": 16,
+      "pregunta": "¿Cuál es el desarrollo correcto de (a - b)²?",
+      "options": {
+        "A": "a² - 2ab + b²",
+        "B": "a² - b²",
+        "C": "a² + 2ab + b²",
+        "D": "a² - ab + b²"
+      },
+      "correctAnswer": "A",
+      "explanation": "El binomio al cuadrado con resta desarrolla como a² - 2ab + b², no como una diferencia de cuadrados.",
+      "subject": "Matemáticas",
+      "topic": "Productos notables",
+      "level": "Básico"
+    },
+    {
+      "id": 17,
+      "pregunta": "Desarrolla: (3x - 1)(3x + 1).",
+      "options": {
+        "A": "9x² - 1",
+        "B": "9x² + 1",
+        "C": "9x² - 6x - 1",
+        "D": "3x² - 1"
+      },
+      "correctAnswer": "A",
+      "explanation": "Es diferencia de cuadrados: (3x)² - 1² = 9x² - 1.",
+      "subject": "Matemáticas",
+      "topic": "Productos notables",
+      "level": "Intermedio"
+    },
+    {
+      "id": 18,
+      "pregunta": "¿Cuál es la forma correcta del desarrollo de (x + a)²?",
+      "options": {
+        "A": "x² + a²",
+        "B": "x² + 2ax + a²",
+        "C": "x² + ax + a²",
+        "D": "2x² + 2ax + a²"
+      },
+      "correctAnswer": "B",
+      "explanation": "El binomio al cuadrado siempre lleva el doble producto de los términos: x² + 2ax + a².",
+      "subject": "Matemáticas",
+      "topic": "Productos notables",
+      "level": "Intermedio"
+    },
+    {
+      "id": 19,
+      "pregunta": "Factoriza: 6x² + 9x.",
+      "options": {
+        "A": "3(2x² + 3x)",
+        "B": "x(6x + 9)",
+        "C": "3x(2x + 3)",
+        "D": "3x(2x + 9)"
+      },
+      "correctAnswer": "C",
+      "explanation": "El factor común de 6x² y 9x es 3x; al sacarlo queda 3x(2x + 3).",
+      "subject": "Matemáticas",
+      "topic": "Factorización",
+      "level": "Básico"
+    },
+    {
+      "id": 20,
+      "pregunta": "Factoriza: x² - 16.",
+      "options": {
+        "A": "(x - 4)²",
+        "B": "(x + 4)²",
+        "C": "(x + 8)(x - 8)",
+        "D": "(x + 4)(x - 4)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Es una diferencia de cuadrados: x² - 16 = (x + 4)(x - 4), porque 4² = 16.",
+      "subject": "Matemáticas",
+      "topic": "Factorización",
+      "level": "Básico"
+    },
+    {
+      "id": 21,
+      "pregunta": "Factoriza: x² + 10x + 25.",
+      "options": {
+        "A": "(x + 5)(x - 5)",
+        "B": "(x + 5)²",
+        "C": "(x + 2)(x + 5)",
+        "D": "(x + 25)(x + 1)"
+      },
+      "correctAnswer": "B",
+      "explanation": "Es un trinomio cuadrado perfecto: x² + 10x + 25 = (x + 5)², porque 2(5) = 10 y 5² = 25.",
+      "subject": "Matemáticas",
+      "topic": "Factorización",
+      "level": "Intermedio"
+    },
+    {
+      "id": 22,
+      "pregunta": "Factoriza: x² + 7x + 10.",
+      "options": {
+        "A": "(x + 1)(x + 10)",
+        "B": "(x - 2)(x - 5)",
+        "C": "(x + 7)(x + 10)",
+        "D": "(x + 2)(x + 5)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Se buscan dos números que sumen 7 y multipliquen 10: son 2 y 5, entonces (x + 2)(x + 5).",
+      "subject": "Matemáticas",
+      "topic": "Factorización",
+      "level": "Intermedio"
+    },
+    {
+      "id": 23,
+      "pregunta": "Factoriza: x² - 8x + 15.",
+      "options": {
+        "A": "(x - 3)(x - 5)",
+        "B": "(x + 3)(x + 5)",
+        "C": "(x - 1)(x - 15)",
+        "D": "(x - 3)(x + 5)"
+      },
+      "correctAnswer": "A",
+      "explanation": "Se buscan dos números que sumen -8 y multipliquen 15: son -3 y -5, entonces (x - 3)(x - 5).",
+      "subject": "Matemáticas",
+      "topic": "Factorización",
+      "level": "Avanzado"
+    },
+    {
+      "id": 24,
+      "pregunta": "Factoriza: x² - 9.",
+      "options": {
+        "A": "(x - 3)²",
+        "B": "(x + 3)²",
+        "C": "(x + 9)(x - 9)",
+        "D": "(x + 3)(x - 3)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Es diferencia de cuadrados: x² - 9 = (x + 3)(x - 3), porque 3² = 9.",
+      "subject": "Matemáticas",
+      "topic": "Factorización",
+      "level": "Básico"
+    },
+    {
+      "id": 25,
+      "pregunta": "Factoriza: 4x³ - 8x².",
+      "options": {
+        "A": "4x(x² - 2x)",
+        "B": "4x²(x + 2)",
+        "C": "4x²(x - 2)",
+        "D": "2x²(2x - 4)"
+      },
+      "correctAnswer": "C",
+      "explanation": "El factor común de 4x³ y 8x² es 4x²; al sacarlo queda 4x²(x - 2).",
+      "subject": "Matemáticas",
+      "topic": "Factorización",
+      "level": "Intermedio"
+    },
+    {
+      "id": 26,
+      "pregunta": "Factoriza: x² + x - 12.",
+      "options": {
+        "A": "(x - 4)(x + 3)",
+        "B": "(x + 4)(x - 3)",
+        "C": "(x + 4)(x + 3)",
+        "D": "(x + 12)(x - 1)"
+      },
+      "correctAnswer": "B",
+      "explanation": "Se buscan dos números que sumen 1 y multipliquen -12: son 4 y -3, entonces (x + 4)(x - 3).",
+      "subject": "Matemáticas",
+      "topic": "Factorización",
+      "level": "Avanzado"
+    },
+    {
+      "id": 27,
+      "pregunta": "Resuelve: 3x + 7 = 22.",
+      "options": {
+        "A": "x = 5",
+        "B": "x = 7",
+        "C": "x = 15",
+        "D": "x = 29/3"
+      },
+      "correctAnswer": "A",
+      "explanation": "3x = 22 - 7 = 15, entonces x = 15/3 = 5.",
+      "subject": "Matemáticas",
+      "topic": "Ecuaciones lineales",
+      "level": "Básico"
+    },
+    {
+      "id": 28,
+      "pregunta": "Resuelve: 5x - 4 = 2x + 11.",
+      "options": {
+        "A": "x = 3",
+        "B": "x = 7",
+        "C": "x = -5",
+        "D": "x = 5"
+      },
+      "correctAnswer": "D",
+      "explanation": "5x - 2x = 11 + 4 → 3x = 15 → x = 5.",
+      "subject": "Matemáticas",
+      "topic": "Ecuaciones lineales",
+      "level": "Básico"
+    },
+    {
+      "id": 29,
+      "pregunta": "Resuelve: x/3 + 2 = 7.",
+      "options": {
+        "A": "x = 5",
+        "B": "x = 21",
+        "C": "x = 9",
+        "D": "x = 15"
+      },
+      "correctAnswer": "D",
+      "explanation": "x/3 = 7 - 2 = 5, entonces x = 5 × 3 = 15.",
+      "subject": "Matemáticas",
+      "topic": "Ecuaciones lineales",
+      "level": "Básico"
+    },
+    {
+      "id": 30,
+      "pregunta": "Resuelve: 2(x - 3) = 10.",
+      "options": {
+        "A": "x = 5",
+        "B": "x = 11",
+        "C": "x = 8",
+        "D": "x = 2"
+      },
+      "correctAnswer": "C",
+      "explanation": "2x - 6 = 10 → 2x = 16 → x = 8.",
+      "subject": "Matemáticas",
+      "topic": "Ecuaciones lineales",
+      "level": "Intermedio"
+    },
+    {
+      "id": 31,
+      "pregunta": "Resuelve: 4x + 9 = 1.",
+      "options": {
+        "A": "x = -2",
+        "B": "x = 2",
+        "C": "x = -8",
+        "D": "x = 10/4"
+      },
+      "correctAnswer": "A",
+      "explanation": "4x = 1 - 9 = -8, entonces x = -8/4 = -2.",
+      "subject": "Matemáticas",
+      "topic": "Ecuaciones lineales",
+      "level": "Intermedio"
+    },
+    {
+      "id": 32,
+      "pregunta": "Resuelve: -3x = 15.",
+      "options": {
+        "A": "x = 5",
+        "B": "x = -5",
+        "C": "x = -18",
+        "D": "x = 12"
+      },
+      "correctAnswer": "B",
+      "explanation": "Al dividir ambos lados entre -3, x = 15 / -3 = -5.",
+      "subject": "Matemáticas",
+      "topic": "Ecuaciones lineales",
+      "level": "Básico"
+    },
+    {
+      "id": 33,
+      "pregunta": "Resuelve: (x + 1)/2 = 4.",
+      "options": {
+        "A": "x = 9",
+        "B": "x = 3",
+        "C": "x = 8",
+        "D": "x = 7"
+      },
+      "correctAnswer": "D",
+      "explanation": "x + 1 = 4 × 2 = 8, entonces x = 8 - 1 = 7.",
+      "subject": "Matemáticas",
+      "topic": "Ecuaciones lineales",
+      "level": "Intermedio"
+    },
+    {
+      "id": 34,
+      "pregunta": "La suma de un número y el triple de él es 32. ¿Cuál es el número?",
+      "options": {
+        "A": "10",
+        "B": "8",
+        "C": "6",
+        "D": "4"
+      },
+      "correctAnswer": "B",
+      "explanation": "x + 3x = 32 → 4x = 32 → x = 8.",
+      "subject": "Matemáticas",
+      "topic": "Ecuaciones lineales",
+      "level": "Avanzado"
+    },
+    {
+      "id": 35,
+      "pregunta": "Resuelve el sistema: x + y = 10, x - y = 2.",
+      "options": {
+        "A": "x = 4, y = 6",
+        "B": "x = 5, y = 5",
+        "C": "x = 6, y = 4",
+        "D": "x = 8, y = 2"
+      },
+      "correctAnswer": "C",
+      "explanation": "Sumando ambas ecuaciones: 2x = 12 → x = 6; sustituyendo, y = 4.",
+      "subject": "Matemáticas",
+      "topic": "Sistemas de ecuaciones",
+      "level": "Intermedio"
+    },
+    {
+      "id": 36,
+      "pregunta": "Resuelve el sistema: 2x + y = 9, x - y = 3.",
+      "options": {
+        "A": "x = 3, y = 3",
+        "B": "x = 6, y = -3",
+        "C": "x = 4, y = 1",
+        "D": "x = 1, y = 4"
+      },
+      "correctAnswer": "C",
+      "explanation": "Sumando ambas ecuaciones: 3x = 12 → x = 4; sustituyendo en x - y = 3, y = 1.",
+      "subject": "Matemáticas",
+      "topic": "Sistemas de ecuaciones",
+      "level": "Intermedio"
+    },
+    {
+      "id": 37,
+      "pregunta": "Resuelve el sistema: x = 2y, x + 2y = 8.",
+      "options": {
+        "A": "x = 2, y = 4",
+        "B": "x = 4, y = 2",
+        "C": "x = 8, y = 4",
+        "D": "x = 6, y = 3"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sustituyendo x = 2y en la segunda ecuación: 2y + 2y = 8 → 4y = 8 → y = 2, entonces x = 4.",
+      "subject": "Matemáticas",
+      "topic": "Sistemas de ecuaciones",
+      "level": "Avanzado"
+    },
+    {
+      "id": 38,
+      "pregunta": "En el sistema 3x + 2y = 16, si x = 2, ¿cuál es el valor de y?",
+      "options": {
+        "A": "y = 6",
+        "B": "y = 10",
+        "C": "y = 4",
+        "D": "y = 5"
+      },
+      "correctAnswer": "D",
+      "explanation": "3(2) + 2y = 16 → 6 + 2y = 16 → 2y = 10 → y = 5.",
+      "subject": "Matemáticas",
+      "topic": "Sistemas de ecuaciones",
+      "level": "Intermedio"
+    },
+    {
+      "id": 39,
+      "pregunta": "Resuelve el sistema: x + y = 7, 2x - y = 2.",
+      "options": {
+        "A": "x = 3, y = 4",
+        "B": "x = 4, y = 3",
+        "C": "x = 2, y = 5",
+        "D": "x = 5, y = 2"
+      },
+      "correctAnswer": "A",
+      "explanation": "Sumando ambas ecuaciones: 3x = 9 → x = 3; sustituyendo, y = 4.",
+      "subject": "Matemáticas",
+      "topic": "Sistemas de ecuaciones",
+      "level": "Avanzado"
+    },
+    {
+      "id": 40,
+      "pregunta": "¿Cuál sistema tiene como solución x = 2, y = 3?",
+      "options": {
+        "A": "x + y = 6, x - y = -1",
+        "B": "x + y = 5, x - y = 2",
+        "C": "x + y = 5, x - y = -1",
+        "D": "2x + y = 10, x - y = -1"
+      },
+      "correctAnswer": "C",
+      "explanation": "Con x = 2, y = 3: x + y = 5 se cumple, y x - y = -1 también se cumple.",
+      "subject": "Matemáticas",
+      "topic": "Sistemas de ecuaciones",
+      "level": "Avanzado"
+    },
+    {
+      "id": 41,
+      "pregunta": "La suma de dos números es 15 y su diferencia es 3. ¿Cuáles son los números?",
+      "options": {
+        "A": "9 y 6",
+        "B": "10 y 5",
+        "C": "8 y 7",
+        "D": "12 y 3"
+      },
+      "correctAnswer": "A",
+      "explanation": "Si x + y = 15 y x - y = 3, sumando: 2x = 18 → x = 9, entonces y = 6.",
+      "subject": "Matemáticas",
+      "topic": "Sistemas de ecuaciones",
+      "level": "Avanzado"
+    },
+    {
+      "id": 42,
+      "pregunta": "Resuelve: x + 5 > 12.",
+      "options": {
+        "A": "x < 7",
+        "B": "x > 17",
+        "C": "x > 7",
+        "D": "x > -7"
+      },
+      "correctAnswer": "C",
+      "explanation": "Restando 5 en ambos lados: x > 12 - 5 = 7.",
+      "subject": "Matemáticas",
+      "topic": "Desigualdades",
+      "level": "Básico"
+    },
+    {
+      "id": 43,
+      "pregunta": "Resuelve: 2x - 3 ≤ 7.",
+      "options": {
+        "A": "x ≥ 5",
+        "B": "x ≤ 2",
+        "C": "x ≤ 10",
+        "D": "x ≤ 5"
+      },
+      "correctAnswer": "D",
+      "explanation": "2x ≤ 10 → x ≤ 5.",
+      "subject": "Matemáticas",
+      "topic": "Desigualdades",
+      "level": "Básico"
+    },
+    {
+      "id": 44,
+      "pregunta": "Resuelve: -2x > 8.",
+      "options": {
+        "A": "x < -4",
+        "B": "x > -4",
+        "C": "x < 4",
+        "D": "x > 4"
+      },
+      "correctAnswer": "A",
+      "explanation": "Al dividir entre un número negativo, la desigualdad se invierte: x < 8/-2 = -4.",
+      "subject": "Matemáticas",
+      "topic": "Desigualdades",
+      "level": "Avanzado"
+    },
+    {
+      "id": 45,
+      "pregunta": "Resuelve: 3x + 1 < 10.",
+      "options": {
+        "A": "x > 3",
+        "B": "x < 3",
+        "C": "x < 11",
+        "D": "x < -3"
+      },
+      "correctAnswer": "B",
+      "explanation": "3x < 9 → x < 3.",
+      "subject": "Matemáticas",
+      "topic": "Desigualdades",
+      "level": "Básico"
+    },
+    {
+      "id": 46,
+      "pregunta": "¿Cuál valor de x satisface la desigualdad x - 4 ≥ 1?",
+      "options": {
+        "A": "x = 6",
+        "B": "x = 3",
+        "C": "x = 4",
+        "D": "x = -6"
+      },
+      "correctAnswer": "A",
+      "explanation": "La desigualdad equivale a x ≥ 5; de las opciones, solo x = 6 cumple esa condición.",
+      "subject": "Matemáticas",
+      "topic": "Desigualdades",
+      "level": "Intermedio"
+    },
+    {
+      "id": 47,
+      "pregunta": "Simplifica: 2(x + 3) - (x - 1).",
+      "options": {
+        "A": "x + 5",
+        "B": "3x + 5",
+        "C": "x + 7",
+        "D": "x + 2"
+      },
+      "correctAnswer": "C",
+      "explanation": "2x + 6 - x + 1 = x + 7.",
+      "subject": "Matemáticas",
+      "topic": "Operaciones combinadas",
+      "level": "Intermedio"
+    },
+    {
+      "id": 48,
+      "pregunta": "Resuelve: 5(x - 2) + 3 = 18.",
+      "options": {
+        "A": "x = 4",
+        "B": "x = 5",
+        "C": "x = 7",
+        "D": "x = 3"
+      },
+      "correctAnswer": "B",
+      "explanation": "5x - 10 + 3 = 18 → 5x - 7 = 18 → 5x = 25 → x = 5.",
+      "subject": "Matemáticas",
+      "topic": "Ecuaciones lineales",
+      "level": "Intermedio"
+    },
+    {
+      "id": 49,
+      "pregunta": "¿Cuál es el coeficiente de x² en el polinomio 7x² - 3x + 9?",
+      "options": {
+        "A": "-3",
+        "B": "9",
+        "C": "2",
+        "D": "7"
+      },
+      "correctAnswer": "D",
+      "explanation": "El coeficiente es el número que acompaña a la variable con exponente 2, en este caso 7.",
+      "subject": "Matemáticas",
+      "topic": "Operaciones con polinomios",
+      "level": "Básico"
+    },
+    {
+      "id": 50,
+      "pregunta": "¿Cuál es el término independiente en el polinomio 4x² + 5x - 8?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "-8",
+        "D": "8"
+      },
+      "correctAnswer": "C",
+      "explanation": "El término independiente es el que no lleva variable, en este caso -8 (con su signo).",
+      "subject": "Matemáticas",
+      "topic": "Operaciones con polinomios",
+      "level": "Básico"
+    }
+  ]
+}
+
