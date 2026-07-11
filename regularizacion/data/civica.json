@@ -1,0 +1,606 @@
+{
+  "materia": "Cívica y Ética",
+  "total_preguntas": 50,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "¿Cuáles son los derechos fundamentales del ser humano?",
+      "options": {
+        "A": "Solo la libertad",
+        "B": "Libertad, igualdad y fraternidad",
+        "C": "Solo la educación",
+        "D": "Solo la salud"
+      },
+      "correctAnswer": "B",
+      "explanation": "Los derechos fundamentales incluyen libertad, igualdad y fraternidad, reconocidos en la Declaración Universal de los Derechos Humanos."
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Qué es la democracia?",
+      "options": {
+        "A": "Un gobierno de un solo líder",
+        "B": "Un sistema donde el pueblo elige a sus gobernantes",
+        "C": "Un gobierno militar",
+        "D": "Una monarquía"
+      },
+      "correctAnswer": "B",
+      "explanation": "La democracia es un sistema donde los ciudadanos eligen libremente a sus representantes."
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Qué es la Constitución?",
+      "options": {
+        "A": "Un libro de historia",
+        "B": "La ley suprema del país",
+        "C": "Un reglamento escolar",
+        "D": "Una ley temporal"
+      },
+      "correctAnswer": "B",
+      "explanation": "La Constitución es la ley suprema que organiza el país y garantiza los derechos."
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Qué es un derecho?",
+      "options": {
+        "A": "Una obligación",
+        "B": "Un privilegio que tiene el gobierno",
+        "C": "Una garantía que tiene todo ciudadano",
+        "D": "Un castigo"
+      },
+      "correctAnswer": "C",
+      "explanation": "Los derechos son garantías que tiene todo ciudadano para vivir dignamente."
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Qué es un deber?",
+      "options": {
+        "A": "Un privilegio",
+        "B": "Una obligación que tenemos como ciudadanos",
+        "C": "Un derecho",
+        "D": "Un castigo"
+      },
+      "correctAnswer": "B",
+      "explanation": "Los deberes son obligaciones que tenemos para convivir en sociedad."
+    },
+    {
+      "id": 6,
+      "pregunta": "¿Qué es la tolerancia?",
+      "options": {
+        "A": "Imponer mis ideas a los demás",
+        "B": "Respetar las opiniones diferentes a las nuestras",
+        "C": "No escuchar a los demás",
+        "D": "Discutir siempre"
+      },
+      "correctAnswer": "B",
+      "explanation": "La tolerancia es respetar las ideas, costumbres y creencias diferentes a las nuestras."
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Qué es la igualdad?",
+      "options": {
+        "A": "Que todos sean iguales físicamente",
+        "B": "Que todos tengan los mismos derechos",
+        "C": "Que todos piensen igual",
+        "D": "Que todos tengan el mismo trabajo"
+      },
+      "correctAnswer": "B",
+      "explanation": "La igualdad significa que todos los seres humanos tienen los mismos derechos."
+    },
+    {
+      "id": 8,
+      "pregunta": "¿Qué es la libertad?",
+      "options": {
+        "A": "Hacer lo que quiera sin consecuencias",
+        "B": "El derecho a pensar, expresar y actuar libremente",
+        "C": "No tener reglas",
+        "D": "Mandar a los demás"
+      },
+      "correctAnswer": "B",
+      "explanation": "La libertad es el derecho a pensar, expresar y actuar dentro del respeto a los demás."
+    },
+    {
+      "id": 9,
+      "pregunta": "¿Qué es la justicia?",
+      "options": {
+        "A": "Castigar sin razón",
+        "B": "Dar a cada quien lo que le corresponde",
+        "C": "Favoritismo",
+        "D": "Impunidad"
+      },
+      "correctAnswer": "B",
+      "explanation": "La justicia es dar a cada quien lo que le corresponde según la ley."
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Qué es el Estado?",
+      "options": {
+        "A": "Una empresa",
+        "B": "Una organización política que administra un territorio",
+        "C": "Una escuela",
+        "D": "Una tienda"
+      },
+      "correctAnswer": "B",
+      "explanation": "El Estado es la organización política que administra un país o territorio."
+    },
+    {
+      "id": 11,
+      "pregunta": "¿Qué es la soberanía?",
+      "options": {
+        "A": "Depender de otro país",
+        "B": "El poder que tiene un país para gobernarse a sí mismo",
+        "C": "Ser colonia",
+        "D": "No tener gobierno"
+      },
+      "correctAnswer": "B",
+      "explanation": "La soberanía es el poder que tiene un pueblo para gobernarse sin injerencia externa."
+    },
+    {
+      "id": 12,
+      "pregunta": "¿Qué es la república?",
+      "options": {
+        "A": "Un gobierno de un rey",
+        "B": "Un sistema donde el pueblo elige a sus representantes",
+        "C": "Un gobierno militar",
+        "D": "Una dictadura"
+      },
+      "correctAnswer": "B",
+      "explanation": "La república es un sistema donde los ciudadanos eligen a sus gobernantes."
+    },
+    {
+      "id": 13,
+      "pregunta": "¿Qué es la separación de poderes?",
+      "options": {
+        "A": "Que un solo poder mande en todo",
+        "B": "Dividir el gobierno en poderes independientes",
+        "C": "Que no haya gobierno",
+        "D": "Que todos tengan el mismo poder"
+      },
+      "correctAnswer": "B",
+      "explanation": "La separación de poderes divide el gobierno en Legislativo, Ejecutivo y Judicial."
+    },
+    {
+      "id": 14,
+      "pregunta": "¿Cuáles son los tres poderes del Estado?",
+      "options": {
+        "A": "Ejecutivo, Militar, Judicial",
+        "B": "Legislativo, Ejecutivo, Judicial",
+        "C": "Ejecutivo, Judicial, Policial",
+        "D": "Legislativo, Militar, Policial"
+      },
+      "correctAnswer": "B",
+      "explanation": "Los tres poderes son: Legislativo (hace leyes), Ejecutivo (aplica leyes) y Judicial (juzga)."
+    },
+    {
+      "id": 15,
+      "pregunta": "¿Qué hace el poder Legislativo?",
+      "options": {
+        "A": "Aplica las leyes",
+        "B": "Juzga a los delincuentes",
+        "C": "Crea las leyes",
+        "D": "Manda el ejército"
+      },
+      "correctAnswer": "C",
+      "explanation": "El poder Legislativo crea, modifica o deroga las leyes."
+    },
+    {
+      "id": 16,
+      "pregunta": "¿Qué hace el poder Ejecutivo?",
+      "options": {
+        "A": "Crea las leyes",
+        "B": "Juzga a los delincuentes",
+        "C": "Administra los recursos del país",
+        "D": "Hace la guerra"
+      },
+      "correctAnswer": "C",
+      "explanation": "El poder Ejecutivo administra el país y ejecuta las leyes."
+    },
+    {
+      "id": 17,
+      "pregunta": "¿Qué hace el poder Judicial?",
+      "options": {
+        "A": "Crea las leyes",
+        "B": "Aplica las leyes",
+        "C": "Interpreta y aplica la justicia",
+        "D": "Cobra impuestos"
+      },
+      "correctAnswer": "C",
+      "explanation": "El poder Judicial interpreta las leyes y administra la justicia."
+    },
+    {
+      "id": 18,
+      "pregunta": "¿Qué es un ciudadano?",
+      "options": {
+        "A": "Cualquier persona que vive en un país",
+        "B": "Una persona que tiene derechos y obligaciones políticas",
+        "C": "Un extranjero",
+        "D": "Un niño"
+      },
+      "correctAnswer": "B",
+      "explanation": "Un ciudadano es una persona que tiene derechos y obligaciones políticas en un país."
+    },
+    {
+      "id": 19,
+      "pregunta": "¿Qué es el voto?",
+      "options": {
+        "A": "Una obligación de los niños",
+        "B": "El derecho de elegir representantes",
+        "C": "Un castigo",
+        "D": "Una multa"
+      },
+      "correctAnswer": "B",
+      "explanation": "El voto es el derecho de los ciudadanos de elegir a sus representantes."
+    },
+    {
+      "id": 20,
+      "pregunta": "¿Qué es el sufragio?",
+      "options": {
+        "A": "No votar",
+        "B": "El derecho de votar",
+        "C": "Una protesta",
+        "D": "Un movimiento social"
+      },
+      "correctAnswer": "B",
+      "explanation": "El sufragio es el derecho de emitir voto en las elecciones."
+    },
+    {
+      "id": 21,
+      "pregunta": "¿Qué es el federalismo?",
+      "options": {
+        "A": "Un gobierno centralizado",
+        "B": "Un sistema donde los estados tienen autonomía",
+        "C": "Un gobierno militar",
+        "D": "Una dictadura"
+      },
+      "correctAnswer": "B",
+      "explanation": "El federalismo es un sistema donde los estados tienen autonomía pero se unen bajo un gobierno central."
+    },
+    {
+      "id": 22,
+      "pregunta": "¿Qué es la economía?",
+      "options": {
+        "A": "El estudio de la naturaleza",
+        "B": "La administración de recursos para satisfacer necesidades",
+        "C": "La ciencia de los números",
+        "D": "El estudio de los animales"
+      },
+      "correctAnswer": "B",
+      "explanation": "La economía estudia cómo administrar los recursos escasos para satisfacer necesidades."
+    },
+    {
+      "id": 23,
+      "pregunta": "¿Qué es el comercio?",
+      "options": {
+        "A": "Producir cosas",
+        "B": "Comprar y vender bienes o servicios",
+        "C": "Guardar dinero",
+        "D": "Gastar dinero"
+      },
+      "correctAnswer": "B",
+      "explanation": "El comercio es la actividad de comprar y vender bienes o servicios."
+    },
+    {
+      "id": 24,
+      "pregunta": "¿Qué es un impuesto?",
+      "options": {
+        "A": "Un regalo del gobierno",
+        "B": "Un pago obligatorio para financiar servicios públicos",
+        "C": "Una multa",
+        "D": "Un préstamo"
+      },
+      "correctAnswer": "B",
+      "explanation": "Los impuestos son pagos obligatorios que financian servicios públicos como educación y salud."
+    },
+    {
+      "id": 25,
+      "pregunta": "¿Qué es el bienestar social?",
+      "options": {
+        "A": "Que todos sean ricos",
+        "B": "Que todos tengan acceso a servicios básicos",
+        "C": "Que no haya pobreza",
+        "D": "Que todos tengan trabajo"
+      },
+      "correctAnswer": "B",
+      "explanation": "El bienestar social significa que todos los ciudadanos tengan acceso a educación, salud y vivienda."
+    },
+    {
+      "id": 26,
+      "pregunta": "¿Qué es la ética?",
+      "options": {
+        "A": "Un conjunto de leyes",
+        "B": "El estudio de lo correcto e incorrecto",
+        "C": "Una religión",
+        "D": "Una ciencia exacta"
+      },
+      "correctAnswer": "B",
+      "explanation": "La ética estudia qué está bien y qué está mal en el comportamiento humano."
+    },
+    {
+      "id": 27,
+      "pregunta": "¿Qué es un valor?",
+      "options": {
+        "A": "Un precio",
+        "B": "Un principio que guía nuestro comportamiento",
+        "C": "Una ley",
+        "D": "Un derecho"
+      },
+      "correctAnswer": "B",
+      "explanation": "Los valores son principios que guían nuestras acciones y decisiones."
+    },
+    {
+      "id": 28,
+      "pregunta": "¿Cuál es un valor importante en la convivencia?",
+      "options": {
+        "A": "El egoísmo",
+        "B": "El respeto",
+        "C": "La envidia",
+        "D": "La mentira"
+      },
+      "correctAnswer": "B",
+      "explanation": "El respeto es fundamental para convivir en armonía con los demás."
+    },
+    {
+      "id": 29,
+      "pregunta": "¿Qué es la responsabilidad?",
+      "options": {
+        "A": "Culpar a los demás",
+        "B": "Asumir las consecuencias de nuestros actos",
+        "C": "No hacer nada",
+        "D": "Huir de los problemas"
+      },
+      "correctAnswer": "B",
+      "explanation": "La responsabilidad es asumir las consecuencias de nuestras acciones."
+    },
+    {
+      "id": 30,
+      "pregunta": "¿Qué es la solidaridad?",
+      "options": {
+        "A": "Ayudar solo a la familia",
+        "B": "Apoyar a los demás desinteresadamente",
+        "C": "No ayudar a nadie",
+        "D": "Pedir ayuda siempre"
+      },
+      "correctAnswer": "B",
+      "explanation": "La solidaridad es apoyar a los demás sin esperar nada a cambio."
+    },
+    {
+      "id": 31,
+      "pregunta": "¿Qué es la honestidad?",
+      "options": {
+        "A": "Mentir para quedar bien",
+        "B": "Actuar con verdad y sinceridad",
+        "C": "Ocultar la verdad",
+        "D": "Engañar a los demás"
+      },
+      "correctAnswer": "B",
+      "explanation": "La honestidad es actuar con verdad y sinceridad en todo momento."
+    },
+    {
+      "id": 32,
+      "pregunta": "¿Qué es la justicia social?",
+      "options": {
+        "A": "Que solo los ricos tengan derechos",
+        "B": "Que todos tengan las mismas oportunidades",
+        "C": "Que no haya leyes",
+        "D": "Que el gobierno no haga nada"
+      },
+      "correctAnswer": "B",
+      "explanation": "La justicia social busca que todos los ciudadanos tengan las mismas oportunidades."
+    },
+    {
+      "id": 33,
+      "pregunta": "¿Qué es el bien común?",
+      "options": {
+        "A": "Lo que beneficia solo a algunos",
+        "B": "Lo que beneficia a toda la sociedad",
+        "C": "Lo que beneficia al gobierno",
+        "D": "Lo que beneficia a los extranjeros"
+      },
+      "correctAnswer": "B",
+      "explanation": "El bien común es lo que beneficia a toda la sociedad, no solo a unos cuantos."
+    },
+    {
+      "id": 34,
+      "pregunta": "¿Qué es la convivencia?",
+      "options": {
+        "A": "Vivir solo",
+        "B": "Compartir el espacio con respeto y armonía",
+        "C": "No hablar con los demás",
+        "D": "Mandar a los demás"
+      },
+      "correctAnswer": "B",
+      "explanation": "La convivencia es compartir el espacio con los demás de forma respetuosa."
+    },
+    {
+      "id": 35,
+      "pregunta": "¿Qué es un gobierno democrático?",
+      "options": {
+        "A": "Un gobierno dictador",
+        "B": "Un gobierno del pueblo, para el pueblo",
+        "C": "Un gobierno militar",
+        "D": "Un gobierno de un solo partido"
+      },
+      "correctAnswer": "B",
+      "explanation": "Un gobierno democrático es aquel donde el pueblo participa en las decisiones."
+    },
+    {
+      "id": 36,
+      "pregunta": "¿Qué es la participación ciudadana?",
+      "options": {
+        "A": "No hacer nada por el país",
+        "B": "Involucrarse en las decisiones de la comunidad",
+        "C": "Solo votar",
+        "D": "Quejarse de todo"
+      },
+      "correctAnswer": "B",
+      "explanation": "La participación ciudadana es involucrarse activamente en las decisiones de la comunidad."
+    },
+    {
+      "id": 37,
+      "pregunta": "¿Qué es el medio ambiente?",
+      "options": {
+        "A": "Solo los árboles",
+        "B": "El conjunto de elementos naturales y artificiales",
+        "C": "Solo el agua",
+        "D": "Solo el aire"
+      },
+      "correctAnswer": "B",
+      "explanation": "El medio ambiente incluye todos los elementos naturales y artificiales que nos rodean."
+    },
+    {
+      "id": 38,
+      "pregunta": "¿Qué es la contaminación?",
+      "options": {
+        "A": "Mejorar el ambiente",
+        "B": "Alterar el medio ambiente de forma negativa",
+        "C": "Plantar árboles",
+        "D": "Reciclar"
+      },
+      "correctAnswer": "B",
+      "explanation": "La contaminación es alterar el medio ambiente de forma negativa."
+    },
+    {
+      "id": 39,
+      "pregunta": "¿Qué es el desarrollo sustentable?",
+      "options": {
+        "A": "Crecer sin preocuparse por el futuro",
+        "B": "Crecer sin dañar el medio ambiente",
+        "C": "No crecer económicamente",
+        "D": "Destruir el ambiente"
+      },
+      "correctAnswer": "B",
+      "explanation": "El desarrollo sustentable busca crecer sin dañar el medio ambiente para las futuras generaciones."
+    },
+    {
+      "id": 40,
+      "pregunta": "¿Qué es la diversidad cultural?",
+      "options": {
+        "A": "Que todos piensen igual",
+        "B": "La variedad de culturas en una sociedad",
+        "C": "Que no haya diferentes costumbres",
+        "D": "Que todos hablen el mismo idioma"
+      },
+      "correctAnswer": "B",
+      "explanation": "La diversidad cultural es la variedad de costumbres, tradiciones y formas de vivir."
+    },
+    {
+      "id": 41,
+      "pregunta": "¿Qué es la identidad nacional?",
+      "options": {
+        "A": "Tener pasaporte",
+        "B": "Sentir pertenencia a un país",
+        "C": "Vivir en otro país",
+        "D": "Hablar varios idiomas"
+      },
+      "correctAnswer": "B",
+      "explanation": "La identidad nacional es sentirse parte de un país y compartir sus valores."
+    },
+    {
+      "id": 42,
+      "pregunta": "¿Qué es el patriotismo?",
+      "options": {
+        "A": "Odiar a otros países",
+        "B": "Amor y respeto por la patria",
+        "C": "No conocer la historia",
+        "D": "No respetar la bandera"
+      },
+      "correctAnswer": "B",
+      "explanation": "El patriotismo es el amor y respeto por nuestra patria."
+    },
+    {
+      "id": 43,
+      "pregunta": "¿Qué es la paz?",
+      "options": {
+        "A": "No tener guerras",
+        "B": "Vivir en armonía con los demás",
+        "C": "No tener problemas",
+        "D": "Que todos obedezcan"
+      },
+      "correctAnswer": "B",
+      "explanation": "La paz es vivir en armonía y respeto con los demás."
+    },
+    {
+      "id": 44,
+      "pregunta": "¿Qué es el respeto a la diversidad?",
+      "options": {
+        "A": "Que todos sean iguales",
+        "B": "Valorar las diferencias entre las personas",
+        "C": "No aceptar a los diferentes",
+        "D": "Imponer una cultura"
+      },
+      "correctAnswer": "B",
+      "explanation": "El respeto a la diversidad es valorar y aceptar las diferencias entre las personas."
+    },
+    {
+      "id": 45,
+      "pregunta": "¿Qué es la equidad?",
+      "options": {
+        "A": "Que todos reciban lo mismo",
+        "B": "Dar trato justo según las necesidades",
+        "C": "No dar nada a nadie",
+        "D": "Dar más a los que ya tienen"
+      },
+      "correctAnswer": "B",
+      "explanation": "La equidad es dar trato justo según las necesidades de cada persona."
+    },
+    {
+      "id": 46,
+      "pregunta": "¿Qué es la transparencia?",
+      "options": {
+        "A": "Ocultar información",
+        "B": "Dar a conocer información pública",
+        "C": "No tener reglas",
+        "D": "Mentir a los ciudadanos"
+      },
+      "correctAnswer": "B",
+      "explanation": "La transparencia es dar a conocer la información pública de forma clara."
+    },
+    {
+      "id": 47,
+      "pregunta": "¿Qué es la rendición de cuentas?",
+      "options": {
+        "A": "No dar explicaciones",
+        "B": "El gobierno da explicaciones de su gestión",
+        "C": "Cobrar impuestos",
+        "D": "Hacer leyes"
+      },
+      "correctAnswer": "B",
+      "explanation": "La rendición de cuentas es cuando el gobierno da explicaciones sobre su gestión."
+    },
+    {
+      "id": 48,
+      "pregunta": "¿Qué es la corrupción?",
+      "options": {
+        "A": "Trabajar bien",
+        "B": "El uso indebido del poder para obtener beneficios",
+        "C": "Ser honesto",
+        "D": "Ayudar a los demás"
+      },
+      "correctAnswer": "B",
+      "explanation": "La corrupción es usar el poder de forma indebida para obtener beneficios personales."
+    },
+    {
+      "id": 49,
+      "pregunta": "¿Qué es la cultura cívica?",
+      "options": {
+        "A": "Conocer la historia",
+        "B": "El conjunto de valores y conocimientos para participar en la sociedad",
+        "C": "Solo estudiar",
+        "D": "No participar"
+      },
+      "correctAnswer": "B",
+      "explanation": "La cultura cívica es el conjunto de valores y conocimientos para ser buen ciudadano."
+    },
+    {
+      "id": 50,
+      "pregunta": "¿Cuál es el propósito de la educación cívica?",
+      "options": {
+        "A": "Memorizar leyes",
+        "B": "Formar ciudadanos responsables y comprometidos",
+        "C": "No pensar por uno mismo",
+        "D": "Solo obedecer"
+      },
+      "correctAnswer": "B",
+      "explanation": "La educación cívica busca formar ciudadanos responsables, críticos y comprometidos con su comunidad."
+    }
+  ]
+}
