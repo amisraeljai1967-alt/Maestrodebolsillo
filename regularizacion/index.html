@@ -131,20 +131,31 @@
             </div>
         </section>
 
-        <section id="quiz-container" class="bg-white p-6 rounded-2xl border border-gray-100 shadow-md hidden">
-            <h2 id="quiz-title" class="text-2xl font-bold text-gray-900 border-b pb-2 mb-4">Materia</h2>
-            <div id="question-box" class="space-y-4">
-                <p id="question-text" class="font-medium text-gray-800 text-lg"></p>
-                <div id="options-box" class="grid grid-cols-1 gap-2"></div>
-                
-                <div id="explanation-box" class="mt-4 p-4 rounded-xl border hidden transition-all duration-300">
-                    <h4 class="font-bold text-base mb-1 flex items-center gap-1.5">
-                        <i class="fas fa-lightbulb"></i> Explicación del Maestro:
-                    </h4>
-                    <p id="explanation-text" class="text-sm leading-relaxed"></p>
-                </div>
-            </div>
-        </section>
+     <section id="quiz-container" class="bg-white p-6 rounded-2xl border border-gray-100 shadow-md hidden">
+    <div class="flex items-center justify-between border-b pb-2 mb-4">
+        <h2 id="quiz-title" class="text-2xl font-bold text-gray-900">Materia</h2>
+        <button onclick="goBack()" class="text-sm text-indigo-600 hover:text-indigo-800 font-semibold flex items-center gap-1">
+            <i class="fas fa-arrow-left"></i> Volver
+        </button>
+    </div>
+    <div id="progress-bar" class="w-full bg-gray-200 rounded-full h-2.5 mb-4">
+        <div id="progress-fill" class="bg-indigo-600 h-2.5 rounded-full transition-all duration-300" style="width: 0%"></div>
+    </div>
+    <p id="progress-text" class="text-sm text-gray-500 font-medium mb-4">Pregunta 1 de 50</p>
+    <div id="question-box" class="space-y-4">
+        <p id="question-text" class="font-medium text-gray-800 text-lg"></p>
+        <div id="options-box" class="grid grid-cols-1 gap-2"></div>
+        <div id="explanation-box" class="mt-4 p-4 rounded-xl border hidden transition-all duration-300">
+            <h4 class="font-bold text-base mb-1 flex items-center gap-1.5">
+                <i class="fas fa-lightbulb"></i> Explicación del Maestro:
+            </h4>
+            <p id="explanation-text" class="text-sm leading-relaxed"></p>
+        </div>
+        <button id="next-btn" onclick="nextQuestion()" class="hidden w-full mt-4 bg-indigo-600 text-white font-bold py-3 rounded-xl hover:bg-indigo-700 transition flex items-center justify-center gap-2">
+            Siguiente pregunta <i class="fas fa-arrow-right"></i>
+        </button>
+    </div>
+</section>
     </main>
 
     <script>
