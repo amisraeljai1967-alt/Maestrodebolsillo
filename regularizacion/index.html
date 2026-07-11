@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regularización - Maestro de Bolsillo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-icons/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <!-- Encabezado Principal -->
+    <header class="py-6">
+        <div class="max-w-3xl mx-auto bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-6 rounded-2xl shadow-md">
+            <span class="text-xs font-semibold uppercase tracking-wider bg-purple-500 bg-opacity-40 px-2 py-1 rounded">Secundaria - 3º Grado</span>
+            <h1 class="text-3xl font-bold mt-2 flex items-center gap-2">
+                <i class="fas fa-book-open"></i> Regularización de Materias
+            </h1>
+            <p class="text-purple-100 text-base mt-1">Elige una materia, pon a prueba tus conocimientos y aprende con explicaciones paso a paso.</p>
+        </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto p-4 mt-4 space-y-6">
+        
+        <!-- Alerta de Valor Único -->
+        <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r shadow-sm">
+            <div class="flex items-start gap-3">
+                <i class="fas fa-star text-amber-500 text-xl mt-0.5"></i>
+                <div>
+                    <h4 class="font-bold text-amber-800 text-lg">¡NUEVO SÚPER PLUS! Elige y Aprende</h4>
+                    <p class="text-base font-semibold text-amber-700 mt-1">Todos nuestros quizes incluyen explicaciones detalladas e instantáneas diseñadas por IA para que entiendas perfectamente cada respuesta.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rejilla de Materias -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            <!-- Matemáticas -->
+            <div onclick="startQuiz('matematicas')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
+                <div class="flex items-center gap-4">
+                    <div class="bg-indigo-100 text-indigo-600 p-3 rounded-xl"><i class="fas fa-calculator text-2xl"></i></div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900 group-hover:text-indigo-600 transition">Matemáticas</h3>
+                        <p class="text-sm text-gray-500">Álgebra, geometría y aritmética</p>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right text-gray-300 group-hover:text-indigo-500 transition"></i>
+            </div>
+
+            <!-- Química -->
+            <div onclick="startQuiz('quimica')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
+                <div class="flex items-center gap-4">
+                    <div class="bg-teal-100 text-teal-600 p-3 rounded-xl"><i class="fas fa-flask text-2xl"></i></div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900 group-hover:text-teal-600 transition">Química</h3>
+                        <p class="text-sm text-gray-500">Tabla periódica y reacciones químicas</p>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right text-gray-300 group-hover:text-teal-500 transition"></i>
+            </div>
+
+            <!-- Inglés -->
+            <div onclick="startQuiz('ingles')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
+                <div class="flex items-center gap-4">
+                    <div class="bg-sky-100 text-sky-600 p-3 rounded-xl"><i class="fas fa-globe text-2xl"></i></div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900 group-hover:text-sky-600 transition">Inglés</h3>
+                        <p class="text-sm text-gray-500">Vocabulario esencial, gramática y lectura</p>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right text-gray-300 group-hover:text-sky-500 transition"></i>
+            </div>
+
+            <!-- Español -->
+            <div onclick="startQuiz('espanol')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
+                <div class="flex items-center gap-4">
+                    <div class="bg-blue-100 text-blue-600 p-3 rounded-xl"><i class="fas fa-font text-2xl"></i></div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900 group-hover:text-blue-600 transition">Español</h3>
+                        <p class="text-sm text-gray-500">Gramática, comprensión lectora y redacción</p>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+            </div>
+
+            <!-- Historia -->
+            <div onclick="startQuiz('historia')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
+                <div class="flex items-center gap-4">
+                    <div class="bg-orange-100 text-orange-600 p-3 rounded-xl"><i class="fas fa-landmark text-2xl"></i></div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900 group-hover:text-orange-600 transition">Historia</h3>
+                        <p class="text-sm text-gray-500">Historia de México y mundial</p>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right text-gray-300 group-hover:text-orange-500 transition"></i>
+            </div>
+
+            <!-- Cívica y Ética -->
+            <div onclick="startQuiz('civica')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
+                <div class="flex items-center gap-4">
+                    <div class="bg-rose-100 text-rose-600 p-3 rounded-xl"><i class="fas fa-balance-scale text-2xl"></i></div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900 group-hover:text-rose-600 transition">Cívica y Ética</h3>
+                        <p class="text-sm text-gray-500">Derechos, deberes y formación cívica</p>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right text-gray-300 group-hover:text-rose-500 transition"></i>
+            </div>
+
+        </section>
+
+        <!-- Banner de Exámenes de Ingreso a Prepa -->
+        <section class="bg-gradient-to-r from-slate-800 to-slate-900 text-white p-6 rounded-2xl shadow-md border border-slate-700">
+            <div class="text-center mb-4">
+                <h3 class="font-bold text-xl mb-1">¿Vas a ingresar a la Preparatoria?</h3>
+                <p class="text-sm font-semibold text-slate-300">Prepárate para los exámenes de admisión más importantes</p>
+            </div>
+            
+            <div class="grid grid-cols-3 gap-3 mb-5">
+                <div class="bg-slate-700 bg-opacity-50 p-3 rounded-xl text-center border border-slate-600 hover:border-amber-500 transition">
+                    <div class="bg-amber-500 text-slate-900 font-black px-3 py-2 rounded-lg text-sm mb-2">COMIPEMS</div>
+                    <p class="text-sm font-semibold text-slate-300">CDMX y Zona Metropolitana</p>
+                </div>
+                <div class="bg-slate-700 bg-opacity-50 p-3 rounded-xl text-center border border-slate-600 hover:border-amber-500 transition">
+                    <div class="bg-amber-500 text-slate-900 font-black px-3 py-2 rounded-lg text-sm mb-2">ECOEMS</div>
+                    <p class="text-sm font-semibold text-slate-300">Estado de México</p>
+                </div>
+                <div class="bg-slate-700 bg-opacity-50 p-3 rounded-xl text-center border border-slate-600 hover:border-amber-500 transition">
+                    <div class="bg-amber-500 text-slate-900 font-black px-3 py-2 rounded-lg text-sm mb-2">EXANI I</div>
+                    <p class="text-sm font-semibold text-slate-300">Preparatorias Públicas</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+                <a href="https://tu-link-de-hotmart.com" target="_blank" class="w-full sm:w-auto text-center bg-amber-500 text-slate-900 font-bold px-6 py-3 rounded-xl text-base shadow hover:bg-amber-400 transition whitespace-nowrap">
+                    Ver Simulador <i class="fas fa-arrow-right ml-1"></i>
+                </a>
+                <p class="text-xs text-slate-500 text-center">*El simulador tiene costo de adquisición</p>
+            </div>
+        </section>
+
+        <!-- Contenedor del Quiz Interactivo (Oculto al inicio) -->
+        <section id="quiz-container" class="bg-white p-6 rounded-2xl border border-gray-100 shadow-md hidden">
+            <h2 id="quiz-title" class="text-2xl font-bold text-gray-900 border-b pb-2 mb-4">Materia</h2>
+            <div id="question-box" class="space-y-4">
+                <p id="question-text" class="font-medium text-gray-800 text-lg"></p>
+                <div id="options-box" class="grid grid-cols-1 gap-2"></div>
+                
+                <!-- Recuadro de Explicación Destacada (El Plus) -->
+                <div id="explanation-box" class="mt-4 p-4 rounded-xl border hidden transition-all duration-300">
+                    <h4 class="font-bold text-base mb-1 flex items-center gap-1.5">
+                        <i class="fas fa-lightbulb"></i> Explicación del Maestro:
+                    </h4>
+                    <p id="explanation-text" class="text-sm leading-relaxed"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        async function startQuiz(materia) {
+            try {
+                const response = await fetch(`data/${materia}.json`);
+                const data = await response.json();
+                const preguntas = data.preguntas;
+                
+                const preguntaActual = preguntas[Math.floor(Math.random() * preguntas.length)];
+                
+                document.getElementById('quiz-container').classList.remove('hidden');
+                document.getElementById('quiz-title').innerText = "Quiz de Práctica: " + data.materia;
+                document.getElementById('question-text').innerText = preguntaActual.pregunta;
+                
+                const optionsBox = document.getElementById('options-box');
+                optionsBox.innerHTML = '';
+                document.getElementById('explanation-box').classList.add('hidden');
+
+                const options = preguntaActual.options;
+                const keys = Object.keys(options);
+                
+                keys.forEach((key) => {
+                    const btn = document.createElement('button');
+                    btn.className = "w-full text-left p-3.5 border border-gray-200 rounded-xl hover:bg-gray-50 transition text-base font-medium flex justify-between items-center";
+                    btn.innerHTML = `<span>${key}: ${options[key]}</span>`;
+                    btn.onclick = () => checkAnswer(key, preguntaActual.correctAnswer, preguntaActual.explanation, btn);
+                    optionsBox.appendChild(btn);
+                });
+
+                document.getElementById('quiz-container').scrollIntoView({ behavior: 'smooth' });
+            } catch (error) {
+                console.error('Error al cargar preguntas:', error);
+                alert("Error al cargar las preguntas. Asegúrate de que los archivos JSON estén en la carpeta data/");
+            }
+        }
+
+        function checkAnswer(chosen, correct, explicacion, element) {
+            const expBox = document.getElementById('explanation-box');
+            const expText = document.getElementById('explanation-text');
+            
+            const buttons = document.getElementById('options-box').children;
+            for(let btn of buttons) { btn.disabled = true; }
+
+            if(chosen === correct) {
+                element.classList.add('bg-green-100', 'border-green-500', 'text-green-800');
+                element.innerHTML += '<i class="fas fa-check-circle text-green-600 text-base ml-auto"></i>';
+                expBox.className = "mt-4 p-4 rounded-xl border border-green-200 bg-green-50 text-green-900";
+            } else {
+                element.classList.add('bg-red-100', 'border-red-500', 'text-red-800');
+                element.innerHTML += '<i class="fas fa-times-circle text-red-600 text-base ml-auto"></i>';
+                for(let btn of buttons) {
+                    if(btn.textContent.startsWith(correct + ":")) {
+                        btn.classList.add('bg-green-100', 'border-green-500', 'text-green-800');
+                    }
+                }
+                expBox.className = "mt-4 p-4 rounded-xl border border-amber-200 bg-amber-50 text-amber-900";
+            }
+
+            expText.innerText = explicacion;
+            expBox.classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
+
+
