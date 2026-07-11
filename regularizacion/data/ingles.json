@@ -1,0 +1,606 @@
+{
+  "materia": "Inglés",
+  "total_preguntas": 50,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "Complete the sentence: 'She ________ to school every day.'",
+      "options": {
+        "A": "go",
+        "B": "goes",
+        "C": "going",
+        "D": "gone"
+      },
+      "correctAnswer": "B",
+      "explanation": "En presente simple, cuando hablamos de una tercera persona del singular (She, He, It), al verbo se le agrega una 's' o 'es' al final. Por eso lo correcto es 'She goes'."
+    },
+    {
+      "id": 2,
+      "pregunta": "What is the plural of 'child'?",
+      "options": {
+        "A": "childs",
+        "B": "childes",
+        "C": "children",
+        "D": "childen"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Child' es una palabra irregular. Su plural es 'children', no sigue la regla normal de agregar 's'."
+    },
+    {
+      "id": 3,
+      "pregunta": "Which word is an adjective?",
+      "options": {
+        "A": "Run",
+        "B": "Beautiful",
+        "C": "Quickly",
+        "D": "House"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Beautiful' es un adjetivo que describe una sustantivo. 'Run' es verbo, 'quickly' es adverbio, 'house' es sustantivo."
+    },
+    {
+      "id": 4,
+      "pregunta": "Choose the correct option: 'I ________ a book right now.'",
+      "options": {
+        "A": "read",
+        "B": "reads",
+        "C": "am reading",
+        "D": "is reading"
+      },
+      "correctAnswer": "C",
+      "explanation": "El presente continuo se usa para acciones que están ocurriendo ahora. Estructura: am/is/are + verbo-ing."
+    },
+    {
+      "id": 5,
+      "pregunta": "What does 'happy' mean in Spanish?",
+      "options": {
+        "A": "Triste",
+        "B": "Feliz",
+        "C": "Enojado",
+        "D": "Cansado"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Happy' significa 'feliz' o 'contento' en español."
+    },
+    {
+      "id": 6,
+      "pregunta": "Which sentence is in the past tense?",
+      "options": {
+        "A": "I eat breakfast",
+        "B": "I will eat breakfast",
+        "C": "I ate breakfast",
+        "D": "I am eating breakfast"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Ate' es el pasado del verbo 'eat' (comer). Es un verbo irregular."
+    },
+    {
+      "id": 7,
+      "pregunta": "Complete: 'They ________ playing soccer.'",
+      "options": {
+        "A": "is",
+        "B": "am",
+        "C": "are",
+        "D": "be"
+      },
+      "correctAnswer": "C",
+      "explanation": "Con 'they' (ellos/ellas) se usa 'are'. They are playing = Ellos están jugando."
+    },
+    {
+      "id": 8,
+      "pregunta": "What is the opposite of 'hot'?",
+      "options": {
+        "A": "Warm",
+        "B": "Cool",
+        "C": "Cold",
+        "D": "Heat"
+      },
+      "correctAnswer": "C",
+      "explanation": "El opuesto de 'hot' (caliente) es 'cold' (frío)."
+    },
+    {
+      "id": 9,
+      "pregunta": "Which word is a verb?",
+      "options": {
+        "A": "Table",
+        "B": "Blue",
+        "C": "Eat",
+        "D": "Big"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Eat' (comer) es un verbo. 'Table' es sustantivo, 'blue' y 'big' son adjetivos."
+    },
+    {
+      "id": 10,
+      "pregunta": "Choose: 'There ________ many students in the classroom.'",
+      "options": {
+        "A": "is",
+        "B": "has",
+        "C": "are",
+        "D": "have"
+      },
+      "correctAnswer": "C",
+      "explanation": "Con 'there are' se habla de cosas en plural. 'There are many students' = Hay muchos estudiantes."
+    },
+    {
+      "id": 11,
+      "pregunta": "What is the past of 'go'?",
+      "options": {
+        "A": "Goed",
+        "B": "Went",
+        "C": "Goned",
+        "D": "Goed"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Go' es un verbo irregular. Su pasado es 'went', no 'goed'."
+    },
+    {
+      "id": 12,
+      "pregunta": "Which one is a question word?",
+      "options": {
+        "A": "And",
+        "B": "But",
+        "C": "Where",
+        "D": "The"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Where' (dónde) es una palabra interrogativa. 'And', 'but' son conjunciones, 'the' es artículo."
+    },
+    {
+      "id": 13,
+      "pregunta": "Complete: 'He ________ a new bicycle.'",
+      "options": {
+        "A": "have",
+        "B": "has",
+        "C": "haves",
+        "D": "having"
+      },
+      "correctAnswer": "B",
+      "explanation": "Con 'he' (él) se usa 'has'. He has = Él tiene."
+    },
+    {
+      "id": 14,
+      "pregunta": "What does 'big' mean?",
+      "options": {
+        "A": "Pequeño",
+        "B": "Mediano",
+        "C": "Grande",
+        "D": "Delgado"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Big' significa 'grande'. Su opuesto es 'small' (pequeño)."
+    },
+    {
+      "id": 15,
+      "pregunta": "Which sentence is correct?",
+      "options": {
+        "A": "She don't like coffee",
+        "B": "She doesn't likes coffee",
+        "C": "She doesn't like coffee",
+        "D": "She not like coffee"
+      },
+      "correctAnswer": "C",
+      "explanation": "Con 'she' se usa 'doesn't' + verbo base. 'She doesn't like coffee' = A ella no le gusta el café."
+    },
+    {
+      "id": 16,
+      "pregunta": "What is the plural of 'mouse'?",
+      "options": {
+        "A": "Mouses",
+        "B": "Mice",
+        "C": "Mouse",
+        "D": "Mices"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Mouse' (ratón) es irregular. Su plural es 'mice'."
+    },
+    {
+      "id": 17,
+      "pregunta": "Choose: 'We ________ friends.'",
+      "options": {
+        "A": "is",
+        "B": "am",
+        "C": "are",
+        "D": "be"
+      },
+      "correctAnswer": "C",
+      "explanation": "Con 'we' (nosotros) se usa 'are'. We are friends = Somos amigos."
+    },
+    {
+      "id": 18,
+      "pregunta": "What is the comparative of 'good'?",
+      "options": {
+        "A": "Gooder",
+        "B": "More good",
+        "C": "Better",
+        "D": "Best"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Good' es irregular. Su comparativo es 'better' (mejor)."
+    },
+    {
+      "id": 19,
+      "pregunta": "Which word means 'libro'?",
+      "options": {
+        "A": "Pen",
+        "B": "Book",
+        "C": "Desk",
+        "D": "Chair"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Book' significa 'libro'. 'Pen' es lapicero, 'desk' es escritorio, 'chair' es silla."
+    },
+    {
+      "id": 20,
+      "pregunta": "Complete: 'I ________ to music every night.'",
+      "options": {
+        "A": "listens",
+        "B": "listening",
+        "C": "listen",
+        "D": "am listen"
+      },
+      "correctAnswer": "C",
+      "explanation": "Con 'I' (yo) el verbo va sin 's'. I listen = Yo escucho."
+    },
+    {
+      "id": 21,
+      "pregunta": "What is the opposite of 'old'?",
+      "options": {
+        "A": "Elder",
+        "B": "Young",
+        "C": "New",
+        "D": "Ancient"
+      },
+      "correctAnswer": "B",
+      "explanation": "El opuesto de 'old' (viejo) es 'young' (joven)."
+    },
+    {
+      "id": 22,
+      "pregunta": "Choose: 'She ________ English very well.'",
+      "options": {
+        "A": "speak",
+        "B": "speaks",
+        "C": "speaking",
+        "D": "is speak"
+      },
+      "correctAnswer": "B",
+      "explanation": "Con 'she' el verbo lleva 's'. She speaks = Ella habla."
+    },
+    {
+      "id": 23,
+      "pregunta": "Which is a food word?",
+      "options": {
+        "A": "Dog",
+        "B": "Apple",
+        "C": "Car",
+        "D": "House"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Apple' (manzana) es una palabra de comida. Las otras son animales, vehículos y lugares."
+    },
+    {
+      "id": 24,
+      "pregunta": "What is the past of 'eat'?",
+      "options": {
+        "A": "Eated",
+        "B": "Eaten",
+        "C": "Ate",
+        "D": "Eating"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Eat' es irregular. Su pasado es 'ate' (comió)."
+    },
+    {
+      "id": 25,
+      "pregunta": "Complete: 'The cat is ________ the table.'",
+      "options": {
+        "A": "in",
+        "B": "on",
+        "C": "at",
+        "D": "to"
+      },
+      "correctAnswer": "B",
+      "explanation": "'On' significa 'sobre' o 'encima de'. The cat is on the table = El gato está sobre la mesa."
+    },
+    {
+      "id": 26,
+      "pregunta": "What does 'beautiful' mean?",
+      "options": {
+        "A": "Feo",
+        "B": "Bonito",
+        "C": "Grande",
+        "D": "Rápido"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Beautiful' significa 'bonito' o 'hermoso'."
+    },
+    {
+      "id": 27,
+      "pregunta": "Which sentence is in future tense?",
+      "options": {
+        "A": "I walked",
+        "B": "I walk",
+        "C": "I will walk",
+        "D": "I am walking"
+      },
+      "correctAnswer": "C",
+      "explanation": "'I will walk' está en futuro simple. 'Will' indica acción futura."
+    },
+    {
+      "id": 28,
+      "pregunta": "What is the plural of 'foot'?",
+      "options": {
+        "A": "Foots",
+        "B": "Feet",
+        "C": "Foot",
+        "D": "Fotes"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Foot' (pie) es irregular. Su plural es 'feet'."
+    },
+    {
+      "id": 29,
+      "pregunta": "Choose: '______ you like ice cream?'",
+      "options": {
+        "A": "Does",
+        "B": "Do",
+        "C": "Is",
+        "D": "Are"
+      },
+      "correctAnswer": "B",
+      "explanation": "Con 'you' se usa 'Do'. Do you like...? = ¿Te gusta...?"
+    },
+    {
+      "id": 30,
+      "pregunta": "What is a color word?",
+      "options": {
+        "A": "Run",
+        "B": "Red",
+        "C": "Big",
+        "D": "Fast"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Red' (rojo) es una palabra de color."
+    },
+    {
+      "id": 31,
+      "pregunta": "Complete: 'He ________ his homework yesterday.'",
+      "options": {
+        "A": "do",
+        "B": "does",
+        "C": "did",
+        "D": "doing"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Did' es el pasado de 'do'. He did his homework = Él hizo su tarea."
+    },
+    {
+      "id": 32,
+      "pregunta": "What does 'fast' mean?",
+      "options": {
+        "A": "Lento",
+        "B": "Rápido",
+        "C": "Fuerte",
+        "D": "Débil"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Fast' significa 'rápido'. Su opuesto es 'slow' (lento)."
+    },
+    {
+      "id": 33,
+      "pregunta": "Which is a body part?",
+      "options": {
+        "A": "Table",
+        "B": "Hand",
+        "C": "Book",
+        "D": "Pen"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Hand' (mano) es una parte del cuerpo."
+    },
+    {
+      "id": 34,
+      "pregunta": "Choose: 'There ________ a cat in the garden.'",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "has",
+        "D": "have"
+      },
+      "correctAnswer": "A",
+      "explanation": "Con sustantivos singulares se usa 'There is'. There is a cat = Hay un gato."
+    },
+    {
+      "id": 35,
+      "pregunta": "What is the past of 'see'?",
+      "options": {
+        "A": "Seened",
+        "B": "Saw",
+        "C": "Seed",
+        "D": "Seeing"
+      },
+      "correctAnswer": "B",
+      "explanation": "'See' es irregular. Su pasado es 'saw' (vio)."
+    },
+    {
+      "id": 36,
+      "pregunta": "Complete: 'I have ________ two apples.'",
+      "options": {
+        "A": "eat",
+        "B": "eats",
+        "C": "eaten",
+        "D": "eating"
+      },
+      "correctAnswer": "C",
+      "explanation": "Después de 'have' se usa el participio pasado. 'Have eaten' = He comido."
+    },
+    {
+      "id": 37,
+      "pregunta": "What is the opposite of 'happy'?",
+      "options": {
+        "A": "Glad",
+        "B": "Joyful",
+        "C": "Sad",
+        "D": "Excited"
+      },
+      "correctAnswer": "C",
+      "explanation": "El opuesto de 'happy' (feliz) es 'sad' (triste)."
+    },
+    {
+      "id": 38,
+      "pregunta": "Which is an animal?",
+      "options": {
+        "A": "Car",
+        "B": "Dog",
+        "C": "Table",
+        "D": "House"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Dog' (perro) es un animal."
+    },
+    {
+      "id": 39,
+      "pregunta": "Choose: 'She ________ to the store.'",
+      "options": {
+        "A": "go",
+        "B": "goes",
+        "C": "going",
+        "D": "gone"
+      },
+      "correctAnswer": "B",
+      "explanation": "Con 'she' el verbo lleva 's'. She goes = Ella va."
+    },
+    {
+      "id": 40,
+      "pregunta": "What does 'new' mean?",
+      "options": {
+        "A": "Viejo",
+        "B": "Usado",
+        "C": "Nuevo",
+        "D": "Roto"
+      },
+      "correctAnswer": "C",
+      "explanation": "'New' significa 'nuevo'. Su opuesto es 'old' (viejo)."
+    },
+    {
+      "id": 41,
+      "pregunta": "What is the plural of 'tooth'?",
+      "options": {
+        "A": "Tooths",
+        "B": "Teeth",
+        "C": "Tooth",
+        "D": "Teeths"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Tooth' (diente) es irregular. Su plural es 'teeth'."
+    },
+    {
+      "id": 42,
+      "pregunta": "Complete: 'We ________ soccer on Saturdays.'",
+      "options": {
+        "A": "plays",
+        "B": "playing",
+        "C": "play",
+        "D": "is play"
+      },
+      "correctAnswer": "C",
+      "explanation": "Con 'we' el verbo va sin 's'. We play = Nosotros jugamos."
+    },
+    {
+      "id": 43,
+      "pregunta": "Which word is an adverb?",
+      "options": {
+        "A": "Quick",
+        "B": "Quickly",
+        "C": "Quickness",
+        "D": "Quicken"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Quickly' (rápidamente) es un adverbio. 'Quick' es adjetivo."
+    },
+    {
+      "id": 44,
+      "pregunta": "What is the past of 'write'?",
+      "options": {
+        "A": "Writed",
+        "B": "Wrote",
+        "C": "Written",
+        "D": "Writing"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Write' es irregular. Su pasado es 'wrote' (escribió)."
+    },
+    {
+      "id": 45,
+      "pregunta": "Choose: 'I ________ a student.'",
+      "options": {
+        "A": "am",
+        "B": "is",
+        "C": "are",
+        "D": "be"
+      },
+      "correctAnswer": "A",
+      "explanation": "Con 'I' se usa 'am'. I am a student = Soy estudiante."
+    },
+    {
+      "id": 46,
+      "pregunta": "What does 'water' mean?",
+      "options": {
+        "A": "Fuego",
+        "B": "Tierra",
+        "C": "Agua",
+        "D": "Aire"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Water' significa 'agua'."
+    },
+    {
+      "id": 47,
+      "pregunta": "Which is a day of the week?",
+      "options": {
+        "A": "January",
+        "B": "Monday",
+        "C": "Summer",
+        "D": "Morning"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Monday' (lunes) es un día de la semana."
+    },
+    {
+      "id": 48,
+      "pregunta": "Complete: 'They ________ not like spiders.'",
+      "options": {
+        "A": "is",
+        "B": "am",
+        "C": "do",
+        "D": "does"
+      },
+      "correctAnswer": "C",
+      "explanation": "Con 'they' se usa 'do'. They do not like = A ellos no les gusta."
+    },
+    {
+      "id": 49,
+      "pregunta": "What is the comparative of 'big'?",
+      "options": {
+        "A": "Bigger",
+        "B": "More big",
+        "C": "Bigest",
+        "D": "Most big"
+      },
+      "correctAnswer": "A",
+      "explanation": "Adjetivos cortos como 'big' llevan '-er'. Big → Bigger (más grande)."
+    },
+    {
+      "id": 50,
+      "pregunta": "What is the superlative of 'good'?",
+      "options": {
+        "A": "Goodest",
+        "B": "Most good",
+        "C": "Best",
+        "D": "Better"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Good' es irregular. Su superlativo es 'best' (el mejor)."
+    }
+  ]
+}
