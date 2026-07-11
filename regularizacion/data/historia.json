@@ -1,0 +1,606 @@
+{
+  "materia": "Historia",
+  "total_preguntas": 50,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "¿En qué año llegó Hernán Cortés a México?",
+      "options": {
+        "A": "1492",
+        "B": "1519",
+        "C": "1521",
+        "D": "1530"
+      },
+      "correctAnswer": "B",
+      "explanation": "Hernán Cortés llegó a las costas de México en 1519. En 1521 cayó Tenochtitlán."
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Quién encabezó el Grito de Dolores?",
+      "options": {
+        "A": "José María Morelos",
+        "B": "Vicente Guerrero",
+        "C": "Miguel Hidalgo",
+        "D": "Ignacio Allende"
+      },
+      "correctAnswer": "C",
+      "explanation": "Miguel Hidalgo dio el Grito de Dolores el 16 de septiembre de 1810, marcando el inicio de la Independencia."
+    },
+    {
+      "id": 3,
+      "pregunta": "¿En qué año se consumó la Independencia de México?",
+      "options": {
+        "A": "1810",
+        "B": "1815",
+        "C": "1821",
+        "D": "1824"
+      },
+      "correctAnswer": "C",
+      "explanation": "La Independencia se consumó el 27 de septiembre de 1821 con la entrada del Ejército Trigarante a la Ciudad de México."
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Cuál fue el primer emperador de México?",
+      "options": {
+        "A": "Benito Juárez",
+        "B": "Agustín de Iturbide",
+        "C": "Antonio López de Santa Anna",
+        "D": "Guadalupe Victoria"
+      },
+      "correctAnswer": "B",
+      "explanation": "Agustín de Iturbide fue proclamado emperador en 1822. Fue el único emperador mexicano."
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Qué evento marcó el inicio de la Revolución Mexicana?",
+      "options": {
+        "A": "La Batalla de Puebla",
+        "B": "El Plan de Guadalupe",
+        "C": "El Plan de Ayala",
+        "D": "El levantamiento de Francisco I. Madero"
+      },
+      "correctAnswer": "D",
+      "explanation": "Francisco I. Madero se levantó en armas en noviembre de 1910 contra Porfirio Díaz."
+    },
+    {
+      "id": 6,
+      "pregunta": "¿En qué año fue la Batalla de Puebla contra los franceses?",
+      "options": {
+        "A": "1860",
+        "B": "1862",
+        "C": "1864",
+        "D": "1867"
+      },
+      "correctAnswer": "B",
+      "explanation": "La Batalla de Puebla ocurrió el 5 de mayo de 1862. México derrotó al ejército francés."
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Quién dijo la frase 'Si muero por la Patria, moriré contento'?",
+      "options": {
+        "A": "Miguel Hidalgo",
+        "B": "José María Morelos",
+        "C": "Vicente Guerrero",
+        "D": "Guadalupe Victoria"
+      },
+      "correctAnswer": "B",
+      "explanation": "José María Morelos pronunció esta frase antes de ser fusilado en 1815."
+    },
+    {
+      "id": 8,
+      "pregunta": "¿Cuál fue la consecuencia de la Intervención Francesa?",
+      "options": {
+        "A": "La creación del Segundo Imperio",
+        "B": "La pérdida de Texas",
+        "C": "La independencia de Centroamérica",
+        "D": "La Guerra de los Pasteles"
+      },
+      "correctAnswer": "A",
+      "explanation": "La Intervención Francesa llevó al Segundo Imperio con Maximiliano de Habsburgo como emperador (1864-1867)."
+    },
+    {
+      "id": 9,
+      "pregunta": "¿Quién fue el primer presidente de México?",
+      "options": {
+        "A": "Guadalupe Victoria",
+        "B": "Vicente Guerrero",
+        "C": "Manuel Gómez Pedraza",
+        "D": "Anastasio Bustamante"
+      },
+      "correctAnswer": "A",
+      "explanation": "Guadalupe Victoria fue el primer presidente de México (1824-1829). Su nombre real era José Miguel Ramón Adaucto Fernández y Félix."
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Qué reforma separó la Iglesia del Estado?",
+      "options": {
+        "A": "La Constitución de 1824",
+        "B": "Las Leyes de Reforma",
+        "C": "El Plan de Ayala",
+        "D": "El Plan de Guadalupe"
+      },
+      "correctAnswer": "B",
+      "explanation": "Las Leyes de Reforma (1859) dictadas por Benito Juárez separaron la Iglesia del Estado."
+    },
+    {
+      "id": 11,
+      "pregunta": "¿En qué año se firmó la Constitución de 1917?",
+      "options": {
+        "A": "1910",
+        "B": "1915",
+        "C": "1917",
+        "D": "1920"
+      },
+      "correctAnswer": "C",
+      "explanation": "La Constitución de 1917 se firmó el 5 de febrero de 1917 en Querétaro."
+    },
+    {
+      "id": 12,
+      "pregunta": "¿Quién pronunció la frase 'El que con hierro mata, con hierro muere'?",
+      "options": {
+        "A": "Miguel Hidalgo",
+        "B": "José María Morelos",
+        "C": "Vicente Guerrero",
+        "D": "Emiliano Zapata"
+      },
+      "correctAnswer": "A",
+      "explanation": "Miguel Hidalgo pronunció esta frase refiriéndose a la violencia de la guerra."
+    },
+    {
+      "id": 13,
+      "pregunta": "¿Cuál fue la causa principal de la Guerra de Reforma?",
+      "options": {
+        "A": "La intervención francesa",
+        "B": "La lucha entre conservadores y liberales",
+        "C": "La pérdida de territorio",
+        "D": "La revolución industrial"
+      },
+      "correctAnswer": "B",
+      "explanation": "La Guerra de Reforma (1858-1861) fue entre conservadores (que querían la Iglesia en el poder) y liberales (que querían la secularización)."
+    },
+    {
+      "id": 14,
+      "pregunta": "¿Qué presidente nacionalizó la educación?",
+      "options": {
+        "A": "Venustiano Carranza",
+        "B": "Álvaro Obregón",
+        "C": "Plutarco Elías Calles",
+        "D": "Lázaro Cárdenas"
+      },
+      "correctAnswer": "C",
+      "explanation": "Plutarco Elías Calles creó la Secretaría de Educación Pública en 1921."
+    },
+    {
+      "id": 15,
+      "pregunta": "¿En qué año se inició la Revolución Mexicana?",
+      "options": {
+        "A": "1908",
+        "B": "1910",
+        "C": "1911",
+        "D": "1913"
+      },
+      "correctAnswer": "B",
+      "explanation": "La Revolución Mexicana inició en 1910 con el levantamiento de Francisco I. Madero."
+    },
+    {
+      "id": 16,
+      "pregunta": "¿Quién fue el líder de los zapatistas?",
+      "options": {
+        "A": "Francisco Villa",
+        "B": "Venustiano Carranza",
+        "C": "Emiliano Zapata",
+        "D": "Álvaro Obregón"
+      },
+      "correctAnswer": "C",
+      "explanation": "Emiliano Zapata fue el líder del Ejército Libertador del Sur."
+    },
+    {
+      "id": 17,
+      "pregunta": "¿Qué significado tiene el color verde en la bandera de México?",
+      "options": {
+        "A": "La sangre de los héroes",
+        "B": "La esperanza",
+        "C": "La unión",
+        "D": "La religión"
+      },
+      "correctAnswer": "B",
+      "explanation": "El verde representa la esperanza del pueblo mexicano."
+    },
+    {
+      "id": 18,
+      "pregunta": "¿Qué presidente expropió las petroleras?",
+      "options": {
+        "A": "Manuel Ávila Camacho",
+        "B": "Miguel Alemán",
+        "C": "Adolfo Ruiz Cortines",
+        "D": "Lázaro Cárdenas"
+      },
+      "correctAnswer": "D",
+      "explanation": "Lázaro Cárdenas expropió las petroleras en 1938."
+    },
+    {
+      "id": 19,
+      "pregunta": "¿En qué año se abolió la esclavitud en México?",
+      "options": {
+        "A": "1810",
+        "B": "1813",
+        "C": "1821",
+        "D": "1824"
+      },
+      "correctAnswer": "C",
+      "explanation": "La esclavitud se abolió el 15 de septiembre de 1821 con el Acta de Independencia."
+    },
+    {
+      "id": 20,
+      "pregunta": "¿Cuál fue el resultado de la Guerra México-Estados Unidos?",
+      "options": {
+        "A": "México ganó territorio",
+        "B": "México perdió más de la mitad de su territorio",
+        "C": "No hubo cambio territorial",
+        "D": "Estados Unidos se independizó"
+      },
+      "correctAnswer": "B",
+      "explanation": "Con el Tratado de Guadalupe Hidalgo (1848), México perdió Texas, California, Nuevo México y otros territorios."
+    },
+    {
+      "id": 21,
+      "pregunta": "¿Quién dijo 'Para los demás, la muerte; para mí, el honor'?",
+      "options": {
+        "A": "Miguel Hidalgo",
+        "B": "José María Morelos",
+        "C": "Mariano Matamoros",
+        "D": "Ignacio Allende"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ignacio Allende pronunció esta frase antes de ser fusilado."
+    },
+    {
+      "id": 22,
+      "pregunta": "¿Qué reforma educación creó la SEP?",
+      "options": {
+        "A": "La Constitución de 1917",
+        "B": "El Plan de Guadalupe",
+        "C": "Las Leyes de Reforma",
+        "D": "El Plan Nacional de Educación"
+      },
+      "correctAnswer": "A",
+      "explanation": "La Constitución de 1917 estableció la educación laica y gratuita."
+    },
+    {
+      "id": 23,
+      "pregunta": "¿En qué año fue la Revolución de Ayutla?",
+      "options": {
+        "A": "1854",
+        "B": "1857",
+        "C": "1858",
+        "D": "1861"
+      },
+      "correctAnswer": "A",
+      "explanation": "La Revolución de Ayutla comenzó en 1854 y buscó derrocar a Antonio López de Santa Anna."
+    },
+    {
+      "id": 24,
+      "pregunta": "¿Quién fue el presidente que defendió la soberanía nacional durante la Intervención Francesa?",
+      "options": {
+        "A": "Mariano Arista",
+        "B": "Antonio López de Santa Anna",
+        "C": "Benito Juárez",
+        "D": "Ignacio Comonfort"
+      },
+      "correctAnswer": "C",
+      "explanation": "Benito Juárez resistió la intervención francesa y el Segundo Imperio."
+    },
+    {
+      "id": 25,
+      "pregunta": "¿Qué ley separó la Iglesia del Estado en 1859?",
+      "options": {
+        "A": "Ley Lerdo",
+        "B": "Ley Juárez",
+        "C": "Ley Iglesias",
+        "D": "Ley de Nacionalización de Bienes"
+      },
+      "correctAnswer": "B",
+      "explanation": "La Ley Juárez eliminó los fueros eclesiásticos y militares."
+    },
+    {
+      "id": 26,
+      "pregunta": "¿En qué año murió Emiliano Zapata?",
+      "options": {
+        "A": "1915",
+        "B": "1917",
+        "C": "1919",
+        "D": "1920"
+      },
+      "correctAnswer": "C",
+      "explanation": "Emiliano Zapata fue asesinado el 10 de abril de 1919."
+    },
+    {
+      "id": 27,
+      "pregunta": "¿Quién fue el primer gobernador indígena de México?",
+      "options": {
+        "A": "Cuauhtémoc",
+        "B": "Tlacaélel",
+        "C": "Moctezuma",
+        "D": "Cuitláhuac"
+      },
+      "correctAnswer": "A",
+      "explanation": "Cuauhtémoc fue el último tlatoani de los aztecas."
+    },
+    {
+      "id": 28,
+      "pregunta": "¿Qué acontecimiento ocurrió el 5 de mayo?",
+      "options": {
+        "A": "La Independencia",
+        "B": "La Revolución",
+        "C": "La Batalla de Puebla",
+        "D": "La expropiación petrolera"
+      },
+      "correctAnswer": "C",
+      "explanation": "El 5 de mayo se celebra la victoria de México sobre Francia en Puebla."
+    },
+    {
+      "id": 29,
+      "pregunta": "¿Qué significado tiene el color rojo en la bandera?",
+      "options": {
+        "A": "La esperanza",
+        "B": "La unión",
+        "C": "La sangre derramada por los héroes",
+        "D": "La religión"
+      },
+      "correctAnswer": "C",
+      "explanation": "El rojo representa la sangre derramada por los héroes de la patria."
+    },
+    {
+      "id": 30,
+      "pregunta": "¿En qué año fue la Guerra de Reforma?",
+      "options": {
+        "A": "1848-1850",
+        "B": "1855-1857",
+        "C": "1858-1861",
+        "D": "1862-1867"
+      },
+      "correctAnswer": "C",
+      "explanation": "La Guerra de Reforma duró de 1858 a 1861."
+    },
+    {
+      "id": 31,
+      "pregunta": "¿Quién fue el héroe de Cuautla?",
+      "options": {
+        "A": "Miguel Hidalgo",
+        "B": "José María Morelos",
+        "C": "Vicente Guerrero",
+        "D": "Hermenegildo Galeana"
+      },
+      "correctAnswer": "B",
+      "explanation": "Morelos defendió Cuautla durante 72 días contra los realistas."
+    },
+    {
+      "id": 32,
+      "pregunta": "¿Qué reforma garantizó la educación gratuita?",
+      "options": {
+        "A": "La Constitución de 1857",
+        "B": "La Constitución de 1917",
+        "C": "El Plan de Ayala",
+        "D": "Las Leyes de Reforma"
+      },
+      "correctAnswer": "B",
+      "explanation": "El artículo 3° de la Constitución de 1917 estableció la educación gratuita."
+    },
+    {
+      "id": 33,
+      "pregunta": "¿En qué año llegó Porfirio Díaz al poder?",
+      "options": {
+        "A": "1874",
+        "B": "1876",
+        "C": "1880",
+        "D": "1884"
+      },
+      "correctAnswer": "B",
+      "explanation": "Porfirio Díaz llegó al poder en 1876 y gobernó hasta 1911."
+    },
+    {
+      "id": 34,
+      "pregunta": "¿Cuál fue la consecuencia del Porfiriato?",
+      "options": {
+        "A": "El desarrollo industrial",
+        "B": "La desigualdad social",
+        "C": "La estabilidad política",
+        "D": "Todas las anteriores"
+      },
+      "correctAnswer": "D",
+      "explanation": "El Porfirato tuvo desarrollo económico pero también gran desigualdad social."
+    },
+    {
+      "id": 35,
+      "pregunta": "¿Quién proclamó los derechos del pueblo en el Congreso de Chilpancingo?",
+      "options": {
+        "A": "Miguel Hidalgo",
+        "B": "José María Morelos",
+        "C": "Vicente Guerrero",
+        "D": "Ignacio López Rayón"
+      },
+      "correctAnswer": "B",
+      "explanation": "Morelos presentó los Sentimientos de la Nación en 1813."
+    },
+    {
+      "id": 36,
+      "pregunta": "¿En qué año cayó Tenochtitlán?",
+      "options": {
+        "A": "1519",
+        "B": "1520",
+        "C": "1521",
+        "D": "1525"
+      },
+      "correctAnswer": "C",
+      "explanation": "Tenochtitlán cayó el 13 de agosto de 1521."
+    },
+    {
+      "id": 37,
+      "pregunta": "¿Qué presidente modernizó el ejército mexicano?",
+      "options": {
+        "A": "Benito Juárez",
+        "B": "Porfirio Díaz",
+        "C": "Venustiano Carranza",
+        "D": "Lázaro Cárdenas"
+      },
+      "correctAnswer": "B",
+      "explanation": "Porfirio Díaz modernizó el ejército y la infraestructura del país."
+    },
+    {
+      "id": 38,
+      "pregunta": "¿En qué año se firmó el Tratado de Guadalupe Hidalgo?",
+      "options": {
+        "A": "1846",
+        "B": "1847",
+        "C": "1848",
+        "D": "1850"
+      },
+      "correctAnswer": "C",
+      "explanation": "El Tratado de Guadalupe Hidalgo se firmó el 2 de febrero de 1848."
+    },
+    {
+      "id": 39,
+      "pregunta": "¿Qué revolución buscó la libertad de los esclavos?",
+      "options": {
+        "A": "La Revolución de Ayutla",
+        "B": "La Revolución de la Reforma",
+        "C": "La Revolución de Independencia",
+        "D": "La Revolución Mexicana"
+      },
+      "correctAnswer": "C",
+      "explanation": "La Revolución de Independencia buscó la libertad de los esclavos."
+    },
+    {
+      "id": 40,
+      "pregunta": "¿Quién fue el líder de los villistas?",
+      "options": {
+        "A": "Emiliano Zapata",
+        "B": "Francisco Villa",
+        "C": "Venustiano Carranza",
+        "D": "Álvaro Obregón"
+      },
+      "correctAnswer": "B",
+      "explanation": "Francisco Villa lideró la División del Norte."
+    },
+    {
+      "id": 41,
+      "pregunta": "¿Qué significado tiene el águila en el escudo nacional?",
+      "options": {
+        "A": "La libertad",
+        "B": "La fundación de Tenochtitlán",
+        "C": "La religión",
+        "D": "La fuerza"
+      },
+      "correctAnswer": "B",
+      "explanation": "El águila sobre el nopal representa la fundación de Tenochtitlán."
+    },
+    {
+      "id": 42,
+      "pregunta": "¿En qué año fue la Intervención Francesa?",
+      "options": {
+        "A": "1858",
+        "B": "1860",
+        "C": "1862",
+        "D": "1864"
+      },
+      "correctAnswer": "C",
+      "explanation": "La Intervención Francesa comenzó en 1862."
+    },
+    {
+      "id": 43,
+      "pregunta": "¿Quién fue el presidente que expropió las tierras?",
+      "options": {
+        "A": "Manuel Ávila Camacho",
+        "B": "Miguel Alemán",
+        "C": "Adolfo Ruiz Cortines",
+        "D": "Lázaro Cárdenas"
+      },
+      "correctAnswer": "D",
+      "explanation": "Lázaro Cárdenas expropió las tierras y creó los ejidos."
+    },
+    {
+      "id": 44,
+      "pregunta": "¿En qué año fue la Revolución Mexicana?",
+      "options": {
+        "A": "1908",
+        "B": "1910",
+        "C": "1915",
+        "D": "1920"
+      },
+      "correctAnswer": "B",
+      "explanation": "La Revolución Mexicana inició en 1910."
+    },
+    {
+      "id": 45,
+      "pregunta": "¿Qué reforma creó los derechos laborales?",
+      "options": {
+        "A": "La Constitución de 1857",
+        "B": "La Constitución de 1917",
+        "C": "Las Leyes de Reforma",
+        "D": "El Plan de Ayala"
+      },
+      "correctAnswer": "B",
+      "explanation": "El artículo 123 de la Constitución de 1917 estableció los derechos laborales."
+    },
+    {
+      "id": 46,
+      "pregunta": "¿Quién fue el último emperador de México?",
+      "options": {
+        "A": "Agustín de Iturbide",
+        "B": "Maximiliano de Habsburgo",
+        "C": "Antonio López de Santa Anna",
+        "D": "Porfirio Díaz"
+      },
+      "correctAnswer": "B",
+      "explanation": "Maximiliano de Habsburgo fue emperador de 1864 a 1867."
+    },
+    {
+      "id": 47,
+      "pregunta": "¿En qué año se abolió la esclavitud?",
+      "options": {
+        "A": "1810",
+        "B": "1813",
+        "C": "1821",
+        "D": "1824"
+      },
+      "correctAnswer": "C",
+      "explanation": "La esclavitud se abolió en 1821."
+    },
+    {
+      "id": 48,
+      "pregunta": "¿Qué presidente fue conocido como el 'Indio Benito'?",
+      "options": {
+        "A": "Miguel Hidalgo",
+        "B": "Benito Juárez",
+        "C": "Venustiano Carranza",
+        "D": "Lázaro Cárdenas"
+      },
+      "correctAnswer": "B",
+      "explanation": "Benito Juárez era de origen zapoteca y fue un símbolo de la resistencia."
+    },
+    {
+      "id": 49,
+      "pregunta": "¿En qué año fue la expropiación petrolera?",
+      "options": {
+        "A": "1935",
+        "B": "1936",
+        "C": "1937",
+        "D": "1938"
+      },
+      "correctAnswer": "D",
+      "explanation": "La expropiación petrolera fue el 18 de marzo de 1938."
+    },
+    {
+      "id": 50,
+      "pregunta": "¿Qué significa el color blanco en la bandera?",
+      "options": {
+        "A": "La esperanza",
+        "B": "La unión de los mexicanos",
+        "C": "La religión",
+        "D": "La paz"
+      },
+      "correctAnswer": "B",
+      "explanation": "El blanco representa la unión de los mexicanos."
+    }
+  ]
+}
