@@ -9,7 +9,6 @@
 </head>
 <body class="bg-gray-50 font-sans text-gray-800">
 
-    <!-- Encabezado Principal -->
     <header class="py-6">
         <div class="max-w-3xl mx-auto bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-6 rounded-2xl shadow-md">
             <span class="text-xs font-semibold uppercase tracking-wider bg-purple-500 bg-opacity-40 px-2 py-1 rounded">Secundaria - 3º Grado</span>
@@ -22,7 +21,6 @@
 
     <main class="max-w-3xl mx-auto p-4 mt-4 space-y-6">
         
-        <!-- Alerta de Valor Único -->
         <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r shadow-sm">
             <div class="flex items-start gap-3">
                 <i class="fas fa-star text-amber-500 text-xl mt-0.5"></i>
@@ -33,10 +31,8 @@
             </div>
         </div>
 
-        <!-- Rejilla de Materias -->
         <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
             
-            <!-- Matemáticas -->
             <div onclick="startQuiz('matematicas')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
                 <div class="flex items-center gap-4">
                     <div class="bg-indigo-100 text-indigo-600 p-3 rounded-xl"><i class="fas fa-calculator text-2xl"></i></div>
@@ -48,7 +44,6 @@
                 <i class="fas fa-chevron-right text-gray-300 group-hover:text-indigo-500 transition"></i>
             </div>
 
-            <!-- Química -->
             <div onclick="startQuiz('quimica')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
                 <div class="flex items-center gap-4">
                     <div class="bg-teal-100 text-teal-600 p-3 rounded-xl"><i class="fas fa-flask text-2xl"></i></div>
@@ -60,7 +55,6 @@
                 <i class="fas fa-chevron-right text-gray-300 group-hover:text-teal-500 transition"></i>
             </div>
 
-            <!-- Inglés -->
             <div onclick="startQuiz('ingles')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
                 <div class="flex items-center gap-4">
                     <div class="bg-sky-100 text-sky-600 p-3 rounded-xl"><i class="fas fa-globe text-2xl"></i></div>
@@ -72,7 +66,6 @@
                 <i class="fas fa-chevron-right text-gray-300 group-hover:text-sky-500 transition"></i>
             </div>
 
-            <!-- Español -->
             <div onclick="startQuiz('espanol')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
                 <div class="flex items-center gap-4">
                     <div class="bg-blue-100 text-blue-600 p-3 rounded-xl"><i class="fas fa-font text-2xl"></i></div>
@@ -84,7 +77,6 @@
                 <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
             </div>
 
-            <!-- Historia -->
             <div onclick="startQuiz('historia')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
                 <div class="flex items-center gap-4">
                     <div class="bg-orange-100 text-orange-600 p-3 rounded-xl"><i class="fas fa-landmark text-2xl"></i></div>
@@ -96,7 +88,6 @@
                 <i class="fas fa-chevron-right text-gray-300 group-hover:text-orange-500 transition"></i>
             </div>
 
-            <!-- Cívica y Ética -->
             <div onclick="startQuiz('civica')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
                 <div class="flex items-center gap-4">
                     <div class="bg-rose-100 text-rose-600 p-3 rounded-xl"><i class="fas fa-balance-scale text-2xl"></i></div>
@@ -110,7 +101,6 @@
 
         </section>
 
-        <!-- Banner de Exámenes de Ingreso a Prepa -->
         <section class="bg-gradient-to-r from-slate-800 to-slate-900 text-white p-6 rounded-2xl shadow-md border border-slate-700">
             <div class="text-center mb-4">
                 <h3 class="font-bold text-xl mb-1">¿Vas a ingresar a la Preparatoria?</h3>
@@ -140,14 +130,12 @@
             </div>
         </section>
 
-        <!-- Contenedor del Quiz Interactivo (Oculto al inicio) -->
         <section id="quiz-container" class="bg-white p-6 rounded-2xl border border-gray-100 shadow-md hidden">
             <h2 id="quiz-title" class="text-2xl font-bold text-gray-900 border-b pb-2 mb-4">Materia</h2>
             <div id="question-box" class="space-y-4">
                 <p id="question-text" class="font-medium text-gray-800 text-lg"></p>
                 <div id="options-box" class="grid grid-cols-1 gap-2"></div>
                 
-                <!-- Recuadro de Explicación Destacada (El Plus) -->
                 <div id="explanation-box" class="mt-4 p-4 rounded-xl border hidden transition-all duration-300">
                     <h4 class="font-bold text-base mb-1 flex items-center gap-1.5">
                         <i class="fas fa-lightbulb"></i> Explicación del Maestro:
@@ -221,5 +209,3 @@
     </script>
 </body>
 </html>
-
-
