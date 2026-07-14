@@ -69,8 +69,9 @@
         const accesoRef = doc(db, "accesos", email);
         const accesoSnap = await getDoc(accesoRef);
 
-        if (!accesoSnap.exists()) {
-          errorDiv.textContent = 'No se encontró ninguna compra con este correo. Verifica tu email o compra primero.';
+        // Verifica que exista Y que el acceso sea especificamente para reto_de_materias
+        if (!accesoSnap.exists() || accesoSnap.data().producto !== "reto_de_materias") {
+          errorDiv.textContent = 'No se encontró ninguna compra del Reto de Materias con este correo. Verifica tu email o compra primero.';
           errorDiv.style.display = 'block';
           loadingDiv.style.display = 'none';
           return;
@@ -81,7 +82,7 @@
 
         await setDoc(doc(db, "usuarios", user.uid), {
           email,
-          producto: "reto_de_materias",
+          producto: accesoSnap.data().producto,
           createdAt: new Date().toISOString(),
         });
 
