@@ -7,22 +7,23 @@ if (!admin.apps.length) {
   });
 }
 const db = admin.firestore();
+
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return { statusCode: 405, body: "Method Not Allowed" };
   }
   try {
     const body = JSON.parse(event.body);
-    const email = body?.buyer?.email?.toLowerCase?.()?.trim?.();
-    const productName = body?.product?.name || "";
+    const email = body?.data?.buyer?.email?.toLowerCase?.()?.trim?.();
+    const mes = body?.data?.purchase?.recurrency_number;
+
     if (!email) {
       return { statusCode: 400, body: JSON.stringify({ error: "Email no encontrado" }) };
     }
-    const mesMatch = productName.match(/mes\s*(\d+)/i);
-    if (!mesMatch) {
-      return { statusCode: 400, body: JSON.stringify({ error: "No se pudo identificar el mes" }) };
+    if (!mes) {
+      return { statusCode: 400, body: JSON.stringify({ error: "No se pudo identificar el numero de recurrencia (mes)" }) };
     }
-    const mes = parseInt(mesMatch[1]);
+
     let user;
     try {
       user = await admin.auth().getUserByEmail(email);
@@ -39,6 +40,7 @@ exports.handler = async (event) => {
         body: JSON.stringify({ message: `Mes ${mes} pendiente para ${email}` }),
       };
     }
+
     const userDoc = db.collection("usuarios").doc(user.uid);
     await userDoc.set(
       {
@@ -48,6 +50,7 @@ exports.handler = async (event) => {
       },
       { merge: true }
     );
+
     return {
       statusCode: 200,
       body: JSON.stringify({ message: `Mes ${mes} asignado a ${email}` }),
