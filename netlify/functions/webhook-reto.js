@@ -14,7 +14,7 @@ exports.handler = async (event) => {
   }
   try {
     const body = JSON.parse(event.body);
-    const email = body?.buyer?.email?.toLowerCase?.()?.trim?.();
+    const email = body?.data?.buyer?.email?.toLowerCase?.()?.trim?.();
 
     if (!email) {
       return { statusCode: 400, body: JSON.stringify({ error: "Email no encontrado" }) };
