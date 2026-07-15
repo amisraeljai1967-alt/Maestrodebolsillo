@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Regularización - Reto de Materias</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-icons/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
         import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
@@ -25,218 +25,199 @@
         const db = getFirestore(app);
 
         window.auth = auth;
+        window.tieneAcceso = false;
+
         window.signOutUser = async function() {
             await signOut(auth);
             localStorage.clear();
-            window.location.href = 'login.html';
+            window.location.reload();
         };
 
+        // Ya NO bloquea la pagina completa. Solo revisa en segundo plano
+        // si el usuario tiene sesion con acceso pagado, para saber que
+        // hacer cuando le den clic a una materia.
         onAuthStateChanged(auth, async (user) => {
             if (!user) {
-                window.location.href = 'login.html';
+                window.tieneAcceso = false;
+                actualizarBotonesHeader(false);
                 return;
             }
             const usuarioRef = doc(db, "usuarios", user.uid);
             const usuarioSnap = await getDoc(usuarioRef);
-           if (!usuarioSnap.exists() || usuarioSnap.data().producto !== "reto_de_materias") {
-                document.getElementById('paywall').classList.remove('hidden');
-                document.getElementById('loading-screen').classList.add('hidden');
-                return;
+            if (usuarioSnap.exists() && usuarioSnap.data().producto === "reto_de_materias") {
+                window.tieneAcceso = true;
+                localStorage.setItem('usuario_uid', user.uid);
+                localStorage.setItem('usuario_email', user.email);
+                actualizarBotonesHeader(true);
+            } else {
+                window.tieneAcceso = false;
+                actualizarBotonesHeader(false);
             }
-          
-                      localStorage.setItem('usuario_uid', user.uid);
-            localStorage.setItem('usuario_email', user.email);
-            document.getElementById('paywall').classList.add('hidden');
-            document.getElementById('loading-screen').classList.add('hidden');
-            document.getElementById('app-content').classList.remove('hidden');
         });
+
+        function actualizarBotonesHeader(tieneAcceso) {
+            const salirBtn = document.getElementById('salir-btn');
+            if (salirBtn) salirBtn.classList.toggle('hidden', !tieneAcceso);
+        }
     </script>
 </head>
 <body class="bg-gray-50 font-sans text-gray-800">
 
-    <div id="loading-screen" class="fixed inset-0 bg-white flex items-center justify-center z-50">
-        <div class="text-center">
-            <i class="fas fa-spinner fa-spin text-indigo-600 text-4xl mb-4"></i>
-            <p class="text-gray-500 font-semibold">Verificando acceso...</p>
-        </div>
-    </div>
-   
-</div>
-<div id="paywall" class="hidden fixed inset-0 bg-white z-40 flex items-center justify-center">
-    <div class="text-center max-w-md mx-auto p-6">
-        <i class="fas fa-lock text-red-500 text-5xl mb-4"></i>
-        <h2 class="text-2xl font-bold text-gray-900 mb-2">Acceso restringido</h2>
-        <p class="text-gray-600 mb-6">Adquiere el Reto de Materias para acceder al contenido.</p>
-        <a href="https://pay.hotmart.com/V106708454D" target="_blank" class="bg-indigo-600 text-white font-bold px-8 py-3 rounded-xl hover:bg-indigo-700 transition inline-inline">
-            Comprar Reto de Materias - $249 MXN
-        </a>
-        <p class="text-xs text-gray-400 mt-4">Después del pago recibirás instrucciones de acceso</p>
-        <p class="text-xs text-gray-400 mt-2">Si ya pagaste, escríbenos para activarte: <a href="mailto:academia.nexoia@gmail.com" class="text-indigo-600 underline">academia.nexoia@gmail.com</a></p>
-    </div>
-</div>
+    <div id="app-content">
+        <header class="py-6">
+            <div class="max-w-3xl mx-auto bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-6 rounded-2xl shadow-md relative">
+                <span class="text-xs font-semibold uppercase tracking-wider bg-purple-500 bg-opacity-40 px-2 py-1 rounded">Secundaria - 3º Grado</span>
+                <h1 class="text-3xl font-bold mt-2 flex items-center gap-2">
+                    <i class="fas fa-book-open"></i> Regularización de Materias
+                </h1>
+                <p class="text-purple-100 text-base mt-1">Elige una materia, pon a prueba tus conocimientos y aprende con explicaciones paso a paso.</p>
+                <button id="salir-btn" onclick="signOutUser()" class="hidden absolute top-4 right-4 bg-white bg-opacity-20 hover:bg-opacity-30 text-white text-sm font-semibold px-3 py-1.5 rounded-lg transition">
+                    <i class="fas fa-sign-out-alt mr-1"></i> Salir
+                </button>
+            </div>
+        </header>
 
-<div id="app-content" class="hidden">
-    <header class="py-6">
-        <div class="max-w-3xl mx-auto bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-6 rounded-2xl shadow-md relative">
-            <span class="tex text-xs font-semibold uppercase tracking-wider bg-purple-500 bg-opacity-40 px-2 py-1 rounded">Secundaria - 3º Grado</span>
-            <h1 class="text-3xl font-bold mt-2 flex items-center gap-2">
-                <i class="fas fa-book-open"></i> Regularización de Materias
-            </h1>
-            <p class="text-purple-100 text-base mt-1">Elige una materia, pon a prueba tus conocimientos y aprende con explicaciones paso a paso.</p>
-            <button onclick="signOutUser()" class="absolute top-4 right-4 bg-white bg-opacity-20 hover:bg-opacity-30 text-white text-sm font-semibold px-3 py-1.5 rounded-lg transition">
-                <i class="fas fa-sign-out-alt mr-1"></i> Salir
+        <main class="max-w-3xl mx-auto p-4 mt-4 space-y-6">
+
+            <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r shadow-sm">
+                <div class="flex items-start gap-3">
+                    <i class="fas fa-star text-amber-500 text-xl mt-0.5"></i>
+                    <div>
+                        <h4 class="font-bold text-amber-800 text-lg">¡NUEVO SÚPER PLUS! Elige y Aprende</h4>
+                        <p class="text-base font-semibold text-amber-700 mt-1">Todos nuestros quizes incluyen explicaciones detalladas e instantáneas diseñadas por IA para que entiendas perfectamente cada respuesta.</p>
+                    </div>
+                </div>
+            </div>
+
+            <section id="subjects-grid" class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+
+                <div onclick="intentarAbrir('matematicas')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex flex-col items-center text-center group">
+                    <div class="bg-indigo-100 text-indigo-600 p-3 rounded-xl mb-2"><i class="fas fa-calculator text-2xl"></i></div>
+                    <h3 class="font-bold text-base text-gray-900 group-hover:text-indigo-600 transition">Matemáticas</h3>
+                    <p class="text-xs text-gray-500 mt-1">Álgebra, geometría y aritmética</p>
+                </div>
+
+                <div onclick="intentarAbrir('quimica')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex flex-col items-center text-center group">
+                    <div class="bg-teal-100 text-teal-600 p-3 rounded-xl mb-2"><i class="fas fa-flask text-2xl"></i></div>
+                    <h3 class="font-bold text-base text-gray-900 group-hover:text-teal-600 transition">Química</h3>
+                    <p class="text-xs text-gray-500 mt-1">Tabla periódica y reacciones químicas</p>
+                </div>
+
+                <div onclick="intentarAbrir('ingles')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex flex-col items-center text-center group">
+                    <div class="bg-sky-100 text-sky-600 p-3 rounded-xl mb-2"><i class="fas fa-globe text-2xl"></i></div>
+                    <h3 class="font-bold text-base text-gray-900 group-hover:text-sky-600 transition">Inglés</h3>
+                    <p class="text-xs text-gray-500 mt-1">Vocabulario esencial, gramática y lectura</p>
+                </div>
+
+                <div onclick="intentarAbrir('espanol')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex flex-col items-center text-center group">
+                    <div class="bg-blue-100 text-blue-600 p-3 rounded-xl mb-2"><i class="fas fa-font text-2xl"></i></div>
+                    <h3 class="font-bold text-base text-gray-900 group-hover:text-blue-600 transition">Español</h3>
+                    <p class="text-xs text-gray-500 mt-1">Gramática, comprensión lectora y redacción</p>
+                </div>
+
+                <div onclick="intentarAbrir('historia')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex flex-col items-center text-center group">
+                    <div class="bg-orange-100 text-orange-600 p-3 rounded-xl mb-2"><i class="fas fa-landmark text-2xl"></i></div>
+                    <h3 class="font-bold text-base text-gray-900 group-hover:text-orange-600 transition">Historia</h3>
+                    <p class="text-xs text-gray-500 mt-1">Historia de México y mundial</p>
+                </div>
+
+                <div onclick="intentarAbrir('civica')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex flex-col items-center text-center group">
+                    <div class="bg-rose-100 text-rose-600 p-3 rounded-xl mb-2"><i class="fas fa-balance-scale text-2xl"></i></div>
+                    <h3 class="font-bold text-base text-gray-900 group-hover:text-rose-600 transition">Cívica y Ética</h3>
+                    <p class="text-xs text-gray-500 mt-1">Derechos, deberes y formación cívica</p>
+                </div>
+
+            </section>
+
+            <section id="acceso-cta" class="bg-white p-6 rounded-2xl border-2 border-indigo-100 shadow-md text-center">
+                <i class="fas fa-lock-open text-indigo-500 text-3xl mb-2"></i>
+                <h3 class="font-bold text-xl text-gray-900 mb-1">Desbloquea los 50 quizzes por materia</h3>
+                <p class="text-gray-500 mb-4">Con explicaciones instantáneas diseñadas por IA para cada respuesta.</p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+                    <a href="https://pay.hotmart.com/V106708454D" target="_blank" class="w-full sm:w-auto bg-indigo-600 text-white font-bold px-8 py-3 rounded-xl hover:bg-indigo-700 transition">
+                        <i class="fas fa-fire mr-1"></i> Comprar Reto de Materias - $249 MXN
+                    </a>
+                    <a href="login.html" class="w-full sm:w-auto bg-white border-2 border-indigo-200 text-indigo-700 font-bold px-8 py-3 rounded-xl hover:bg-indigo-50 transition">
+                        <i class="fas fa-check-circle mr-1"></i> Ya tengo acceso - Entrar
+                    </a>
+                </div>
+                <p class="text-xs text-gray-400 mt-4">Si ya pagaste, escríbenos para activarte: <a href="mailto:academia.nexoia@gmail.com" class="text-indigo-600 underline">academia.nexoia@gmail.com</a></p>
+            </section>
+
+            <section class="bg-gradient-to-r from-slate-800 to-slate-900 text-white p-6 rounded-2xl shadow-md border border-slate-700">
+                <div class="text-center mb-4">
+                    <h3 class="font-bold text-xl mb-1">¿Vas a ingresar a la Preparatoria?</h3>
+                    <p class="text-sm font-semibold text-slate-300">Prepárate para los exámenes de admisión más importantes</p>
+                </div>
+
+                <div class="grid grid-cols-3 gap-3 mb-5">
+                    <div class="bg-slate-700 bg-opacity-50 p-3 rounded-xl text-center border border-slate-600 hover:border-amber-500 transition">
+                        <div class="bg-amber-500 text-slate-900 font-black px-3 py-2 rounded-lg text-sm mb-2">COMIPEMS</div>
+                        <p class="text-sm font-semibold text-slate-300">CDMX y Zona Metropolitana</p>
+                    </div>
+                    <div class="bg-slate-700 bg-opacity-50 p-3 rounded-xl text-center border border-slate-600 hover:border-amber-500 transition">
+                        <div class="bg-amber-500 text-slate-900 font-black px-3 py-2 rounded-lg text-sm mb-2">ECOEMS</div>
+                        <p class="text-sm font-semibold text-slate-300">Estado de México</p>
+                    </div>
+                    <div class="bg-slate-700 bg-opacity-50 p-3 rounded-xl text-center border border-slate-600 hover:border-amber-500 transition">
+                        <div class="bg-amber-500 text-slate-900 font-black px-3 py-2 rounded-lg text-sm mb-2">EXANI I</div>
+                        <p class="text-sm font-semibold text-slate-300">Preparatorias Públicas</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+                   <a href="https://exami-prep-guide.lovable.app" target="_blank" class="w-full sm:w-auto text-center bg-amber-500 text-slate-900 font-bold px-6 py-3 rounded-xl text-base shadow hover:bg-amber-400 transition whitespace-nowrap">
+        Ver Simulador EXANI I <i class="fas fa-arrow-right ml-1"></i>
+    </a>
+                   <p class="text-xs text-slate-300 text-center">Te lleva a la plataforma de pago EXANIPrep · 200 preguntas con explicaciones · $149 MXN</p>
+                </div>
+            </section>
+
+         <section id="quiz-container" class="bg-white p-6 rounded-2xl border border-gray-100 shadow-md hidden">
+        <div class="flex items-center justify-between border-b pb-2 mb-4">
+            <h2 id="quiz-title" class="text-2xl font-bold text-gray-900">Materia</h2>
+            <button onclick="goBack()" class="text-sm text-indigo-600 hover:text-indigo-800 font-semibold flex items-center gap-1">
+                <i class="fas fa-arrow-left"></i> Volver
             </button>
         </div>
-    </header>
-
-    <main class="max-w-3xl mx-auto p-4 mt-4 space-y-6">
-        
-        <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r shadow-sm">
-            <div class="flex items-start gap-3">
-                <i class="fas fa-star text-amber-500 text-xl mt-0.5"></i>
-                <div>
-                    <h4 class="font-bold text-amber-800 text-lg">¡NUEVO SÚPER PLUS! Elige y Aprende</h4>
-                    <p class="text-base font-semibold text-amber-700 mt-1">Todos nuestros quizes incluyen explicaciones detalladas e instantáneas diseñadas por IA para que entiendas perfectamente cada respuesta.</p>
-                </div>
-            </div>
+        <div id="progress-bar" class="w-full bg-gray-200 rounded-full h-2.5 mb-4">
+            <div id="progress-fill" class="bg-indigo-600 h-2.5 rounded-full transition-all duration-300" style="width: 0%"></div>
         </div>
-
-        <section id="subjects-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            
-            <div onclick="startQuiz('matematicas')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
-                <div class="flex items-center gap-4">
-                    <div class="bg-indigo-100 text-indigo-600 p-3 rounded-xl"><i class="fas fa-calculator text-2xl"></i></div>
-                    <div>
-                        <h3 class="font-bold text-lg text-gray-900 group-hover:text-indigo-600 transition">Matemáticas</h3>
-                        <p class="text-sm text-gray-500">Álgebra, geometría y aritmética</p>
-                    </div>
-                </div>
-                <i class="fas fa-chevron-right text-gray-300 group-hover:text-indigo-500 transition"></i>
+        <p id="progress-text" class="text-sm text-gray-500 font-medium mb-4">Pregunta 1 de 50</p>
+        <div id="question-box" class="space-y-4">
+            <p id="question-text" class="font-medium text-gray-800 text-lg"></p>
+            <div id="options-box" class="grid grid-cols-1 gap-2"></div>
+            <div id="explanation-box" class="mt-4 p-4 rounded-xl border hidden transition-all duration-300">
+                <h4 class="font-bold text-base mb-1 flex items-center gap-1.5">
+                    <i class="fas fa-lightbulb"></i> Explicación del Maestro:
+                </h4>
+                <p id="explanation-text" class="text-sm leading-relaxed"></p>
             </div>
-
-            <div onclick="startQuiz('quimica')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
-                <div class="flex items-center gap-4">
-                    <div class="bg-teal-100 text-teal-600 p-3 rounded-xl"><i class="fas fa-flask text-2xl"></i></div>
-                    <div>
-                        <h3 class="font-bold text-lg text-gray-900 group-hover:text-teal-600 transition">Química</h3>
-                        <p class="text-sm text-gray-500">Tabla periódica y reacciones químicas</p>
-                    </div>
-                </div>
-                <i class="fas fa-chevron-right text-gray-300 group-hover:text-teal-500 transition"></i>
-            </div>
-
-            <div onclick="startQuiz('ingles')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
-                <div class="flex items-center gap-4">
-                    <div class="bg-sky-100 text-sky-600 p-3 rounded-xl"><i class="fas fa-globe text-2xl"></i></div>
-                    <div>
-                        <h3 class="font-bold text-lg text-gray-900 group-hover:text-sky-600 transition">Inglés</h3>
-                        <p class="text-sm text-gray-500">Vocabulario esencial, gramática y lectura</p>
-                    </div>
-                </div>
-                <i class="fas fa-chevron-right text-gray-300 group-hover:text-sky-500 transition"></i>
-            </div>
-
-            <div onclick="startQuiz('espanol')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
-                <div class="flex items-center gap-4">
-                    <div class="bg-blue-100 text-blue-600 p-3 rounded-xl"><i class="fas fa-font text-2xl"></i></div>
-                    <div>
-                        <h3 class="font-bold text-lg text-gray-900 group-hover:text-blue-600 transition">Español</h3>
-                        <p class="text-sm text-gray-500">Gramática, comprensión lectora y redacción</p>
-                    </div>
-                </div>
-                <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
-            </div>
-
-            <div onclick="startQuiz('historia')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
-                <div class="flex items-center gap-4">
-                    <div class="bg-orange-100 text-orange-600 p-3 rounded-xl"><i class="fas fa-landmark text-2xl"></i></div>
-                    <div>
-                        <h3 class="font-bold text-lg text-gray-900 group-hover:text-orange-600 transition">Historia</h3>
-                        <p class="text-sm text-gray-500">Historia de México y mundial</p>
-                    </div>
-                </div>
-                <i class="fas fa-chevron-right text-gray-300 group-hover:text-orange-500 transition"></i>
-            </div>
-
-            <div onclick="startQuiz('civica')" class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer flex items-center justify-between group">
-                <div class="flex items-center gap-4">
-                    <div class="bg-rose-100 text-rose-600 p-3 rounded-xl"><i class="fas fa-balance-scale text-2xl"></i></div>
-                    <div>
-                        <h3 class="font-bold text-lg text-gray-900 group-hover:text-rose-600 transition">Cívica y Ética</h3>
-                        <p class="text-sm text-gray-500">Derechos, deberes y formación cívica</p>
-                    </div>
-                </div>
-                <i class="fas fa-chevron-right text-gray-300 group-hover:text-rose-500 transition"></i>
-            </div>
-
-        </section>
-
-        <section class="bg-gradient-to-r from-slate-800 to-slate-900 text-white p-6 rounded-2xl shadow-md border border-slate-700">
-            <div class="text-center mb-4">
-                <h3 class="font-bold text-xl mb-1">¿Vas a ingresar a la Preparatoria?</h3>
-                <p class="text-sm font-semibold text-slate-300">Prepárate para los exámenes de admisión más importantes</p>
-            </div>
-            
-            <div class="grid grid-cols-3 gap-3 mb-5">
-                <div class="bg-slate-700 bg-opacity-50 p-3 rounded-xl text-center border border-slate-600 hover:border-amber-500 transition">
-                    <div class="bg-amber-500 text-slate-900 font-black px-3 py-2 rounded-lg text-sm mb-2">COMIPEMS</div>
-                    <p class="text-sm font-semibold text-slate-300">CDMX y Zona Metropolitana</p>
-                </div>
-                <div class="bg-slate-700 bg-opacity-50 p-3 rounded-xl text-center border border-slate-600 hover:border-amber-500 transition">
-                    <div class="bg-amber-500 text-slate-900 font-black px-3 py-2 rounded-lg text-sm mb-2">ECOEMS</div>
-                    <p class="text-sm font-semibold text-slate-300">Estado de México</p>
-                </div>
-                <div class="bg-slate-700 bg-opacity-50 p-3 rounded-xl text-center border border-slate-600 hover:border-amber-500 transition">
-                    <div class="bg-amber-500 text-slate-900 font-black px-3 py-2 rounded-lg text-sm mb-2">EXANI I</div>
-                    <p class="text-sm font-semibold text-slate-300">Preparatorias Públicas</p>
-                </div>
-            </div>
-
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
-               <a href="https://exami-prep-guide.lovable.app" target="_blank" class="w-full sm:w-auto text-center bg-amber-500 text-slate-900 font-bold px-6 py-3 rounded-xl text-base shadow hover:bg-amber-400 transition whitespace-nowrap">
-    Ver Simulador EXANI I <i class="fas fa-arrow-right ml-1"></i>
-</a>
-               <p class="text-xs text-slate-300 text-center">Te lleva a la plataforma de pago EXANIPrep · 200 preguntas con explicaciones · $149 MXN</p>
-            </div>
-        </section>
-
-     <section id="quiz-container" class="bg-white p-6 rounded-2xl border border-gray-100 shadow-md hidden">
-    <div class="flex items-center justify-between border-b pb-2 mb-4">
-        <h2 id="quiz-title" class="text-2xl font-bold text-gray-900">Materia</h2>
-        <button onclick="goBack()" class="text-sm text-indigo-600 hover:text-indigo-800 font-semibold flex items-center gap-1">
-            <i class="fas fa-arrow-left"></i> Volver
-        </button>
-    </div>
-    <div id="progress-bar" class="w-full bg-gray-200 rounded-full h-2.5 mb-4">
-        <div id="progress-fill" class="bg-indigo-600 h-2.5 rounded-full transition-all duration-300" style="width: 0%"></div>
-    </div>
-    <p id="progress-text" class="text-sm text-gray-500 font-medium mb-4">Pregunta 1 de 50</p>
-    <div id="question-box" class="space-y-4">
-        <p id="question-text" class="font-medium text-gray-800 text-lg"></p>
-        <div id="options-box" class="grid grid-cols-1 gap-2"></div>
-        <div id="explanation-box" class="mt-4 p-4 rounded-xl border hidden transition-all duration-300">
-            <h4 class="font-bold text-base mb-1 flex items-center gap-1.5">
-                <i class="fas fa-lightbulb"></i> Explicación del Maestro:
-            </h4>
-            <p id="explanation-text" class="text-sm leading-relaxed"></p>
+            <button id="next-btn" onclick="nextQuestion()" class="hidden w-full mt-4 bg-indigo-600 text-white font-bold py-3 rounded-xl hover:bg-indigo-700 transition flex items-center justify-center gap-2">
+                Siguiente pregunta <i class="fas fa-arrow-right"></i>
+            </button>
         </div>
-        <button id="next-btn" onclick="nextQuestion()" class="hidden w-full mt-4 bg-indigo-600 text-white font-bold py-3 rounded-xl hover:bg-indigo-700 transition flex items-center justify-center gap-2">
-            Siguiente pregunta <i class="fas fa-arrow-right"></i>
-        </button>
-    </div>
-</section>
-   <footer class="text-center text-sm text-gray-400 py-6 border-t mt-6">
-    <p class="mb-1">¿Dudas? Escríbenos a <a href="mailto:academia.nexoia@gmail.com" class="text-indigo-400 hover:text-indigo-300 font-semibold">academia.nexoia@gmail.com</a></p>
-    <p>Síguenos en <a href="https://www.facebook.com/academianexoia/" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-semibold">Facebook: Academia Nexo</a> · Mensajería directa</p>
-</footer>
-    </main>
-
+    </section>
+       <footer class="text-center text-sm text-gray-400 py-6 border-t mt-6">
+        <p class="mb-1">¿Dudas? Escríbenos a <a href="mailto:academia.nexoia@gmail.com" class="text-indigo-400 hover:text-indigo-300 font-semibold">academia.nexoia@gmail.com</a></p>
+        <p>Síguenos en <a href="https://www.facebook.com/academianexoia/" target="_blank" class="text-indigo-400 hover:text-indigo-300 font-semibold">Facebook: Academia Nexo</a> · Mensajería directa</p>
+    </footer>
+        </main>
     </div>
 
 <script>
     let currentQuestions = [];
     let currentIndex = 0;
     let answered = false;
+
+    // Se llama al hacer clic en una materia. Aqui SI se revisa el acceso.
+    function intentarAbrir(materia) {
+        if (!window.tieneAcceso) {
+            document.getElementById('acceso-cta').scrollIntoView({ behavior: 'smooth' });
+            return;
+        }
+        startQuiz(materia);
+    }
 
     async function startQuiz(materia) {
         try {
@@ -247,6 +228,7 @@
             answered = false;
 
             document.getElementById('subjects-grid').classList.add('hidden');
+            document.getElementById('acceso-cta').classList.add('hidden');
             document.getElementById('quiz-container').classList.remove('hidden');
             document.getElementById('quiz-title').innerText = "Quiz: " + data.materia;
 
@@ -325,6 +307,7 @@
     function goBack() {
         document.getElementById('quiz-container').classList.add('hidden');
         document.getElementById('subjects-grid').classList.remove('hidden');
+        document.getElementById('acceso-cta').classList.remove('hidden');
         currentQuestions = [];
         currentIndex = 0;
         window.scrollTo({ top: 0, behavior: 'smooth' });
