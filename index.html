@@ -526,7 +526,355 @@
         </div>
       </div>
     </section>
+<!--
+  ============================================================
+  SECCIÓN "DEMO INTERACTIVA" — 10 preguntas, con contador de
+  aciertos y botón "Siguiente pregunta", igual estructura que
+  tu quiz-card original (mismos colores, misma tipografía).
 
+  Pega este bloque completo justo DESPUÉS de </section> del
+  <section class="hero"> y ANTES de <section id="beneficios">
+  ============================================================
+-->
+
+<style>
+  .demo-interactiva {
+    padding: 60px 8%;
+  }
+
+  .demo-quiz-wrap {
+    max-width: 600px;
+    margin: 40px auto 0;
+  }
+
+  .demo-quiz-card {
+    background: white;
+    padding: 35px;
+    border-radius: 28px;
+    box-shadow: 0 25px 60px rgba(52,84,209,.18);
+    text-align: center;
+  }
+
+  .demo-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+
+  .demo-badge {
+    display: inline-block;
+    background: #dce6ff;
+    color: #3454d1;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+
+  .demo-badge.aciertos {
+    background: #dff8e9;
+    color: #157347;
+  }
+
+  .demo-quiz-card h3 {
+    margin-bottom: 25px;
+    font-size: 25px;
+    line-height: 1.4;
+    font-weight: 800;
+    color: #141a2e;
+  }
+
+  .demo-option {
+    padding: 16px 18px;
+    margin: 10px 0;
+    border-radius: 16px;
+    background: #e8edff;
+    font-weight: 700;
+    font-size: 17px;
+    color: #141a2e;
+    text-align: left;
+    cursor: pointer;
+    transition: transform .15s ease;
+    border: 2px solid transparent;
+  }
+
+  .demo-option:hover {
+    transform: translateY(-2px);
+    background: #dde4ff;
+    border-color: #d4dcf5;
+  }
+
+  .demo-option.is-correct {
+    background: #dff8e9;
+    color: #157347;
+    border-color: #24b36b;
+  }
+
+  .demo-option.is-wrong {
+    background: #ffe1e1;
+    color: #b42318;
+    border-color: #ff6b6b;
+  }
+
+  .demo-option.is-disabled {
+    cursor: default;
+    pointer-events: none;
+  }
+
+  .demo-explanation {
+    margin-top: 25px;
+    background: #fff7df;
+    border-left: 6px solid #ffcc4d;
+    padding: 20px;
+    border-radius: 18px;
+    line-height: 1.6;
+    color: #111111;
+    text-align: left;
+    display: none;
+  }
+
+  .demo-next-btn {
+    background: linear-gradient(135deg, #3454d1, #7b4dff);
+    color: white;
+    padding: 14px 24px;
+    border-radius: 14px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-top: 22px;
+    display: none;
+    box-shadow: 0 10px 25px rgba(52,84,209,.25);
+  }
+
+  .demo-final {
+    display: none;
+  }
+
+  .demo-final .score {
+    font-size: 48px;
+    font-weight: 900;
+    color: #3454d1;
+    margin: 10px 0;
+  }
+
+  .demo-restart-btn {
+    background: white;
+    color: #3454d1;
+    border: 2px solid #3454d1;
+    padding: 12px 24px;
+    border-radius: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 18px;
+  }
+</style>
+
+<section class="demo-interactiva" id="demo">
+  <div class="center">
+    <h2>Pon a prueba a tu hijo</h2>
+    <p class="section-text">
+      10 preguntas de muestra de las cinco materias. Así se siente resolver una actividad completa.
+    </p>
+  </div>
+
+  <div class="demo-quiz-wrap">
+    <div class="demo-quiz-card" id="demoQuizCard">
+
+      <div class="demo-top-row">
+        <span class="demo-badge">Pregunta <span id="demoQNum">1</span> de <span id="demoQTotal">10</span></span>
+        <span class="demo-badge aciertos">Aciertos: <span id="demoScore">0</span></span>
+      </div>
+
+      <h3 id="demoQuestion"></h3>
+      <div id="demoOptions"></div>
+      <div class="demo-explanation" id="demoExplanation"></div>
+      <button class="demo-next-btn" id="demoNextBtn">Siguiente pregunta →</button>
+
+      <div class="demo-final" id="demoFinal">
+        <h3>¡Completaste la demo!</h3>
+        <div class="score"><span id="demoFinalScore">0</span>/10</div>
+        <p id="demoFinalMsg" style="color:#4b5563;"></p>
+        <button class="demo-restart-btn" id="demoRestartBtn">Volver a intentar</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  var demoPreguntas = [
+    {
+      question: "Si f(x) = x² − 4x + 3, ¿para qué valores de x se cumple f(x) = 0?",
+      options: ["x = 2 y x = 2", "x = 1 y x = 3", "x = −1 y x = −3", "x = 0 y x = 4"],
+      correct: 1,
+      explanation: "Factorizando: x² − 4x + 3 = (x − 1)(x − 3). Los valores que hacen cero la expresión son x = 1 y x = 3."
+    },
+    {
+      question: "Un rectángulo tiene un área de 45 cm² y su base mide 4 cm más que su altura. ¿Cuál es la altura?",
+      options: ["9 cm", "5 cm", "7 cm", "12 cm"],
+      correct: 1,
+      explanation: "Si la altura es h, la base es h+4, y h(h+4)=45. Resolviendo: h² + 4h − 45 = 0, que factoriza como (h−5)(h+9)=0, por lo que h = 5 cm."
+    },
+    {
+      question: "En la oración \"El libro que compré ayer, el cual tenía la portada roja, se perdió\", ¿qué tipo de oración subordinada introduce \"el cual\"?",
+      options: ["Subordinada sustantiva", "Subordinada adverbial", "Subordinada adjetiva explicativa", "Subordinada adjetiva especificativa"],
+      correct: 2,
+      explanation: "\"El cual\" introduce una subordinada adjetiva explicativa, separada por comas, que añade información adicional sin ser esencial para identificar al sustantivo."
+    },
+    {
+      question: "¿Cuál de las siguientes oraciones usa correctamente el modo subjuntivo?",
+      options: ["Espero que tú vienes a la fiesta.", "Espero que tú venías a la fiesta.", "Espero que tú vendrás a la fiesta.", "Espero que tú vengas a la fiesta."],
+      correct: 3,
+      explanation: "Los verbos que expresan deseo o esperanza, como \"esperar que\", requieren el modo subjuntivo en la oración subordinada: \"vengas\"."
+    },
+    {
+      question: "¿Cuántos átomos de hidrógeno hay en dos moléculas de ácido sulfúrico (H₂SO₄)?",
+      options: ["4", "2", "6", "8"],
+      correct: 0,
+      explanation: "Cada molécula de H₂SO₄ tiene 2 átomos de hidrógeno. En dos moléculas: 2 × 2 = 4 átomos de hidrógeno."
+    },
+    {
+      question: "¿Por qué la molécula de CO₂ es no polar, a pesar de tener enlaces C=O polares?",
+      options: ["Porque no existen enlaces covalentes en el CO₂", "Porque su forma lineal hace que los momentos dipolares se cancelen", "Porque el carbono y el oxígeno tienen la misma electronegatividad", "Porque el CO₂ es un elemento puro"],
+      correct: 1,
+      explanation: "Aunque cada enlace C=O es polar, la geometría lineal y simétrica del CO₂ hace que los momentos dipolares se cancelen entre sí, resultando en una molécula no polar."
+    },
+    {
+      question: "¿Cuál fue una consecuencia directa de la Revolución Mexicana reflejada en la Constitución de 1917?",
+      options: ["La reinstauración de la monarquía", "La eliminación de la educación pública", "Derechos laborales y reforma agraria", "La alianza con el Imperio Austrohúngaro"],
+      correct: 2,
+      explanation: "La Constitución de 1917 incorporó, en sus artículos 27 y 123, el reconocimiento de derechos laborales y las bases de la reforma agraria."
+    },
+    {
+      question: "¿Qué distingue a un régimen totalitario, como la Alemania nazi o la URSS estalinista, de una dictadura tradicional?",
+      options: ["La ausencia completa de un líder visible", "La celebración de elecciones libres y competidas", "La descentralización total del poder político", "Controla totalmente la vida social e ideológica"],
+      correct: 3,
+      explanation: "El totalitarismo se distingue por buscar el control absoluto no solo del poder político, sino también de la vida social, cultural e ideológica de la población."
+    },
+    {
+      question: "¿Cuál es la diferencia esencial entre igualdad y equidad?",
+      options: ["Igualdad da lo mismo a todos; equidad da según necesidad", "Son sinónimos exactos sin ninguna diferencia", "La equidad solo aplica en el ámbito económico", "La igualdad es un valor legal y la equidad es otro distinto"],
+      correct: 0,
+      explanation: "La igualdad da el mismo trato a todos por igual, mientras que la equidad da a cada persona lo que necesita según su situación, para lograr una igualdad real."
+    },
+    {
+      question: "¿Por qué la separación de poderes es fundamental para evitar el autoritarismo?",
+      options: ["Porque permite que el Ejecutivo controle a los otros dos", "Porque impide que un solo poder concentre todo el control", "Porque elimina por completo la necesidad de tener leyes", "Porque concentra el poder judicial en el presidente"],
+      correct: 1,
+      explanation: "La separación de poderes evita que una sola persona o institución concentre y abuse del control total del Estado, garantizando equilibrio y contrapesos."
+    }
+  ];
+
+  var current = 0;
+  var score = 0;
+  var answered = false;
+
+  var elQuestion = document.getElementById("demoQuestion");
+  var elOptions = document.getElementById("demoOptions");
+  var elExplanation = document.getElementById("demoExplanation");
+  var elNextBtn = document.getElementById("demoNextBtn");
+  var elQNum = document.getElementById("demoQNum");
+  var elScore = document.getElementById("demoScore");
+  var elFinal = document.getElementById("demoFinal");
+  var elFinalScore = document.getElementById("demoFinalScore");
+  var elFinalMsg = document.getElementById("demoFinalMsg");
+  var elRestartBtn = document.getElementById("demoRestartBtn");
+  var elQuizCard = document.getElementById("demoQuizCard");
+
+  function renderQuestion() {
+    answered = false;
+    var q = demoPreguntas[current];
+    elQNum.textContent = current + 1;
+    elQuestion.textContent = q.question;
+    elExplanation.style.display = "none";
+    elExplanation.textContent = "";
+    elNextBtn.style.display = "none";
+    elOptions.innerHTML = "";
+
+    var letras = ["A", "B", "C", "D"];
+    q.options.forEach(function (optText, idx) {
+      var div = document.createElement("div");
+      div.className = "demo-option";
+      div.textContent = letras[idx] + ") " + optText;
+      div.addEventListener("click", function () {
+        if (answered) return;
+        answered = true;
+        selectOption(idx);
+      });
+      elOptions.appendChild(div);
+    });
+  }
+
+  function selectOption(idx) {
+    var q = demoPreguntas[current];
+    var optionEls = elOptions.querySelectorAll(".demo-option");
+
+    optionEls.forEach(function (el, i) {
+      el.classList.add("is-disabled");
+      if (i === q.correct) {
+        el.classList.add("is-correct");
+      } else if (i === idx) {
+        el.classList.add("is-wrong");
+      }
+    });
+
+    if (idx === q.correct) {
+      score++;
+      elScore.textContent = score;
+    }
+
+    elExplanation.innerHTML = "<strong>Explicación:</strong><br>" + q.explanation;
+    elExplanation.style.display = "block";
+    elNextBtn.style.display = "inline-block";
+    elNextBtn.textContent = current === demoPreguntas.length - 1 ? "Ver resultado →" : "Siguiente pregunta →";
+  }
+
+  elNextBtn.addEventListener("click", function () {
+    current++;
+    if (current >= demoPreguntas.length) {
+      showFinal();
+    } else {
+      renderQuestion();
+    }
+  });
+
+  function showFinal() {
+    elQuizCard.querySelector(".demo-top-row").style.display = "none";
+    elQuestion.style.display = "none";
+    elOptions.style.display = "none";
+    elExplanation.style.display = "none";
+    elNextBtn.style.display = "none";
+    elFinal.style.display = "block";
+    elFinalScore.textContent = score;
+
+    var msg;
+    if (score === 10) {
+      msg = "¡Excelente! Dominaste las 5 materias.";
+    } else if (score >= 7) {
+      msg = "¡Muy buen resultado! Con un poco más de práctica lo dominará por completo.";
+    } else if (score >= 4) {
+      msg = "Buen intento. La práctica mensual ayuda a reforzar justo estos temas.";
+    } else {
+      msg = "Aquí es donde Maestro de Bolsillo hace la diferencia: práctica constante mes a mes.";
+    }
+    elFinalMsg.textContent = msg;
+  }
+
+  elRestartBtn.addEventListener("click", function () {
+    current = 0;
+    score = 0;
+    elScore.textContent = "0";
+    elQuizCard.querySelector(".demo-top-row").style.display = "flex";
+    elQuestion.style.display = "block";
+    elOptions.style.display = "block";
+    elFinal.style.display = "none";
+    renderQuestion();
+  });
+
+  renderQuestion();
+})();
+</script>
   <section id="beneficios">
   <div class="center">
     <h2>Refuerza lo que aprende en la escuela</h2>
