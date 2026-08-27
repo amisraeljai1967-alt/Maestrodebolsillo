@@ -511,57 +511,18 @@
           <a href="login.html" class="btn btn-outline">✅ Ya tengo acceso · Entrar</a>
         </div>
       </div>
-
-      <div class="quiz-card">
-        <h3>Pregunta de práctica</h3>
-        <p><strong>¿Cuál es el resultado de 3x + 5 = 20?</strong></p>
-
-        <div class="option correct">x = 5</div>
-        <div class="option">x = 7</div>
-        <div class="option">x = 15</div>
-
-        <div class="explanation">
-          <strong>Explicación:</strong><br>
-          Restamos 5 de ambos lados: 3x = 15. Luego dividimos entre 3: x = 5.
-        </div>
-      </div>
-    </section>
 <!--
   ============================================================
-  SECCIÓN "DEMO INTERACTIVA" — 10 preguntas, con contador de
-  aciertos y botón "Siguiente pregunta", igual estructura que
-  tu quiz-card original (mismos colores, misma tipografía).
+  REEMPLAZO de la tarjeta estática del hero por el quiz
+  interactivo de 10 preguntas con contador de aciertos.
 
-  Pega este bloque completo justo DESPUÉS de </section> del
-  <section class="hero"> y ANTES de <section id="beneficios">
+  Esto sustituye TODO el bloque:
+  <div class="quiz-card"> ... </div>
+  que estaba dentro de <section class="hero">
   ============================================================
 -->
 
 <style>
-  .demo-interactiva {
-    padding: 60px 8%;
-  }
-
-  .demo-quiz-wrap {
-    max-width: 600px;
-    margin: 40px auto 0;
-  }
-
-  .demo-quiz-card {
-    background: white;
-    padding: 35px;
-    border-radius: 28px;
-    box-shadow: 0 25px 60px rgba(52,84,209,.18);
-    text-align: center;
-  }
-
-  .demo-top-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 18px;
-  }
-
   .demo-badge {
     display: inline-block;
     background: #dce6ff;
@@ -582,6 +543,13 @@
     line-height: 1.4;
     font-weight: 800;
     color: #141a2e;
+  }
+
+  .demo-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
   }
 
   .demo-option {
@@ -669,37 +637,26 @@
   }
 </style>
 
-<section class="demo-interactiva" id="demo">
-  <div class="center">
-    <h2>Pon a prueba a tu hijo</h2>
-    <p class="section-text">
-      10 preguntas de muestra de las cinco materias. Así se siente resolver una actividad completa.
-    </p>
+<div class="quiz-card demo-quiz-card" id="demoQuizCard">
+
+  <div class="demo-top-row">
+    <span class="demo-badge">Pregunta <span id="demoQNum">1</span> de <span id="demoQTotal">10</span></span>
+    <span class="demo-badge aciertos">Aciertos: <span id="demoScore">0</span></span>
   </div>
 
-  <div class="demo-quiz-wrap">
-    <div class="demo-quiz-card" id="demoQuizCard">
+  <h3 id="demoQuestion"></h3>
+  <div id="demoOptions"></div>
+  <div class="demo-explanation" id="demoExplanation"></div>
+  <button class="demo-next-btn" id="demoNextBtn">Siguiente pregunta →</button>
 
-      <div class="demo-top-row">
-        <span class="demo-badge">Pregunta <span id="demoQNum">1</span> de <span id="demoQTotal">10</span></span>
-        <span class="demo-badge aciertos">Aciertos: <span id="demoScore">0</span></span>
-      </div>
-
-      <h3 id="demoQuestion"></h3>
-      <div id="demoOptions"></div>
-      <div class="demo-explanation" id="demoExplanation"></div>
-      <button class="demo-next-btn" id="demoNextBtn">Siguiente pregunta →</button>
-
-      <div class="demo-final" id="demoFinal">
-        <h3>¡Completaste la demo!</h3>
-        <div class="score"><span id="demoFinalScore">0</span>/10</div>
-        <p id="demoFinalMsg" style="color:#4b5563;"></p>
-        <button class="demo-restart-btn" id="demoRestartBtn">Volver a intentar</button>
-      </div>
-
-    </div>
+  <div class="demo-final" id="demoFinal">
+    <h3>¡Completaste la demo!</h3>
+    <div class="score"><span id="demoFinalScore">0</span>/10</div>
+    <p id="demoFinalMsg" style="color:#4b5563;"></p>
+    <button class="demo-restart-btn" id="demoRestartBtn">Volver a intentar</button>
   </div>
-</section>
+
+</div>
 
 <script>
 (function () {
@@ -875,6 +832,8 @@
   renderQuestion();
 })();
 </script>
+    </section> 
+
   <section id="beneficios">
   <div class="center">
     <h2>Refuerza lo que aprende en la escuela</h2>
