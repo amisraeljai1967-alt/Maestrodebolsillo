@@ -1,0 +1,353 @@
+[
+  {
+    "question": "¿Cuál es la solución del sistema de ecuaciones: x + y = 10 y x − y = 4?",
+    "options": {"A": "x = 7, y = 3", "B": "x = 6, y = 4", "C": "x = 8, y = 2", "D": "x = 5, y = 5"},
+    "correctAnswer": "A",
+    "explanation": "Sumando ambas ecuaciones se elimina la variable y: 2x = 14, por lo que x = 7. Sustituyendo en la primera ecuación: 7 + y = 10, entonces y = 3.",
+    "subject": "Matemáticas", "topic": "Sistemas de ecuaciones", "level": "Intermedio"
+  },
+  {
+    "question": "En el sistema 2x + y = 8 y x − y = 1, ¿cuánto vale y?",
+    "options": {"A": "y = 5", "B": "y = 2", "C": "y = 3", "D": "y = 4"},
+    "correctAnswer": "B",
+    "explanation": "Sumando las ecuaciones: 3x = 9, por lo que x = 3. Sustituyendo en la segunda: 3 − y = 1, entonces y = 2.",
+    "subject": "Matemáticas", "topic": "Sistemas de ecuaciones", "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué par ordenado satisface el sistema 3x − y = 5 y x + 2y = 4?",
+    "options": {"A": "(2, 3)", "B": "(1, 4)", "C": "(2, 1)", "D": "(3, 4)"},
+    "correctAnswer": "C",
+    "explanation": "Sustituyendo (2, 1): 3(2) − 1 = 5 y 2 + 2(1) = 4. Ambas ecuaciones se cumplen.",
+    "subject": "Matemáticas", "topic": "Sistemas de ecuaciones", "level": "Intermedio"
+  },
+  {
+    "question": "Si x = y, ¿cuál es el valor de x en el sistema 4x + 3y = 21?",
+    "options": {"A": "x = 4", "B": "x = 3", "C": "x = 6", "D": "x = 5"},
+    "correctAnswer": "B",
+    "explanation": "Como x = y, sustituimos: 4x + 3x = 21 → 7x = 21 → x = 3.",
+    "subject": "Matemáticas", "topic": "Sistemas de ecuaciones", "level": "Intermedio"
+  },
+  {
+    "question": "Un sistema de ecuaciones tiene infinitas soluciones cuando las rectas son:",
+    "options": {"A": "La misma recta", "B": "Perpendiculares", "C": "Paralelas distintas", "D": "Secantes"},
+    "correctAnswer": "A",
+    "explanation": "Si ambas ecuaciones representan la misma recta, comparten todos los puntos y el sistema tiene infinitas soluciones.",
+    "subject": "Matemáticas", "topic": "Sistemas de ecuaciones", "level": "Basico"
+  },
+  {
+    "question": "¿Cuánto vale y en el sistema x + 3y = 12 y 2x − 3y = 6?",
+    "options": {"A": "y = 2", "B": "y = 3", "C": "y = 4", "D": "y = 1"},
+    "correctAnswer": "A",
+    "explanation": "Sumando las ecuaciones: 3x = 18 → x = 6. Sustituyendo: 6 + 3y = 12 → y = 2.",
+    "subject": "Matemáticas", "topic": "Sistemas de ecuaciones", "level": "Intermedio"
+  },
+  {
+    "question": "Si la suma de dos números es 15 y su diferencia es 3, ¿cuáles son los números?",
+    "options": {"A": "10 y 5", "B": "9 y 6", "C": "8 y 7", "D": "12 y 3"},
+    "correctAnswer": "B",
+    "explanation": "Sistema: x + y = 15 y x − y = 3. Sumando: 2x = 18 → x = 9, entonces y = 6.",
+    "subject": "Matemáticas", "topic": "Sistemas de ecuaciones", "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué método consiste en multiplicar ecuaciones para eliminar una variable al sumarlas?",
+    "options": {"A": "Sustitución", "B": "Igualación", "C": "Gráfico", "D": "Reducción"},
+    "correctAnswer": "D",
+    "explanation": "El método de reducción (suma y resta) busca eliminar una variable haciendo sus coeficientes iguales pero de signo contrario.",
+    "subject": "Matemáticas", "topic": "Sistemas de ecuaciones", "level": "Basico"
+  },
+  {
+    "question": "En el sistema 5x − 2y = 16 y 3x + 2y = 8, ¿cuánto vale x?",
+    "options": {"A": "x = 3", "B": "x = 4", "C": "x = 2", "D": "x = 5"},
+    "correctAnswer": "A",
+    "explanation": "Sumando las ecuaciones: 8x = 24 → x = 3.",
+    "subject": "Matemáticas", "topic": "Sistemas de ecuaciones", "level": "Intermedio"
+  },
+  {
+    "question": "Un sistema de ecuaciones no tiene solución cuando las rectas son:",
+    "options": {"A": "Rectas secantes", "B": "Coincidentes", "C": "Paralelas", "D": "Perpendiculares"},
+    "correctAnswer": "C",
+    "explanation": "Las rectas paralelas distintas nunca se intersectan, por lo que el sistema no tiene solución.",
+    "subject": "Matemáticas", "topic": "Sistemas de ecuaciones", "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la pendiente de la recta y = 3x − 5?",
+    "options": {"A": "−5", "B": "3", "C": "5", "D": "−3"},
+    "correctAnswer": "B",
+    "explanation": "En la forma y = mx + b, la pendiente es m. Aquí m = 3.",
+    "subject": "Matemáticas", "topic": "Funciones lineales", "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la ordenada al origen de la recta y = −2x + 7?",
+    "options": {"A": "7", "B": "2", "C": "−2", "D": "−7"},
+    "correctAnswer": "A",
+    "explanation": "La ordenada al origen es el valor de b en y = mx + b. Aquí b = 7.",
+    "subject": "Matemáticas", "topic": "Funciones lineales", "level": "Basico"
+  },
+  {
+    "question": "¿Qué tipo de función representa la ecuación y = 4x + 1?",
+    "options": {"A": "Lineal", "B": "Constante", "C": "Cuadrática", "D": "Exponencial"},
+    "correctAnswer": "A",
+    "explanation": "Es una función lineal porque es de primer grado (exponente 1 en x).",
+    "subject": "Matemáticas", "topic": "Funciones lineales", "level": "Basico"
+  },
+  {
+    "question": "Si f(x) = 2x − 3, ¿cuál es f(5)?",
+    "options": {"A": "7", "B": "13", "C": "10", "D": "−3"},
+    "correctAnswer": "A",
+    "explanation": "Sustituyendo: f(5) = 2(5) − 3 = 10 − 3 = 7.",
+    "subject": "Matemáticas", "topic": "Funciones lineales", "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la ecuación de la recta con pendiente 2 y ordenada al origen −1?",
+    "options": {"A": "y = x − 2", "B": "y = 2x + 1", "C": "y = −x + 2", "D": "y = 2x − 1"},
+    "correctAnswer": "D",
+    "explanation": "Usando y = mx + b, con m = 2 y b = −1: y = 2x − 1.",
+    "subject": "Matemáticas", "topic": "Funciones lineales", "level": "Intermedio"
+  },
+  {
+    "question": "Si una función lineal tiene pendiente negativa, la recta:",
+    "options": {"A": "Es horizontal", "B": "Es creciente", "C": "Es vertical", "D": "Es decreciente"},
+    "correctAnswer": "D",
+    "explanation": "Pendiente negativa significa que la recta es decreciente (baja de izquierda a derecha).",
+    "subject": "Matemáticas", "topic": "Funciones lineales", "level": "Basico"
+  },
+  {
+    "question": "¿En qué punto corta al eje x la recta y = 3x − 9?",
+    "options": {"A": "(0, −9)", "B": "(3, 0)", "C": "(9, 0)", "D": "(−3, 0)"},
+    "correctAnswer": "B",
+    "explanation": "Igualamos y = 0: 0 = 3x − 9 → x = 3. El punto es (3, 0).",
+    "subject": "Matemáticas", "topic": "Funciones lineales", "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la pendiente de cualquier recta horizontal?",
+    "options": {"A": "Indefinida", "B": "1", "C": "−1", "D": "0"},
+    "correctAnswer": "D",
+    "explanation": "Las rectas horizontales no varían en y, por lo que su pendiente es 0.",
+    "subject": "Matemáticas", "topic": "Funciones lineales", "level": "Basico"
+  },
+  {
+    "question": "Si g(x) = −x + 4, ¿para qué valor de x se cumple g(x) = 0?",
+    "options": {"A": "x = −4", "B": "x = 4", "C": "x = 0", "D": "x = 2"},
+    "correctAnswer": "B",
+    "explanation": "−x + 4 = 0 → x = 4.",
+    "subject": "Matemáticas", "topic": "Funciones lineales", "level": "Basico"
+  },
+  {
+    "question": "¿Qué representa la pendiente en una función lineal?",
+    "options": {"A": "El corte con el eje y", "B": "El valor máximo de la función", "C": "La tasa de cambio de y respecto a x", "D": "El punto de intersección de las rectas"},
+    "correctAnswer": "C",
+    "explanation": "La pendiente indica cuánto cambia y por cada unidad que cambia x.",
+    "subject": "Matemáticas", "topic": "Funciones lineales", "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la media aritmética de 4, 6, 8, 10, 12?",
+    "options": {"A": "8", "B": "6", "C": "10", "D": "7"},
+    "correctAnswer": "A",
+    "explanation": "Suma = 40. Media = 40 / 5 = 8.",
+    "subject": "Matemáticas", "topic": "Estadística", "level": "Basico"
+  },
+  {
+    "question": "En el conjunto {3, 5, 7, 7, 9, 11}, ¿cuál es la moda?",
+    "options": {"A": "7", "B": "9", "C": "5", "D": "11"},
+    "correctAnswer": "A",
+    "explanation": "La moda es el valor que más se repite. Aquí el 7 aparece dos veces.",
+    "subject": "Matemáticas", "topic": "Estadística", "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la mediana de 2, 4, 6, 8, 10?",
+    "options": {"A": "4", "B": "8", "C": "6", "D": "5"},
+    "correctAnswer": "C",
+    "explanation": "En un conjunto impar ordenado, la mediana es el valor central: 6.",
+    "subject": "Matemáticas", "topic": "Estadística", "level": "Basico"
+  },
+  {
+    "question": "¿Qué medida de tendencia central no se afecta mucho por valores extremos?",
+    "options": {"A": "Media", "B": "Mediana", "C": "Moda", "D": "Rango"},
+    "correctAnswer": "B",
+    "explanation": "La mediana es más resistente a valores atípicos.",
+    "subject": "Matemáticas", "topic": "Estadística", "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el rango del conjunto 5, 12, 3, 19, 8?",
+    "options": {"A": "14", "B": "19", "C": "16", "D": "11"},
+    "correctAnswer": "C",
+    "explanation": "Rango = valor máximo − valor mínimo = 19 − 3 = 16.",
+    "subject": "Matemáticas", "topic": "Estadística", "level": "Basico"
+  },
+  {
+    "question": "La frecuencia relativa se calcula como:",
+    "options": {"A": "Frecuencia entre total", "B": "La suma de las frecuencias absolutas", "C": "El valor que más se repite", "D": "El valor central de los datos"},
+    "correctAnswer": "A",
+    "explanation": "Es la proporción que representa cada valor respecto al total.",
+    "subject": "Matemáticas", "topic": "Estadística", "level": "Intermedio"
+  },
+  {
+    "question": "Si la media de 4 números es 9, ¿cuál es su suma?",
+    "options": {"A": "36", "B": "13", "C": "45", "D": "27"},
+    "correctAnswer": "A",
+    "explanation": "Suma = Media × Cantidad de datos = 9 × 4 = 36.",
+    "subject": "Matemáticas", "topic": "Estadística", "level": "Intermedio"
+  },
+  {
+    "question": "En {1, 2, 2, 3, 4, 4, 4, 5}, ¿cuál es la moda?",
+    "options": {"A": "Ninguna", "B": "2", "C": "4", "D": "2 y 4"},
+    "correctAnswer": "C",
+    "explanation": "El 4 es el valor que más se repite (3 veces).",
+    "subject": "Matemáticas", "topic": "Estadística", "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la mediana de 11, 3, 7, 15, 9, 5?",
+    "options": {"A": "7", "B": "9", "C": "8", "D": "10"},
+    "correctAnswer": "C",
+    "explanation": "Ordenados: 3, 5, 7, 9, 11, 15. Mediana = (7 + 9)/2 = 8.",
+    "subject": "Matemáticas", "topic": "Estadística", "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué gráfica es mejor para mostrar evolución a lo largo del tiempo?",
+    "options": {"A": "Barras", "B": "Circular", "C": "Líneas", "D": "Pictograma"},
+    "correctAnswer": "C",
+    "explanation": "Las gráficas de líneas muestran tendencias temporales claramente.",
+    "subject": "Matemáticas", "topic": "Estadística", "level": "Basico"
+  },
+  {
+    "question": "Al lanzar un dado de 6 caras, ¿cuál es la probabilidad de obtener un número par?",
+    "options": {"A": "1/3", "B": "2/3", "C": "1/6", "D": "1/2"},
+    "correctAnswer": "D",
+    "explanation": "Hay 3 números pares (2,4,6) de 6 posibles → 3/6 = 1/2.",
+    "subject": "Matemáticas", "topic": "Probabilidad", "level": "Basico"
+  },
+  {
+    "question": "En una urna con 3 esferas rojas y 7 azules, ¿cuál es la probabilidad de sacar una roja?",
+    "options": {"A": "3/7", "B": "7/10", "C": "3/10", "D": "1/3"},
+    "correctAnswer": "C",
+    "explanation": "3 rojas de 10 totales → 3/10.",
+    "subject": "Matemáticas", "topic": "Probabilidad", "level": "Basico"
+  },
+  {
+    "question": "La probabilidad de un evento imposible es:",
+    "options": {"A": "1", "B": "0.5", "C": "0", "D": "Indefinida"},
+    "correctAnswer": "C",
+    "explanation": "Un evento imposible tiene probabilidad 0.",
+    "subject": "Matemáticas", "topic": "Probabilidad", "level": "Basico"
+  },
+  {
+    "question": "Al lanzar una moneda, ¿cuál es la probabilidad de obtener águila?",
+    "options": {"A": "1.0", "B": "0.25", "C": "0.0", "D": "0.5"},
+    "correctAnswer": "D",
+    "explanation": "Dos resultados igualmente probables → 1/2 = 0.5.",
+    "subject": "Matemáticas", "topic": "Probabilidad", "level": "Basico"
+  },
+  {
+    "question": "En una baraja de 52 cartas, ¿probabilidad de sacar un as?",
+    "options": {"A": "1/13", "B": "1/4", "C": "1/52", "D": "4/13"},
+    "correctAnswer": "A",
+    "explanation": "4 ases de 52 cartas → 4/52 = 1/13.",
+    "subject": "Matemáticas", "topic": "Probabilidad", "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la probabilidad de sacar un 7 con un dado de 6 caras?",
+    "options": {"A": "1/6", "B": "1/7", "C": "0", "D": "1"},
+    "correctAnswer": "C",
+    "explanation": "No existe el número 7 en el dado → probabilidad 0.",
+    "subject": "Matemáticas", "topic": "Probabilidad", "level": "Basico"
+  },
+  {
+    "question": "Si la probabilidad de que llueva es 0.3, ¿cuál es la probabilidad de que NO llueva?",
+    "options": {"A": "0.3", "B": "0.6", "C": "0.7", "D": "0.4"},
+    "correctAnswer": "C",
+    "explanation": "Probabilidad del evento complementario: 1 − 0.3 = 0.7.",
+    "subject": "Matemáticas", "topic": "Probabilidad", "level": "Intermedio"
+  },
+  {
+    "question": "Si eliges un número del 1 al 20 al azar, ¿probabilidad de que sea múltiplo de 5?",
+    "options": {"A": "1/5", "B": "1/4", "C": "1/10", "D": "3/20"},
+    "correctAnswer": "A",
+    "explanation": "Múltiplos de 5: 5,10,15,20 → 4 de 20 = 1/5.",
+    "subject": "Matemáticas", "topic": "Probabilidad", "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál de estos es un número irracional?",
+    "options": {"A": "0.75", "B": "√9", "C": "√2", "D": "3/4"},
+    "correctAnswer": "C",
+    "explanation": "√2 es irracional porque su decimal es infinito y no periódico.",
+    "subject": "Matemáticas", "topic": "Números irracionales", "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el resultado de √16 + √25?",
+    "options": {"A": "√41", "B": "9", "C": "41", "D": "20"},
+    "correctAnswer": "B",
+    "explanation": "√16 = 4 y √25 = 5 → 4 + 5 = 9.",
+    "subject": "Matemáticas", "topic": "Números irracionales", "level": "Basico"
+  },
+  {
+    "question": "¿Cuál de estos es un número racional?",
+    "options": {"A": "π", "B": "√3", "C": "√5", "D": "0.666..."},
+    "correctAnswer": "D",
+    "explanation": "0.666... = 2/3, que es una fracción.",
+    "subject": "Matemáticas", "topic": "Números irracionales", "level": "Intermedio"
+  },
+  {
+    "question": "¿Entre qué números enteros se encuentra √50?",
+    "options": {"A": "Entre 6 y 7", "B": "Entre 7 y 8", "C": "Entre 5 y 6", "D": "Entre 8 y 9"},
+    "correctAnswer": "B",
+    "explanation": "7² = 49 y 8² = 64. Como 50 está entre 49 y 64, √50 está entre 7 y 8.",
+    "subject": "Matemáticas", "topic": "Números irracionales", "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuánto vale (√3)²?",
+    "options": {"A": "√3", "B": "9", "C": "6", "D": "3"},
+    "correctAnswer": "D",
+    "explanation": "La raíz cuadrada y el cuadrado se cancelan → (√3)² = 3.",
+    "subject": "Matemáticas", "topic": "Números irracionales", "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el resultado de 2√5 × 3√5?",
+    "options": {"A": "6√10", "B": "5√6", "C": "30", "D": "15"},
+    "correctAnswer": "C",
+    "explanation": "2×3 = 6 y √5×√5 = 5 → 6×5 = 30.",
+    "subject": "Matemáticas", "topic": "Números irracionales", "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es un número irracional?",
+    "options": {"A": "−5", "B": "0.25", "C": "7/3", "D": "√11"},
+    "correctAnswer": "D",
+    "explanation": "√11 tiene decimales infinitos no periódicos.",
+    "subject": "Matemáticas", "topic": "Números irracionales", "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la distancia entre (0,0) y (3,4)?",
+    "options": {"A": "7", "B": "5", "C": "12", "D": "25"},
+    "correctAnswer": "B",
+    "explanation": "Distancia = √(3² + 4²) = √(9+16) = √25 = 5.",
+    "subject": "Matemáticas", "topic": "Geometría analítica", "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuáles son las coordenadas del punto medio entre (2,6) y (8,2)?",
+    "options": {"A": "(6, 4)", "B": "(5, 4)", "C": "(4, 5)", "D": "(3, 8)"},
+    "correctAnswer": "B",
+    "explanation": "((2+8)/2, (6+2)/2) = (5, 4).",
+    "subject": "Matemáticas", "topic": "Geometría analítica", "level": "Intermedio"
+  },
+  {
+    "question": "¿En qué cuadrante se encuentra el punto (−3, 5)?",
+    "options": {"A": "I", "B": "II", "C": "III", "D": "IV"},
+    "correctAnswer": "B",
+    "explanation": "x negativo y y positivo → Cuadrante II.",
+    "subject": "Matemáticas", "topic": "Geometría analítica", "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la distancia entre (1,2) y (4,6)?",
+    "options": {"A": "3", "B": "4", "C": "5", "D": "7"},
+    "correctAnswer": "C",
+    "explanation": "√((4-1)² + (6-2)²) = √(9+16) = √25 = 5.",
+    "subject": "Matemáticas", "topic": "Geometría analítica", "level": "Intermedio"
+  },
+  {
+    "question": "El punto (0, −4) se encuentra:",
+    "options": {"A": "Sobre el eje x", "B": "En el origen", "C": "Sobre el eje y", "D": "En el tercer cuadrante"},
+    "correctAnswer": "C",
+    "explanation": "Cuando x = 0, el punto está sobre el eje y.",
+    "subject": "Matemáticas", "topic": "Geometría analítica", "level": "Basico"
+  }
+]
+
