@@ -1,0 +1,703 @@
+[
+  {
+    "question": "¿Qué es la idea principal de un texto?",
+    "options": {
+      "A": "El pensamiento más importante que el autor desea comunicar",
+      "B": "El título que resume de forma atractiva el contenido global",
+      "C": "La conclusión que se redacta en el último párrafo del escrito",
+      "D": "El conjunto de datos secundarios que apoyan los argumentos"
+    },
+    "correctAnswer": "A",
+    "explanation": "La idea principal es el mensaje central que el autor quiere transmitir; todas las ideas secundarias giran en torno a ella.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué tipo de texto tiene como propósito convencer al lector de adoptar una postura?",
+    "options": {
+      "A": "Texto descriptivo minucioso",
+      "B": "Texto argumentativo",
+      "C": "Texto narrativo cronológico",
+      "D": "Texto expositivo detallado"
+    },
+    "correctAnswer": "B",
+    "explanation": "El texto argumentativo busca persuadir o convencer al lector mediante razonamientos, evidencias y opiniones fundamentadas.",
+    "subject": "Español",
+    "topic": "Tipos de texto",
+    "level": "Basico"
+  },
+  {
+    "question": "En un texto expositivo, ¿cuál es su función principal?",
+    "options": {
+      "A": "Narrar una historia con personajes en un tiempo determinado",
+      "B": "Expresar las emociones y la perspectiva estética del autor",
+      "C": "Crear suspenso y entretenimiento en el público lector",
+      "D": "Informar y explicar un tema de manera clara y objetiva"
+    },
+    "correctAnswer": "D",
+    "explanation": "El texto expositivo tiene como objetivo informar, explicar o desarrollar un tema de forma clara y objetiva, sin incluir opiniones personales.",
+    "subject": "Español",
+    "topic": "Tipos de texto",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es una inferencia en la comprensión lectora?",
+    "options": {
+      "A": "Copiar textualmente los fragmentos más importantes del autor",
+      "B": "Buscar el significado de las palabras desconocidas del texto",
+      "C": "Identificar la estructura sintáctica de los párrafos",
+      "D": "Deducir información que no está escrita explícitamente"
+    },
+    "correctAnswer": "D",
+    "explanation": "Inferir significa obtener conclusiones a partir de datos o pistas presentes en el texto, aunque la información no esté dicha de forma directa.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la función de un párrafo de conclusión en un texto?",
+    "options": {
+      "A": "Cerrar el texto resumiendo las ideas principales",
+      "B": "Introducir el tema general y captar de inmediato la atención del lector",
+      "C": "Presentar los personajes o los antecedentes del problema",
+      "D": "Agregar datos e información complementaria al desarrollo"
+    },
+    "correctAnswer": "A",
+    "explanation": "El párrafo de conclusión cierra el texto retomando o sintetizando las ideas más importantes, sin agregar información nueva.",
+    "subject": "Español",
+    "topic": "Estructura textual",
+    "level": "Intermedio"
+  },
+  {
+    "question": "Lee el siguiente fragmento: 'La ciudad estaba desierta; nadie se atrevía a salir.' ¿Qué figura retórica se usa principalmente en la segunda frase?",
+    "options": {
+      "A": "Hipérbole",
+      "B": "Metáfora",
+      "C": "Símil",
+      "D": "Personificación"
+    },
+    "correctAnswer": "A",
+    "explanation": "La hipérbole es una exageración con fines expresivos. Decir que 'nadie' salía se usa para intensificar la sensación de soledad absoluta en el relato.",
+    "subject": "Español",
+    "topic": "Figuras retóricas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué estrategia de lectura consiste en revisar rápidamente el texto para identificar su estructura general antes de leerlo a detalle?",
+    "options": {
+      "A": "Lectura literal detallada",
+      "B": "Prelectura",
+      "C": "Lectura crítica profunda",
+      "D": "Relectura analítica exhaustiva"
+    },
+    "correctAnswer": "B",
+    "explanation": "La prelectura o lectura de exploración permite identificar títulos, subtítulos e imágenes para anticipar el contenido antes de la lectura detallada.",
+    "subject": "Español",
+    "topic": "Estrategias de lectura",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál de los siguientes elementos NO pertenece a la estructura de un texto argumentativo?",
+    "options": {
+      "A": "Nudo y desenlace",
+      "B": "Argumentos sólidos",
+      "C": "Tesis u opinión",
+      "D": "Conclusión formal"
+    },
+    "correctAnswer": "A",
+    "explanation": "El nudo y el desenlace son elementos propios del texto narrativo. El texto argumentativo se estructura en tesis, argumentos y conclusión.",
+    "subject": "Español",
+    "topic": "Tipos de texto",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué significa leer 'entre líneas'?",
+    "options": {
+      "A": "Leer el texto con una velocidad mayor a la habitual",
+      "B": "Analizar únicamente los enunciados principales del párrafo",
+      "C": "Comprender lo que el autor comunica de forma implícita",
+      "D": "Identificar los errores ortográficos que tiene el escrito"
+    },
+    "correctAnswer": "C",
+    "explanation": "Leer entre líneas implica captar mensajes implícitos, intenciones o significados que el autor no expresa de forma directa pero que se pueden deducir.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre el tema y la idea principal de un texto?",
+    "options": {
+      "A": "El tema indica de qué trata el texto; la idea principal expresa lo más importante",
+      "B": "El tema resume la conclusión general; la idea principal plantea los argumentos de apoyo",
+      "C": "El tema expone las posturas contrarias; la idea principal defiende el punto de vista del autor",
+      "D": "El tema se redacta en enunciados extensos; la idea principal se limita al título del escrito"
+    },
+    "correctAnswer": "A",
+    "explanation": "El tema responde a '¿de qué trata el texto?', mientras que la idea principal responde a '¿qué es lo más importante que dice el autor sobre ese tema?'.",
+    "subject": "Español",
+    "topic": "Comprensión lectora",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál de las siguientes palabras está escrita correctamente?",
+    "options": {
+      "A": "Abia",
+      "B": "Havía",
+      "C": "Avia",
+      "D": "Había"
+    },
+    "correctAnswer": "D",
+    "explanation": "La forma correcta es 'había', forma del verbo 'haber' en pretérito imperfecto. Se escribe con 'h' y con 'b'.",
+    "subject": "Español",
+    "topic": "Ortografía",
+    "level": "Basico"
+  },
+  {
+    "question": "¿En cuál de estos casos se usa 'porque' (junto y sin tilde)?",
+    "options": {
+      "A": "No comprendo el porque de tu decisión.",
+      "B": "Estudia mucho, porque te irá excelente.",
+      "C": "¿Porque decidiste faltar a la escuela?",
+      "D": "El motivo porque vine ya lo conoces."
+    },
+    "correctAnswer": "B",
+    "explanation": "'Porque' (junto, sin tilde) es una conjunción causal que introduce una causa o razón. Equivale a decir 'ya que' o 'puesto que'.",
+    "subject": "Español",
+    "topic": "Ortografía",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál de las siguientes oraciones presenta un error de concordancia gramatical?",
+    "options": {
+      "A": "El grupo de alumnos aprobaron el examen.",
+      "B": "El perro y el gato juegan en la sala.",
+      "C": "Las maestras revisan las tareas por la tarde.",
+      "D": "María y Juan estudian juntos en la biblioteca."
+    },
+    "correctAnswer": "A",
+    "explanation": "El sujeto 'El grupo' es un sustantivo colectivo en singular, por lo que el verbo debe concordar en singular: 'El grupo de alumnos aprobó'.",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué tipo de oración es: 'Por favor, cierra la puerta'?",
+    "options": {
+      "A": "Enunciativa",
+      "B": "Exclamativa",
+      "C": "Interrogativa",
+      "D": "Imperativa"
+    },
+    "correctAnswer": "D",
+    "explanation": "La oración imperativa expresa una orden, petición o ruego. 'Cierra la puerta' es un mandato, por lo que es una oración imperativa.",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es el sujeto de la oración: 'Los alumnos de tercero ganaron el concurso'?",
+    "options": {
+      "A": "ganaron el concurso",
+      "B": "el concurso escolar",
+      "C": "de tercero de secundaria",
+      "D": "Los alumnos de tercero"
+    },
+    "correctAnswer": "D",
+    "explanation": "El sujeto es quien realiza la acción del verbo. En esta oración, 'Los alumnos de tercero' son quienes ganaron, por lo que es el sujeto.",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué función cumple el adverbio 'muy' en la oración 'Ella corre muy rápido'?",
+    "options": {
+      "A": "Modifica al adverbio 'rápido'",
+      "B": "Funciona como núcleo del predicado",
+      "C": "Modifica directamente al sustantivo",
+      "D": "Indica el tiempo de la acción verbal"
+    },
+    "correctAnswer": "A",
+    "explanation": "El adverbio 'muy' modifica al adverbio 'rápido', intensificando su significado. Los adverbios pueden modificar a otros adverbios, adjetivos o verbos.",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál de las siguientes palabras está acentuada correctamente según las reglas ortográficas?",
+    "options": {
+      "A": "Árbol",
+      "B": "Exámen",
+      "C": "Cancion",
+      "D": "Sabado"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Árbol' es una palabra grave que termina en una consonante distinta de 'n' o 's', por lo que lleva tilde de forma obligatoria.",
+    "subject": "Español",
+    "topic": "Ortografía",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es el predicado de la oración: 'Mi hermana toca el piano todos los días'?",
+    "options": {
+      "A": "Mi hermana mayor",
+      "B": "el piano nuevo",
+      "C": "todos los días por la tarde",
+      "D": "toca el piano todos los días"
+    },
+    "correctAnswer": "D",
+    "explanation": "El predicado es todo lo que se dice del sujeto. El sujeto es 'Mi hermana' y el predicado es 'toca el piano todos los días'.",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál de las siguientes oraciones usa correctamente el punto y coma (;)?",
+    "options": {
+      "A": "Me gustan las manzanas; y las peras.",
+      "B": "Estudié mucho; no aprobé el examen.",
+      "C": "Fui al mercado; después compré pan y leche.",
+      "D": "El cielo es azul; hermoso y despejado."
+    },
+    "correctAnswer": "B",
+    "explanation": "El punto y coma se usa correctamente antes de conectores adversativos como 'sin embargo', 'no obstante' o 'por lo tanto' cuando las oraciones tienen cierta extensión.",
+    "subject": "Español",
+    "topic": "Puntuación",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es la forma correcta del verbo 'haber' en tercera persona del plural del presente de indicativo?",
+    "options": {
+      "A": "Han",
+      "B": "Habrán",
+      "C": "Hubo",
+      "D": "Habemos"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Han' es la forma correcta del verbo 'haber' en tercera persona del plural del presente de indicativo (ellos han). 'Hubemos' y 'habemos' son incorrectos en español estándar.",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuándo se usa la coma vocativa?",
+    "options": {
+      "A": "Para separar los elementos de una lista de compras",
+      "B": "Para separar una aclaración dentro de la oración",
+      "C": "Antes de usar una conjunción copulativa como 'y'",
+      "D": "Para nombrar directamente a quien se habla"
+    },
+    "correctAnswer": "D",
+    "explanation": "La coma vocativa separa el nombre o apelativo de la persona a quien se dirige el hablante: por ejemplo, 'Juan, ven aquí' o 'Ven aquí, Juan'.",
+    "subject": "Español",
+    "topic": "Puntuación",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál de estas palabras es un pronombre relativo?",
+    "options": {
+      "A": "Pero",
+      "B": "Aunque",
+      "C": "Cuando",
+      "D": "Que"
+    },
+    "correctAnswer": "D",
+    "explanation": "'Que' es un pronombre relativo que introduce una oración subordinada y hace referencia a un antecedente mencionado antes, como en 'El libro que leí era interesante'.",
+    "subject": "Español",
+    "topic": "Gramática",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la característica principal del género narrativo?",
+    "options": {
+      "A": "Expresar el mundo interior del autor mediante versos y rimas",
+      "B": "Relatar hechos o acontecimientos a través de una voz narrativa",
+      "C": "Presentar conflictos humanos para ser representados en un escenario",
+      "D": "Describir de forma técnica procesos científicos de la naturaleza"
+    },
+    "correctAnswer": "B",
+    "explanation": "El género narrativo relata hechos, reales o ficticios, a través de un narrador. Sus principales formas son el cuento, la novela y la fábula.",
+    "subject": "Español",
+    "topic": "Literatura",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es el narrador omnisciente?",
+    "options": {
+      "A": "El personaje principal que cuenta su propia experiencia",
+      "B": "Un testigo que relata solo lo que observa superficialmente",
+      "C": "Una voz que conoce los pensamientos e intenciones de todos",
+      "D": "El autor real que firma el libro al concluir la obra"
+    },
+    "correctAnswer": "C",
+    "explanation": "El narrador omnisciente lo sabe todo sobre los personajes: sus pensamientos, sentimientos y acciones, incluso los que ocurren en distintos lugares al mismo tiempo.",
+    "subject": "Español",
+    "topic": "Literatura",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué figura retórica compara dos elementos usando los nexos 'como' o 'cual'?",
+    "options": {
+      "A": "Metáfora",
+      "B": "Hipérbole",
+      "C": "Símil",
+      "D": "Aliteración"
+    },
+    "correctAnswer": "C",
+    "explanation": "El símil o comparación establece una semejanza entre dos elementos usando nexos comparativos como 'como', 'cual' o 'parece'. Ejemplo: 'Sus ojos brillan como estrellas'.",
+    "subject": "Español",
+    "topic": "Figuras retóricas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál de los siguientes enunciados es un ejemplo de metáfora?",
+    "options": {
+      "A": "Ella corre tan veloz como el viento en invierno.",
+      "B": "El tiempo es oro y debemos aprovecharlo siempre.",
+      "C": "El sol brilló con mucha fuerza durante la tarde.",
+      "D": "El perro guardián ladró ruidosamente toda la noche."
+    },
+    "correctAnswer": "B",
+    "explanation": "La metáfora identifica directamente un elemento con otro sin usar nexos comparativos. Traslada las propiedades del 'oro' (valioso) al 'tiempo'.",
+    "subject": "Español",
+    "topic": "Figuras retóricas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué elemento del cuento presenta la situación inicial y a los personajes?",
+    "options": {
+      "A": "El nudo",
+      "B": "El desenlace",
+      "C": "El clímax",
+      "D": "Introducción"
+    },
+    "correctAnswer": "D",
+    "explanation": "La introducción o planteamiento es la parte inicial del cuento donde se presenta el contexto, los personajes y la situación antes de que surja el conflicto.",
+    "subject": "Español",
+    "topic": "Literatura",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre rima consonante y rima asonante?",
+    "options": {
+      "A": "La rima consonante repite solo las vocales y la asonante repite todas las sílabas",
+      "B": "La rima asonante coincide en textos en prosa y la consonante ocurre solo en poemas",
+      "C": "La consonante repite todos los sonidos desde la vocal tónica; la asonante, solo las vocales",
+      "D": "No existe ninguna diferencia estructural real, pues ambas buscan lograr la misma musicalidad poética"
+    },
+    "correctAnswer": "C",
+    "explanation": "En la rima consonante coinciden todos los sonidos (vocales y consonantes) desde la última vocal tónica. En la asonante solo coinciden las vocales en esa posición.",
+    "subject": "Español",
+    "topic": "Literatura",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué es la aliteración?",
+    "options": {
+      "A": "La repetición de sonidos para crear un efecto fónico",
+      "B": "La exageración desmedida y excesiva de una cualidad en el poema",
+      "C": "La comparación directa entre dos objetos reales",
+      "D": "El uso intencional de palabras opuestas en el verso"
+    },
+    "correctAnswer": "A",
+    "explanation": "La aliteración es la repetición de un mismo sonido o fonema al inicio de palabras en un verso o frase, creando un efecto musical. Ejemplo: 'Tres tristes tigres'.",
+    "subject": "Español",
+    "topic": "Figuras retóricas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál de las siguientes obras pertenece al género dramático?",
+    "options": {
+      "A": "Cien años de soledad",
+      "B": "Romeo y Julieta",
+      "C": "El principito",
+      "D": "Platero y yo"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Romeo y Julieta' de Shakespeare es una obra de teatro, perteneciente al género dramático. Las otras obras son novelas o relatos narrativos.",
+    "subject": "Español",
+    "topic": "Literatura",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la personificación o prosopopeya?",
+    "options": {
+      "A": "Repetir el mismo sonido al inicio de varias palabras",
+      "B": "Exagerar de manera desmedida una cualidad o sentimiento",
+      "C": "Atribuir características humanas a seres u objetos",
+      "D": "Usar una palabra en lugar de otra por semejanza"
+    },
+    "correctAnswer": "C",
+    "explanation": "La personificación atribuye acciones, sentimientos o características humanas a objetos, animales o fenómenos naturales. Ejemplo: 'El viento susurró entre los árboles'.",
+    "subject": "Español",
+    "topic": "Figuras retóricas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿En qué se diferencia principalmente un cuento de una novela?",
+    "options": {
+      "A": "El cuento posee un fin moralizante y la novela es puramente informativa",
+      "B": "La novela presenta una trama más compleja, más personajes y mayor extensión",
+      "C": "El cuento utiliza versos medidos y la novela se escribe de forma libre",
+      "D": "La novela requiere obligatoriamente un narrador que hable en primera persona"
+    },
+    "correctAnswer": "B",
+    "explanation": "La novela se distingue del cuento por su mayor extensión, multiplicidad de personajes, subtramas y desarrollo más complejo de la historia.",
+    "subject": "Español",
+    "topic": "Literatura",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es el primer paso del proceso de escritura?",
+    "options": {
+      "A": "Planificar el tema y el propósito",
+      "B": "Revisar cuidadosamente la ortografía y la gramática",
+      "C": "Publicar el texto ya terminado",
+      "D": "Redactar directamente el borrador final"
+    },
+    "correctAnswer": "A",
+    "explanation": "El proceso de escritura inicia con la planificación, donde se define qué se va a escribir, para quién, con qué propósito y qué ideas se van a incluir.",
+    "subject": "Español",
+    "topic": "Producción de textos",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es un borrador en el proceso de escritura?",
+    "options": {
+      "A": "La versión definitiva del texto lista para publicar",
+      "B": "Un resumen breve del texto original ya publicado",
+      "C": "La primera versión del texto, antes de revisarla",
+      "D": "El esquema o mapa mental del texto"
+    },
+    "correctAnswer": "C",
+    "explanation": "El borrador es la primera versión del texto, no definitiva, que se escribe para luego revisar, corregir y mejorar antes de obtener la versión final.",
+    "subject": "Español",
+    "topic": "Producción de textos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál de los siguientes textos tiene una intención comunicativa informativa?",
+    "options": {
+      "A": "Un poema de amor romántico",
+      "B": "Una noticia periodística",
+      "C": "Una obra de teatro clásica",
+      "D": "Un cuento de terror clásico"
+    },
+    "correctAnswer": "B",
+    "explanation": "La noticia periodística tiene una intención comunicativa informativa: su propósito es dar a conocer hechos reales de manera objetiva.",
+    "subject": "Español",
+    "topic": "Tipos de texto",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué característica distingue a una carta formal de una informal?",
+    "options": {
+      "A": "La carta formal carece de un destinatario explícito en su formato",
+      "B": "La carta informal presenta mayor extensión y un lenguaje técnico",
+      "C": "La carta formal emplea lenguaje institucional y fórmulas de cortesía",
+      "D": "La carta informal se limita exclusivamente a la comunicación familiar"
+    },
+    "correctAnswer": "C",
+    "explanation": "La carta formal se distingue por usar un lenguaje respetuoso, fórmulas de saludo y despedida formales, y una estructura organizada, independientemente de quién sea el destinatario.",
+    "subject": "Español",
+    "topic": "Tipos de texto",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la coherencia en un texto?",
+    "options": {
+      "A": "El uso correcto de signos de puntuación",
+      "B": "La relación lógica entre las ideas del texto",
+      "C": "La rima cuidadosa entre las palabras del texto poético",
+      "D": "El vocabulario avanzado que se utiliza"
+    },
+    "correctAnswer": "B",
+    "explanation": "La coherencia es la propiedad del texto que garantiza que las ideas estén relacionadas de manera lógica y ordenada, formando un todo con sentido.",
+    "subject": "Español",
+    "topic": "Propiedades textuales",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la función de los conectores textuales como 'además', 'sin embargo' y 'por lo tanto'?",
+    "options": {
+      "A": "Decorar el texto con palabras rebuscadas y elegantes",
+      "B": "Indicar claramente quién es el autor original del texto",
+      "C": "Unir y organizar las ideas del texto",
+      "D": "Separar visualmente los párrafos y secciones del texto"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los conectores textuales sirven para unir oraciones y párrafos, estableciendo relaciones lógicas como adición ('además'), contraste ('sin embargo') o consecuencia ('por lo tanto').",
+    "subject": "Español",
+    "topic": "Propiedades textuales",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál de estas opciones es un ejemplo de texto instructivo?",
+    "options": {
+      "A": "Una novela histórica",
+      "B": "Un ensayo filosófico",
+      "C": "Una receta de cocina",
+      "D": "Un poema épico"
+    },
+    "correctAnswer": "C",
+    "explanation": "El texto instructivo indica pasos o procedimientos a seguir para realizar algo. Una receta de cocina es el ejemplo más claro de texto instructivo.",
+    "subject": "Español",
+    "topic": "Tipos de texto",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la cohesión en un texto?",
+    "options": {
+      "A": "Los mecanismos gramaticales que conectan el texto",
+      "B": "La capacidad del texto para emocionar profundamente al lector",
+      "C": "El uso exclusivo y constante de sinónimos en el texto",
+      "D": "La extensión adecuada y equilibrada de cada párrafo"
+    },
+    "correctAnswer": "A",
+    "explanation": "La cohesión son los recursos gramaticales y léxicos (pronombres, conectores, sinónimos, elipsis) que dan unidad y continuidad al texto.",
+    "subject": "Español",
+    "topic": "Propiedades textuales",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuáles son los elementos básicos del proceso comunicativo?",
+    "options": {
+      "A": "El texto, el lector y su comprensión",
+      "B": "Emisor, receptor, mensaje, canal y código",
+      "C": "Las palabras, oraciones y párrafos",
+      "D": "El autor, el narrador y el personaje"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los elementos básicos del proceso comunicativo son: emisor (quien envía), receptor (quien recibe), mensaje (la información), canal (medio) y código (sistema de signos).",
+    "subject": "Español",
+    "topic": "Comunicación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es el registro lingüístico?",
+    "options": {
+      "A": "La cantidad total de palabras que conoce y domina una persona",
+      "B": "La variación del lenguaje según el contexto y la situación",
+      "C": "Los errores ortográficos que se cometen constantemente al escribir",
+      "D": "El acento o la entonación propia de una región geográfica"
+    },
+    "correctAnswer": "B",
+    "explanation": "El registro lingüístico es la variedad de lenguaje que usamos según la situación comunicativa: no hablamos igual con amigos que en una entrevista de trabajo.",
+    "subject": "Español",
+    "topic": "Sociolingüística",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cuál es la función del lenguaje cuando decimos '¡Qué bonito día!'?",
+    "options": {
+      "A": "Referencial o informativa",
+      "B": "Apelativa o conativa",
+      "C": "Expresiva o emotiva",
+      "D": "Metalingüística"
+    },
+    "correctAnswer": "C",
+    "explanation": "La función expresiva o emotiva se centra en el emisor y expresa sus sentimientos, emociones o estados de ánimo. '¡Qué bonito día!' expresa cómo se siente el hablante.",
+    "subject": "Español",
+    "topic": "Funciones del lenguaje",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la función apelativa o conativa del lenguaje?",
+    "options": {
+      "A": "Explicar aspectos gramaticales de la propia lengua",
+      "B": "Influir en la conducta del receptor",
+      "C": "Manifestar de forma íntima los estados emocionales del emisor",
+      "D": "Transmitir con precisión datos y descripciones de la realidad objetiva"
+    },
+    "correctAnswer": "B",
+    "explanation": "La función apelativa se centra en el receptor con el objetivo de influir en su comportamiento: órdenes, peticiones, preguntas directas o publicidad.",
+    "subject": "Español",
+    "topic": "Funciones del lenguaje",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un sinónimo?",
+    "options": {
+      "A": "Una palabra que se escribe igual pero tiene distinto significado",
+      "B": "Una palabra con significado opuesto a otra",
+      "C": "Una palabra con significado igual o muy similar a otra",
+      "D": "Una palabra que suena igual pero se escribe diferente"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los sinónimos son palabras que tienen el mismo significado o un significado muy similar. Por ejemplo, 'feliz' y 'alegre' son sinónimos.",
+    "subject": "Español",
+    "topic": "Léxico",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la definición de antónimo?",
+    "options": {
+      "A": "Palabra que tiene el mismo significado que otra",
+      "B": "Palabra que se pronuncia igual que otra",
+      "C": "Palabra que pertenece a la misma familia léxica",
+      "D": "Palabra que tiene el significado opuesto a otra"
+    },
+    "correctAnswer": "D",
+    "explanation": "Los antónimos son palabras con significados opuestos o contrarios. Por ejemplo, 'frío' y 'caliente', 'alto' y 'bajo'.",
+    "subject": "Español",
+    "topic": "Léxico",
+    "level": "Basico"
+  },
+  {
+    "question": "En español, ¿qué son las palabras homófonas?",
+    "options": {
+      "A": "Términos que comparten exactamente el mismo significado",
+      "B": "Palabras que suenan igual pero se escriben distinto",
+      "C": "Vocablos que proceden del mismo origen etimológico histórico",
+      "D": "Conceptos que expresan ideas completamente opuestas entre sí"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los homófonos son palabras que suenan igual al pronunciarse pero se escriben de forma diferente y tienen significados distintos. Ejemplo: 'vaca' y 'baca', 'hola' y 'ola'.",
+    "subject": "Español",
+    "topic": "Léxico",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre lenguaje formal e informal?",
+    "options": {
+      "A": "El lenguaje formal se limita a textos escritos y el informal al habla social",
+      "B": "El lenguaje informal presenta sistemáticamente faltas graves a la ortografía",
+      "C": "El formal sigue normas estrictas; el informal es más espontáneo y cercano",
+      "D": "El lenguaje formal es un uso exclusivo de las personas adultas y profesionales"
+    },
+    "correctAnswer": "C",
+    "explanation": "El lenguaje formal se usa en situaciones serias o profesionales y respeta las normas gramaticales; el informal es más libre, espontáneo y propio de situaciones cotidianas.",
+    "subject": "Español",
+    "topic": "Sociolingüística",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un campo semántico?",
+    "options": {
+      "A": "La puntuación correcta y precisa de un texto extenso",
+      "B": "Un conjunto de palabras relacionadas por un mismo tema",
+      "C": "Las palabras que comparten la misma raíz gramatical y origen",
+      "D": "Las palabras que riman perfectamente entre sí al final"
+    },
+    "correctAnswer": "B",
+    "explanation": "Un campo semántico es un grupo de palabras que comparten un tema o ámbito común. Por ejemplo, 'silla', 'mesa', 'sofá' y 'cama' pertenecen al campo semántico del mobiliario.",
+    "subject": "Español",
+    "topic": "Léxico",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la función referencial o informativa del lenguaje?",
+    "options": {
+      "A": "Expresar abiertamente los sentimientos del hablante",
+      "B": "Influir en la conducta del receptor",
+      "C": "Hablar y reflexionar sobre el lenguaje mismo",
+      "D": "Transmitir información objetiva de la realidad"
+    },
+    "correctAnswer": "D",
+    "explanation": "La función referencial o informativa se centra en el contenido del mensaje y tiene como objetivo transmitir información de manera objetiva sobre hechos o situaciones de la realidad.",
+    "subject": "Español",
+    "topic": "Funciones del lenguaje",
+    "level": "Basico"
+  }
+]
+
