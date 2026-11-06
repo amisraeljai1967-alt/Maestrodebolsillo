@@ -1,0 +1,703 @@
+[
+  {
+    "question": "¿Qué es un átomo?",
+    "options": {
+      "A": "La unidad más pequeña de una sustancia",
+      "B": "Una partícula formada por varios protones y neutrones",
+      "C": "El núcleo central de un elemento químico",
+      "D": "Una molécula extremadamente pequeña"
+    },
+    "correctAnswer": "A",
+    "explanation": "El átomo es la unidad más pequeña de un elemento químico que conserva sus propiedades.",
+    "subject": "Química",
+    "topic": "Estructura atómica",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la carga eléctrica de los electrones?",
+    "options": {
+      "A": "Positiva",
+      "B": "Negativa",
+      "C": "Neutra",
+      "D": "Variable"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los electrones tienen carga eléctrica negativa.",
+    "subject": "Química",
+    "topic": "Estructura atómica",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué partículas se encuentran en el núcleo del átomo?",
+    "options": {
+      "A": "Electrones y protones",
+      "B": "Electrones y neutrones",
+      "C": "Protones y neutrones",
+      "D": "Solo electrones"
+    },
+    "correctAnswer": "C",
+    "explanation": "El núcleo contiene protones (carga positiva) y neutrones (sin carga).",
+    "subject": "Química",
+    "topic": "Estructura atómica",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué número indica la cantidad de protones en un átomo?",
+    "options": {
+      "A": "Número de masa",
+      "B": "Número molecular",
+      "C": "Número de valencia",
+      "D": "Número atómico"
+    },
+    "correctAnswer": "D",
+    "explanation": "El número atómico (Z) indica la cantidad de protones.",
+    "subject": "Química",
+    "topic": "Estructura atómica",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es un isótopo?",
+    "options": {
+      "A": "Átomos del mismo elemento con distintos neutrones",
+      "B": "Átomos del mismo elemento con diferente número de protones",
+      "C": "Átomos con diferente número atómico y masa",
+      "D": "Moléculas formadas por átomos de elementos diferentes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Los isótopos son átomos del mismo elemento (mismo número atómico) pero con distinto número de masa.",
+    "subject": "Química",
+    "topic": "Estructura atómica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué tipo de enlace se forma entre un metal y un no metal?",
+    "options": {
+      "A": "Enlace covalente",
+      "B": "Enlace iónico",
+      "C": "Enlace metálico",
+      "D": "Enlace hidrógeno"
+    },
+    "correctAnswer": "B",
+    "explanation": "El enlace iónico se forma por transferencia de electrones entre metales y no metales.",
+    "subject": "Química",
+    "topic": "Enlace químico",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué ocurre en un enlace covalente?",
+    "options": {
+      "A": "Se transfieren electrones",
+      "B": "Se pierden electrones",
+      "C": "Se comparten electrones",
+      "D": "Se gana un protón"
+    },
+    "correctAnswer": "C",
+    "explanation": "En el enlace covalente los átomos comparten pares de electrones.",
+    "subject": "Química",
+    "topic": "Enlace químico",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la fórmula correcta del agua?",
+    "options": {
+      "A": "H₂O₂",
+      "B": "HO₂",
+      "C": "OH₂",
+      "D": "H₂O"
+    },
+    "correctAnswer": "D",
+    "explanation": "La fórmula molecular del agua es H₂O.",
+    "subject": "Química",
+    "topic": "Compuestos y fórmulas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué tipo de mezcla es el agua con sal disuelta?",
+    "options": {
+      "A": "Solución (mezcla homogénea)",
+      "B": "Mezcla heterogénea visible",
+      "C": "Una suspensión turbia",
+      "D": "Un coloide"
+    },
+    "correctAnswer": "A",
+    "explanation": "El agua con sal es una solución (mezcla homogénea).",
+    "subject": "Química",
+    "topic": "Mezclas y soluciones",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es un compuesto químico?",
+    "options": {
+      "A": "Una simple mezcla física de dos o más elementos distintos",
+      "B": "Sustancia formada por elementos unidos químicamente",
+      "C": "Un solo elemento químico puro",
+      "D": "Una solución de gases mezclados"
+    },
+    "correctAnswer": "B",
+    "explanation": "Un compuesto es una sustancia formada por la combinación química de dos o más elementos.",
+    "subject": "Química",
+    "topic": "Compuestos y fórmulas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la propiedad característica de los ácidos?",
+    "options": {
+      "A": "Sabor amargo",
+      "B": "pH mayor a 7",
+      "C": "Sabor agrio y pH menor a 7",
+      "D": "No conducen la electricidad"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los ácidos tienen sabor agrio y pH menor a 7.",
+    "subject": "Química",
+    "topic": "Ácidos y bases",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué ocurre cuando un ácido reacciona con una base?",
+    "options": {
+      "A": "Se forma únicamente agua pura",
+      "B": "No ocurre absolutamente ninguna reacción química",
+      "C": "Se libera oxígeno puro al ambiente",
+      "D": "Se neutraliza y se forma sal y agua"
+    },
+    "correctAnswer": "D",
+    "explanation": "La reacción entre un ácido y una base se llama neutralización y produce sal y agua.",
+    "subject": "Química",
+    "topic": "Ácidos y bases",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la tabla periódica?",
+    "options": {
+      "A": "Organización de los elementos por propiedades",
+      "B": "Una lista extensa de compuestos comunes",
+      "C": "Un calendario detallado de reacciones químicas",
+      "D": "Un listado completo de ácidos y bases"
+    },
+    "correctAnswer": "A",
+    "explanation": "La tabla periódica organiza los elementos según su número atómico y propiedades químicas.",
+    "subject": "Química",
+    "topic": "Tabla periódica",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué significa el símbolo 'Na' en la tabla periódica?",
+    "options": {
+      "A": "Nitrógeno",
+      "B": "Sodio",
+      "C": "Neón",
+      "D": "Níquel"
+    },
+    "correctAnswer": "B",
+    "explanation": "Na es el símbolo del sodio.",
+    "subject": "Química",
+    "topic": "Tabla periódica",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué tipo de elemento es el oxígeno?",
+    "options": {
+      "A": "Metal",
+      "B": "Metaloide",
+      "C": "No metal",
+      "D": "Gas noble"
+    },
+    "correctAnswer": "C",
+    "explanation": "El oxígeno es un no metal.",
+    "subject": "Química",
+    "topic": "Tabla periódica",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la combustión?",
+    "options": {
+      "A": "La disolución de un sólido pesado en agua",
+      "B": "La unión permanente de dos metales distintos",
+      "C": "La evaporación rápida de un líquido caliente",
+      "D": "Reacción rápida con oxígeno que libera energía"
+    },
+    "correctAnswer": "D",
+    "explanation": "La combustión es una reacción química exotérmica con oxígeno.",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué ley establece que la masa se conserva en una reacción química?",
+    "options": {
+      "A": "Ley de Lavoisier",
+      "B": "Ley de Proust",
+      "C": "Ley de Boyle",
+      "D": "Ley de Charles"
+    },
+    "correctAnswer": "A",
+    "explanation": "La ley de la conservación de la masa (Lavoisier) dice que la masa total se mantiene constante.",
+    "subject": "Química",
+    "topic": "Leyes de la química",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un reactivo en una ecuación química?",
+    "options": {
+      "A": "La sustancia final que se produce",
+      "B": "La sustancia que reacciona primero",
+      "C": "El producto secundario no deseado",
+      "D": "El catalizador de la reacción"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los reactivos son las sustancias que reaccionan al inicio de la reacción.",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué indica el símbolo (g) en una ecuación química?",
+    "options": {
+      "A": "Sólido",
+      "B": "Líquido",
+      "C": "Gas",
+      "D": "Disolución acuosa"
+    },
+    "correctAnswer": "C",
+    "explanation": "(g) significa que la sustancia se encuentra en estado gaseoso.",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la oxidación?",
+    "options": {
+      "A": "La ganancia de electrones",
+      "B": "La disolución de un gas",
+      "C": "La formación de un precipitado",
+      "D": "La pérdida de electrones"
+    },
+    "correctAnswer": "D",
+    "explanation": "La oxidación es la pérdida de electrones.",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la función principal de los catalizadores?",
+    "options": {
+      "A": "Acelerar la reacción sin consumirse",
+      "B": "Consumirse completamente durante la reacción",
+      "C": "Disminuir la temperatura necesaria",
+      "D": "Cambiar los productos finales"
+    },
+    "correctAnswer": "A",
+    "explanation": "Los catalizadores aceleran las reacciones químicas sin consumirse.",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué tipo de reacción es: 2H₂ + O₂ → 2H₂O?",
+    "options": {
+      "A": "Descomposición",
+      "B": "Síntesis o combinación",
+      "C": "Sustitución",
+      "D": "Doble desplazamiento"
+    },
+    "correctAnswer": "B",
+    "explanation": "Es una reacción de síntesis porque se forma una sustancia a partir de varias.",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la concentración de una solución?",
+    "options": {
+      "A": "La temperatura exacta a la que se disuelve",
+      "B": "El volumen total de la solución",
+      "C": "La cantidad de soluto en el disolvente",
+      "D": "El color de la solución"
+    },
+    "correctAnswer": "C",
+    "explanation": "La concentración indica la cantidad de soluto respecto al disolvente o solución.",
+    "subject": "Química",
+    "topic": "Mezclas y soluciones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué sucede al aumentar la temperatura en la solubilidad de un sólido en agua?",
+    "options": {
+      "A": "Disminuye siempre",
+      "B": "Se forma un precipitado",
+      "C": "No cambia",
+      "D": "Generalmente aumenta"
+    },
+    "correctAnswer": "D",
+    "explanation": "La solubilidad de la mayoría de los sólidos aumenta con la temperatura.",
+    "subject": "Química",
+    "topic": "Mezclas y soluciones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un pH de 7?",
+    "options": {
+      "A": "Neutro",
+      "B": "Básico",
+      "C": "Ácido",
+      "D": "Muy ácido"
+    },
+    "correctAnswer": "A",
+    "explanation": "Un pH de 7 indica una solución neutra.",
+    "subject": "Química",
+    "topic": "Ácidos y bases",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es la fórmula del ácido clorhídrico?",
+    "options": {
+      "A": "H₂SO₄",
+      "B": "HCl",
+      "C": "HNO₃",
+      "D": "NaOH"
+    },
+    "correctAnswer": "B",
+    "explanation": "El ácido clorhídrico es HCl.",
+    "subject": "Química",
+    "topic": "Ácidos y bases",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué elemento es esencial para la formación de proteínas?",
+    "options": {
+      "A": "Carbono",
+      "B": "Oxígeno",
+      "C": "Nitrógeno",
+      "D": "Sodio"
+    },
+    "correctAnswer": "C",
+    "explanation": "El nitrógeno es un elemento clave en la estructura de las proteínas.",
+    "subject": "Química",
+    "topic": "Química orgánica y biomoléculas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la fotosíntesis?",
+    "options": {
+      "A": "La respiración nocturna de las plantas",
+      "B": "La evaporación natural del agua",
+      "C": "La descomposición lenta de materia orgánica",
+      "D": "Convertir luz solar en energía química"
+    },
+    "correctAnswer": "D",
+    "explanation": "La fotosíntesis transforma dióxido de carbono y agua en glucosa y oxígeno usando luz.",
+    "subject": "Química",
+    "topic": "Química orgánica y biomoléculas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué gas se libera principalmente en la fotosíntesis?",
+    "options": {
+      "A": "Oxígeno",
+      "B": "Dióxido de carbono",
+      "C": "Nitrógeno",
+      "D": "Hidrógeno"
+    },
+    "correctAnswer": "A",
+    "explanation": "La fotosíntesis libera oxígeno como subproducto.",
+    "subject": "Química",
+    "topic": "Química orgánica y biomoléculas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es un carbohidrato?",
+    "options": {
+      "A": "Una proteína vegetal de origen animal",
+      "B": "Nutriente de carbono, hidrógeno y oxígeno",
+      "C": "Un lípido complejo de reserva",
+      "D": "Una vitamina esencial del organismo"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los carbohidratos son la principal fuente de energía rápida.",
+    "subject": "Química",
+    "topic": "Química orgánica y biomoléculas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la unidad básica de los carbohidratos?",
+    "options": {
+      "A": "Aminoácido",
+      "B": "Ácido graso",
+      "C": "Glucosa",
+      "D": "Glicerol"
+    },
+    "correctAnswer": "C",
+    "explanation": "La glucosa es el monosacárido más importante.",
+    "subject": "Química",
+    "topic": "Química orgánica y biomoléculas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué tipo de sustancia es el ADN?",
+    "options": {
+      "A": "Carbohidrato",
+      "B": "Una proteína estructural",
+      "C": "Un lípido de membrana",
+      "D": "Ácido nucleico"
+    },
+    "correctAnswer": "D",
+    "explanation": "El ADN es un ácido nucleico que contiene la información genética.",
+    "subject": "Química",
+    "topic": "Química orgánica y biomoléculas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué elemento es el principal componente del diamante y el grafito?",
+    "options": {
+      "A": "Carbono",
+      "B": "Silicio",
+      "C": "Oxígeno",
+      "D": "Hierro"
+    },
+    "correctAnswer": "A",
+    "explanation": "Tanto el diamante como el grafito están formados solo por carbono.",
+    "subject": "Química",
+    "topic": "Química orgánica y biomoléculas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la corrosión del hierro?",
+    "options": {
+      "A": "Una combustión muy rápida y violenta",
+      "B": "Oxidación lenta del hierro con humedad",
+      "C": "Una reacción nuclear compleja",
+      "D": "Una disolución simple en agua"
+    },
+    "correctAnswer": "B",
+    "explanation": "La corrosión (oxidación) del hierro produce óxido de hierro (herrumbre).",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué gas se produce al mezclar bicarbonato de sodio con vinagre?",
+    "options": {
+      "A": "Oxígeno",
+      "B": "Hidrógeno",
+      "C": "Dióxido de carbono",
+      "D": "Nitrógeno"
+    },
+    "correctAnswer": "C",
+    "explanation": "La reacción produce dióxido de carbono (CO₂).",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la destilación?",
+    "options": {
+      "A": "Filtrar partículas sólidas muy grandes",
+      "B": "Mezclar dos sustancias sólidas distintas",
+      "C": "Disolver completamente un gas en agua",
+      "D": "Separar por punto de ebullición"
+    },
+    "correctAnswer": "D",
+    "explanation": "La destilación separa líquidos según sus puntos de ebullición.",
+    "subject": "Química",
+    "topic": "Mezclas y soluciones",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un elemento químico?",
+    "options": {
+      "A": "Una sustancia formada por un solo tipo de átomo",
+      "B": "Una sustancia formada por dos o más tipos de átomos",
+      "C": "Una mezcla homogénea",
+      "D": "Un compuesto iónico"
+    },
+    "correctAnswer": "A",
+    "explanation": "Un elemento es una sustancia pura formada por un solo tipo de átomo.",
+    "subject": "Química",
+    "topic": "Tabla periódica",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué representa el símbolo 'Fe'?",
+    "options": {
+      "A": "Flúor",
+      "B": "Hierro",
+      "C": "Fósforo",
+      "D": "Francio"
+    },
+    "correctAnswer": "B",
+    "explanation": "Fe es el símbolo del hierro.",
+    "subject": "Química",
+    "topic": "Tabla periódica",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la ley de las proporciones definidas?",
+    "options": {
+      "A": "La energía se transforma constantemente",
+      "B": "La masa total siempre se conserva",
+      "C": "Proporciones fijas por masa",
+      "D": "Los gases ocupan siempre todo el volumen disponible"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los elementos siempre se combinan en proporciones definidas y constantes.",
+    "subject": "Química",
+    "topic": "Leyes de la química",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué sustancia es necesaria para la respiración celular?",
+    "options": {
+      "A": "Dióxido de carbono",
+      "B": "Metano",
+      "C": "Nitrógeno",
+      "D": "Oxígeno"
+    },
+    "correctAnswer": "D",
+    "explanation": "El oxígeno es esencial para la respiración celular.",
+    "subject": "Química",
+    "topic": "Química orgánica y biomoléculas",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es un electrolito?",
+    "options": {
+      "A": "Conduce electricidad al disolverse en agua",
+      "B": "Un metal puro sin ninguna impureza",
+      "C": "Un gas noble completamente inerte",
+      "D": "Un aislante eléctrico natural"
+    },
+    "correctAnswer": "A",
+    "explanation": "Los electrolitos conducen la corriente eléctrica en solución.",
+    "subject": "Química",
+    "topic": "Mezclas y soluciones",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué ocurre en una reacción endotérmica?",
+    "options": {
+      "A": "Libera calor",
+      "B": "Absorbe calor del ambiente",
+      "C": "No hay cambio de temperatura",
+      "D": "Solo se produce luz"
+    },
+    "correctAnswer": "B",
+    "explanation": "Las reacciones endotérmicas absorben energía (calor).",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la densidad?",
+    "options": {
+      "A": "Peso total de un objeto",
+      "B": "Volumen por unidad de masa",
+      "C": "Masa por unidad de volumen",
+      "D": "Temperatura de ebullición"
+    },
+    "correctAnswer": "C",
+    "explanation": "Densidad = masa / volumen.",
+    "subject": "Química",
+    "topic": "Propiedades de la materia",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es el pH aproximado del jugo de limón?",
+    "options": {
+      "A": "7",
+      "B": "12",
+      "C": "8-9",
+      "D": "2-3"
+    },
+    "correctAnswer": "D",
+    "explanation": "El jugo de limón es ácido (pH bajo, alrededor de 2-3).",
+    "subject": "Química",
+    "topic": "Ácidos y bases",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué gas se produce en la fermentación alcohólica?",
+    "options": {
+      "A": "Dióxido de carbono",
+      "B": "Oxígeno",
+      "C": "Nitrógeno",
+      "D": "Cloro"
+    },
+    "correctAnswer": "A",
+    "explanation": "La fermentación alcohólica produce etanol y dióxido de carbono.",
+    "subject": "Química",
+    "topic": "Reacciones químicas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un polímero?",
+    "options": {
+      "A": "Un metal ligero y maleable",
+      "B": "Cadena de unidades repetidas",
+      "C": "Un ácido fuerte y corrosivo",
+      "D": "Un gas noble inerte"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los polímeros están formados por monómeros repetidos (ej. plásticos, ADN, proteínas).",
+    "subject": "Química",
+    "topic": "Química orgánica y biomoléculas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es la principal función de las proteínas en el organismo?",
+    "options": {
+      "A": "Proporcionar energía rápida",
+      "B": "Almacenar energía a largo plazo",
+      "C": "Formar estructuras y enzimas",
+      "D": "Regular la temperatura corporal"
+    },
+    "correctAnswer": "C",
+    "explanation": "Las proteínas cumplen funciones estructurales y catalíticas (enzimas).",
+    "subject": "Química",
+    "topic": "Química orgánica y biomoléculas",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la saponificación?",
+    "options": {
+      "A": "La fotosíntesis vegetal",
+      "B": "La combustión de hidrocarburos fósiles",
+      "C": "La oxidación natural del hierro",
+      "D": "La reacción para hacer jabón"
+    },
+    "correctAnswer": "D",
+    "explanation": "La saponificación es la reacción de grasas con una base para producir jabón.",
+    "subject": "Química",
+    "topic": "Química orgánica y biomoléculas",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué elemento es el más abundante en la corteza terrestre?",
+    "options": {
+      "A": "Oxígeno",
+      "B": "Hierro",
+      "C": "Silicio",
+      "D": "Aluminio"
+    },
+    "correctAnswer": "A",
+    "explanation": "El oxígeno es el elemento más abundante en la corteza terrestre.",
+    "subject": "Química",
+    "topic": "Tabla periódica",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un catalizador biológico?",
+    "options": {
+      "A": "Un ácido fuerte",
+      "B": "Una enzima",
+      "C": "Un metal pesado",
+      "D": "Un gas noble"
+    },
+    "correctAnswer": "B",
+    "explanation": "Las enzimas son catalizadores biológicos que aceleran reacciones en los seres vivos.",
+    "subject": "Química",
+    "topic": "Química orgánica y biomoléculas",
+    "level": "Basico"
+  }
+]
+
