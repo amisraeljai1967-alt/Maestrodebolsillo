@@ -1,0 +1,703 @@
+[
+  {
+    "question": "¿Qué es la ciudadanía?",
+    "options": {
+      "A": "Derechos y deberes para participar",
+      "B": "Tener registrada la nacionalidad mexicana",
+      "C": "Ser miembro activo de un partido político",
+      "D": "Vivir en un país sin ninguna obligación"
+    },
+    "correctAnswer": "A",
+    "explanation": "La ciudadanía implica derechos y responsabilidades para participar activamente en la sociedad.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Ciudadanía y participación",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es uno de los derechos humanos más importantes reconocidos en la Constitución?",
+    "options": {
+      "A": "El derecho a tener un automóvil propio",
+      "B": "El derecho a la educación",
+      "C": "El derecho a no estudiar nunca",
+      "D": "El derecho a no pagar ningún impuesto"
+    },
+    "correctAnswer": "B",
+    "explanation": "El derecho a la educación es fundamental y está garantizado en la Constitución Mexicana.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Derechos humanos",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué significa el principio de igualdad ante la ley?",
+    "options": {
+      "A": "Las leyes se aplican solo a los adultos mayores",
+      "B": "Solo las personas con dinero tienen derechos",
+      "C": "Todas las personas reciben el mismo trato",
+      "D": "Los jóvenes no tienen ningún derecho legal"
+    },
+    "correctAnswer": "C",
+    "explanation": "La igualdad ante la ley significa que nadie puede ser discriminado por origen, género, religión o condición social.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Derechos humanos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la democracia?",
+    "options": {
+      "A": "Un sistema donde una sola persona decide todo",
+      "B": "Un sistema donde solo votan los hombres adultos",
+      "C": "Un gobierno dirigido por militares",
+      "D": "Gobierno donde el pueblo participa y elige"
+    },
+    "correctAnswer": "D",
+    "explanation": "La democracia se basa en la participación ciudadana y el respeto a la voluntad mayoritaria.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Gobierno y democracia",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es una forma de participación ciudadana?",
+    "options": {
+      "A": "Votar de forma responsable en elecciones",
+      "B": "Ver únicamente la televisión todo el día",
+      "C": "No opinar sobre problemas de la comunidad",
+      "D": "Ignorar por completo las leyes vigentes"
+    },
+    "correctAnswer": "A",
+    "explanation": "Votar es una de las formas más importantes de participación ciudadana.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Ciudadanía y participación",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la tolerancia?",
+    "options": {
+      "A": "Ignorar por completo a quienes piensan distinto",
+      "B": "Aceptar y respetar ideas y creencias diferentes",
+      "C": "Imponer siempre nuestra propia opinión",
+      "D": "Evitar convivir con personas diferentes a uno"
+    },
+    "correctAnswer": "B",
+    "explanation": "La tolerancia es el respeto a la diversidad de ideas, culturas y formas de vida.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Valores y ética",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué documento protege los derechos humanos a nivel internacional?",
+    "options": {
+      "A": "La Constitución Política Mexicana",
+      "B": "El Código Penal de cada país",
+      "C": "La Declaración Universal de los Derechos",
+      "D": "La Ley de Tránsito local"
+    },
+    "correctAnswer": "C",
+    "explanation": "La Declaración Universal de los Derechos Humanos fue aprobada por la ONU en 1948.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Derechos humanos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué significa ejercer una ciudadanía responsable?",
+    "options": {
+      "A": "Cumplir solo las leyes que nos convienen",
+      "B": "Criticar todo sin proponer ninguna solución",
+      "C": "No participar en actividad comunitaria alguna",
+      "D": "Respetar los derechos propios y los de los demás"
+    },
+    "correctAnswer": "D",
+    "explanation": "La ciudadanía responsable implica cumplir deberes y respetar derechos propios y ajenos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Ciudadanía y participación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la discriminación?",
+    "options": {
+      "A": "Tratar de forma injusta a alguien por",
+      "B": "Ayudar a las personas más vulnerables",
+      "C": "Respetar las diferencias culturales de otros",
+      "D": "Celebrar la diversidad de la comunidad"
+    },
+    "correctAnswer": "A",
+    "explanation": "La discriminación es un trato injusto basado en prejuicios.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Derechos humanos",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál es un derecho de los niños y adolescentes según la ley mexicana?",
+    "options": {
+      "A": "El derecho a trabajar sin límite de horas",
+      "B": "El derecho a una vida libre de violencia",
+      "C": "El derecho a no obedecer nunca a sus padres",
+      "D": "El derecho a consumir sustancias prohibidas"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los niños y adolescentes tienen derecho a protección, educación y una vida libre de violencia.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Derechos humanos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es el Estado de Derecho?",
+    "options": {
+      "A": "Un gobierno donde las leyes no se respetan",
+      "B": "Un sistema donde solo los ricos tienen derechos",
+      "C": "Sistema donde todos, incluidas las autoridades, están sujetos a la ley",
+      "D": "Un gobierno dirigido por militares"
+    },
+    "correctAnswer": "C",
+    "explanation": "En el Estado de Derecho todas las personas son iguales ante la ley.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Gobierno y democracia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué función tiene el Poder Legislativo en México?",
+    "options": {
+      "A": "Aplicar las leyes en tribunales",
+      "B": "Defender al país de amenazas externas",
+      "C": "Interpretar las leyes existentes",
+      "D": "Elaborar y aprobar las leyes del país"
+    },
+    "correctAnswer": "D",
+    "explanation": "El Poder Legislativo (Congreso) se encarga de crear y modificar las leyes.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Gobierno y democracia",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la separación de poderes?",
+    "options": {
+      "A": "Dividir el gobierno en Ejecutivo, Legislativo y Judicial",
+      "B": "Concentrar todo el poder en una sola persona",
+      "C": "Eliminar por completo el Poder Judicial",
+      "D": "Unir el Ejecutivo y el Legislativo en uno"
+    },
+    "correctAnswer": "A",
+    "explanation": "La separación de poderes evita la concentración de poder y garantiza el equilibrio.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Gobierno y democracia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la justicia social?",
+    "options": {
+      "A": "Dar más derechos a las personas con más dinero",
+      "B": "Igualdad de oportunidades y bienestar",
+      "C": "Ignorar las necesidades de los más pobres",
+      "D": "Aplicar únicamente castigos legales"
+    },
+    "correctAnswer": "B",
+    "explanation": "La justicia social busca reducir desigualdades y garantizar derechos para todos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Justicia y valores",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es un deber cívico importante?",
+    "options": {
+      "A": "No respetar los semáforos en la calle",
+      "B": "Tirar basura en la vía pública",
+      "C": "Pagar impuestos de forma puntual",
+      "D": "Evadir la ley sin consecuencias"
+    },
+    "correctAnswer": "C",
+    "explanation": "Pagar impuestos es un deber cívico que permite financiar servicios públicos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Ciudadanía y participación",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué significa ser solidario?",
+    "options": {
+      "A": "Ignorar los problemas de la comunidad",
+      "B": "Pensar únicamente en uno mismo",
+      "C": "Competir siempre contra los demás",
+      "D": "Ayudar a los demás en momentos"
+    },
+    "correctAnswer": "D",
+    "explanation": "La solidaridad es apoyar y ayudar a otras personas.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Valores y ética",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la corrupción?",
+    "options": {
+      "A": "El abuso del poder para beneficio personal",
+      "B": "El uso correcto y transparente del poder público",
+      "C": "Una forma legal de hacer negocios",
+      "D": "Ayudar activamente a la comunidad"
+    },
+    "correctAnswer": "A",
+    "explanation": "La corrupción es el mal uso del poder para beneficio propio.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Gobierno y democracia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la cultura de la paz?",
+    "options": {
+      "A": "Aceptar la violencia como una solución válida",
+      "B": "Promover el diálogo y la solución pacífica",
+      "C": "Ignorar por completo los problemas sociales",
+      "D": "Competir de forma agresiva con los demás"
+    },
+    "correctAnswer": "B",
+    "explanation": "La cultura de la paz promueve el respeto y la resolución pacífica de conflictos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Valores y ética",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la inclusión social?",
+    "options": {
+      "A": "Excluir a las personas que son diferentes",
+      "B": "Incluir únicamente a las personas con recursos",
+      "C": "Garantizar la participación de todos",
+      "D": "Ignorar por completo a las minorías"
+    },
+    "correctAnswer": "C",
+    "explanation": "La inclusión busca que todas las personas tengan oportunidades reales.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Derechos humanos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es el pluralismo?",
+    "options": {
+      "A": "Imponer una sola forma de pensar",
+      "B": "Prohibir las opiniones que sean distintas",
+      "C": "Eliminar las diferencias entre personas",
+      "D": "Respetar la diversidad de ideas"
+    },
+    "correctAnswer": "D",
+    "explanation": "El pluralismo valora y respeta la diversidad en la sociedad.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Valores y ética",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál es un derecho político de los ciudadanos mexicanos mayores de 18 años?",
+    "options": {
+      "A": "El derecho a votar en las elecciones",
+      "B": "El derecho a no pagar ningún impuesto",
+      "C": "El derecho a conducir sin licencia",
+      "D": "El derecho a no estudiar nunca más"
+    },
+    "correctAnswer": "A",
+    "explanation": "El voto es un derecho y deber político fundamental.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Gobierno y democracia",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la equidad de género?",
+    "options": {
+      "A": "Tratar igual a todos sin importar sus necesidades",
+      "B": "Dar a cada persona lo necesario para tener",
+      "C": "Dar más derechos y beneficios a los hombres",
+      "D": "Eliminar por completo los derechos de las mujeres"
+    },
+    "correctAnswer": "B",
+    "explanation": "La equidad busca dar a cada quien lo necesario para lograr igualdad real.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Derechos humanos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la violencia escolar?",
+    "options": {
+      "A": "Una forma normal de relacionarse entre estudiantes",
+      "B": "Solamente las peleas físicas entre alumnos",
+      "C": "Cualquier acto que daña física o emocionalmente",
+      "D": "Las bromas normales entre amigos"
+    },
+    "correctAnswer": "C",
+    "explanation": "La violencia escolar incluye agresiones físicas, verbales, psicológicas o cibernéticas.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Convivencia y paz",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué significa la libertad de expresión?",
+    "options": {
+      "A": "Decir cualquier cosa sin ninguna consecuencia",
+      "B": "No dar nunca ninguna opinión propia",
+      "C": "Insultar libremente a otras personas",
+      "D": "El derecho a expresar ideas respetando"
+    },
+    "correctAnswer": "D",
+    "explanation": "La libertad de expresión tiene límites cuando afecta los derechos de terceros.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Derechos humanos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es el bien común?",
+    "options": {
+      "A": "Lo que beneficia a la mayoría",
+      "B": "Lo que beneficia solamente a una persona",
+      "C": "Lo que beneficia únicamente a los ricos",
+      "D": "Lo que beneficia solo al gobierno en turno"
+    },
+    "correctAnswer": "A",
+    "explanation": "El bien común es aquello que favorece el bienestar general de la sociedad.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Justicia y valores",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la participación comunitaria?",
+    "options": {
+      "A": "Solamente votar cada seis años",
+      "B": "Involucrarse activamente en resolver problemas",
+      "C": "Criticar los problemas sin actuar nunca",
+      "D": "Esperar que otros resuelvan los problemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "La participación comunitaria es clave para mejorar el entorno donde vivimos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Ciudadanía y participación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la identidad nacional?",
+    "options": {
+      "A": "Hablar únicamente el idioma español",
+      "B": "Sentir odio hacia otros países",
+      "C": "Sentirse parte de un país",
+      "D": "Tener una gran cantidad de dinero"
+    },
+    "correctAnswer": "C",
+    "explanation": "La identidad nacional nos une como mexicanos a través de nuestra historia y cultura.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Identidad y cultura",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es el respeto a la diversidad cultural?",
+    "options": {
+      "A": "Imponer una sola cultura sobre las demás",
+      "B": "Ignorar por completo las diferencias culturales",
+      "C": "Eliminar las lenguas indígenas del país",
+      "D": "Valorar y respetar las tradiciones y costumbres"
+    },
+    "correctAnswer": "D",
+    "explanation": "México es un país pluricultural y debemos respetar esa diversidad.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Identidad y cultura",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la ética?",
+    "options": {
+      "A": "El estudio de lo que está bien o mal en la conducta",
+      "B": "El estudio exclusivo de las matemáticas",
+      "C": "Las reglas de tránsito vehicular",
+      "D": "El conjunto de leyes del país"
+    },
+    "correctAnswer": "A",
+    "explanation": "La ética nos ayuda a distinguir entre el bien y el mal en nuestras acciones.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Valores y ética",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la honestidad?",
+    "options": {
+      "A": "Engañar a otros cuando resulta conveniente",
+      "B": "Decir siempre la verdad y actuar",
+      "C": "Hacer trampa en los exámenes escolares",
+      "D": "No cumplir con los compromisos adquiridos"
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad es un valor fundamental para la convivencia.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Valores y ética",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la empatía?",
+    "options": {
+      "A": "Ignorar por completo los sentimientos ajenos",
+      "B": "Competir siempre con la intención de ganar",
+      "C": "Ponerse en el lugar de otra persona",
+      "D": "Pensar exclusivamente en uno mismo"
+    },
+    "correctAnswer": "C",
+    "explanation": "La empatía es esencial para tener relaciones sanas.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Valores y ética",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la responsabilidad?",
+    "options": {
+      "A": "Evitar todo tipo de compromisos",
+      "B": "Echarle la culpa de todo a otros",
+      "C": "Hacer solamente lo que uno quiere",
+      "D": "Cumplir obligaciones y aceptar las consecuencias"
+    },
+    "correctAnswer": "D",
+    "explanation": "Ser responsable es cumplir con lo que nos corresponde.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Valores y ética",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la sustentabilidad?",
+    "options": {
+      "A": "Satisfacer necesidades actuales sin afectar",
+      "B": "Usar los recursos naturales sin pensar en el futuro",
+      "C": "Contaminar libremente el medio ambiente",
+      "D": "Consumir recursos sin ningún límite"
+    },
+    "correctAnswer": "A",
+    "explanation": "La sustentabilidad busca el equilibrio entre desarrollo y cuidado del planeta.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Medio ambiente",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la paz social?",
+    "options": {
+      "A": "La ausencia total de conflictos",
+      "B": "Convivencia armónica basada en respeto",
+      "C": "El silencio total en la sociedad",
+      "D": "El dominio de un grupo sobre otro"
+    },
+    "correctAnswer": "B",
+    "explanation": "La paz social se construye con respeto, diálogo y justicia.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Convivencia y paz",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es un valor cívico?",
+    "options": {
+      "A": "Únicamente el patriotismo hacia el país",
+      "B": "Una ley escrita en el código penal",
+      "C": "Un principio que guía la conducta hacia",
+      "D": "Un castigo por romper una norma"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los valores cívicos guían nuestra conducta como ciudadanos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Ciudadanía y participación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué significa ser una persona íntegra?",
+    "options": {
+      "A": "No tener ningún principio moral",
+      "B": "Hacer lo que sea para obtener beneficios",
+      "C": "Mentir cuando resulta conveniente hacerlo",
+      "D": "Actuar siempre según los valores éticos"
+    },
+    "correctAnswer": "D",
+    "explanation": "La integridad es actuar congruentemente con los valores.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Valores y ética",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es el machismo?",
+    "options": {
+      "A": "La creencia de superioridad del hombre sobre la mujer",
+      "B": "La igualdad real entre hombres y mujeres",
+      "C": "El respeto mutuo entre las personas",
+      "D": "La colaboración entre distintos géneros"
+    },
+    "correctAnswer": "A",
+    "explanation": "El machismo es una forma de discriminación de género.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Derechos humanos",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la resiliencia?",
+    "options": {
+      "A": "La debilidad extrema ante los problemas",
+      "B": "La capacidad de recuperarse ante",
+      "C": "La huida constante de los conflictos",
+      "D": "La negación total de los problemas"
+    },
+    "correctAnswer": "B",
+    "explanation": "La resiliencia nos ayuda a superar dificultades.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Valores y ética",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la convivencia pacífica?",
+    "options": {
+      "A": "Evitar por completo a las personas diferentes",
+      "B": "Imponer siempre nuestra forma de pensar",
+      "C": "Vivir juntos respetando las diferencias",
+      "D": "Competir constantemente con los demás"
+    },
+    "correctAnswer": "C",
+    "explanation": "La convivencia pacífica se basa en el respeto mutuo.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Convivencia y paz",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la no discriminación?",
+    "options": {
+      "A": "Ignorar sistemáticamente a las minorías",
+      "B": "Excluir a ciertas personas del grupo",
+      "C": "Favorecer únicamente a un solo grupo",
+      "D": "Tratar con igualdad a todas"
+    },
+    "correctAnswer": "D",
+    "explanation": "La no discriminación es un principio fundamental de los derechos humanos.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Derechos humanos",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es el federalismo en México?",
+    "options": {
+      "A": "División de poderes entre federación, estados y municipios",
+      "B": "Un sistema donde solo gobierna el presidente",
+      "C": "Un sistema político sin ninguna ley",
+      "D": "Un gobierno totalmente centralizado"
+    },
+    "correctAnswer": "A",
+    "explanation": "México es un país federal con tres niveles de gobierno.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Gobierno y democracia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la rendición de cuentas?",
+    "options": {
+      "A": "No dar ninguna explicación pública",
+      "B": "Que las autoridades expliquen el uso",
+      "C": "Gastar recursos sin ningún control",
+      "D": "Esconder información de interés público"
+    },
+    "correctAnswer": "B",
+    "explanation": "La rendición de cuentas es un principio de la democracia.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Gobierno y democracia",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la libertad de culto?",
+    "options": {
+      "A": "Imponer una religión determinada",
+      "B": "Prohibir por completo todas las religiones",
+      "C": "El derecho a profesar o no una religión",
+      "D": "Permitir solamente una religión oficial"
+    },
+    "correctAnswer": "C",
+    "explanation": "La libertad de culto es un derecho fundamental.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Derechos humanos",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es el patrimonio cultural?",
+    "options": {
+      "A": "Solamente los monumentos históricos antiguos",
+      "B": "Únicamente los bienes de propiedad privada",
+      "C": "Solo las canciones populares modernas",
+      "D": "Bienes materiales e inmateriales que identifican"
+    },
+    "correctAnswer": "D",
+    "explanation": "El patrimonio cultural incluye tradiciones, monumentos, lengua, gastronomía, etc.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Identidad y cultura",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la sostenibilidad ambiental?",
+    "options": {
+      "A": "Usar los recursos naturales de forma",
+      "B": "Contaminar el ambiente sin ningún límite",
+      "C": "Destruir los ecosistemas naturales",
+      "D": "Consumir recursos sin pensar en el futuro"
+    },
+    "correctAnswer": "A",
+    "explanation": "La sostenibilidad busca equilibrar el desarrollo humano con la protección del medio ambiente.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Medio ambiente",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué es la empatía intercultural?",
+    "options": {
+      "A": "Imponer nuestra propia cultura a otros",
+      "B": "Respetar y comprender culturas diferentes",
+      "C": "Ignorar por completo otras culturas",
+      "D": "Rechazar todo lo que es diferente"
+    },
+    "correctAnswer": "B",
+    "explanation": "La empatía intercultural promueve el respeto a la diversidad.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Identidad y cultura",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la participación juvenil?",
+    "options": {
+      "A": "Dedicarse únicamente a estudiar",
+      "B": "No opinar absolutamente sobre nada",
+      "C": "Involucrarse en actividades sociales y políticas",
+      "D": "Dedicarse solamente a divertirse"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los jóvenes tienen un papel importante en la transformación de la sociedad.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Ciudadanía y participación",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es la prevención de la violencia?",
+    "options": {
+      "A": "Ignorar por completo los conflictos existentes",
+      "B": "Simplemente esperar a que el problema pase",
+      "C": "Responder a la violencia con más violencia",
+      "D": "Actuar antes mediante el diálogo"
+    },
+    "correctAnswer": "D",
+    "explanation": "La prevención es la mejor forma de evitar la violencia.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Convivencia y paz",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué significa tener una actitud crítica constructiva?",
+    "options": {
+      "A": "Analizar la realidad y proponer mejoras",
+      "B": "Criticar todo sin proponer ninguna solución",
+      "C": "Aceptar todo sin cuestionar absolutamente nada",
+      "D": "No dar nunca ninguna opinión propia"
+    },
+    "correctAnswer": "A",
+    "explanation": "La crítica constructiva busca mejorar la sociedad.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Valores y ética",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué es el sentido de pertenencia?",
+    "options": {
+      "A": "No identificarse con ningún grupo o lugar",
+      "B": "Sentirse parte de una comunidad",
+      "C": "Pensar únicamente en uno mismo",
+      "D": "Rechazar por completo al propio país"
+    },
+    "correctAnswer": "B",
+    "explanation": "El sentido de pertenencia fortalece la convivencia y el trabajo en equipo.",
+    "subject": "Formación Cívica y Ética",
+    "topic": "Identidad y cultura",
+    "level": "Basico"
+  }
+]
+
