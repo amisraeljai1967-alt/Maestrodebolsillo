@@ -1,0 +1,703 @@
+[
+  {
+    "question": "¿Qué documento estableció las bases del Estado mexicano moderno después de la Revolución?",
+    "options": {
+      "A": "La Constitución de 1917",
+      "B": "El Plan de Ayala",
+      "C": "La Constitución de 1857",
+      "D": "El Tratado de Guadalupe Hidalgo"
+    },
+    "correctAnswer": "A",
+    "explanation": "La Constitución de 1917, promulgada en Querétaro, estableció los derechos sociales, la reforma agraria, derechos laborales y educación laica.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Basico"
+  },
+  {
+    "question": "¿En qué año fue fundado el Partido Nacional Revolucionario (PNR), antecedente del PRI?",
+    "options": {
+      "A": "1920",
+      "B": "1929",
+      "C": "1934",
+      "D": "1928"
+    },
+    "correctAnswer": "B",
+    "explanation": "El PNR fue fundado en 1929 por Plutarco Elías Calles para unificar a los líderes revolucionarios y estabilizar el país.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué presidente impulsó la mayor reforma agraria y la expropiación petrolera?",
+    "options": {
+      "A": "Manuel Ávila Camacho",
+      "B": "Plutarco Elías Calles",
+      "C": "Lázaro Cárdenas",
+      "D": "Álvaro Obregón"
+    },
+    "correctAnswer": "C",
+    "explanation": "Lázaro Cárdenas (1934-1940) realizó un gran reparto de tierras y decretó la expropiación petrolera el 18 de marzo de 1938.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Basico"
+  },
+  {
+    "question": "¿En qué año ocurrió la expropiación petrolera en México?",
+    "options": {
+      "A": "1934",
+      "B": "1940",
+      "C": "1936",
+      "D": "1938"
+    },
+    "correctAnswer": "D",
+    "explanation": "El 18 de marzo de 1938, el presidente Lázaro Cárdenas nacionalizó la industria petrolera que estaba en manos extranjeras.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cómo se le conoce al largo período en que el PRI dominó la política mexicana?",
+    "options": {
+      "A": "El sistema de partido hegemónico",
+      "B": "La Reforma Liberal decimonónica",
+      "C": "El Maximato callista",
+      "D": "El Porfiriato extendido"
+    },
+    "correctAnswer": "A",
+    "explanation": "El sistema de partido hegemónico se refiere al control político casi absoluto del PRI (y sus antecesores) durante más de 70 años.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue el Maximato?",
+    "options": {
+      "A": "El gobierno completo de Lázaro Cárdenas",
+      "B": "Cuando Calles controlaba el poder tras bambalinas",
+      "C": "El gobierno completo de Álvaro Obregón",
+      "D": "La etapa de industrialización nacional"
+    },
+    "correctAnswer": "B",
+    "explanation": "El Maximato (1928-1934) fue cuando Plutarco Elías Calles, llamado 'Jefe Máximo', controlaba realmente el poder detrás de los presidentes.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué conflicto armado enfrentó al gobierno con los católicos en los años 20?",
+    "options": {
+      "A": "La Reforma",
+      "B": "La Guerra de Tres Años",
+      "C": "La Guerra Cristera",
+      "D": "La Revolución Mexicana"
+    },
+    "correctAnswer": "C",
+    "explanation": "La Guerra Cristera (1926-1929) fue el enfrentamiento entre el gobierno de Calles y los cristeros por las leyes anticlericales.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué institución se creó en 1921 para llevar educación a todo el país?",
+    "options": {
+      "A": "El Instituto Politécnico Nacional",
+      "B": "La Universidad Nacional Autónoma de México",
+      "C": "El Colegio de México",
+      "D": "La Secretaría de Educación Pública (SEP)"
+    },
+    "correctAnswer": "D",
+    "explanation": "La SEP fue fundada por José Vasconcelos en 1921 para combatir el analfabetismo y difundir la cultura.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuál fue el principal objetivo de la reforma agraria en el cardenismo?",
+    "options": {
+      "A": "Entregar tierras a los campesinos mediante ejidos",
+      "B": "Industrializar el campo con empresas privadas",
+      "C": "Vender las tierras a inversionistas extranjeros",
+      "D": "Mantener el sistema de haciendas"
+    },
+    "correctAnswer": "A",
+    "explanation": "La reforma agraria de Cárdenas repartió millones de hectáreas a los campesinos a través del sistema ejidal.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cómo se llamó el modelo económico que México siguió de 1940 a 1970?",
+    "options": {
+      "A": "Un modelo neoliberal de mercado",
+      "B": "Industrialización por Sustitución de Importaciones",
+      "C": "La economía de libre mercado total",
+      "D": "Un modelo primario exportador clásico"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Industrialización por Sustitución de Importaciones buscaba fabricar en México lo que antes se importaba.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cómo se conoce el período de gran crecimiento económico entre 1940 y 1970?",
+    "options": {
+      "A": "El Porfiriato",
+      "B": "La Época Revolucionaria",
+      "C": "El Milagro Mexicano",
+      "D": "El Desarrollo Estabilizador"
+    },
+    "correctAnswer": "C",
+    "explanation": "El Milagro Mexicano fue un período de alto crecimiento económico y estabilidad.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué movimiento fue reprimido en 1968 en Tlatelolco?",
+    "options": {
+      "A": "El movimiento ferrocarrilero",
+      "B": "La marcha de los maestros",
+      "C": "La huelga de médicos",
+      "D": "El movimiento estudiantil"
+    },
+    "correctAnswer": "D",
+    "explanation": "El 2 de octubre de 1968 el gobierno reprimió violentamente una manifestación estudiantil en Tlatelolco.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Basico"
+  },
+  {
+    "question": "¿En qué año comenzó la Segunda Guerra Mundial?",
+    "options": {
+      "A": "1939",
+      "B": "1937",
+      "C": "1941",
+      "D": "1945"
+    },
+    "correctAnswer": "A",
+    "explanation": "La Segunda Guerra Mundial inició en 1939 con la invasión alemana a Polonia.",
+    "subject": "Historia",
+    "topic": "Segunda Guerra Mundial",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Quién fue el líder de la Alemania nazi?",
+    "options": {
+      "A": "Benito Mussolini",
+      "B": "Adolf Hitler",
+      "C": "Joseph Stalin",
+      "D": "Francisco Franco"
+    },
+    "correctAnswer": "B",
+    "explanation": "Adolf Hitler fue el líder del nazismo y de Alemania durante la Segunda Guerra Mundial.",
+    "subject": "Historia",
+    "topic": "Segunda Guerra Mundial",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cómo se llamó el exterminio sistemático de judíos durante la guerra?",
+    "options": {
+      "A": "La Gran Purga",
+      "B": "La Noche de los Cristales",
+      "C": "El Holocausto",
+      "D": "El Gulag"
+    },
+    "correctAnswer": "C",
+    "explanation": "El Holocausto fue el genocidio cometido por los nazis contra seis millones de judíos y otros grupos.",
+    "subject": "Historia",
+    "topic": "Segunda Guerra Mundial",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué evento hizo que Estados Unidos entrara a la Segunda Guerra Mundial?",
+    "options": {
+      "A": "La invasión de Francia",
+      "B": "La batalla de Normandía",
+      "C": "La invasión de Polonia",
+      "D": "El ataque a Pearl Harbor"
+    },
+    "correctAnswer": "D",
+    "explanation": "El ataque japonés a Pearl Harbor en diciembre de 1941 provocó la entrada de Estados Unidos a la guerra.",
+    "subject": "Historia",
+    "topic": "Segunda Guerra Mundial",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué países formaban las Potencias del Eje?",
+    "options": {
+      "A": "Alemania, Italia y Japón",
+      "B": "Francia, Inglaterra y Estados Unidos",
+      "C": "URSS, China y Estados Unidos",
+      "D": "Alemania, URSS y Japón"
+    },
+    "correctAnswer": "A",
+    "explanation": "Las Potencias del Eje fueron Alemania, Italia y Japón.",
+    "subject": "Historia",
+    "topic": "Segunda Guerra Mundial",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué fue el Día D?",
+    "options": {
+      "A": "El bombardeo de Hiroshima",
+      "B": "El desembarco en Normandía",
+      "C": "La rendición de Alemania",
+      "D": "El ataque a Pearl Harbor"
+    },
+    "correctAnswer": "B",
+    "explanation": "El Día D (6 de junio de 1944) fue el desembarco aliado en las playas de Normandía, Francia.",
+    "subject": "Historia",
+    "topic": "Segunda Guerra Mundial",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué tipo de arma se usó por primera vez en Hiroshima y Nagasaki?",
+    "options": {
+      "A": "Bomba química",
+      "B": "Bomba de hidrógeno",
+      "C": "Bomba atómica",
+      "D": "Misiles de largo alcance"
+    },
+    "correctAnswer": "C",
+    "explanation": "Estados Unidos lanzó bombas atómicas sobre Hiroshima y Nagasaki en agosto de 1945.",
+    "subject": "Historia",
+    "topic": "Segunda Guerra Mundial",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cuándo terminó la Segunda Guerra Mundial en Europa?",
+    "options": {
+      "A": "1 de septiembre de 1939",
+      "B": "6 de junio de 1944",
+      "C": "2 de septiembre de 1945",
+      "D": "8 de mayo de 1945"
+    },
+    "correctAnswer": "D",
+    "explanation": "La guerra en Europa terminó el 8 de mayo de 1945 con la rendición de Alemania.",
+    "subject": "Historia",
+    "topic": "Segunda Guerra Mundial",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué organización internacional se creó en 1945 para mantener la paz?",
+    "options": {
+      "A": "La Organización de las Naciones Unidas (ONU)",
+      "B": "La Liga de las Naciones anterior",
+      "C": "La OTAN militar",
+      "D": "El Pacto de Varsovia soviético"
+    },
+    "correctAnswer": "A",
+    "explanation": "La ONU fue fundada en 1945 para promover la paz y la cooperación internacional.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué plan ayudó a reconstruir Europa después de la guerra?",
+    "options": {
+      "A": "Plan Truman",
+      "B": "Plan Marshall",
+      "C": "Plan Schuman",
+      "D": "Plan Dawes"
+    },
+    "correctAnswer": "B",
+    "explanation": "El Plan Marshall fue el programa de ayuda económica de Estados Unidos para reconstruir Europa.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fueron los juicios de Núremberg?",
+    "options": {
+      "A": "Juicios militares contra todo Japón",
+      "B": "Juicios contra soldados aliados",
+      "C": "Juicios contra líderes nazis por crímenes",
+      "D": "Juicios contra Japón"
+    },
+    "correctAnswer": "C",
+    "explanation": "En Núremberg se juzgó a los principales líderes nazis por crímenes contra la humanidad.",
+    "subject": "Historia",
+    "topic": "Segunda Guerra Mundial",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál fue la participación de México en la Segunda Guerra Mundial?",
+    "options": {
+      "A": "Se mantuvo neutral todo el conflicto",
+      "B": "Apoyó activamente a las potencias del Eje",
+      "C": "No participó de ninguna forma",
+      "D": "Declaró guerra al Eje con el Escuadrón 201"
+    },
+    "correctAnswer": "D",
+    "explanation": "México declaró la guerra al Eje en 1942 y participó con el Escuadrón 201 en el Pacífico.",
+    "subject": "Historia",
+    "topic": "Segunda Guerra Mundial",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue la Guerra Fría?",
+    "options": {
+      "A": "La confrontación ideológica entre EE.UU. y la URSS",
+      "B": "Una guerra directa entre Estados Unidos y la Unión Soviética",
+      "C": "Una guerra económica prolongada entre Europa y Asia",
+      "D": "Un conflicto armado directo en América Latina"
+    },
+    "correctAnswer": "A",
+    "explanation": "La Guerra Fría fue la rivalidad entre Estados Unidos (capitalismo) y la Unión Soviética (comunismo) desde 1945 hasta 1991.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué fue la 'Cortina de Hierro'?",
+    "options": {
+      "A": "El muro que dividió la ciudad de Berlín",
+      "B": "División ideológica de Europa",
+      "C": "Una alianza militar defensiva",
+      "D": "Un tratado de paz firmado"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Cortina de Hierro fue el nombre que se dio a la división ideológica y política de Europa durante la Guerra Fría.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿En qué año se construyó el Muro de Berlín?",
+    "options": {
+      "A": "1945",
+      "B": "1953",
+      "C": "1961",
+      "D": "1989"
+    },
+    "correctAnswer": "C",
+    "explanation": "El Muro de Berlín fue construido en 1961 para evitar que los alemanes orientales huyeran al occidente.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué alianza militar creó Estados Unidos en 1949?",
+    "options": {
+      "A": "El Pacto de Varsovia",
+      "B": "La OEA",
+      "C": "La ONU",
+      "D": "La OTAN"
+    },
+    "correctAnswer": "D",
+    "explanation": "La OTAN fue creada en 1949 como alianza militar defensiva de Occidente.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué fue la Carrera Espacial?",
+    "options": {
+      "A": "Competencia entre EE.UU. y la URSS por el espacio",
+      "B": "La exploración conjunta y pacífica de la Luna",
+      "C": "Un programa secreto de armas",
+      "D": "La carrera armamentista nuclear"
+    },
+    "correctAnswer": "A",
+    "explanation": "La Carrera Espacial fue la competencia entre Estados Unidos y la Unión Soviética por lograr los mayores avances en el espacio.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Basico"
+  },
+  {
+    "question": "¿En qué año cayó el Muro de Berlín?",
+    "options": {
+      "A": "1985",
+      "B": "1989",
+      "C": "1991",
+      "D": "1993"
+    },
+    "correctAnswer": "B",
+    "explanation": "El Muro de Berlín cayó el 9 de noviembre de 1989, simbolizando el fin del comunismo en Europa del Este.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué fue la Crisis de los Misiles en Cuba?",
+    "options": {
+      "A": "La invasión fallida de Bahía de Cochinos",
+      "B": "La Revolución Cubana socialista",
+      "C": "Crisis por misiles soviéticos en Cuba",
+      "D": "El bloqueo económico total a Cuba"
+    },
+    "correctAnswer": "C",
+    "explanation": "En 1962, la instalación de misiles soviéticos en Cuba llevó al mundo al borde de una guerra nuclear.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué ocurrió en China en 1949?",
+    "options": {
+      "A": "China se unió oficialmente a la OTAN",
+      "B": "China se independizó de Japón",
+      "C": "Comenzó la Guerra Civil China",
+      "D": "Los comunistas de Mao Zedong tomaron el poder"
+    },
+    "correctAnswer": "D",
+    "explanation": "En 1949, Mao Zedong proclamó la República Popular China.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué pasó al final de la Guerra de Corea?",
+    "options": {
+      "A": "Quedó dividida en el paralelo 38",
+      "B": "Se reunificó completamente Corea",
+      "C": "Ganó Corea del Norte",
+      "D": "Ganó Corea del Sur"
+    },
+    "correctAnswer": "A",
+    "explanation": "La Guerra de Corea terminó con Corea dividida en dos países: Corea del Norte y Corea del Sur.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue la Doctrina Truman?",
+    "options": {
+      "A": "El plan de reconstrucción de Europa",
+      "B": "Apoyar países amenazados por comunismo",
+      "C": "La creación militar de la OTAN",
+      "D": "La política de no intervención"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Doctrina Truman consistió en apoyar económicamente y militarmente a países que pudieran caer en el comunismo.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue el Apartheid?",
+    "options": {
+      "A": "Una guerra civil prolongada en África",
+      "B": "Un movimiento independentista",
+      "C": "Un sistema de segregación racial",
+      "D": "Una política económica"
+    },
+    "correctAnswer": "C",
+    "explanation": "El Apartheid fue el sistema de discriminación racial contra la población negra en Sudáfrica que duró hasta 1994.",
+    "subject": "Historia",
+    "topic": "Descolonización y movimientos sociales",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Quién fue el principal líder contra el Apartheid?",
+    "options": {
+      "A": "Kwame Nkrumah",
+      "B": "Desmond Tutu",
+      "C": "Patrice Lumumba",
+      "D": "Nelson Mandela"
+    },
+    "correctAnswer": "D",
+    "explanation": "Nelson Mandela luchó contra el Apartheid y se convirtió en el primer presidente negro de Sudáfrica en 1994.",
+    "subject": "Historia",
+    "topic": "Descolonización y movimientos sociales",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Cómo logró la independencia India?",
+    "options": {
+      "A": "Mediante la resistencia pacífica de Gandhi",
+      "B": "Con una guerra contra Gran Bretaña",
+      "C": "Con ayuda de la Unión Soviética",
+      "D": "Mediante una invasión militar directa"
+    },
+    "correctAnswer": "A",
+    "explanation": "Mahatma Gandhi lideró la independencia de India en 1947 usando métodos pacíficos de desobediencia civil.",
+    "subject": "Historia",
+    "topic": "Descolonización y movimientos sociales",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue la Revolución Cubana?",
+    "options": {
+      "A": "Una invasión militar estadounidense",
+      "B": "El movimiento que derrocó a Batista con Fidel Castro",
+      "C": "Una reforma agraria pacífica",
+      "D": "Un golpe de Estado militar"
+    },
+    "correctAnswer": "B",
+    "explanation": "En 1959, Fidel Castro y los guerrilleros derrocaron la dictadura de Batista e instauraron un gobierno socialista.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué fue la Perestroika?",
+    "options": {
+      "A": "Un tratado internacional de paz",
+      "B": "Una política militar soviética",
+      "C": "Las reformas de Gorbachov en la URSS",
+      "D": "La industrialización de Stalin"
+    },
+    "correctAnswer": "C",
+    "explanation": "La Perestroika fue el programa de reestructuración económica impulsado por Mijaíl Gorbachov.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Cuál fue la principal causa del fin de la Guerra Fría?",
+    "options": {
+      "A": "La victoria militar de Estados Unidos",
+      "B": "Una guerra nuclear mundial devastadora",
+      "C": "La firma de un tratado de paz",
+      "D": "El colapso de la Unión Soviética"
+    },
+    "correctAnswer": "D",
+    "explanation": "El colapso de la URSS en 1991 puso fin a la Guerra Fría.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿En qué batalla los soviéticos derrotaron decisivamente al ejército alemán en 1943?",
+    "options": {
+      "A": "La Batalla de Stalingrado",
+      "B": "La Batalla de Berlín final",
+      "C": "La Batalla de Kursk oriental",
+      "D": "La Batalla de Moscú inicial"
+    },
+    "correctAnswer": "A",
+    "explanation": "La Batalla de Stalingrado (1942-1943) significó la primera gran derrota alemana y el inicio del retroceso nazi en el frente oriental.",
+    "subject": "Historia",
+    "topic": "Segunda Guerra Mundial",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué conferencia reunió a Churchill, Roosevelt y Stalin en febrero de 1945, antes de que terminara la guerra en Europa, para planear la posguerra?",
+    "options": {
+      "A": "La Conferencia de Potsdam",
+      "B": "La Conferencia de Yalta",
+      "C": "La Conferencia de Múnich",
+      "D": "La Conferencia de Teherán"
+    },
+    "correctAnswer": "B",
+    "explanation": "En Yalta, Churchill, Roosevelt y Stalin acordaron las zonas de influencia en la Europa de posguerra.",
+    "subject": "Historia",
+    "topic": "Segunda Guerra Mundial",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Cómo terminó la Guerra de Vietnam en 1975?",
+    "options": {
+      "A": "Con la victoria total de Vietnam del Sur",
+      "B": "Con una división permanente y definitiva del país",
+      "C": "Reunificación comunista de Vietnam",
+      "D": "Con la intervención militar directa de la URSS"
+    },
+    "correctAnswer": "C",
+    "explanation": "En 1975, las fuerzas comunistas de Vietnam del Norte tomaron Saigón y reunificaron el país bajo un gobierno comunista.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué buscaban los países del Movimiento de Países No Alineados durante la Guerra Fría?",
+    "options": {
+      "A": "Aliarse completamente con Estados Unidos",
+      "B": "Unirse militarmente a la Unión Soviética",
+      "C": "Formar parte activa de la OTAN occidental",
+      "D": "No alinearse con ninguno de los dos bloques"
+    },
+    "correctAnswer": "D",
+    "explanation": "El Movimiento de Países No Alineados, fundado en 1961, agrupó a naciones que no se sumaban ni al bloque capitalista ni al comunista.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué medida económica drástica tomó José López Portillo en México en 1982?",
+    "options": {
+      "A": "La nacionalización de la banca",
+      "B": "La privatización de Pemex",
+      "C": "La eliminación del peso mexicano",
+      "D": "La firma del Tratado de Libre Comercio"
+    },
+    "correctAnswer": "A",
+    "explanation": "Ante la crisis de la deuda externa, López Portillo nacionalizó la banca privada mexicana en septiembre de 1982.",
+    "subject": "Historia",
+    "topic": "México posrevolucionario",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué causó la crisis petrolera mundial de 1973?",
+    "options": {
+      "A": "Un terremoto grave en Medio Oriente",
+      "B": "El embargo petrolero árabe de la OPEP",
+      "C": "Una huelga general en Estados Unidos",
+      "D": "El agotamiento de las reservas mundiales"
+    },
+    "correctAnswer": "B",
+    "explanation": "En 1973, los países árabes de la OPEP impusieron un embargo petrolero a naciones que apoyaron a Israel, disparando los precios del petróleo.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué ocurrió en la Plaza de Tiananmén en 1989?",
+    "options": {
+      "A": "Se firmó un tratado de paz duradero con Japón",
+      "B": "Cayó el gobierno comunista chino",
+      "C": "Represión militar de protestas estudiantiles",
+      "D": "China se unió a la Unión Europea"
+    },
+    "correctAnswer": "C",
+    "explanation": "En junio de 1989, el gobierno chino usó al ejército para dispersar violentamente las protestas estudiantiles en Tiananmén.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Basico"
+  },
+  {
+    "question": "¿Qué grupo derrocó al dictador Anastasio Somoza en Nicaragua en 1979?",
+    "options": {
+      "A": "Los contras nicaragüenses",
+      "B": "El Ejército completo de Estados Unidos",
+      "C": "Las fuerzas armadas de la OEA",
+      "D": "El Frente Sandinista de Liberación"
+    },
+    "correctAnswer": "D",
+    "explanation": "El Frente Sandinista de Liberación Nacional derrocó la dictadura de Somoza en julio de 1979.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  },
+  {
+    "question": "¿Qué provocó la Crisis de Suez en 1956?",
+    "options": {
+      "A": "Nacionalización del Canal de Suez",
+      "B": "Una guerra civil profunda en Egipto",
+      "C": "El bloqueo del Canal de Panamá",
+      "D": "La independencia total de Egipto"
+    },
+    "correctAnswer": "A",
+    "explanation": "En 1956, el presidente egipcio Gamal Abdel Nasser nacionalizó el Canal de Suez, lo que provocó una invasión de Reino Unido, Francia e Israel.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Avanzado"
+  },
+  {
+    "question": "¿Qué sucedió en varios países de Europa del Este durante 1989?",
+    "options": {
+      "A": "Se fortalecieron los gobiernos comunistas",
+      "B": "Cayeron varios gobiernos comunistas",
+      "C": "Se anexaron a la Unión Soviética",
+      "D": "Comenzó una nueva guerra mundial"
+    },
+    "correctAnswer": "B",
+    "explanation": "En 1989, una ola de revoluciones derrocó a los gobiernos comunistas en Polonia, Hungría, Checoslovaquia, Alemania Oriental, Rumania y Bulgaria.",
+    "subject": "Historia",
+    "topic": "Guerra Fría",
+    "level": "Intermedio"
+  }
+]
+
